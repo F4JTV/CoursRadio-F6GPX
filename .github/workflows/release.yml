@@ -95,14 +95,16 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      # Since Qt 6.7 the Android packages are published under the "all_os" host
+      # (not "linux"). The action passes --autodesktop to aqt for Android, which
+      # also installs the desktop Qt of the runner (gcc_64) for the host tools.
       - name: Install Qt for Android (with the desktop host tools)
         uses: jurplel/install-qt-action@v4
         with:
           version: ${{ env.QT_VERSION }}
-          host: linux
+          host: all_os
           target: android
           arch: android_${{ env.ANDROID_ABI }}
-          autodesktop: true
           dir: ${{ runner.temp }}
           cache: true
 
