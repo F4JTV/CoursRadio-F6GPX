@@ -1,0 +1,367 @@
+# Builds Cours Radioamateur for every supported system and publishes the
+# packages as a GitHub release (tag v<version>, on the main branch).
+#
+# Start it:
+#   - by hand: Actions > Release > Run workflow (on the main branch), or
+#   - by pushing a tag v<version> matching project(CoursRadio VERSION ...)
+#     in CMakeLists.txt.
+#
+# Packages:
+#   Android APK (arm64-v8a), Windows installer and portable ZIP, macOS disk
+#   image (universal: Apple Silicon and Intel), Linux AppImage, and .deb
+#   packages built in Ubuntu 24.04, Ubuntu 26.04, Debian 12 and Debian 13
+#   containers (each one against the Qt 6 packages of its distribution).
+#
+# Optional repository secrets for a release-signed APK (otherwise the APK is
+# signed with a debug key generated on the runner):
+#   ANDROID_KEYSTORE_BASE64    keystore file, base64-encoded
+#   ANDROID_KEYSTORE_PASSWORD  keystore password
+#   ANDROID_KEY_ALIAS          key alias
+#   ANDROID_KEY_PASSWORD       key password
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      draft:
+        description: "Create the release as a draft"
+        type: boolean
+        default: false
+      prerelease:
+        description: "Mark the release as a pre-release"
+        type: boolean
+        default: false
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  # Qt used for the packages that bundle Qt (Android, Windows, macOS, AppImage);
+  # the .deb packages use the Qt of their distribution.
+  QT_VERSION: "6.8.3"
+  # NDK recommended for Qt 6.8 (r26b)
+  ANDROID_NDK_VERSION: "26.1.10909125"
+  ANDROID_ABI: arm64_v8a
+
+jobs:
+  prepare:
+    name: Version
+    runs-on: ubuntu-24.04
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the version from CMakeLists.txt
+        id: version
+        shell: bash
+        run: |
+          version="$(sed -n 's/^project(CoursRadio VERSION \([0-9.]*\).*/\1/p' CMakeLists.txt)"
+          if [[ -z "$version" ]]; then
+            echo "::error::Cannot read the version from CMakeLists.txt"
+            exit 1
+          fi
+          tag="v$version"
+          if [[ "$GITHUB_REF_TYPE" == "tag" && "$GITHUB_REF_NAME" != "$tag" ]]; then
+            echo "::error::The tag $GITHUB_REF_NAME does not match the version of CMakeLists.txt (expected $tag)"
+            exit 1
+          fi
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "$GITHUB_REF" != "refs/heads/main" ]]; then
+            echo "::error::Run the release workflow on the main branch (it was started on $GITHUB_REF_NAME)"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "Version $version, tag $tag"
+
+  android:
+    name: Android
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Qt for Android (with the desktop host tools)
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          host: linux
+          target: android
+          arch: android_${{ env.ANDROID_ABI }}
+          autodesktop: true
+          dir: ${{ runner.temp }}
+          cache: true
+
+      - name: Install the Android NDK and platform
+        shell: bash
+        run: |
+          sdkmanager="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$sdkmanager" --licenses > /dev/null || true
+          "$sdkmanager" --install "ndk;$ANDROID_NDK_VERSION" "platforms;android-34" "build-tools;34.0.0" > /dev/null
+          echo "ANDROID_NDK_ROOT=$ANDROID_SDK_ROOT/ndk/$ANDROID_NDK_VERSION" >> "$GITHUB_ENV"
+
+      - name: Release keystore
+        shell: bash
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [[ -n "$KEYSTORE_BASE64" ]]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+            echo "QT_ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
+            echo "The APK will be signed with the release key."
+          else
+            echo "No ANDROID_KEYSTORE_BASE64 secret: the APK will be signed with a debug key."
+          fi
+
+      - name: Build the APK
+        shell: bash
+        env:
+          QT_ROOT: ${{ runner.temp }}/Qt
+          QT_ANDROID_KEYSTORE_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          QT_ANDROID_KEYSTORE_STORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          QT_ANDROID_KEYSTORE_KEY_PASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: bash ./build_android.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: dist/*.apk
+          if-no-files-found: error
+
+  windows:
+    name: Windows
+    needs: prepare
+    runs-on: windows-2022
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          host: windows
+          target: desktop
+          arch: win64_msvc2022_64
+          dir: ${{ runner.temp }}
+          cache: true
+
+      - name: Set up the MSVC environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup --no-progress -y
+
+      - name: Build, deploy and create the installer
+        shell: cmd
+        env:
+          QT_DIR: ${{ env.QT_ROOT_DIR }}
+        run: call build_windows.bat
+
+      - name: Create the portable archive
+        shell: pwsh
+        run: |
+          $name = "CoursRadio-${{ needs.prepare.outputs.version }}-win64"
+          Compress-Archive -Path "dist/$name" -DestinationPath "dist/$name-portable.zip"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: |
+            dist/*-setup.exe
+            dist/*-portable.zip
+          if-no-files-found: error
+
+  macos:
+    name: macOS
+    needs: prepare
+    runs-on: macos-14
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          host: mac
+          target: desktop
+          arch: clang_64
+          dir: ${{ runner.temp }}
+          cache: true
+
+      - name: Build (universal binary)
+        shell: bash
+        run: |
+          cmake -S . -B build-macos -DCMAKE_BUILD_TYPE=Release \
+                -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR" \
+                -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64"
+          cmake --build build-macos --parallel
+
+      - name: Deploy Qt and create the disk image
+        shell: bash
+        run: |
+          version="${{ needs.prepare.outputs.version }}"
+          app="build-macos/CoursRadio.app"
+          "$QT_ROOT_DIR/bin/macdeployqt" "$app" -qmldir=qml
+          # ad-hoc signature: required on Apple Silicon once macdeployqt has
+          # modified the binaries (no Apple Developer ID here)
+          codesign --force --deep --sign - "$app"
+          mkdir -p dist dmg
+          cp -R "$app" dmg/
+          ln -s /Applications dmg/Applications
+          hdiutil create -volname "Cours Radioamateur" -srcfolder dmg -ov -format UDZO \
+                  "dist/CoursRadio-$version-macos.dmg"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          path: dist/*.dmg
+          if-no-files-found: error
+
+  appimage:
+    name: Linux AppImage
+    needs: prepare
+    # oldest supported runner: the AppImage runs on distributions at least as
+    # recent as its build system (glibc)
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the build tools and the libraries of the Qt xcb plugin
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ninja-build libgl1-mesa-dev libegl1 \
+               libxkbcommon-x11-0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
+               libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-xinerama0 libxcb-xkb1 \
+               libfontconfig1 libdbus-1-3 libwayland-client0 libwayland-cursor0 libwayland-egl1
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          host: linux
+          target: desktop
+          arch: linux_gcc_64
+          dir: ${{ runner.temp }}
+          cache: true
+
+      - name: Build the AppImage
+        shell: bash
+        env:
+          QT_DIR: ${{ env.QT_ROOT_DIR }}
+        run: bash ./build_appimage.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: appimage
+          path: dist/*.AppImage
+          if-no-files-found: error
+
+  deb:
+    name: Deb (${{ matrix.name }})
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    container: ${{ matrix.image }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { id: ubuntu24.04, name: "Ubuntu 24.04", image: "ubuntu:24.04" }
+          - { id: ubuntu26.04, name: "Ubuntu 26.04", image: "ubuntu:26.04" }
+          - { id: debian12, name: "Debian 12", image: "debian:12" }
+          - { id: debian13, name: "Debian 13", image: "debian:13" }
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build with the Qt 6 packages of the distribution
+        run: bash ./build_linux.sh --install-deps
+
+      - name: Create the .deb package
+        run: bash ./make_deb.sh --no-build
+
+      - name: Check that the package installs
+        run: |
+          deb="$(ls dist/coursradio_*_${{ matrix.id }}_*.deb)"
+          apt-get install -y "./$deb"
+          dpkg -s coursradio | sed -n '/^Version/p;/^Depends/p'
+          test -x /usr/bin/coursradio
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deb-${{ matrix.id }}
+          path: dist/*.deb
+          if-no-files-found: error
+
+  release:
+    name: Publish the release
+    needs: [prepare, android, windows, macos, appimage, deb]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - name: Collect the packages
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Checksums
+        shell: bash
+        run: |
+          cd dist
+          sha256sum -- * > SHA256SUMS.txt
+          ls -l
+
+      - name: Publish on main
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.prepare.outputs.tag }}
+          target_commitish: main
+          name: Cours Radioamateur ${{ needs.prepare.outputs.version }}
+          draft: ${{ inputs.draft == true }}
+          prerelease: ${{ inputs.prerelease == true }}
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: dist/*
+          body: |
+            Cours de préparation au certificat d'opérateur du service amateur (F6GPX, Radio-Club de la Haute Île F6KGL / F5KFF), version ${{ needs.prepare.outputs.version }}.
+
+            | Système | Fichier |
+            |---|---|
+            | Android 9 ou plus récent (ARM 64 bits) | `CoursRadio-${{ needs.prepare.outputs.version }}-arm64_v8a.apk` |
+            | Windows 10/11 — installateur | `CoursRadio-${{ needs.prepare.outputs.version }}-win64-setup.exe` |
+            | Windows 10/11 — portable (sans installation) | `CoursRadio-${{ needs.prepare.outputs.version }}-win64-portable.zip` |
+            | macOS 12 ou plus récent (Apple Silicon et Intel) | `CoursRadio-${{ needs.prepare.outputs.version }}-macos.dmg` |
+            | Linux, toutes distributions x86_64 | `CoursRadio-${{ needs.prepare.outputs.version }}-x86_64.AppImage` |
+            | Ubuntu 24.04 | `coursradio_${{ needs.prepare.outputs.version }}_ubuntu24.04_amd64.deb` |
+            | Ubuntu 26.04 | `coursradio_${{ needs.prepare.outputs.version }}_ubuntu26.04_amd64.deb` |
+            | Debian 12 | `coursradio_${{ needs.prepare.outputs.version }}_debian12_amd64.deb` |
+            | Debian 13 | `coursradio_${{ needs.prepare.outputs.version }}_debian13_amd64.deb` |
+
+            Installation : voir le fichier README.md. Les sommes de contrôle SHA-256 sont dans `SHA256SUMS.txt`.
+
+            Contenu du cours : © F6GPX / Radio-Club de la Haute Île, licence CC BY-NC-SA 4.0.

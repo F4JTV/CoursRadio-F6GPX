@@ -1,0 +1,565 @@
+{
+"id":"intro",
+"title":"INTRODUCTION",
+"short":"Introduction",
+"blocks":[
+{
+"t":"section",
+"text":"Préparation au certificat d’opérateur du service amateur - édition de novembre 2025",
+"pg":2
+},
+{
+"t":"p",
+"html":"L’ensemble de ce document est mis à disposition selon les termes de la <i><b>Licence Creative Commons</b></i> <i><b>Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0</b></i><br><i><b>International</b></i> (<span style=\"color:#0000ff\"><i>http://creativecommons.org/licenses/by-nc-sa/4.0/</i></span>)",
+"pg":2,
+"indent":43
+},
+{
+"t":"fig",
+"id":"c002_2",
+"pg":2
+},
+{
+"t":"chapter",
+"html":"INTRODUCTION",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"font-size:2.00em\">C</span>e cours s’adresse essentiellement aux Radio-Clubs dispensant des cours de préparation à l’examen. Il couvre le programme de l’examen français du certificat d’opérateur du service amateur. Les candidats se préparant seuls trouveront ici les informations et tout ce qui doit être connu pour passer l’examen sous réserve d’avoir, au départ, un niveau technique suffisant.",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Intro - 1) Il n’existe plus qu’un seul certificat d’opérateur</b></u></span> qui est un équivalent CEPT : les titulaires de ce certificat d’opérateur peuvent émettre sans formalité particulière dans la plupart des pays européens. Depuis 2012, l’épreuve de Réglementation ne suffit plus pour obtenir un certificat d’opérateur du service amateur (classe 3 – Novice) et l’épreuve de Morse donnant accès au certificat d’opérateur de classe 1 a été supprimée. Toutefois, les conditions d’exploitation d’une station opérée par un radioamateur de classe 3 n’ont pas changé par rapport à la décision ARCEP 10-0537 et sont rappelées en italique ci-dessous :",
+"pg":2,
+"anchors":[
+"I-1"
+]
+},
+{
+"t":"fig",
+"id":"c002_1",
+"pg":2,
+"min":9.0
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Intro - 2)</b></u></span> Les deux parties de l'examen sont indépendantes. Mais <span style=\"color:#800080;font-size:1.20em\"><u><b>il faut réussir les épreuves de</b></u></span> <span style=\"color:#800080;font-size:1.20em\"><u><b>réglementation et de technique pour obtenir le certificat d’opérateur</b></u></span> et un indicatif d’appel. En revanche, le bénéfice des parties réussies est conservé pendant un an. Ainsi, un candidat qui ne réussit que la partie Technique n'a à repasser que la Réglementation, la partie Technique lui étant acquise pour un an.",
+"pg":2,
+"anchors":[
+"I-2"
+]
+},
+{
+"t":"p",
+"html":"Les opérateurs de l’ex-classe 3 n’ont que l’épreuve de Technique à passer pour accéder à la classe unique.",
+"pg":2,
+"align":"left"
+},
+{
+"t":"p",
+"html":"Les épreuves de Réglementation et de Technique comportent <u>20 questions à choix multiples</u> (une seule réponse possible pour chacune des questions) auxquelles il faut répondre dans le temps imparti. <u>La moyenne (10/20) est</u> <u>requise</u> pour chacune des deux épreuves sachant que <u>chaque bonne réponse compte pour 1 point</u> et qu’une réponse fausse ou l’absence de réponse ne donne aucun point ni pénalité.",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>Épreuve de Réglementation :</b></u></span><p style=\"margin:0 0 0 1.1em\">L’épreuve sur \"La Réglementation des radiocommunications et les conditions de mise en œuvre des installations du service amateur\" dure 15 minutes. </p>",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>Épreuve de Technique :</b></u></span><p style=\"margin:0 0 0 1.1em\">L’épreuve de \"Technique portant sur l'électricité et la radioélectricité\" dure 30 minutes. </p>",
+"pg":2
+},
+{
+"t":"p",
+"html":"<i>Avant juin 2021, une bonne réponse donnait 3 points,</i> <u><i>une mauvaise réponse retirait 1 point</i></u> <i>et aucun point</i> <i>n’était compté quand aucune réponse n’était choisie. Le calcul des points donnait une note sur 60.</i>",
+"pg":2
+},
+{
+"t":"p",
+"html":"<i>Avant mai 2012, certains</i> <u><i>certificats militaires</i></u> <i>pouvaient être convertis afin de dispenser les titulaires de</i> <i>l’épreuve de télégraphie. La suppression de l’épreuve de code Morse rend ces conversions inutiles.</i>",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Intro - 3) L’examen</b></u></span><br>L’ANFR (Agence Nationale des Fréquences), qui organise les examens, propose une <u><b>présentation du logiciel</b></u> utilisé sur son site Internet (voir coordonnées en annexe). La base de données des questions, tant en réglementation qu’en technique, est réduite et peu représentative des difficultés rencontrées à l’examen. <u><b>On ne</b></u> <u><b>peut donc pas qualifier cette présentation de logiciel d’entraînement</b></u>.",
+"pg":2,
+"anchors":[
+"I-3"
+]
+},
+{
+"t":"p",
+"html":"<i>Afin que l’ensemble du programme soit balayé, l’ANFR nous avait informés que les questions de chaque</i> <i>épreuve seraient réparties dans</i> <u><i>10 familles plus ou moins homogènes</i></u><i>. Lors d’une épreuve, 2 questions seraient</i> <i>tirées au hasard dans chacune des 10 familles. Les comptes rendus d’examen récents montrent que ce système</i> <i>ne serait plus d’actualité car il arrive que de nombreuses questions d’une épreuve traitent du même sujet.</i>",
+"pg":2
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>Intro - 4) Stratégie pour passer le certificat d’opérateur</b></u></span>",
+"pg":3,
+"align":"left",
+"anchors":[
+"I-4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> L’arrêté du 2 mars 2021 (qui est entré en vigueur le lundi 7 juin 2021 dans les centres d’examen) a modifié le calcul des points : une bonne réponse compte pour 1 point et une mauvaise réponse (ou pas de réponse) donne 0 point. Pour valider une épreuve, il faut obtenir la moyenne (10/20). Avec un peu de chance, si on répond correctement à 7 questions et au hasard pour les 13 autres, la moyenne serait obtenue (7 + (13 x ¼) = 10,25). Bien entendu, pour « assurer la note », l’objectif est de répondre correctement au moins à 10 questions.",
+"pg":3,
+"anchors":[
+"I-4a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Mais, pour ceux qui ont du mal à gérer leur stress et parce que le logiciel d’entrainement Exam’1 n’a pas l’exhaustivité de la base de données des questions ANFR, c’est l’objectif de <u><b>13 questions au minimum</b></u> (65%) dont on est certain de la réponse qu’il faut viser.",
+"pg":3,
+"anchors":[
+"I-4b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>Intro - 5) Modalités pratiques de l’examen</b></u></span>",
+"pg":3,
+"align":"left",
+"anchors":[
+"I-5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Pour passer l’examen, il n’y a <u><b>plus d’âge minimum</b></u> depuis l’arrêté du 21/09/00. Les examens se passent dans des centres d’examens qui dépendent des <u><b>SRR</b></u> (Services Régionaux de Radiocommunication de l’ANFR). Il faut prendre un <u><b>rendez-vous</b></u> en téléphonant au centre d’examen que vous avez choisi. Le délai d’attente entre la prise de rendez-vous et la date de l’examen est d’environ un mois et si vous souhaitez une date particulière, réservez en avance votre rendez-vous auprès du centre d’examen. Toutes les coordonnées de ces centres sont dans les annexes de ce cours. Suite à votre prise de rendez-vous, le SRR vous envoie une convocation (<i>avant 2021, il</i> <i>fallait renvoyer un dossier et s’acquitter d’une taxe d’examen de 30 € pour participer aux épreuves)</i>. <b>Le jour de</b> <b>l’examen, pensez à amener la convocation, vos papiers d’identité ainsi que votre calculette (non</b> <b>programmable) et un crayon</b>. Le papier brouillon est fourni par le centre d’examen.",
+"pg":3,
+"anchors":[
+"I-5a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Si le candidat a un <u><b>taux d’invalidité</b></u> (IPP) supérieur ou égal à 70%, les épreuves sont adaptées à son handicap et le temps de l’examen est triplé (45 minutes en réglementation, 1h30 en technique). Dans ce cas, l’épreuve peut se dérouler au domicile du candidat (se renseigner auprès du centre d’examen pour les modalités pratiques).",
+"pg":3,
+"anchors":[
+"I-5b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Avant de commencer l’examen, vous avez environ 5 minutes pour noter sur la feuille de brouillon fournie les principales formules (triangles de la loi d’Ohm, rapports de transformation, etc.), les tables de conversion (dB, multiples et sous multiples) et le code des couleurs : vous les aurez toujours sous vos yeux.",
+"pg":3,
+"anchors":[
+"I-5c"
+]
+},
+{
+"t":"p",
+"html":"Après avoir saisi votre numéro de convocation et vérifié vos informations personnelles, c’est vous qui déclenchez le début des épreuves et le compte à rebours par une validation. Sauf si vous repassez une épreuve suite à un échec, l’examen débute par l’épreuve de réglementation puis continue par celle de technique, sans pause entre les deux épreuves. <u><b>Les résultats des deux épreuves ne sont connus qu’à la fin de l’examen : ne vous laissez pas</b></u> <u><b>dérouter et restez concentré.</b></u>",
+"pg":3
+},
+{
+"t":"p",
+"html":"En cas de problème lors de l’examen (problème matériel ou question litigieuse), prévenez aussitôt le surveillant qui, seul, peut arrêter le décompte de temps et éventuellement permet de recommencer l’épreuve. <b>Aucune</b> <b>contestation ne sera recevable après la fin du décompte de temps</b>. Le personnel présent sur le lieu de l’épreuve est en général disponible et compréhensif mais ne vous laisse pas sortir de la salle d’examen avec vos notes et brouillons.",
+"pg":3
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <b>A la fin des épreuves, le candidat est informé immédiatement du résultat</b>. En cas de réussite, l’ANFR envoie par courrier dans la semaine suivante le certificat d’opérateur accompagné d’un dossier de demande d’indicatif à retourner au centre administratif ANFR de Saint-Dié-des-Vosges. Si la formalité est remplie en ligne sur <span style=\"color:#0000ff\"><u><i>https://teleservice-amateurs.anfr.fr/</i></u></span>, vous gagnerez quelques jours liés aux délais postaux. Pour cela, créez votre compte en cliquant sur « je demande un mot de passe » <i>(et surtout pas « Créer un Compte »)</i>. Indiquez votre numéro de certificat d’opérateur et votre adresse mail puis créez votre mot de passe pour accéder à votre compte, cliquez sur « réouverture indicatif » <i>(seule option possible !)</i> et remplissez les pages (adresse de la station et PAR maximum utilisée) comme sur le formulaire papier. Un scan de votre pièce d’identité et de votre certificat d’opérateur <i>(1 Mo max par fichier)</i> finalisera la demande. <b>Enfin, l’ANFR envoie la notification de</b> <b>l’indicatif d’appel, seul document permettant d’émettre, par courrier postal</b>. Mais vous pourrez découvrir votre indicatif d’appel sur l’annuaire en ligne dès que l’ANFR aura validé votre demande.",
+"pg":3,
+"anchors":[
+"I-5d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> En cas d'<u><b>échec à l'une des épreuves</b></u>, le candidat doit attendre <u><b>deux mois</b></u> avant de repasser l'épreuve où il a échoué. L’ANFR n’acceptera pas tout de suite une nouvelle inscription : il faudra attendre un mois pour prendre un nouveau rendez-vous.",
+"pg":3,
+"anchors":[
+"I-5e"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Intro - 6) Présentation du cours :</b></u></span><br>Le document comprend deux livres : le cours proprement dit (ce que vous lisez en ce moment) et les exercices.",
+"pg":3,
+"anchors":[
+"I-6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><u><b>Le premier livre</b></u></span>(le cours) se présente en deux parties réparties en sections, chapitres et paragraphes.",
+"pg":3,
+"align":"left",
+"anchors":[
+"I-6a"
+]
+},
+{
+"t":"p",
+"html":"Des signets (exemple : <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> ) ont été ajoutés afin de faciliter la navigation dans les versions html et PDF du cours et de mieux organiser le document. La référence html du signet <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> du §R-1.3 (réglementation) est #R13a ; la référence html du signet <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> du §2.3 (technique) est #T023b. Quand une subdivision est nécessaire, le signet est composé d’une lettre et d’un chiffre : la référence html du signet <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> ci-dessous est #Intro6a1.",
+"pg":3,
+"indent":14
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> <b></b> <u><b>La première partie concerne la réglementation</b></u> et est scindée en deux sections :",
+"pg":3,
+"align":"left",
+"anchors":[
+"I-6a1"
+]
+},
+{
+"t":"p",
+"html":"- la <u><b>réglementation</b></u> proprement dite (ensemble des textes français et internationaux) est subdivisée en 4 chapitres référencés R-1 à R-4",
+"pg":4,
+"indent":14
+},
+{
+"t":"p",
+"html":"- les quelques connaissances de base de <u><b>technique</b></u> <i>(classées dans le programme de l’épreuve de</i> <i>réglementation)</i> sont regroupées dans le chapitre R-5. Ces connaissances de base seront étudiées plus en détail dans les chapitres consacrés à la technique, objet de la deuxième partie.",
+"pg":4,
+"indent":14
+},
+{
+"t":"p",
+"html":"<u><b>Les mots-clés sont en gras souligné</b></u>. Ces mots-clés permettent de repérer les notions importantes. <i>Les</i> <i>paragraphes ou les parties de texte</i> <i>en italique</i> <i>ne sont pas au programme de l’examen. Toutefois, sauf</i> <i>indication contraire, quelques questions d’examen portant sur ces sujets ont été recensées.</i>",
+"pg":4,
+"indent":14
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> <u><b>La seconde partie traite de la technique</b></u>. Cette seconde partie est divisée en trois sections et treize chapitres numérotés de 0 à 12.",
+"pg":4,
+"anchors":[
+"I-6a2"
+]
+},
+{
+"t":"p",
+"html":"Les connaissances à avoir pour passer l’examen se repèrent aux <u><b>polices de caractères utilisées</b></u>. Le texte définissant le programme de l’examen est parfois très vague et sujet à controverse. Quelques formules sont citées mais pas toutes : lors de l’examen, des questions peuvent être posées sur des formules non citées explicitement dans le texte. Ainsi, dans le cours, des polices de caractères différentes sont utilisées :",
+"pg":4
+},
+{
+"t":"p",
+"html":"- les <span style=\"color:#000080\"><b>formules à connaître</b></span> sont en gras<b>.</b> Les formules qui sont en <span style=\"color:#000080\"><i><b>gras italique</b></i></span> ne sont pas à connaître mais permettent saisir mieux que par des phrases certaines notions et grandeurs.",
+"pg":4,
+"indent":14
+},
+{
+"t":"ex",
+"html":"<span style=\"font-family:'Liberation Serif'\">-</span> les <span style=\"color:#800000\"><u><b>exemples</b></u></span> d’application sont signalés en retrait et présentés dans une police de caractères différente (Arial).",
+"pg":4,
+"indent":14
+},
+{
+"t":"p",
+"html":"- les<b></b> <u><b>mots-clés</b></u> sont en gras souligné. Ils permettent de repérer les notions à connaître pour l’examen.",
+"pg":4,
+"align":"left",
+"indent":14
+},
+{
+"t":"p",
+"html":"- <i>les paragraphes ou les parties de texte</i> <i>en italique</i> <i>sont des connaissances complémentaires qui, à notre</i> <i>opinion, sont hors programme, même si quelques questions ont été recensées. Les</i> <u><i>mots-clés</i></u> <i>de ces parties</i> <i>sont en italique souligné,</i> <span style=\"color:#000080\"><i><b>les formules</b></i></span> <i>en italique gras et</i> <span style=\"font-family:'Liberation Sans'\"><i>les</i></span> <span style=\"color:#800000;font-family:'Liberation Sans'\"><u><i><b>exemples</b></i></u></span> <span style=\"font-family:'Liberation Sans'\"><i>d’application en Arial italique</i></span><i>.</i>",
+"pg":4,
+"indent":14
+},
+{
+"t":"p",
+"html":"Les pages 2 à 97 du présent document sont disponibles sur le lien suivant : <span style=\"color:#0000ff\"><u><i>http://f6kgl.free.fr/COURS.html</i></u></span>. Le lien permettant d’accéder directement au signet de ce paragraphe est : <span style=\"color:#0000ff\"><u><i>http://f6kgl.free.fr/COURS.html#Intro6a2</i></u></span>. Pour afficher correctement ces pages html, privilégiez une largeur de page réduite et utilisez Internet Explorer.",
+"pg":4
+},
+{
+"t":"p",
+"html":"A la fin du cours (annexe, pages 98 et 99), les formules à connaître pour la partie technique sont reprises : il faut connaître et savoir utiliser non seulement ces formules mais aussi leurs variantes. Ainsi, les formules U = R x I et P = U x I doivent être maîtrisées ainsi que leurs variantes comme I = U / R, I = P / U ou P = U² / R.",
+"pg":4
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><u><b>Le second livre</b></u></span> recueille <u><b>490 exercices</b></u> et permet de mettre en application les différents sujets abordés dans le cours dans l'esprit des questions posées le jour de l'examen. Les sujets abordés sont séparés entre la technique et la réglementation (sauf dans les séries Progression), ce qui permet de travailler les différentes épreuves séparément. Le recueil d’exercices est composé de trois sections :<p style=\"margin:0 0 0 1.1em\">- Chapitre par chapitre (21 séries numérotées 1 à 21) ; </p><p style=\"margin:0 0 0 1.1em\">- Progression (11 séries numérotées 22 à 32) ; </p><p style=\"margin:0 0 0 1.1em\">- Examens blancs : </p><p style=\"margin:0 0 0 2.5em\"><span style=\"font-family:'Liberation Mono'\">o</span> Réglementation (9 séries numérotées 33 à 40) </p><p style=\"margin:0 0 0 2.5em\"><span style=\"font-family:'Liberation Mono'\">o</span> Technique (9 séries numérotées de 41 à 49) </p>",
+"pg":4,
+"anchors":[
+"I-6b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> En <u><b>complément de ces deux livres</b></u>, la page Formation du site du radio-club F6KGL-F5KFF (<span style=\"color:#0000ff\"><u><i>https://f6kgl-</i></u></span><span style=\"color:#0000ff\"><u><i>f5kff.fr/formationf6gpx/</i></u></span>) met à votre disposition des outils complémentaires. Entre autres, vous trouverez :<p style=\"margin:0 0 0 1.1em\">- un fichier nommé « Reglementation.pdf » contient les extraits des textes réglementaires français et internationaux en vigueur. Ce document permet de revenir à la source de l’information. Dans le cadre d’un radio-club, une seule édition de ce document pour l’ensemble du groupe est suffisante car l’essentiel de ces textes (ce qui est au programme de l’examen) est repris dans ce cours. Ce document est aussi disponible en ligne à partir de l’URL suivante : <span style=\"color:#0000ff\"><u><i>http://f6kgl.f5kff.free.fr/Textes.htm</i></u></span> ; </p><p style=\"margin:0 0 0 1.1em\">- un lien vers le site <span style=\"color:#0000ff\"><u><i>https://groups.google.com/forum/#!forum/examen-radioamateur</i></u></span> qui met à disposition des comptes rendus d’épreuves communiqués par des candidats ayant passé l’examen. </p><p style=\"margin:0 0 0 1.1em\">- une synthèse des questions d’examen issues de cette liste de diffusion est disponible sur cette page au format PDF : ce sont les fichiers « Regl.pdf » et « Tech.pdf » ; </p><p style=\"margin:0 0 0 1.1em\">- un lien vers la page <span style=\"color:#0000ff\"><u><i>https://f6kgl-f5kff.fr/Exam1/</i></u></span> pour télécharger les différentes versions du logiciel d’entraînement Exam’1. A utiliser sans modération pour se préparer dans les meilleures conditions. </p><p style=\"margin:0 0 0 1.1em\">- enfin, les vidéos enregistrées et diffusées sur « YouTube en Direct » lors de la saison 10 (sept. 2022 − juil. </p><p style=\"margin:0 0 0 2.3em\">2023) sont toutes disponibles sur la page « Les Podcasts » (<span style=\"color:#0000ff\"><u><i>https://f6kgl-f5kff.fr/lespodcasts/</i></u></span>) de notre site internet ou sur la chaîne YouTube de F6KGL (<span style=\"color:#0000ff\"><u><i>https://www.youtube.com/user/F6KGL</i></u></span>). </p>",
+"pg":4,
+"anchors":[
+"I-6c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>Intro - 7) Conseils aux formateurs et aux candidats se préparant seuls :</b></u></span>",
+"pg":4,
+"align":"left",
+"anchors":[
+"I-7"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Avec un taux de réussite de près de 80% depuis juin 2021, l’examen n’est pas aussi dur qu’on le dit. Tout dépend de votre niveau technique, de votre motivation et du temps que vous consacrerez à la préparation. Nous avons reçu des témoignages de candidats qui ont réussi l’examen au bout de deux mois de préparation. Ces candidats maîtrisaient déjà une grande partie des chapitres techniques du cours. Les exercices sur les différentes versions du logiciel EXAM’1 (<i>voir « entrainements », page 100 du cours</i>) permettent de vérifier les niveaux des candidats et leur progression.",
+"pg":4,
+"anchors":[
+"I-7a"
+]
+},
+{
+"t":"p",
+"html":"Compte tenu des modalités de passage de l’examen depuis mai 2012 (réussite obligatoire aux deux épreuves pour obtenir un certificat d’opérateur et bénéfice de l’épreuve où la moyenne a été obtenue pendant un an), il y a lieu d’affiner la stratégie en fonction des compétences du candidat :",
+"pg":5
+},
+{
+"t":"p",
+"html":"- un candidat se sentant à l’aise avec la partie technique de l’examen sera prêt dès qu’il aura acquis les connaissances de Réglementation. De nombreux candidats témoignent qu’en bachotant à temps complet pendant 15 jours, l’épreuve de Réglementation est une simple formalité. En cas d’échec à la partie technique, puisque le candidat garde le bénéfice de l’épreuve de Réglementation pendant un an, il devrait être au niveau en moins d’une année.",
+"pg":5,
+"indent":7
+},
+{
+"t":"p",
+"html":"- les candidats n’ayant pas (ou peu) de connaissances techniques commenceront eux aussi par la Réglementation mais ne se présenteront aux épreuves que lorsque les deux parties de l’examen seront assimilées car, en cas d’échec à une des épreuves, le délai d’un an pour réussir l’épreuve ratée risque d’être court (surtout si l’échec vient de la partie technique de l’examen).",
+"pg":5,
+"indent":7
+},
+{
+"t":"p",
+"html":"Pendant le cours, faites des exercices et expliquez les réponses au tableau. Au besoin, revenez sur un chapitre ou une partie du cours. Enfin n’insistez pas sur les paragraphes en italique : ils sont là pour les candidats et les formateurs qui veulent aller plus loin et peu de questions, voire aucune, portent sur ces points.",
+"pg":5
+},
+{
+"t":"p",
+"html":"Commencez par la Réglementation : les textes s’assimilent assez facilement quand on en comprend la grille de lecture. Les quelques connaissances techniques à assimiler seront vues à nouveau dans la partie Technique.",
+"pg":5
+},
+{
+"t":"p",
+"html":"La partie Technique du cours est moins linéaire que la partie Réglementation : si la première section du cours de technique qui porte sur les bases de l’électricité est longue et décourageante pour certains car il faut assimiler toutes les formules et les notions, la seconde section qui traite des composants actifs est beaucoup plus simple car il y a peu de formules à apprendre. Quant à la dernière section consacrée à la radioélectricité, elle est de loin la plus intéressante et elle amène le plus de questions : les formateurs devront souvent recentrer les débats.",
+"pg":5
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Pour les calculettes (indispensables pour l’épreuve technique mais non obligatoires pour l’épreuve de réglementation), optez pour des modèles de type <u><b>collège</b></u> non programmable (ou dont la mémoire s’efface facilement car le surveillant du centre d’examen pourrait vous interdire de vous en servir si vous ne savez pas lui montrer que la mémoire est vide et, dans ce cas, il vous fournira une autre calculette que vous ne connaissez pas).",
+"pg":5,
+"anchors":[
+"I-7b"
+]
+},
+{
+"t":"p",
+"html":"Choisissez une calculette acceptant l’affichage en mode Ingénieur (ou, à défaut, en mode Scientifique) et la saisie en écriture naturelle <i>(les modèles TI 30 X II B (Texas Instr.) et FX-92 (Casio) répondent aux critères de l’ANFR ;</i> <i>d’autres marques moins connues proposent des calculettes convenant parfaitement à notre usage et pour des</i> <i>prix souvent inférieurs).</i> Chacun peut avoir une calculette différente mais chacun doit connaître parfaitement la manière d’utiliser son matériel. Pour le fonctionnement des calculettes, se reporter au §0.3d. Les candidats se préparant seul à l’examen pourront demander des conseils sur le fonctionnement de leur calculette à un collégien : les adolescents savent souvent mieux manier ces accessoires que leurs parents…",
+"pg":5
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Enfin, pour la partie Réglementation, il y a souvent des divergences entre ce qui est écrit dans les textes en vigueur (signification des codes Q, table d’épellation, …) et l’usage ou l’habitude du trafic radioamateur. Ceux qui écoutent régulièrement les contacts radioamateurs peuvent être déroutés !",
+"pg":5,
+"anchors":[
+"I-7c"
+]
+},
+{
+"t":"ex",
+"html":"Intro – 8) Plan du cours :",
+"pg":5,
+"align":"left",
+"anchors":[
+"I-8"
+]
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><i><b>Premier livre – COURS</b></i></span>",
+"pg":5,
+"align":"left",
+"anchors":[
+"I-8a"
+]
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><i><b>Première Partie – EPREUVE de RÉGLEMENTATION</b></i></span>",
+"pg":5,
+"align":"left",
+"anchors":[
+"I-8a1"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><b>Section A : Réglementation</b></span>",
+"pg":5,
+"align":"left"
+},
+{
+"t":"p",
+"html":"R-1) Classes d'émission et conditions techniques<br><a href=\"anchor:R-1.1\">R-1.1) environnement réglementaire</a> <span style=\"color:#808080\">· p. 9</span><br>histoire de la réglementation du radioamateurisme en France <span style=\"color:#808080\">· p. 11</span><br><a href=\"anchor:R-1.2\">R-1.2) classes d&#x27;émission</a> <span style=\"color:#808080\">· p. 15</span><br><a href=\"anchor:R-1.3\">R-1.3) conditions techniques d&#x27;émission</a> <span style=\"color:#808080\">· p. 16</span>",
+"pg":5,
+"align":"left"
+},
+{
+"t":"p",
+"html":"R-2) Fréquences et les puissances autorisées<br><a href=\"anchor:R-2.1\">R-2.1) fréquences attribuées</a> <span style=\"color:#808080\">· p. 17</span><br><a href=\"anchor:R-2.2\">R-2.2) puissances et classes d’émission autorisées</a> <span style=\"color:#808080\">· p. 20</span>",
+"pg":5,
+"align":"left"
+},
+{
+"t":"p",
+"html":"R-3) Alphabet international et code Q<br><a href=\"anchor:R-3.1\">R-3.1) table internationale d’épellation</a> <span style=\"color:#808080\">· p. 21</span><br><a href=\"anchor:R-3.2\">R-3.2) abréviations en code Q</a> <span style=\"color:#808080\">· p. 21</span><br><a href=\"anchor:R-3.3\">R-3.3) déroulement d&#x27;un contact</a> <span style=\"color:#808080\">· p. 23</span><br><a href=\"anchor:R-3.4\">R-3.4) teneur des conversations</a> <span style=\"color:#808080\">· p. 23</span>",
+"pg":5,
+"align":"left"
+},
+{
+"t":"p",
+"html":"R-4) Conditions d'exploitation et indicatifs d’appel<br><a href=\"anchor:R-4.1\">R-4.1) carnet de trafic</a> <span style=\"color:#808080\">· p. 24</span><br><a href=\"anchor:R-4.2\">R-4.2) exploitation d’une station</a> <span style=\"color:#808080\">· p. 24</span><br><a href=\"anchor:R-4.3\">R-4.3) installations de radio-club et stations répétitrices</a> <span style=\"color:#808080\">· p. 25</span><br><a href=\"anchor:R-4.4\">R-4.4) sanctions</a> <span style=\"color:#808080\">· p. 25</span>",
+"pg":5,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<a href=\"anchor:R-4.5\">R-4.5) modalités de l’examen</a> <span style=\"color:#808080\">· p. 25</span><br><a href=\"anchor:R-4.6\">R-4.6) formation des indicatifs d’appel français</a> <span style=\"color:#808080\">· p. 26</span><br><a href=\"anchor:R-4.7\">R-4.7) utilisation de l’autorisation d’émettre dans les pays de la CEPT</a> <span style=\"color:#808080\">· p. 27</span>",
+"pg":6,
+"align":"left",
+"indent":30
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><b>Section B : Connaissances techniques de base</b></span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<a href=\"anchor:R-5.1\">R-5.1) puissance, rapports de puissance et décibel (dB)</a> <span style=\"color:#808080\">· p. 29</span><br><a href=\"anchor:R-5.2\">R-5.2) type d&#x27;antennes et caractéristiques</a> <span style=\"color:#808080\">· p. 29</span><br><a href=\"anchor:R-5.3\">R-5.3) lignes de transmission</a> <span style=\"color:#808080\">· p. 31</span><br><a href=\"anchor:R-5.4\">R-5.4) brouillages et protections des équipements électroniques</a> <span style=\"color:#808080\">· p. 32</span><br><a href=\"anchor:R-5.5\">R-5.5) protections électriques</a> <span style=\"color:#808080\">· p. 33</span>",
+"pg":6,
+"align":"left",
+"indent":30
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><i><b>Deuxième Partie – EPREUVE de TECHNIQUE</b></i></span>",
+"pg":6,
+"align":"left",
+"anchors":[
+"I-8a2"
+]
+},
+{
+"t":"p",
+"html":"0) Rappel de mathématique et d'algèbre<br><a href=\"anchor:T-0.1\">0.1) transformation d&#x27;équations</a> <span style=\"color:#808080\">· p. 34</span><br><a href=\"anchor:T-0.2\">0.2) puissances de 10, multiples et sous-multiples</a> <span style=\"color:#808080\">· p. 35</span><br><a href=\"anchor:T-0.3\">0.3) utilisation d’une calculette</a> <span style=\"color:#808080\">· p. 37</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><b>Section A : Bases d’électricité et composants passifs</b></span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"1) Lois d'Ohm et de Joule<br><a href=\"anchor:T-1.1\">1.1) bases de l&#x27;électricité</a> <span style=\"color:#808080\">· p. 38</span><br><a href=\"anchor:T-1.2\">1.2) lois d&#x27;Ohm et de Joule</a> <span style=\"color:#808080\">· p. 38</span><br><a href=\"anchor:T-1.3\">1.3) autres unités</a> <span style=\"color:#808080\">· p. 39</span><br><a href=\"anchor:T-1.4\">1.4) résistivité</a> <span style=\"color:#808080\">· p. 39</span><br><a href=\"anchor:T-1.5\">1.5) code des couleurs</a> <span style=\"color:#808080\">· p. 40</span><br><a href=\"anchor:T-1.6\">1.6) loi des nœuds et des mailles</a> <span style=\"color:#808080\">· p. 41</span><br><a href=\"anchor:T-1.7\">1.7) groupements série et parallèle (ou dérivation)</a> <span style=\"color:#808080\">· p. 41</span><br><a href=\"anchor:T-1.8\">1.8) autres exemples d’application avec des résistances</a> <span style=\"color:#808080\">· p. 44</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"2) Courants alternatifs, bobines et condensateurs<br><a href=\"anchor:T-2.1\">2.1) courants alternatifs</a> <span style=\"color:#808080\">· p. 45</span><br><a href=\"anchor:T-2.2\">2.2) valeur maximum, efficace, moyenne, crête à crête</a> <span style=\"color:#808080\">· p. 46</span><br><a href=\"anchor:T-2.3\">2.3) bobines et condensateurs</a> <span style=\"color:#808080\">· p. 47</span><br><a href=\"anchor:T-2.4\">2.4) charge, décharge et constante de temps pour les condensateurs</a> <span style=\"color:#808080\">· p. 51</span><br><a href=\"anchor:T-2.5\">2.5) calcul de l&#x27;impédance des bobines et condensateurs non parfaits</a> <span style=\"color:#808080\">· p. 51</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"3) Transformateurs, piles et galvanomètres<br><a href=\"anchor:T-3.1\">3.1) transformateur</a> <span style=\"color:#808080\">· p. 53</span><br><a href=\"anchor:T-3.2\">3.2) transformateur non parfait</a> <span style=\"color:#808080\">· p. 53</span><br><a href=\"anchor:T-3.3\">3.3) piles et accumulateurs</a> <span style=\"color:#808080\">· p. 54</span><br><a href=\"anchor:T-3.4\">3.4) galvanomètre, voltmètre et ampèremètre</a> <span style=\"color:#808080\">· p. 55</span><br><a href=\"anchor:T-3.5\">3.5) qualité des voltmètres</a> <span style=\"color:#808080\">· p. 55</span><br><a href=\"anchor:T-3.6\">3.6) ohmmètre et wattmètre</a> <span style=\"color:#808080\">· p. 56</span><br><a href=\"anchor:T-3.7\">3.7) microphone, haut-parleur et relais électromécanique</a> <span style=\"color:#808080\">· p. 56</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"4) Décibel, circuits R-C et L-C, loi de Thomson<br><a href=\"anchor:T-4.1\">4.1) décibel (dB)</a> <span style=\"color:#808080\">· p. 57</span><br><a href=\"anchor:T-4.2\">4.2) circuits R-C</a> <span style=\"color:#808080\">· p. 58</span><br><a href=\"anchor:T-4.3\">4.3) circuits L-C</a> <span style=\"color:#808080\">· p. 59</span><br><a href=\"anchor:T-4.4\">4.4) circuits RLC</a> <span style=\"color:#808080\">· p. 60</span><br><a href=\"anchor:T-4.5\">4.5) filtre en pi</a> <span style=\"color:#808080\">· p. 62</span><br><a href=\"anchor:T-4.6\">4.6) autres calculs à partir des formules de ce chapitre</a> <span style=\"color:#808080\">· p. 63</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><b>Section B : Les composants actifs et leurs montages</b></span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"5) Les diodes et leurs montages<br><a href=\"anchor:T-5.1\">5.1) diodes</a> <span style=\"color:#808080\">· p. 64</span><br><a href=\"anchor:T-5.2\">5.2) courbes et caractéristiques de fonctionnement des diodes</a> <span style=\"color:#808080\">· p. 64</span><br><a href=\"anchor:T-5.3\">5.3) montages des diodes</a> <span style=\"color:#808080\">· p. 65</span><br><a href=\"anchor:T-5.4\">5.4) alimentation</a> <span style=\"color:#808080\">· p. 66</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"6) Les transistors et leurs montages<br><a href=\"anchor:T-6.1\">6.1) transistors</a> <span style=\"color:#808080\">· p. 67</span><br><a href=\"anchor:T-6.2\">6.2) gain des transistors</a> <span style=\"color:#808080\">· p. 67</span><br><a href=\"anchor:T-6.3\">6.3) montages des transistors</a> <span style=\"color:#808080\">· p. 67</span><br><a href=\"anchor:T-6.4\">6.4) transistors FET</a> <span style=\"color:#808080\">· p. 68</span><br><a href=\"anchor:T-6.5\">6.5) diodes thermoïoniques</a> <span style=\"color:#808080\">· p. 69</span><br><a href=\"anchor:T-6.6\">6.6) autres tubes thermoïoniques</a> <span style=\"color:#808080\">· p. 69</span>",
+"pg":6,
+"align":"left"
+},
+{
+"t":"p",
+"html":"7) Amplificateurs, oscillateurs, mélangeurs<br><a href=\"anchor:T-7.1\">7.1) classes d&#x27;amplification</a> <span style=\"color:#808080\">· p. 70</span><br><a href=\"anchor:T-7.2\">7.2) résistance de charge</a> <span style=\"color:#808080\">· p. 70</span><br><a href=\"anchor:T-7.3\">7.3) liaisons entre les étages</a> <span style=\"color:#808080\">· p. 71</span><br><a href=\"anchor:T-7.4\">7.4) amplificateurs radiofréquences (R.F.)</a> <span style=\"color:#808080\">· p. 71</span><br><a href=\"anchor:T-7.5\">7.5) oscillateurs</a> <span style=\"color:#808080\">· p. 72</span><br><a href=\"anchor:T-7.6\">7.6) multiplicateurs de fréquence</a> <span style=\"color:#808080\">· p. 74</span><br><a href=\"anchor:T-7.7\">7.7) mélangeurs</a> <span style=\"color:#808080\">· p. 74</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"p",
+"html":"8) Amplificateurs opérationnels et circuits logiques<br><a href=\"anchor:T-8.1\">8.1) caractéristiques des amplificateurs opérationnels</a> <span style=\"color:#808080\">· p. 75</span><br><a href=\"anchor:T-8.2\">8.2) montage fondamental des amplificateurs opérationnels</a> <span style=\"color:#808080\">· p. 75</span><br><a href=\"anchor:T-8.3\">8.3) autres montages des amplificateurs opérationnels</a> <span style=\"color:#808080\">· p. 76</span><br><a href=\"anchor:T-8.4\">8.4) circuits logiques</a> <span style=\"color:#808080\">· p. 76</span><br><a href=\"anchor:T-8.5\">8.5) système binaire et traitement numérique du signal</a> <span style=\"color:#808080\">· p. 77</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><b>Section C : Radioélectricité</b></span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"p",
+"html":"9) Propagation et antennes<br><a href=\"anchor:T-9.1\">9.1) relation longueur d&#x27;onde/fréquence</a> <span style=\"color:#808080\">· p. 78</span><br><a href=\"anchor:T-9.2\">9.2) propagation</a> <span style=\"color:#808080\">· p. 78</span><br><a href=\"anchor:T-9.3\">9.3) propagation en ondes réfléchies</a> <span style=\"color:#808080\">· p. 79</span><br><a href=\"anchor:T-9.4\">9.4) antenne doublet demi-onde alimenté au centre (dipôle)</a> <span style=\"color:#808080\">· p. 80</span><br><a href=\"anchor:T-9.5\">9.5) antenne quart d&#x27;onde (ground plane)</a> <span style=\"color:#808080\">· p. 81</span><br><a href=\"anchor:T-9.6\">9.6) antenne Yagi</a> <span style=\"color:#808080\">· p. 81</span><br><a href=\"anchor:T-9.7\">9.7) gain d&#x27;une antenne</a> <span style=\"color:#808080\">· p. 81</span><br><a href=\"anchor:T-9.8\">9.8) puissance apparente rayonnée</a> <span style=\"color:#808080\">· p. 82</span><br><a href=\"anchor:T-9.9\">9.9) angle d&#x27;ouverture</a> <span style=\"color:#808080\">· p. 82</span><br><a href=\"anchor:T-9.10\">9.10) compléments sur les antennes</a> <span style=\"color:#808080\">· p. 82</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"p",
+"html":"10) Lignes de transmission et adaptations<br><a href=\"anchor:T-10.1\">10.1) lignes de transmissions (feeders)</a> <span style=\"color:#808080\">· p. 83</span><br><a href=\"anchor:T-10.2\">10.2) impédance et coefficient de vélocité</a> <span style=\"color:#808080\">· p. 85</span><br><a href=\"anchor:T-10.3\">10.3) adaptation, désadaptation et ondes stationnaires</a> <span style=\"color:#808080\">· p. 86</span><br><a href=\"anchor:T-10.4\">10.4) lignes d&#x27;adaptation et symétriseurs</a> <span style=\"color:#808080\">· p. 87</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"p",
+"html":"11) Les synoptiques<br><a href=\"anchor:T-11.1\">11.1) récepteur sans conversion de fréquence (amplification directe)</a> <span style=\"color:#808080\">· p. 89</span><br><a href=\"anchor:T-11.2\">11.2) récepteur avec fréquence intermédiaire (FI)</a> <span style=\"color:#808080\">· p. 89</span><br><a href=\"anchor:T-11.3\">11.3) fréquence image</a> <span style=\"color:#808080\">· p. 90</span><br><a href=\"anchor:T-11.4\">11.4) sensibilité d&#x27;un récepteur</a> <span style=\"color:#808080\">· p. 90</span><br><a href=\"anchor:T-11.5\">11.5) émetteur</a> <span style=\"color:#808080\">· p. 90</span><br><a href=\"anchor:T-11.6\">11.6) compatibilité électromagnétique (CEM)</a> <span style=\"color:#808080\">· p. 91</span><br><a href=\"anchor:T-11.7\">11.7) intermodulation, transmodulation et bruit</a> <span style=\"color:#808080\">· p. 91</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"p",
+"html":"12) Les différents types de modulations<br><a href=\"anchor:T-12.1\">12.1) schématisation des différents types de modulations</a> <span style=\"color:#808080\">· p. 92</span><br><a href=\"anchor:T-12.2\">12.2) modulateurs et démodulateurs</a> <span style=\"color:#808080\">· p. 93</span><br><a href=\"anchor:T-12.3\">12.3) modulation d&#x27;amplitude (AM)</a> <span style=\"color:#808080\">· p. 94</span><br><a href=\"anchor:T-12.4\">12.4) modulation de fréquence (FM)</a> <span style=\"color:#808080\">· p. 94</span><br><a href=\"anchor:T-12.5\">12.5) manipulation par coupure de porteuse (CW)</a> <span style=\"color:#808080\">· p. 95</span><br><a href=\"anchor:T-12.6\">12.6) bande latérale unique (BLU)</a> <span style=\"color:#808080\">· p. 96</span>",
+"pg":7,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080\"><i><b>Troisième Partie – ANNEXES</b></i></span>",
+"pg":7,
+"align":"left",
+"anchors":[
+"I-8a3"
+]
+},
+{
+"t":"p",
+"html":"- principales formules à connaître pour l’examen <span style=\"color:#808080\">· p. 98-99</span><br>- bibliographie, adresses et coordonnées <span style=\"color:#808080\">· p. 100</span>",
+"pg":7,
+"align":"left",
+"indent":30
+}
+]
+}

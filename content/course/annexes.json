@@ -1,0 +1,489 @@
+{
+"id":"annexes",
+"title":"Annexes",
+"short":"Annexes",
+"blocks":[
+{
+"t":"part",
+"text":"ANNEXES",
+"pg":98
+},
+{
+"t":"section",
+"text":"Principales formules à connaître pour l’examen",
+"pg":98
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 0 : Rappel d’algèbre</b></span><br>- Table de conversion",
+"pg":98
+},
+{
+"t":"fig",
+"id":"c098_3",
+"pg":98,
+"min":10.0,
+"indent":90
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 1 : Lois d’Ohm et de Joule</b></span><br>- Lois d’Ohm et de Joule :<br><span style=\"font-family:'Liberation Mono'\">o</span> U(V) = R(Ω) . I(A)<br><span style=\"font-family:'Liberation Mono'\">o</span> P(W) = U(V) . I(A)<br><span style=\"font-family:'Liberation Mono'\">o</span> P(W) = U²(V) / R(Ω)<br><span style=\"font-family:'Liberation Mono'\">o</span> P(W) = R(Ω) . I²(A)<br><span style=\"font-family:'Liberation Mono'\">o</span> Q(C) = I(A) . t(s)<br><span style=\"font-family:'Liberation Mono'\">o</span> E ou W(J) = P(W) . t(s) = U(V) . Q(C)<br>- Résistivité : R(Ω) = ρ(Ω/m) . L(m) / s(m²)<br>- Code des couleurs des résistances : tableau mnémotechnique ci-contre :<br>- Groupements de résistances en série :<br><span style=\"font-family:'Liberation Mono'\">o</span> R<sub>t</sub> = R1 + R2 + …<br><span style=\"font-family:'Liberation Mono'\">o</span> U<sub>R1</sub> = U<sub>t</sub> . (R1 / R<sub>t</sub>)<br><span style=\"font-family:'Liberation Mono'\">o</span> U<sub>t</sub> = U<sub>R1</sub> + U<sub>R2</sub> + …<br>- Groupements de résistances en parallèle :<br><span style=\"font-family:'Liberation Mono'\">o</span> R<sub>t</sub> = (R1 . R2) / (R1 + R2) ou 1/R<sub>t</sub> = 1/R1 + 1/R2 + …<p style=\"margin:0 0 0 4em\">▪ <i>1</i> ÷ <i>(1</i>÷<i>R1 + 1</i>÷<i>R2 + …) = R</i><sub><i>t</i></sub></p><span style=\"font-family:'Liberation Mono'\">o</span> I<sub>R1</sub> = I<sub>t</sub> . (R<sub>t</sub> / R1)<br><span style=\"font-family:'Liberation Mono'\">o</span> I<sub>t</sub> = I<sub>R1</sub> + I<sub>R2</sub> + …<br><span style=\"color:#800080\"><b>Chapitre 2 : Courants alternatifs sinusoïdaux, bobines et condensateurs</b></span><br>- Courants alternatifs sinusoïdaux :<br><span style=\"font-family:'Liberation Mono'\">o</span> Durée d’une période (t) et fréquence (f) : t(s) = 1 / f(Hz)<br><span style=\"font-family:'Liberation Mono'\">o</span> Pulsation : ω(rad/s) = 2 . π . f(Hz)<br><span style=\"font-family:'Liberation Mono'\">o</span> Valeurs efficaces / maximum : Veff = 0,707 Vmax = Vmax / √2 ou Vmax = 1,414 Veff = Veff .√2<br><span style=\"font-family:'Liberation Mono'\">o</span> Valeurs crête à crête : Vcàc = 2 Vmax = 2,828 Veff<br>- Bobines :<br><span style=\"font-family:'Liberation Mono'\">o</span> Valeur d’une bobine : L(H) = F . N² . D²<br><span style=\"font-family:'Liberation Mono'\">o</span> Impédance : Z(Ω) = ω(rad/s) . L(H) = 2. π . f(Hz) . L(H)<p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : 2 x [</i>π<i>] x f x L = Z</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : 6,28 x f(MHz) x L(µH) = Z (Ω)</i> </p><span style=\"font-family:'Liberation Mono'\">o</span> Montage série : L<sub>t</sub> = L1 + L2 + M<br>- Condensateurs :<br><span style=\"font-family:'Liberation Mono'\">o</span> Valeur de la capacité d’un condensateur : C(F) = d(ε) . S(m²) / E(m)<br><span style=\"font-family:'Liberation Mono'\">o</span> Quantité d’électricité emmagasinée : Q(C) = C(F) . U(V)<br><span style=\"font-family:'Liberation Mono'\">o</span> Quantité d’énergie emmagasinée : E(J) = ½ . Q(C) . U(V) = ½ C(F) . U²(V)<br><span style=\"font-family:'Liberation Mono'\">o</span> Impédance : Z(Ω) = 1 / [ω(rad/s) . C(F)] = 1 / [2 . π . f(Hz) . C(F)]<p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : 1</i> ÷ <i>(2 x [</i>π<i>] x f x C) = Z</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : 159</i> ÷ <i>f (MHz)</i> ÷ <i>C (nF) = Z (Ω)</i> </p><span style=\"font-family:'Liberation Mono'\">o</span> Montage série : C<sub>t</sub> = (C1 . C2) / (C1 + C2) ou 1/C<sub>t</sub> = 1/C1 + 1/C2 + …<br><span style=\"font-family:'Liberation Mono'\">o</span> Montage parallèle : Ct = C1 + C2 + …<br><span style=\"font-family:'Liberation Mono'\">o</span> Constante de temps d’un condensateur :T (s) = R(Ω) . C(F) – Durée de charge (ou de décharge) = 5.T<p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : T(ms) = R(kΩ) . C(µF)</i> </p>",
+"pg":98
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 3 : Transformateurs, piles et galvanomètres</b></span><br>- Transformateur sans perte :<br><span style=\"font-family:'Liberation Mono'\">o</span> Rapport de transformation : N = n<sub>s</sub> / n<sub>p</sub><br><span style=\"font-family:'Liberation Mono'\">o</span> Transformation de tension : U<sub>s</sub> = U<sub>p</sub> . N<br><span style=\"font-family:'Liberation Mono'\">o</span> Transformation d’intensité : I<sub>s</sub> = I<sub>p</sub> / N<br><span style=\"font-family:'Liberation Mono'\">o</span> Transformation d’impédance : Z<sub>s</sub> = Z<sub>p</sub> . N²<br><span style=\"font-family:'Liberation Mono'\">o</span> Rendement : η = P<sub>s</sub> / P<sub>p</sub><br>- Piles et accumulateurs :<br><span style=\"font-family:'Liberation Mono'\">o</span> Résistance interne : Ri(Ω) = [E(V) – U(V)] / I(A) = [E(V) / I(A)] – R(Ω)<br><span style=\"font-family:'Liberation Mono'\">o</span> Force électromotrice : E(V) = [R(Ω) + Ri(Ω)] . I(A)<br><span style=\"font-family:'Liberation Mono'\">o</span> Capacité : 1 Ah = 3600 C<br>- Galvanomètres :<br><span style=\"font-family:'Liberation Mono'\">o</span> Voltmètre : U<sub>T</sub> = U<sub>R</sub> + U<sub>g</sub> et R = (U<sub>T</sub> / I<sub>g</sub>) – Ri",
+"pg":98
+},
+{
+"t":"fig",
+"id":"c098_2",
+"pg":98,
+"min":10.0,
+"indent":194
+},
+{
+"t":"fig",
+"id":"c098_1",
+"pg":98,
+"min":6.5,
+"indent":324
+},
+{
+"t":"p",
+"html":"<span style=\"font-family:'Liberation Mono'\">o</span> Ampèremètre : I<sub>T</sub> = I<sub>g</sub> + I<sub>R</sub> et R = U / (I<sub>T</sub> – I<sub>g</sub>)<br><span style=\"font-family:'Liberation Mono'\">o</span> Qualité des voltmètres : Q(Ω/V) = (R + Ri) / U<sub>calibre</sub> = 1 / I<sub>g</sub><br><span style=\"color:#800080\"><b>Chapitre 4 : Décibels, circuits RC et L-C, loi de Thomson</b></span><br>- Décibels :<br><span style=\"font-family:'Liberation Mono'\">o</span> Gain : G(dB) = 10 log (P<sub>s</sub> / P<sub>e</sub>) ; P<sub>s</sub> / P<sub>e</sub> = Rapport de puissance<p style=\"margin:0 0 0 4em\">▪ <i>Rapport</i> ⇒ <i>dB : Rapport [LOG] x 10 = dB ; dB</i> ⇒ <i>Rapport : dB</i> ÷<i>10 [10</i><sup><i>x</i></sup><i>] = Rapport</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>ou 10 x [LOG] Rapport = dB ; 10 [^] (dB</i> ÷ <i>10) = Rapport</i> </p><p style=\"margin:0 0 0 4em\">▪ table de conversion simpliée : voir ci-contre : </p>- Circuits RC :<br><span style=\"font-family:'Liberation Mono'\">o</span> Fréquence de coupure : f(Hz) = 1 / [2 . π . R(Ω) . C(F)]<p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : 1</i> ÷ <i>(2 x [</i>π<i>] x R x C) = f</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : 159</i> ÷ <i>R(kΩ)</i> ÷ <i>C(µF) = f(Hz)</i> </p>- Circuits LC et RLC :<p style=\"margin:0 0 0 2.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> Fréquence de coupure ou de résonance : f(Hz) = 1 / (2 . π . √[L(H) . C(F)]) </p><p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : 1</i> ÷ <i>(2 x [</i>π<i>] x [√] (L x C)) = f</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : 159</i> ÷ <i>√ [L(µH) x C(pF)] = f(MHz)</i> </p><span style=\"font-family:'Liberation Mono'\">o</span> Impédance d’un circuit RLC série ou parallèle à la résonance : Z<sub>série</sub>(Ω) = Z<sub>parallèle</sub>(Ω) = R(Ω)<br><span style=\"font-family:'Liberation Mono'\">o</span> Impédance d’un circuit RLC bouchon à la résonance : Z<sub>bouchon</sub>(Ω) = L(H) / [R(Ω).C(F)]<p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : L</i> ÷ <i>C</i> ÷ <i>R = Z ou L</i> ÷ (<i>C</i> x <i>R) = Z</i> </p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : L(µH)</i> ÷ <i>R(kΩ)</i> ÷ <i>C(pF) = Z</i><sub><i>bouchon</i></sub><i>(kΩ)</i> </p><span style=\"font-family:'Liberation Mono'\">o</span> Facteur Q d’un circuit bouchon ou série : Q<sub>bouchon</sub> = Q<sub>série</sub> = √ [L(H) / C(F)] / R(Ω)<p style=\"margin:0 0 0 4em\">▪ <i>en écriture naturelle : √</i>(<i>L</i> ÷ <i>C)</i> ÷ <i>R = Q</i><sub><i>bouchon</i></sub> <i>= Q</i> <sub><i>série</i></sub></p><p style=\"margin:0 0 0 4em\">▪ <i>formule simplifiée : √[L(µH)</i> ÷ <i>C(pF) ]</i> ÷ <i>R(kΩ) = Q</i><sub><i>bouchon</i></sub> <i>= Q</i> <sub><i>série</i></sub></p><span style=\"font-family:'Liberation Mono'\">o</span> Bande passante à –3dB d’un circuit RLC : B(Hz) = Fo(Hz) / Q<br><span style=\"font-family:'Liberation Mono'\">o</span> Taux de sélectivité (%) = (bande passante à –3 dB / bande passante à –60 dB) x 100<br><span style=\"font-family:'Liberation Mono'\">o</span> Facteur de forme = bande passante à –60 dB / bande passante à –3 dB",
+"pg":99
+},
+{
+"t":"fig",
+"id":"c099_2",
+"pg":99,
+"min":10.0,
+"indent":351
+},
+{
+"t":"fig",
+"id":"c099_4",
+"pg":99,
+"min":6.5,
+"indent":342
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 6 : Les transistors et leurs montages</b></span><br>- Gain d’un transistor monté en émetteur commun : I<sub>c</sub> = β . I<sub>b,</sub> voir triangle ci-contre :<br>- Intensité dans l’émetteur d’un transistor : I<sub>e</sub> = I<sub>b</sub> + I<sub>c</sub><br><span style=\"color:#800080\"><b>Chapitre 7 : Amplificateurs, oscillateurs et mélangeurs</b></span><br>- Taux de distorsion harmonique (TDH en %) : (Tension parasite / Tension désirée) x 100<br>- Fréquences à la sortie d’un mélangeur : Fmax = F1 + F2 et Fmin = F1 – F2 (ou F2 – F1)<br>- Fréquences à l’entrée d’un mélangeur : F1 = (Fmax – Fmin) / 2 et F2 = Fmax – F1",
+"pg":99
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 8 : Amplificateurs opérationnels et circuits logiques</b></span><br>- Gain du montage fondamental : G = – (R2 / R1)<br>- Tension de sortie du montage fondamental : U<sub>S</sub> = U<sub>E</sub> x G = – [U<sub>E</sub> x (R2 / R1)]<br><span style=\"color:#800080\"><b>Chapitre 9 : Propagation et antennes</b></span><br>- Relation longueur d’onde (λ)/ fréquence : λ(m) = 300 / f(MHz), voir triangle ci-contre :<br>- Longueur théorique d’un doublet demi-onde : L(m) = 150 / f(MHz)<br>- Longueur théorique d’une antenne quart d’onde : L(m) = 75 / f(MHz)<br>- Puissance apparente rayonnée : PAR(W) = P<sub>émetteur</sub>(W) x G<sub>antenne</sub>(rapport arithmétique)<br><span style=\"color:#800080\"><b>Chapitre 10 : Lignes de transmission et adaptations</b></span><br>- Impédance d’une ligne de transmission : Z(Ω) = √ [L(H) / C(F)]<br>- ROS = Z plus forte / Z plus faible = Vmaxi / Vmini = Imaxi / Imini<br>- TOS (%) = ρ x 100 (ρ = rapport d’ondes stationnaires)<br>- ρ = (Vmaxi – Vmini) / (Vmaxi + Vmini) = (Imaxi – Imini) / (Imaxi + Imini)<br>- ρ = U<sub>réfléchie</sub>(V) / U<sub>émise</sub>(V) = I<sub>réfléchie</sub>(A) / I<sub>émise</sub>(A) = √[P<sub>réfléchie</sub>(W) / P<sub>émise</sub>(W)]<br>- P<sub>réfléchie</sub>(W) = P<sub>émise</sub>(W) x ρ ²<br>- Impédance des lignes quart d’onde : Z<sub>C</sub>² = Z<sub>e</sub> x Z<sub>s</sub>, voir triangle ci-contre :<br>- Impédance des lignes demi-onde : Z<sub>e</sub> = Z<sub>s</sub> quelle que soit Z<sub>C</sub><br><span style=\"color:#800080\"><b>Chapitre 11 : Les synoptiques</b></span>",
+"pg":99
+},
+{
+"t":"fig",
+"id":"c099_1",
+"pg":99,
+"min":10.0
+},
+{
+"t":"fig",
+"id":"c099_3",
+"pg":99,
+"min":10.0,
+"indent":360
+},
+{
+"t":"fig",
+"id":"c099_5",
+"pg":99,
+"min":6.5,
+"indent":378
+},
+{
+"t":"p",
+"html":"HF = fréquence à recevoir ; FO = fréquence de l’oscillateur local , FI = fréquence intermédiaire ; Fim = fréquence image",
+"pg":99,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><b>Chapitre 12 : Les différents types de modulation</b></span><br>- Taux de modulation AM : K(%) = (A– a) / (A + a) = b / B<br>- Indice de modulation FM : m = Excursion FM (Hz) / BF maxi (Hz)<br>- Règle de Carson (bande passante du signal FM) : B (Hz) = 2(m + 1) . BFmaxi (Hz)",
+"pg":99
+},
+{
+"t":"section",
+"text":"Bibliographie, adresses et coordonnées",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Réglementation :</b></u></span><br>- Guide du Radioamateur édition 2005 (ART <i>(ex-ARCEP)</i>, édition épuisée)<br>- Consultez la sélection des textes français et internationaux : <span style=\"color:#0000ff\"><i>http://f6kgl.f5kff.free.fr/Reglementation.pdf</i></span>",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Technique :</b></u></span> des articles de différents niveaux (débutant à hautement confirmé) sont à lire dans les revues suivantes :<br>- Radio REF, revue du REF-Union (voir adresse dans Associations)<br>- QSP, revue des radioamateurs francophones, journal numérique gratuit et indépendant (<span style=\"color:#0000ff\"><i>http://www.on6ll.be</i></span>)",
+"pg":100
+},
+{
+"t":"p",
+"html":"De nombreux sites Internet ont été créés par des radioamateurs. Pour ne citer que les français, on retiendra :<br>- Le traité d’électricité et d’électronique pour le radioamateur par F6CRP : <span style=\"color:#0000ff\"><i>http://assoc.orange.fr/f6crp/elec/index.htm</i></span><br>- Le manuel Internet des radioamateurs par F5ZV : <span style=\"color:#0000ff\"><i>http://perso.orange.fr/f5zv/RADIO/RM/RM.html</i></span>.",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Entraînement :</b></u></span> plusieurs possibilités d'entraînement :<br>- Sur le site de l’ANFR, une présentation du logiciel d’examen est disponible à partir de la page suivante : <span style=\"color:#0000ff\"><i>http://www.anfr.fr/index.php?cat=radioamateur&amp;</i></span><br>- Parmi les sites vous proposant des entraînements aux épreuves ANFR, nous vous recommandons la suite Exam’1 :<br><span style=\"font-family:'Liberation Mono'\">o</span> <b>Exam’1</b> : <span style=\"color:#0000ff\"><i>https://f6kgl-f5kff.fr/Exam1/</i></span><i>.</i> Ce logiciel gratuit reflète les conditions réelles de l’examen et dispose de nombreux outils pour progresser et travailler en groupe. <i>René F5AXG nous a quittés en 2013 mais la base</i> <i>de données des questions est mise à jour régulièrement</i>.<br><span style=\"font-family:'Liberation Mono'\">o</span> <b>Exam’1 Web :</b> Valentin F4HVV, membre de l’ADRI38, a développé une version « full web » utilisable avec tous les navigateurs et hébergée sur les serveurs du REF à cette adresse : <span style=\"color:#0000ff\"><i>https://exam1.r-e-f.org/</i></span><i>. Attention,</i> <i>aucune de vos données ne se retrouvent sur le Cloud, tout reste sur votre machine. Aussi, si vous supprimez</i> <i>votre historique de navigation vous perdrez la mémorisation de vos scores et des questions posées.</i><br><span style=\"font-family:'Liberation Mono'\">o</span> <b>Exam’1 Androïd</b> : <span style=\"color:#0000ff\"><i>https://play.google.com/store/apps/details?id=dev.favier.exam1radioamateur</i></span><i>.</i> L’appli-cation a été développée par Maxime F4IQN. Son ergonomie proche de la version web et l’installation de la base de données des questions d’Exam’1 Web est automatique lors du premier lancement de l’application<br><span style=\"font-family:'Liberation Mono'\">o</span> Visitez le site : <span style=\"color:#0000ff\"><i>https://groups.google.com/forum/#!forum/examen-radioamateur</i></span> qui met à disposition des comptes rendus d’épreuves communiqués par des candidats ayant passé l’examen. Vous pouvez, vous aussi, alimenter cette base de données en me faisant parvenir par mail un compte rendu détaillé de vos épreuves.<br><span style=\"font-family:'Liberation Mono'\">o</span> Sur la page Formation du site du radio-club de la Haute Île, consultez la synthèse des questions d’examen (<span style=\"color:#0000ff\"><i>http://f6kgl.f5kff.free.fr/Regl.pdf</i></span> et <span style=\"color:#0000ff\"><i>http://f6kgl.f5kff.free.fr/Tech.pdf</i></span>) issues de la liste de diffusion citée ci-dessus. Ces documents sont mis à jour régulièrement.",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>Adresses :</b></u></span><br><span style=\"color:#800080\">-</span> <span style=\"color:#800080\">Associations :</span><br><span style=\"font-family:'Liberation Mono'\">o</span> Réseau des Émetteurs Français, 32 rue de Suède, 37074 Tours Cedex 2 (02 47 41 88 73) <span style=\"color:#0000ff\"><i>http://www.r-e-f.org/</i></span><br><span style=\"font-family:'Liberation Mono'\">o</span> Union des Radio Clubs, 3 rue Saint Lugle – 62190 Lillers - <span style=\"color:#0000ff\"><i>http://www.urc.asso.fr</i></span><br><span style=\"font-family:'Liberation Mono'\">o</span> Radioamateurs-France, impasse des Flouns, 83170 Tourves - <span style=\"color:#0000ff\"><i>http://www.radioamateurs-france.fr</i></span>",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\">-</span> <span style=\"color:#800080\">Administration de tutelle :</span><br><span style=\"font-family:'Liberation Mono'\">o</span> ARCEP - 7 square Max Hymans - 75730 Paris Cedex 15 - (01 40 47 71 98) - <span style=\"color:#0000ff\"><i>http://www.arcep.fr</i></span>",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\">-</span> <span style=\"color:#800080\">Gestion des indicatifs et des dossiers des radioamateurs :</span><br><span style=\"font-family:'Liberation Mono'\">o</span> ANFR – 4 rue Alphonse Matter – 88108 Saint Dié des Vosges – (03 29 42 20 74), site Internet pour la déclaration en ligne et les autres services : <span style=\"color:#0000ff\"><i>https://teleservice-amateurs.anfr.fr</i></span> .",
+"pg":100
+},
+{
+"t":"p",
+"html":"- <span style=\"color:#800080\">Centres d'examen :</span> toutes les coordonnées des centres d'examen et les plans d’accès sont disponibles sur le site de l’ANFR (<span style=\"color:#0000ff\"><i>https://www.anfr.fr/fileadmin/mediatheque/documents/contact/ANFR-implantations.pdf</i></span>) :",
+"pg":100
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+85.0,
+315.1,
+60.4
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Paris et Centre Villejuif (94), 112 rue Édouard Vaillant",
+"sans":false
+}
+]
+},
+{
+"r":0,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"01 49 58 31 00",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Nord",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"Le Portel (62), route du Cap",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"03 21 99 71 54",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Est",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"Villers les Nancy (54), Technopôle de Brabois, 7 allée de Longchamp",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"03 83 44 70 24",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Rhône Alpes St André de Corcy (01), 522 route de Neuville",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"04 72 26 80 03",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Sud Est",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"Aix en Provence (13), Europarc de Pichaury, 1330 rue G. de la Lauzière",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"04 42 12 10 10",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Sud Ouest",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"Tournefeuille (31), 4 Boulevard Marcel Proust, ZI de Pahin",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"05 61 15 94 40",
+"sans":false
+}
+]
+},
+{
+"r":6,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Ouest",
+"sans":false
+}
+]
+},
+{
+"r":6,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"Donges (44), 223 La Pommeraie",
+"sans":false
+}
+]
+},
+{
+"r":6,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"02 40 45 36 36",
+"sans":false
+}
+]
+},
+{
+"r":7,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Antilles Guyane Baie Mahault (971), RN1, Destrellan, Quartier Boisneuf",
+"sans":false
+}
+]
+},
+{
+"r":7,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"05 90 32 21 89",
+"sans":false
+}
+]
+},
+{
+"r":8,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> La Réunion",
+"sans":false
+}
+]
+},
+{
+"r":8,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"La Possession (974), 33 rue G. Eiffel, ZAC Ravine à Marquet",
+"sans":false
+}
+]
+},
+{
+"r":8,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"02 62 35 03 94",
+"sans":false
+}
+]
+},
+{
+"r":9,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> N<sup>elle</sup> Calédonie Nouméa (988), Immeuble After C, 3 bis rue A. Barrau – Orphelinat",
+"sans":false
+}
+]
+},
+{
+"r":9,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"(687) 25 62 60",
+"sans":false
+}
+]
+},
+{
+"r":10,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"font-family:'Liberation Mono'\">o</span> Polynésie Fr. Papeete, Tahiti (987)",
+"sans":false
+}
+]
+},
+{
+"r":10,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"(689) 506 062",
+"sans":false
+}
+]
+}
+],
+"pg":100
+},
+{
+"t":"p",
+"html":"Rien ne vous interdit de passer l’examen dans un centre différent de celui dont vous dépendez. De plus, l’ANFR peut organiser des sessions en dehors de ses centres d’examen sous certaines conditions : le lieu de l’examen doit être adapté et distant de plus de 100 km d’un centre ; le nombre de candidats doit être supérieur à 10.",
+"pg":100
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800000\"><b>BONNE CHANCE POUR L’EXAMEN ET A BIENTOT SUR L'AIR !</b></span><br><span style=\"color:#800000\">73 de F6GPX, Jean-Luc</span> <span style=\"color:#0000ff\"><i>jfortin@club.fr</i></span>",
+"pg":100,
+"indent":34
+}
+]
+}

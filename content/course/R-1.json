@@ -1,0 +1,392 @@
+{
+"id":"R-1",
+"title":"1) CLASSES D'ÉMISSION et CONDITIONS TECHNIQUES",
+"short":"R-1 Classes d’émission",
+"blocks":[
+{
+"t":"part",
+"text":"EPREUVE de RÉGLEMENTATION",
+"pg":8
+},
+{
+"t":"section",
+"text":"Section A : Réglementation",
+"pg":8
+},
+{
+"t":"chapter",
+"html":"1) CLASSES D&#x27;ÉMISSION et CONDITIONS TECHNIQUES",
+"pg":8
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-1.1) Environnement réglementaire</b></u></span> : trois niveaux réglementaires se superposent et se complètent.",
+"pg":8,
+"align":"left",
+"anchors":[
+"R-1.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>Au niveau international</b></u></span><span style=\"font-size:1.20em\"><u><b>,</b></u></span> <u><b>l’Union Internationale des Télécommunications</b></u> (UIT), dont le siège est à Genève, est chargée des télécommunications par les Nations Unies (ONU). Au sein de l’UIT, la normalisation des télécommunications est traitée par l’UIT-T, leur développement par l’UIT-D et les radiocommunications par l’UIT-R. L'UIT-R édite le <u><b>Règlement des Radiocommunications</b></u> (<i>RR, Radio Regulations en anglais</i>), traité international ratifié par la France, qui constitue la base des réglementations nationales et européennes. L’édition 2018 du RR comprend 58 articles (S1 à S59) subdivisés en dispositions, 21 appendices (A1 à A42), les résolutions prises en assemblée plénière et les recommandations qui orientent les travaux des commissions. En complément, l’UIT édite des rapports qui font un état des lieux détaillé d’une technique ou d’un problème.",
+"pg":8,
+"anchors":[
+"R-1.1a"
+]
+},
+{
+"t":"p",
+"html":"L’article S1 définit la terminologie utilisée dans le RR. <u><b>La disposition S1-56 définit le service amateur</b></u> ainsi : « Service de radiocommunication ayant pour objet l'instruction individuelle, l'intercommunication et les études techniques, effectué par des amateurs, c'est-à-dire par des personnes dûment autorisées, s'intéressant à la technique de la radioélectricité à titre uniquement personnel et sans intérêt pécuniaire ». <u><b>La disposition S1-57</b></u> <u><b>définit le service d'amateur par satellite</b></u> ainsi : « Service de radiocommunication faisant usage de stations spatiales situées sur des satellites de la Terre pour les mêmes fins que le service d'amateur ».",
+"pg":8
+},
+{
+"t":"p",
+"html":"<u><b>L’article S25 définit les conditions d'exploitation des stations du service amateur</b></u>. Les dispositions de cet article précisent notamment : l'indicatif d’appel est attribué par l'administration de chaque pays après vérification des aptitudes des opérateurs ; les communications se font en langage clair ; il est interdit de transmettre des communications pour les tiers sauf en cas d’urgence.",
+"pg":8
+},
+{
+"t":"p",
+"html":"La <u><b>Résolution 646</b></u> intitulée « Protection du public et secours en cas de catastrophes » <i>(PPDR en anglais)</i> préconise une harmonisation des fréquences par région et reconnnait l’utilité de la <u>Convention de Tampere</u> signée en 1998 sur la mise à disposition de ressources de télécommunication (coopération entre les états). <i>Adoptée en</i> <i>2003,</i> <i>la résolution 646 remplace les résolutions 640 « relative à l’utilisation internationale, en cas de</i> <i>catastrophe naturelle, des […] bandes […] attribuées au service d’amateur » et 644 qui traitait des « moyens de</i> <i>télécommunications pour l’atténuation des effets de catastrophes et pour les opérations de secours en cas de</i> <i>catastrophes ». La Recommandation</i> <u><i>UIT-RM.1042</i></u> <i>(communications en cas de catastrophe) rappelle ce que</i> <i>l’UIT attend des radioamateurs : la mise en œuvre rapide de réseaux souples et fiables. La</i> <u><i>Résolution 647</i></u> <i>prévoit l’établissement d’une base de données des fréquences utilisables.</i> La <u><b>disposition S25-9A</b></u> du RR résume l’esprit de tous ces textes : « les administrations sont invitées à prendre les mesures nécessaires pour autoriser les stations d'amateur à se préparer en vue de répondre aux besoins de communication pour les opérations de secours en cas de catastrophes ».",
+"pg":8
+},
+{
+"t":"p",
+"html":"<i>Tous les 3 ou 4 ans, l’UIT-R organise une</i> <u><i>Conférence Mondiale des Radiocommunications</i></u> <i>(CMR ou WRC en</i> <i>anglais) pour mettre à jour le RR : chaque administration y envoie ses représentants (l’ANFR en France) pour</i> <i>négocier au nom de chaque utilisateur du spectre radioélectrique. Au sein de l'UIT-R et lors des conférences, les</i> <i>radioamateurs ont un statut de simple observateur et sont représentés par l'IARU qui défend une position</i> <i>commune définie au préalable par les associations nationales de radioamateurs (le REF pour la France).</i> <i>Comme à l’ONU, les décisions sont prises à l’unanimité tout en reconnaissant des exceptions. Washington</i> <i>accueillit la première conférence en 1927 puis Madrid en 1932 et Le Caire en 1938. La conférence d’Atlantic</i> <i>City (1947) décida du transfert du siège de l’UIT de Berne à Genève et remania profondément le RR et le plan</i> <i>d’attribution des fréquences dont la limite haute était 10,5 GHz. Les CMR de 1959 et 1979 ont été des étapes</i> <i>importantes dans les modifications du plan de fréquences pour tenir compte des progrès de la technique radio.</i> <i>La CMR-97 a renuméroté les articles et dispositions du RR. La CMR-03 a supprimé l’exigence de la</i> <i>connaissance du Morse pour émettre sur les fréquences inférieures à 30 MHz. La CMR-15 a attribué la bande</i> <i>des 60 mètres aux radioamateurs. La dernière CMR s’est déroulée du 20 novembre au 15 décembre 2023. La</i> <i>prochaine CMR devrait se dérouler du 18 octobre au 12 novembre 2027 (lieu à déterminer).</i>",
+"pg":8
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>Au niveau européen</b></u></span><span style=\"font-size:1.20em\"><u><b>,</b></u></span> <u><b>la Conférence Européenne des administrations des Postes et Télécommunications</b></u> (CEPT), créée en 1959, rassemble les autorités réglementaires des 27 pays de l'Union Européenne et de 19 autres pays européens. <i>Le Bureau Européen des Communications (</i><u><i>ECO</i></u><i>), basé à Copenhague, est l’organe permanent</i> <i>de la CEPT qui assure la logistique des réunions. Le Comité des Communications Électroniques (</i><u><i>ECC</i></u><i>) adopte</i> <i>les recommandations et les décisions préparées par les groupes de travail. Une</i> <u><i>recommandation</i></u> <i>n’est qu’une</i> <i>incitation pour les États membres à adopter un comportement particulier alors qu’une</i> <u><i>directive</i></u> <i>donne des</i> <i>objectifs à atteindre avec un délai et une</i> <u><i>décision</i></u> <i>est applicable sans transposition dans le droit national. Les</i> <i>radioamateurs, représentés par l’IARU, participent avec un statut d’observateur aux groupes de travail traitant</i> <i>des radiocommunications. La CEPT n’est pas le seul organisme régional traitant des télécommunications,</i> <i>l’UIT-R en recense 5 autres : ATU pour l’Afrique, RCC pour les pays de l’ex-URSS, ASMG pour les pays</i> <i>arabes, CITEL pour les Amériques et APT pour l’Asie et le Pacifique.</i>",
+"pg":9,
+"anchors":[
+"R-1.1b"
+]
+},
+{
+"t":"p",
+"html":"La <u><b>recommandation T/R 61-01</b></u>, signée en 1985, établit la <u><b>libre circulation</b></u> des radioamateurs sans formalité administrative dans les pays membres de la CEPT <u><b>pour des séjours de moins de 3 mois</b></u>. La <u><b>recommandation</b></u> <u><b>T/R 61-02</b></u> date de 1990 et fixe une harmonisation des réglementations nationales en matière de certificats d’opérateur du service amateur en préconisant un programme de réglementation et de technique (<u><b>HAREC</b></u>).",
+"pg":9
+},
+{
+"t":"p",
+"html":"<i>Le</i> <u><i>rapport ERC 32</i></u><i>, établi en 2005, définit le programme du certificat d’opérateur CEPT Novice. La</i> <u><i>recommandation ECC (05) 06</i></u><i>, signée la même année, établit la libre circulation des radioamateurs novices</i> <i>dans les pays membres de la CEPT. A ce jour, la moitié des pays appliquent ces textes (la France n’en fait pas</i> <i>partie) et l’ancien certificat d’opérateur novice français (classe 3) n’était pas un certificat CEPT Novice.</i>",
+"pg":9
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>Au niveau national</b></u></span>, notre activité est régie par le <u><b>Code des Postes et Communications Électroniques</b></u> (CPCE), nouvelle dénomination du Code des Postes et Télécommunications depuis la Loi sur les Communi-cations Électroniques (LCE) de 2004. Ce code, très ancien, est remanié régulièrement.",
+"pg":9,
+"anchors":[
+"R-1.1c"
+]
+},
+{
+"t":"p",
+"html":"Les installations de radioamateurs <u><b>n'utilisent pas de fréquences spécifiquement assignées</b></u> et sont donc <u><b>établies</b></u> <u><b>librement</b></u>. Elles relèvent du 1° de l’article <u><b>L33-3 du CPCE</b></u> qui différencie les installations radioélectriques. Parmi les 5 catégories d’installations utilisant des fréquences radioélectriques définies à l’article <u><b>D406-7 du</b></u> <u><b>CPCE</b></u>, la <u><b>3</b></u><sup><b>ème</b></sup> <u><b>catégorie</b></u> correspond exclusivement aux installations de radioamateurs. L'article <u><b>L41-1 du CPCE</b></u> indique que « l'utilisation de fréquences radioélectriques en vue d'assurer soit l'émission, soit à la fois l'émission et la réception de signaux est soumise à <u><b>autorisation administrative</b></u> » et que « l’utilisation (…) de fréquences radioélectriques (…) constitue un mode d’<u><b>occupation privatif du domaine public</b></u> de l’État ».",
+"pg":9
+},
+{
+"t":"p",
+"html":"<u><b>L’Autorité de Régulation des Communications Électroniques, des Postes et de la distribution de la Presse</b></u> (ARCEP, nommée ART à sa création en 1997) est un organe indépendant (<u><b>art L130 du CPCE</b></u>) composé de 7 membres nommés pour 6 ans en raison de leur qualification. L’Arcep est consultée sur les projets de loi, de décret ou de règlement relatifs au secteur des communications électroniques et des postes et participe à leur mise en œuvre. L’ARCEP prend des <u><b>décisions</b></u> qui, pour entrer en vigueur, doivent être <u><b>homologuées</b></u> par le Ministre chargé des communications électroniques puis <u><b>publiées</b></u> au Journal Officiel.",
+"pg":9
+},
+{
+"t":"p",
+"html":"Le partage du spectre radioélectrique se fait en deux temps : le Tableau National de Répartition des Bandes de Fréquences (<u><b>TNRBF</b></u>, édité par l’ANFR) fait l’objet d’un arrêté signé du <u><b>Premier Ministre</b></u> (<i>art. L41 du CPCE</i>). Cet arrêté <u><b>attribue les fréquences</b></u> à l’Arcom (Autorité de Régulation de la COMmunication audiovisuelle et numérique qui remplace le CSA depuis le 1/1/22 et qui est chargée de la gestion des chaînes de TV et des radios FM), aux services de l’État (Défense, aviation civile, ...) ou à l’Arcep (autres utilisateurs dont le service d’amateur). Puis <u><b>l’Arcep assigne</b></u> aux utilisateurs <u><b>les fréquences</b></u> nécessaires à l’exercice de leur activité <u><b>et veille</b></u> <u><b>à leur bonne utilisation</b></u> <i>(art L36-7 du CPCE).</i> De plus, l’Arcep fixe les conditions techniques d’utilisation des fréquences dont l’assignation lui a été confiée <i>(art L42 du CPCE)</i>. Ces deux missions sont les fondements de la <u><b>décision ARCEP 12-1241</b></u> qui régit nos activités<i>.</i> Cette décision a été modifiée par les décisions <u><b>13-1515</b></u> (bande 472-479 kHz et deux bandes satellites) et <u><b>19-1412</b></u> (bande des 60 mètres).",
+"pg":9
+},
+{
+"t":"p",
+"html":"En vertu de l’article <u><b>L42-4 du CPCE</b></u>, le ministre chargé des communications électroniques fixe les conditions d’obtention du certificat d’opérateur et les modalités d’attribution des indicatifs utilisées par les stations radioélectriques. En fait, c’est le Premier Ministre qui a signé l’<u><b>arrêté du 21/09/00</b></u> fixant les <u><b>conditions</b></u> <u><b>d’obtention des certificats d’opérateur</b></u> du service amateur. Ce second texte fondamental a été complété par un arrêté modificatif daté du 30/01/09 qui précise les <u><b>conditions d’attribution et de retraits des indicatifs,</b></u> un arrêté modificatif du 23/04/12 qui a <u><b>supprimé l’examen de code Morse et le certificat « novice »</b></u> (ex-F0) et un arrêté modificatif du 02/03/21 qui a modifié les conditions d’examen (<u><b>suppression du point négatif en cas de</b></u> <u><b>mauvaise réponse</b></u>) et a mis à jour le programme des épreuves.",
+"pg":9
+},
+{
+"t":"p",
+"html":"La <u><b>Direction Générale des Entreprises</b></u> (DGE depuis 2014, créée début 2009 sous le nom de DGCIS), a une mission de conseil auprès du ministre concerné pour toutes les questions touchant aux communications électroniques. <i>Depuis octobre 2025 (gouvernement Lecornu 2), le dossier est confié à Anne Le Hénanff, ministre</i> <i>déléguée chargée de l'intelligence artificielle et du numérique auprès du ministre de l'économie, des finances et</i> <i>de la souveraineté industrielle, énergétique et numérique, Roland Lescure.</i>",
+"pg":9
+},
+{
+"t":"p",
+"html":"L’<u><b>Agence Nationale des Fréquences</b></u> (ANFR) est un établissement public à caractère administratif créé en 1997, et est issu du regroupement des entités DGPT, CCT et SNR, rattachées auparavant à différents ministères. L’ANFR « a pour mission d’assurer la planification, la gestion et le contrôle d’utilisation (…) des fréquences radioélectriques » <i>(art L43 du CPCE)</i>. Dans le cadre de cette mission, l’ANFR édite le TNRBF et participe aux conférences organisées par l’UIT et la CEPT. De plus, l’ANFR « organise les examens donnant accès aux certificats d’opérateur des services d’amateur, délivre les certificats et les indicatifs des séries internationales attribués aux stations radioélectriques des services d’amateur et procède au retrait de ces derniers » <i>(art R20-44-</i><i>11 14° du CPCE)</i>. Les <u><b>Services Régionaux des Radiocommunications</b></u> (SRR) organisent les examens et le <u><b>pôle</b></u> <u><b>administratif</b></u> de Saint Dié des Vosges gère les dossiers. A la demande de tiers ou de l’autorité affectataire, l’ANFR instruit les dossiers de brouillage <i>(art R20-44-10 10° du CPCE).</i>",
+"pg":9
+},
+{
+"t":"p",
+"html":"En conclusion, <u><b>trois autorités</b></u> se répartissent les différents champs de compétences : <u><b>l’ARCEP</b></u> pour les conditions d’exploitation et l’attribution des bandes, le <u><b>Ministre</b></u> chargé des communications électroniques pour les conditions de l’examen d’opérateur et <u><b>l’ANFR</b></u> en ce qui concerne les brouillages, le dossier administratif des radioamateurs, l’organisation de l’examen radioamateur, l’attribution et le retrait des indicatifs d’appel.",
+"pg":10
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><i><b>Histoire de la réglementation du radioamateurisme en France</b></i></u></span> <i>(pas de question à l’examen).</i>",
+"pg":10,
+"align":"left",
+"anchors":[
+"R-1.1d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d1<span style=\"color:#800080\">.</span></b> <i><b>Tout au long du XIX</b></i><sup><i><b>ème</b></i></sup> <i><b>siècle, les théories sur l’électricité, les ondes et la lumière sont développées</b></i> <i>: avant</i> <i>1800, on ne connaissait que l'électricité statique, qui permettait de faire des expériences intéressantes et souvent</i> <i>spectaculaires, mais sans réel intérêt pratique. La mise au point de la pile électrique par Alessandro Volta en</i> <i>1799 fut une grande révolution car on dispose pour la première fois d'une source d'électricité continue et stable.</i> <i>Fresnel émet la théorie vibratoire de la lumière en 1818 ; en 1820, Oesrsted découvre par hasard qu’un fil</i> <i>parcouru par un courant continu fait dévier l’aiguille d’une boussole ; en 1827, Ohm découvre les lois</i> <i>fondamentales de l’électricité et Ampère imagine le galvanomètre ; en 1831, Faraday décrit l’induction</i> <i>électromagnétique tandis que Henry découvre l’auto-induction et que Ruhmkorff invente la bobine d’induction.</i> <i>En 1832, Samuel Morse conçoit l’idée du télégraphe électrique après une conversation sur l’utilisation de</i> <i>l’électro-aimant mais il faut attendre 1844 pour que le premier message officiel utilisant le code Morse soit</i> <i>transmis depuis la Cour Suprême du Capitole vers le dépôt des chemins de fer de Baltimore. Le lien entre les</i> <i>phénomènes électriques et magnétiques est établi par Maxwell et ses équations en 1864. Le premier congrès</i> <i>international d’électricité qui se tient en 1881 à Paris décide des noms et des définitions des principales unités</i> <i>électriques. En 1886, George Westinghouse s’associe avec Nikola Tesla pour électrifier les immeubles de</i> <i>Manhattan en courant alternatif. A la fin du XIX</i><sup><i>ème</i></sup> <i>siècle, les ondes radioélectriques sont un vaste champ</i> <i>d’expériences : en 1887, Heinrich Hertz met en évidence les ondes grâce à ses sphères et son éclateur ; en 1890,</i> <i>Édouard Branly met au point son cohéreur ; l’amiral russe Alexandre Popov équipe ses navires d’antennes</i> <i>filaires en 1895.</i> <i><b>Mais tout ceci reste au stade d’expériences de laboratoire</b></i><i>.</i>",
+"pg":10,
+"anchors":[
+"R-1.1d1"
+]
+},
+{
+"t":"p",
+"html":"<i>L’aventure de la radio commence réellement quand</i> <i><b>Guglielmo Marconi</b></i><i>, en combinant différents équipements</i> <i>existants,</i> <i><b>réalise le premier système efficace de radiocommunication</b></i> <i>: liaison expérimentale sur 2 km à</i> <i>Bologne</i> <i><b>en 1896</b></i><i>, sur 13 km au Pays de Galles en 1897 puis liaisons commerciales régulières trans-Manche</i> <i>(Douvres-Wimereux) à partir de 1899. Enfin, en décembre 1901 après des essais infructueux, Marconi, à Terre</i> <i>Neuve (Canada), perçoit une série de S en code Morse en provenance de Poldhu (Sud Ouest de l’Angleterre), à</i> <i>près de 3540 km, montrant que la rotondité de la Terre n’est pas un obstacle.</i>",
+"pg":10
+},
+{
+"t":"p",
+"html":"<i>En France, après la</i> <i><b>première liaison radio effectuée par Eugène Ducretet le 15 novembre 1898 entre le</b></i> <i><b>sommet de la Tour Eiffel et le Panthéon</b></i> <i>(4 km),</i> <i><b>Gustave Eiffel prend contact en 1901 avec le capitaine Ferrié</b></i><i>,</i> <i>polytechnicien, officier du 8</i><sup><i>ème</i></sup> <i>Régiment du Génie et</i> <i><b>chef des transmissions de l’armée française</b></i><i>, pour faire de</i> <i>la Tour un support d’antenne de communication à longue distance. Ferrié met au point en 1903 un détecteur</i> <i>électrolytique, nettement plus performant que le cohéreur de Branly mais pas autant que la galène utilisée à</i> <i>partir de 1910. Avec ce système, une liaison est établie avec les forts des environs de Paris dès 1903 et avec l'Est</i> <i>de la France en 1904. Cette année-là, Flemming met en évidence l’effet diode de la lampe à incandescence</i> <i>d’Edison et, deux ans plus tard, Lee de Forest invente la triode « Audion », premier système d’amplification. En</i> <i>octobre 1906, la</i> <i><b>première Conférence Radiotélégraphique Internationale</b></i> <i>rassemblant à Berlin 29 États</i> <i>propose le signal de détresse SOS et établit le principe de l'obligation de communication entre les navires en</i> <i>mer et la terre ferme en allouant deux longueurs d'onde : 300 et 600 mètres. Pendant ce temps, à Paris, une</i> <i>station radio militaire permanente est installée dans un baraquement en bois sur le Champ de Mars, entre</i> <i>l’École Militaire et la Tour Eiffel, ce qui sauve cette dernière de la démolition prévue pour son 20</i><sup><i>ème</i></sup> <i>anniversaire, en 1909, car l’antenne est formée de plusieurs câbles partant du baraquement et convergeant vers</i> <i>le sommet de la Tour formant une antenne « harpe ». Les progrès techniques font que la portée de l’émetteur à</i> <i>étincelles (ondes amorties) de la Tour Eiffel passe à 6000 km en 1908.</i> <i>Au même moment, le lieutenant de</i> <i>vaisseau Camille Tissot, reconnu pour ses travaux sur la TSF à bord des navires, est missionné pour la création</i> <i>du service de transmission de l’heure par TSF à la Tour Eiffel : l’heure de Paris permettra de régler les</i> <i>chronomètres des navires en mer utilisés pour calculer leur longitude à partir de mai 1910.</i>",
+"pg":10
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d2<span style=\"color:#800080\">.</span></b> <i>Le</i> <i><b>premier contact français entre amateurs</b></i> <i>qui n’avaient pas encore d’indicatifs d’appel eut lieu en 1907 à</i> <i>Orléans. Par la suite, les techniques se fiabilisent et les expérimentations se développent.</i> <i><b>En 1912 est créée la</b></i> <i><b>Direction de la TSF</b></i><i>, rattachée au ministère des Travaux Publics. Le naufrage du Titanic en avril 1912 montre</i> <i>l’utilité des opérateurs radio à bord des navires. Fin 1912, la Conférence de Londres impose le signal de</i> <i>détresse SOS alors que chaque compagnie de télégraphie à bord des navires utilisait son propre code. En 1913,</i> <i>Roberto Galletti, d'origine anglo-italienne, installe une station en Savoie au pied d'une falaise haute de 500</i> <i>mètres. Au sommet, dix câbles de cuivre long d'un kilomètre convergent vers la station installée dans la vallée.</i> <i>En 1913, Galletti communique avec la station de Tuckerton (New Jersey), mais la guerre de 1914-1918 empêche</i> <i>Galletti de poursuivre ses travaux et son matériel est réquisitionné par l'armée française. Fin 1913, Armstrong</i> <i>dépose deux brevets utilisant l’audion : le récepteur à réaction et l’oscillateur HF générant des ondes</i> <i>entretenues (continuous waves ou CW en anglais). Toutefois, la technique de l’émetteur à étincelles (ondes</i> <i>amorties) continuera à être utilisée jusque dans les années 1930.</i>",
+"pg":10,
+"anchors":[
+"R-1.1d2"
+]
+},
+{
+"t":"p",
+"html":"<i>Lorsque la guerre éclate en 1914, la télégraphie militaire devient primordiale : les rapports et les ordres doivent</i> <i>circuler rapidement et, dans les tranchées, les radiocommunications sont préférées aux lignes téléphoniques</i> <i>qu’il faut constamment maintenir à cause des bombardements. En revanche, les communications devront être</i> <i>codées puisque l’ennemi peut les capter. Pendant la guerre, les émissions d’amateur sont interdites et le Génie</i> <i>militaire a besoin de ces opérateurs et de ces techniciens. Ils se retrouvent pour la plupart au 8</i><sup><i>ème</i></sup> <i>Génie basé au</i> <i>Mont Valérien (à Suresnes, près de Paris) où Ferrié, qui est promu Général, coordonne les recherches pour</i> <i>améliorer les techniques. Lucien Lévy, chef du laboratoire du Centre radiotélégraphique militaire de Paris,</i> <i>dépose deux brevets pour des récepteurs superhétérodynes. A la fin de la guerre, la technique a largement</i> <i>évolué puisque la « triode TM » (Télégraphie Militaire), fabriquée près de Lyon, est d’utilisation courante.</i>",
+"pg":11
+},
+{
+"t":"p",
+"html":"<i>Dés 1921, un réseau d’émission d’amateur fonctionne dans la région de Marseille. Chacun s’identifie avec un</i> <i>indicatif personnel de son choix : presque tous les nouveaux amateurs utilisent “ 8xxx ” (chiffre 8 suivi de 3</i> <i>lettres), signe de l’influence des anciens du 8</i><sup><i>ème</i></sup> <i>Génie. Sous la pression des amateurs,</i> <i><b>la Direction de la TSF</b></i> <i><b>délivre le 13 juillet 1921 la première autorisation d’émission d’amateur sous l’indicatif “ 8AA ”</b></i> <i>à André Riss</i> <i>de Boulogne sur Mer. L’administration française donne le chiffre 8 suivi de deux lettres pour tous les opérateurs</i> <i>(Métropole et colonies). Le préfixe de nationalité F n’existe pas. C’est un chiffre qui, en Europe, désigne la</i> <i>nationalité (pour la France, c’est le chiffre 8 ; 1 pour l’Italie, 4 pour l’Allemagne, 9 pour la Suisse, …). Pour les</i> <i>autres continents, il n’y a pas de préfixe de nationalité.</i>",
+"pg":11
+},
+{
+"t":"p",
+"html":"<i><b>1922 est l'année de la naissance de la radiodiffusion en France</b></i> <i>: après le premier concert retransmis le 26 juin</i> <i>1921 entre l’usine Radiola de Levallois et un public (des clients potentiels) réuni dans la Salle des Ingénieurs</i> <i>Civils (rue Blanche, Paris 9</i><sup><i>ème</i></sup><i>), le Poste de la Tour Eiffel (sur 2600 m) commence à émettre sporadiquement</i> <i>puis le programme devient régulier à partir de janvier 1922. On y diffuse tous les après-midis de la musique en</i> <i>direct avec orchestre ou chanteur dans le studio et la météo. Puis, dans les mois qui suivent, des stations</i> <i>commerciales financées par les « réclames » font leur apparition à Paris et en province (Lyon, Bordeaux). Ces</i> <i>stations sont animées par un « speaker » qui assure la transition entre les émissions musicales, les causeries et</i> <i>les premières émissions de fiction radiophoniques. Rapidement, les volumineux « postes à lampes » commencent</i> <i>à trôner dans les salons.</i> <i><b>Le premier contact intercontinental amateur a lieu le 28 novembre 1923, entre 8AB</b></i> <i><b>(Léon Deloy de Nice) et 1MO (Fred Schnell d’Hartford - Connecticut)</b></i> <i>sur 103 mètres de longueur d’onde.</i> <i>Jusqu’à cette date, une longueur d’onde de moins de 200 mètres était considérée comme inexploitable…</i>",
+"pg":11
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d3<span style=\"color:#800080\">.</span></b> <i>Le</i> <i><b>décret du 24/11/23</b></i> <i>réglemente les « postes radioélectriques privés »</i> <i>(les « postes d’amateur » relèvent de</i> <i>la 5</i><sup><i>ème</i></sup> <i>catégorie) et précise les conditions d’utilisation d’une station amateur (100 watts de 180 à 200 mètres de</i> <i>longueur d’onde).</i> <i><b>L’arrêté du 12/12/23</b></i> <i>fixe les conditions de délivrance du certificat d’opérateur (CW à 8</i> <i>mots/mn sans technique). Les personnes autorisées antérieurement doivent subir l’examen avant le 31/3/24, ce</i> <i>qui ne se fait pas sans heurts... A l’occasion de la</i> <i><b>Conférence Radiotélégraphique Internationale de Paris</b></i> <i><b>(1925</b></i><i>, première conférence après celle de Londres en 1912), tous les amateurs de TSF (amateurs de concerts</i> <i>radiophoniques et amateurs émetteurs représentés par diverses associations) se retrouvent dans l’amphithéâtre</i> <i>de la Sorbonne sous l’impulsion de l’ARRL (American Radio Relay League), la très active association des</i> <i>amateurs émetteurs américains. Lors de cette réunion, l’émission d’amateur se structure : l</i><i><b>’IARU</b></i> <i>(Union</i> <i>Internationale des RadioAmateurs)</i> <i><b>et le REF</b></i> <i>(créé pour l’occasion et représentant les amateurs émetteurs</i> <i>français)</i> <i><b>sont créés</b></i> <i><b>le samedi 18 avril 1925</b></i> <i>et on y utilise le terme de « radioamateur », inconnu jusqu’alors.</i>",
+"pg":11,
+"anchors":[
+"R-1.1d3"
+]
+},
+{
+"t":"p",
+"html":"<i>Le</i> <i><b>décret du 28 décembre 1926</b></i> <i>réglemente la situation des stations privées d’émission et prévoit qu’un arrêté</i> <i>déterminera les conditions techniques et d’exploitation (cet arrêté sera publié le 13 août 1928 puis remplacé par</i> <i>l’arrêté du 10 novembre 1930). Le décret prévoit que les certificats d’opérateurs sont délivrés après une enquête</i> <i>administrative préalable, la validation des connaissances réglementaires et techniques par un examinateur et la</i> <i>« capacité de transmission et de réception de signaux morses à la vitesse de 10 mots par minute ». Le</i> <i>développement des contacts intercontinentaux amène l’IARU à instaurer à partir du 1</i><sup><i>er</i></sup> <i>février 1927 un système</i> <i>de préfixe à deux lettres, où la première lettre indique le continent et la deuxième lettre le pays (eF pour la</i> <i>France), suivi d’un chiffre.</i>",
+"pg":11
+},
+{
+"t":"p",
+"html":"<i>En novembre 1927, la</i> <i><b>conférence de Washington,</b></i> <i>réunissant près de 80 pays au sein du Comité Consultatif</i> <i>International des Radiocommunications (</i><i><b>CCIR</b></i><i>), répartit le spectre entre 10 et 60.000 kHz. Plusieurs bandes</i> <i>sont allouées au service amateur (80, 40, 20, 10 et 5 mètres) et un système international de</i> <i><b>préfixe de</b></i> <i><b>nationalité</b></i> <i>est défini :</i> <i><b>la France obtient la lettre F</b></i><i>. Dès 1928, l’administration délivre des indicatifs F8xx pour</i> <i>les personnes autorisées en France Métropolitaine. Le premier ministère des Postes, Télégraphes et Téléphones</i> <i>est créé le 21/02/1930 ; la Direction de la TSF y est rattachée.</i>",
+"pg":11
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d4<span style=\"color:#800080\">.</span></b> <i><b>L’arrêté du 10 novembre 1930</b></i> <i>(conditions techniques des stations) remplace l’arrêté d’août 1928. Ces deux</i> <i>textes (décret de 1926 et arrêté de 1930) resteront en vigueur sans modification majeure jusqu’en 1983. La</i> <i>puissance d’alimentation de l’émetteur est limitée à 100 watts. « Chaque poste devra être muni d’appareils de</i> <i>mesures permettant de suivre les conditions de fonctionnement des appareils d’émission et notamment d’un</i> <i>ondemètre ou de tout autre dispositif susceptible de mesurer les ondes avec une précision de 0,5 % ». Le décret</i> <i>précise que « préalablement à la délivrance de l’autorisation d’exploitation, les caractéristiques techniques des</i> <i>postes sont vérifiées à l’occasion des épreuves pratiques que doivent subir les opérateurs chargés de la</i> <i>manœuvre de ces postes ». Ainsi, l’indicatif d’appel est attribué non pas à un opérateur mais à une station. En</i> <i>1932, la conférence de Madrid procède à la refonte des préfixes de nationalité avec des sous-localisations et</i> <i>attribue aux radioamateurs la bande des 160 mètres. Le CCIR est regroupé avec le CCIT (qui gère les questions</i> <i>de télégraphie) au sein d’une nouvelle organisation, l’</i><i><b>UIT</b></i><i>. Fin 1932, la série des F8xx est entièrement</i> <i>attribuée ; les nouveaux indicatifs sont des</i> <i><b>F3xx</b></i><i>. En 1934, un certificat d’opérateur phoniste est créé et les</i> <i>indicatifs attribués sont de la série F3xxx (3 lettres). A partir du 1/1/34, la France et les trois autres pays</i> <i>fondateurs de l’UIT (USA, Royaume-Uni et Italie), obtiennent la possibilité de n’utiliser qu’une seule lettre de</i> <i>préfixe pour leurs indicatifs nationaux. Rien ne change pour les radioamateurs de France Métropolitaine mais</i> <i>pas pour ceux des colonies et d’outre-mer. Au 1/1/35, l’ensemble des indicatifs utilisés dans les colonies et</i> <i>protectorats français est mis en conformité avec la conférence de Madrid : le préfixe de localisation comporte</i> <i>deux lettres suivi du chiffre 8. Après un premier essai de transmission à distance d’images animées et la</i> <i>fondation de la Compagnie Générale de Télévision en 1931, un émetteur TV (455 lignes, 25 ips sur 46 MHz) est</i> <i>installé en 1935 au sommet de la Tour Eiffel. Des émissions sont régulièrement diffusées à partir de 1937 à</i> <i>l’occasion de l’Exposition Internationale installée au Trocadéro. En 1939, des indicatifs</i> <i><b>F9xx</b></i> <i>sont attribués.</i>",
+"pg":12,
+"anchors":[
+"R-1.1d4"
+]
+},
+{
+"t":"p",
+"html":"<i>Le 28 août 1939, la guerre approche et l’administration informe chaque radioamateur qu’il doit cesser</i> <i>immédiatement tout trafic et mettre sa station hors d’état de fonctionner en démontant l’antenne, débranchant</i> <i>l’alimentation et en enlevant les lampes. Lors de la mobilisation de septembre 1939, 250 membres du REF</i> <i>rejoignent les rangs du 8</i><sup><i>ème</i></sup> <i>Génie comme opérateurs radio.</i> <i>Pendant la Seconde Guerre mondiale, pour</i> <i>déchiffrer les codes des communications militaires allemandes, le Royaume-Uni développe dans le plus grand</i> <i>secret Colossus, première machine de calcul totalement électronique utilisant uniquement des tubes à vide (et</i> <i>non plus des relais) et des rubans perforés qui contenaient à la fois le programme et les données. Les premiers</i> <i>ordinateurs de l’après-guerre garderont une architecture similaire.</i>",
+"pg":12
+},
+{
+"t":"p",
+"html":"<i>L’émission d’amateur redevient progressivement autorisée en France au cours de l’année 1946 mais les</i> <i>opérateurs doivent obligatoirement connaître le Morse conformément au RR de l’UIT, alors qu’avant 1939, il y</i> <i>avait des phonistes et des graphistes. Certains phonistes continuent néanmoins d’émettre avec leurs anciens</i> <i>indicatifs F3xxx : ce sont les « noirs » qui seront sévèrement réprimés. Les conditions d’exploitation des stations</i> <i>sont limitées (puissance limitée à 50 W d’alimentation de l’étage final, émission en mobile interdite, …).</i> <i><b>A partir</b></i> <i><b>de 1946</b></i><i>, les</i> <i><b>F7</b></i> <i>sont attribués aux militaires alliés et les</i> <i><b>F0</b></i> <i>aux étrangers civils présents en France. La</i> <i>Direction de la TSF prend le nom plus moderne de Direction des Services Radioélectriques (</i><i><b>DSR</b></i><i>).</i>",
+"pg":12
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d5<span style=\"color:#800080\">.</span></b> <i>La</i> <i><b>Conférence d’Atlantic City</b></i> <i>(mai à octobre 1947) est dense : le siège de l’UIT est transféré de Berne à</i> <i>Genève, l’UIT devient une institution spécialisée dépendant de l’ONU et le RR est profondément remanié</i> <i>(recodification des classes d’émission et de l’alphabet phonétique, définition des 3 régions, plan de bandes</i> <i>défini jusqu’à 10,5 GHz). Dans les laboratoires Bell, en 1947, Brattain, Bardeen et Shockley inventent le</i> <i>transistor pour remplacer les tubes à vide et rendre le service de téléphonie longue distance plus fiable. A partir</i> <i>du 1</i><sup><i>er</i></sup> <i>janvier 1949, la puissance d’alimentation maximum de l’étage final passe à 100 watts pour les fréquences</i> <i>supérieures à 28 MHz mais reste limitée à 50 watts en dessous de 28 MHz. La télévision (819 lignes, 2 kW PAR</i> <i>sur 180 MHz) fait son apparition depuis la Tour Eiffel en 1950. En 1955, Sony commercialise le TR-55, premier</i> <i>récepteur AM (PO) transistorisé qui devient très populaire avec son alimentation à 4 piles AA et ses 560</i> <i>grammes, une révolution par rapport aux énormes postes à lampes : la radio s’écoute n’importe où ! En 1955,</i> <i>les laboratoires Bell présentent le premier ordinateur transistorisé : le TRADIC (Transisitor Airbone Digital</i> <i>Computer) ; puis en 1956, IBM commercialise le premier ordinateur transistorisé équipé de mémoires vives à</i> <i>tore magnétique et de disques durs, le Ramac 305.</i> <i>En octobre 1957, l’URSS met Spoutnik sur orbite. Ce premier</i> <i>satellite qui émettra pendant 2 mois son fameux « bip-bip » (HI en Morse) sur 20 et 40 MHz marque le début de</i> <i>l’aventure spatiale. Au début des années 50, l’administration réattribue les indicatifs F8 et F3 abandonnés par</i> <i>les anciens titulaires avant d’attribuer, à partir de 1957, des indicatifs</i> <i><b>F2xx</b></i>",
+"pg":12,
+"anchors":[
+"R-1.1d5"
+]
+},
+{
+"t":"p",
+"html":"<i>En 1959, le RR répartit le spectre jusqu’à 40 GHz et dispense les opérateurs radioamateurs exploitant des</i> <i>fréquences supérieures à 144 MHz de l’examen de télégraphie. Cette disposition est transcrite en droit français</i> <i>par le</i> <i><b>décret du 12/03/62</b></i> <i>(mis en application au 1/1/63) avec la création du nouveau</i> <i><b>certificat d’opérateur</b></i> <i><b>“ Téléphoniste ”</b></i> <i>qui se voit attribué la série</i> <i><b>F1xx</b></i> <i>(à 2 lettres). Les premiers cibistes apparaissent en France à</i> <i>l'aube des années 1960 grâce à du matériel radioamateur ou professionnel importé sous le manteau (utilisé</i> <i>alors aux États-Unis par les taxis ou les ambulances). Ces pionniers risquaient la prison, confiscation et</i> <i>destruction de leur matériel, ainsi que de lourdes amendes, mais bénéficiaient en pratique d'une large tolérance.</i> <i>En 1965, lorsque la série F2 fut épuisée, des indicatifs</i> <i><b>F5xx</b></i> <i>sont attribués puis des indicatifs</i> <i><b>F6xxx</b></i> <i>(à trois</i> <i>lettres) à partir de 1967. En 1968, la série F1xx étant épuisée, la série F1xxx (trois lettres) est attribuée aux</i> <i>téléphonistes. Lorsque le téléphoniste devient télégraphiste (examen à 10 mots/mn en lecture et manipulation), il</i> <i>change d’indicatif (F1ABC devient F6DEF). A partir de 1969, des universitaires mettent au point un réseau à</i> <i>transfert de paquets nommé Arpanet, n’utilisant pas le réseau téléphonique et reliant des ordinateurs militaires</i> <i>américains. En 1971, Intel lance sur le marché son processeur 4004 constitué de 2300 transistors réunis dans</i> <i>un seul composant. Le circuit intégré ne gère que 4 bits et est cadencé à 108 kHz mais il marque la naissance</i> <i>des microprocesseurs.</i>",
+"pg":12
+},
+{
+"t":"p",
+"html":"<i>Lors de la</i> <i><b>conférence de Malaga-Torremolinos</b></i> <i>de 1973, l’exemption de l’examen de morse est étendue à toutes</i> <i>les fréquences supérieures à 30 MHz, ce qui ne change pas grand-chose pour les radioamateurs français car, à</i> <i>cette époque, aucune bande n’est attribuée entre 29,7 et 144 MHz. Fin 1973, la DSR est regroupée au sein de la</i> <i>Direction des Télécommunications et du Réseau International (</i><i><b>DTRI</b></i><i>), nouvellement créée et toujours rattachée</i> <i>au Ministère des Postes. En 1973, le département de la Défense des Etats-Unis lance le programme Navstar, un</i> <i>système de géolocalisation mondial fonctionnant sur l’exploitation de signaux radio transmis par une</i> <i>constellation d’au moins 24 satellites dédiés et équipés d’horloges atomiques. Ceux-ci sont lancés entre 1978 et</i> <i>1995 mais il faudra attendre 2000 pour que la fiabilité et la précision du système s’ouvrent au civil sous le nom</i> <i>de GPS. À partir de 1978, les « radios pirates » (bande FM), souvent soutenues par des associations</i> <i>d’opposition politique, se multiplient dans toutes les régions de France. En 1980, la DTRI est renommée</i> <i>Direction des Télécommunications et des Réseaux Extérieurs (</i><i><b>DTRE</b></i><i>). En 1981, avec l’arrivée au pouvoir de</i> <i>François Mitterrand, un vent de liberté souffle sur les ondes françaises : les « radios libres » sont légalisées</i> <i>(création de la HACA, Haute Autorité de la Communication Audiovisuelle, en juillet 1982) et la bande CB, en</i> <i>pleine explosion, est enfin autorisée avec la publication en décembre 1982 de la norme NFC 92412 (40 canaux,</i> <i>4 watts crêtes, AM/FM/BLU). Le lancement commercial du Minitel en 1982 permet aux français d’accéder à de</i> <i>nombreux services en ligne tandis que, début 1983, Arpanet adopte le protocole TCP/IP créé en 1974 et s’ouvre</i> <i>aux utilisations commerciales : ce réseau s’impose rapidement dans le monde entier et prend le nom d’Internet.</i>",
+"pg":13
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d6<span style=\"color:#800080\">.</span></b> <i><b>L’arrêté 83-566 du 1/12/1983</b></i> <i>signé par le ministre des télécommunications modifie le déroulement des</i> <i>épreuves : les examinateurs qui faisaient passer l’examen à domicile ou dans les radio-clubs sont remplacés par</i> <i>une épreuve se déroulant dans un centre d’examen (d’abord sur papier puis sur un Minitel à partir de mai 1985</i> <i>et sur un magnétophone pour l’épreuve de Morse, toujours à 10 mots par minute, sans manipulation). L’examen</i> <i>se compose de deux parties : réglementation et technique. Il est réussi si la moyenne pondérée des deux épreuves</i> <i>est atteinte avec une note minimum de 10/20 en réglementation et 8/20 en technique. Il est prévu la création de</i> <i>deux certificats d’opérateur novices (groupes A et B) une fois précisés les conditions techniques et le programme</i> <i>des épreuves par une instruction, laquelle ne sera publiée qu’en 1989. La France applique dès 1985 la</i> <i>recommandation CEPT</i> <i><b>T/R 61-01</b></i> <i>(libre circulation). Les bandes WARC (10, 18 et 24 MHz définies lors de la</i> <i>CMR-79) sont ouvertes au trafic en 1985.</i>",
+"pg":13,
+"anchors":[
+"R-1.1d6"
+]
+},
+{
+"t":"p",
+"html":"<i>Issue de la première cohabitation, la loi du 30/09/86 remplace la HACA par la CNCL (Commission Nationale</i> <i>de la Communication et des Libertés) au moment de la privatisation de TF1 et de l’apparition de nouvelles</i> <i>chaînes de télévision privées. La CNCL gère les « stations radioélectriques privées de toute nature ». Aussi, l</i><i><b>a</b></i> <i><b>tutelle des radioamateurs</b></i><i>, exercée depuis l’origine par une direction du ministère des postes et</i> <i>télécommunications,</i> <i><b>est confiée en 1986 à la CNCL.</b></i> <i>Dans le mouvement de l’alternance de 1988, la loi du</i> <i>17/01/1989 crée le</i> <i><b>CSA</b></i> <i>(Conseil Supérieur de l’Audiovisuel) en remplacement de la CNCL mais la gestion des</i> <i>radiocommunications privées, dont hérite le CSA, n’a aucune place dans ses missions.</i>",
+"pg":13
+},
+{
+"t":"p",
+"html":"<i>La publication de l’</i><i><b>instruction de 1989</b></i> <i>permet la délivrance des premiers</i> <i><b>certificats d’opérateur novice</b></i> <i>(avec</i> <i>réglementation et technique allégée et, pour les graphistes novices, CW à 5 mots/mn). Il y a maintenant 5 classes</i> <i>d’opérateur (A : novice téléphoniste, B : novice télégraphiste, C : téléphoniste, D : télégraphiste,</i> <i>E : télégraphiste confirmé après 3 ans de classe D). Le préfixe de l’indicatif d’appel passe à 2 lettres pour tous</i> <i>les radioamateurs de France continentale : F suivi de la lettre indiquant la classe de l’opérateur (F6DEF</i> <i>devient FE6DEF). En 1990, la recommandation CEPT T/R 61-02 (programme HAREC) voit le jour, elle ne sera</i> <i>réellement appliquée en France qu’en 1997.</i> <i><b>Avec la loi 90-1170</b></i> <i>réglementant les télécommunications (LRT) du</i> <i>29/12/90,</i> <i><b>le CSA est déchargé de la tutelle qui revient à la DRG</b></i> <i>(Direction de la Réglementation Générale,</i> <i>rattachée au ministère de l’industrie et créée en 1989 dans le cadre de la transformation de La Poste et de</i> <i>France Télécom en établissements publics). Cette même loi modifie le L33 du Code des P&amp;T qui encadrait la</i> <i>« réception de signaux électriques de toute nature » :</i> <i><b>l’écoute devient libre</b></i> <i>; en conséquence, l’administration</i> <i>ne délivre plus d’indicatif individuel d’écoute. D’autre part,</i> <i><b>l’enquête administrative</b></i> <i>de police préalable à la</i> <i>délivrance d’un indicatif</i> <i><b>est supprimée</b></i> <i>car les radioamateurs passent d’une licence individuelle à une licence</i> <i>générale (c’est la conséquence du « librement établi » du L33-3). En 1993, la DRG devient la</i> <i><b>DGPT</b></i> <i>(Direction</i> <i>Générale des Postes et Télécommunications). En mai 1993, le préfixe pour la France continentale revient à la</i> <i>lettre F (sauf indicatifs spéciaux) suivie d’un chiffre déterminant la classe de l’opérateur (système encore en</i> <i>vigueur aujourd’hui). Ainsi, le téléphoniste F1ABC devient FC1ABC en 1989 ; ayant réussi l’examen de</i> <i>télégraphie, il devient FD1ABC puis, trois ans après, FE1ABC et enfin F5ABC en 1993.</i>",
+"pg":13
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d7<span style=\"color:#800080\">.</span></b> <i><b>En décembre 1997</b></i><i>, l’harmonisation européenne conduit à la refonte des textes régissant notre activité et à</i> <i>la</i> <i><b>création de l’ART à qui est confiée la tutelle</b></i> <i>: les missions confiées jusque là à la DGPT sont transférées à</i> <i>l’</i><i><b>ANFR</b></i> <i>et à l’ART, nouvellement créées ; la</i> <i><b>DiGITIP</b></i> <i>(Direction Générale de l'Industrie, des Technologies de</i> <i>l'Information et des Postes, rattachée au ministère de l’économie, des finances et de l’industrie – Minéfi) a une</i> <i>mission de conseil auprès du ministre chargé des télécommunications.</i> <i><b>Trois décisions sont publiées par l’ART :</b></i> <i><b>97-452</b></i> <i>: fréquences et puissances autorisées,</i> <i><b>97-453</b></i> <i>: conditions techniques,</i> <i><b>97-454</b></i> <i>: organisation des</i> <i>examens. Ces textes apportent des changements : il y a dorénavant 3 classes d’opérateur, dont une novice</i> <i>(classe 3, sans technique) avec des indicatifs d’appel de la série FØxxx ; les novices de la réglementation de</i> <i>1989 dont le préfixe était FA ou FB sont reclassés respectivement en F1 ou F5 ; chacune des trois épreuves</i> <i>devient indépendante et la vitesse de l’examen de Morse passe à 12 mots/mn, comme le recommande le texte</i> <i>CEPT. Lorsque la série F1/F5 fut épuisée, en</i> <i><b>1998, la série F4/F8</b></i> <i>est attribuée.</i>",
+"pg":13,
+"anchors":[
+"R-1.1d7"
+]
+},
+{
+"t":"p",
+"html":"<i>En 2000, un recours en Conseil d’État conduit à l’annulation des décisions ART concernant les examens et les</i> <i>conditions techniques. Elles sont remplacées par la</i> <i><b>décision ART 00-1364</b></i> <i>(conditions techniques) et l’</i><i><b>arrêté du</b></i> <i><b>Premier Ministre du 21/09/00</b></i> <i>(organisation et programme des examens). Pendant la procédure qui dura près</i> <i>d’un an, les centres d’examen furent fermés et aucun nouveau certificat d’opérateur ne fut délivré. En 2003,</i> <i>l’UIT modifie le S25 du RR et, pour les pays qui le souhaitent, supprime l’obligation de connaître le code Morse</i> <i>pour l’accès aux bandes inférieures à 30 MHz. En mai 2004, après la modification des textes européens, les</i> <i>opérateurs de classe 2 sont autorisés à trafiquer en dessous de 30 MHz sauf en télégraphie auditive. En 2005,</i> <i>l’ART est renommée</i> <i><b>Arcep</b></i> <i>avec de nouvelles compétences dans les activités postales et la</i> <i><b>DGE</b></i> <i>(Direction</i> <i>Générale des Entreprises, rattachée au Minéfi) reprend toutes les missions confiées à la DiGITIP.</i>",
+"pg":13
+},
+{
+"t":"p",
+"html":"<i>En octobre 2008, après 23 ans de bons et loyaux services, le Minitel, utilisé pour l’examen de réglementation et</i> <i>de technique, est abandonné au profit d’un micro-ordinateur. Début 2009, la</i> <i><b>DGCIS</b></i> <i>(Direction Générale de la</i> <i>Compétitivité, de l’Industrie et des Services, rattachée au Minéfi) reprend les missions confiées à la DGE. Des</i> <i>textes « toilettés » pour être en conformité avec les autres textes français et internationaux sont publiés au JO du</i> <i>11/02/09. Ils se composent de la</i> <i><b>modification de l’arrêté du 21/09/00</b></i> <i>(attribution et retrait des indicatifs</i> <i>d’appel par le ministre chargé des communications électroniques)</i> <i><b>et de l’arrêté du 17/12/07</b></i> <i>(déclaration à</i> <i>l’ANFR de la PAR maximum utilisée par gamme d’ondes) et de l’homologation de la</i> <i><b>décision ARCEP</b></i> <i><b>08-0841</b></i><i>.</i> <i>En juillet 2010, la</i> <i><b>décision ARCEP 10-0537</b></i> <i>autorise le trafic de 7,1 à 7,2 MHz en région 1.</i>",
+"pg":14
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d8<span style=\"color:#800080\">.</span></b> <i>L’</i><i><b>arrêté du 23/04/2012</b></i> <i>modifie l’arrêté du 21/09/00 en</i> <i><b>supprimant l’épreuve de code Morse</b></i> <i>et en ne</i> <i>reconnaissant plus qu’</i><i><b>un seul certificat d’opérateur</b></i> <i>: les candidats doivent réussir les épreuves de</i> <i>Réglementation et de Technique pour se voir délivrer un indicatif d’appel. La</i> <i><b>décision ARCEP 12-1241</b></i> <i>publiée</i> <i>en mars 2013 lève les restrictions de trafic sur</i> <i><b>50 MHz</b></i> <i>et</i> <i><b>autorise toutes les classes d’émission</b></i> <i>sauf aux</i> <i>opérateurs de classe 3 qui conservent les conditions d’exploitation antérieures (144-146 MHz, 10 W et 6 classes</i> <i>d’émission autorisées). La</i> <i><b>décision ARCEP 13-1515</b></i> <i>publiée en mars 2014 modifie la décision 12-1241 et</i> <i>attribue la</i> <i><b>bande 472-479 kHz.</b></i> <i>En septembre 2014, la</i> <i><b>DGCIS redevient la DGE</b></i><i>, sans grand changement pour</i> <i>notre activité. En décembre 2014, de</i> <i><b>nouvelles missions pour l’ANFR</b></i> <i>apparaissent dans le CPCE : l’ANFR</i> <i>« organise les examens […], délivre les certificats et les indicatifs […] et procède au retrait de ces derniers ».</i> <i>Pour simplifier le \"mille-feuille fiscal\" français, le projet de budget 2019, présenté par le gouvernement,</i> <i>prévoyait la suppression d'une série de « taxes à faible rendement ». Le Sénat a adopté un amendement ajoutant</i> <i>la « taxe sur les radioamateurs » à la liste. Cet amendement, repris par l’assemblée nationale dans la Loi de</i> <i>Finances pour 2019, a entériné la</i> <i><b>suppression de la taxe sur les radioamateurs</b></i> <i>à compter du 1/1/19. En</i> <i>novembre 2019, l’Arcep hérite d’une nouvelle mission : celle de régulateur du secteur de la distribution groupée</i> <i>de la presse et est renommée à cette occasion « Autorité de régulation des communications électroniques, des</i> <i>postes et de la distribution de la presse ». La décision Arcep 19-1412</i> <i><b>attribuant la bande des 60 mètres avec</b></i> <i><b>15 W PIRE maximum</b></i> <i>est publiée au JO le 13/02/20.</i>",
+"pg":14,
+"anchors":[
+"R-1.1d8"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d9<span style=\"color:#800080\">.</span></b> <i><b>Le 6 mars 2021, deux arrêtés</b></i> <i>(tous deux datés du 2 mars)</i> <i><b>sont publiés au JO :</b></i> <i>le premier modifie les</i> <i>conditions d’obtention de l’examen (</i><i><b>suppression du point négatif en cas de réponse fausse</b></i> <i>à compter de juin</i><br><i>2021) et étoffe le programme de l’épreuve de technique (</i><i><b>traitement numérique du signal</b></i><i>) conformément à la</i> <i>recommandation T/R 61-02. Le second arrêté met à jour les conditions d’exploitation et les bandes autorisées</i> <i>dans les Collectivités d’Outre-Mer où l’Arcep n’est pas compétente. Après la suppression de la taxe sur les</i> <i>radioamateurs en 2019, la taxe d’examen est supprimée en 2021. Au 1/1/22, le CSA et l’Hadopi deviennent</i> <i>l’Arcom (Autorité de Régulation de la COMmunication audiovisuelle et numérique). Lors de la CMR-23, la</i> <i>protection de la radionavigation par satellite (RNSS Galileo) vis-à-vis des amateurs dans la bande 1 256-1 300</i> <i>MHz a été inscrite dans le RR en limitant les puissances des stations amateurs dans les sous-bandes utilisées</i> <i>pour les signaux RNSS conformément à une recommandation adoptée in extremis. Ces mesures ont été reprises</i> <i>dans la décision ECC 25-01 qui doit être transposée dans tous les pays de la CEPT avant le 31/12/28.</i>",
+"pg":14,
+"anchors":[
+"R-1.1d9"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d10<span style=\"color:#800080\">.</span></b> <i>Un décret créant un nouvel article du CPCE pourrait autoriser la connexion à un réseau ouvert au public</i> <i>(le projet de texte a été présenté lors d’une consultation écrite en 2018 et, à la date de publication de ce</i> <i>document, n’est pas encore publié).</i>",
+"pg":14,
+"anchors":[
+"R-1.1d10"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>R-1.2) Les classes d'émission</b></u></span> sont définies dans l’appendice A1 du RR par 3 caractères comme ci-dessous :",
+"pg":14,
+"align":"left",
+"anchors":[
+"R-1.2",
+"R-1.2a"
+]
+},
+{
+"t":"fig",
+"id":"c014_1",
+"pg":14,
+"min":6.5
+},
+{
+"t":"p",
+"html":"La <u><b>définition d’une classe d'émission</b></u> commence par le type d’information (deuxième lettre, 3<sup>ème</sup> caractère), puis la modulation de la porteuse est indiquée (première lettre, 1<sup>er</sup> caractère) et enfin la nature du signal modulant est précisée (chiffre, 2<sup>nd</sup> caractère) si celui-ci n’est pas « analogique » : la téléphonie ne peut être qu’analogique ; par contre, la télégraphie auditive peut ou non utiliser une sous-porteuse modulante contenant l’information.",
+"pg":14
+},
+{
+"t":"p",
+"html":"<i>Les définitions indiquées en italique dans le tableau ci-dessus ne sont pas utilisées par les radioamateurs. Avant</i> <i>mars 2013, la combinaison de différents types de modulation ou d’information transmise n’était pas autorisée.</i> <i>Par exemple, émettre en QAM (modulation d’amplitude en quadrature, code D) ou transmettre des données en</i> <i>même temps que la voix de l’opérateur (code W) nécessitait une autorisation individuelle de l’ARCEP (émissions</i> <i>expérimentales et temporaires). Ci-dessous, quelques précisions sur les classes d’émission :</i><br>- <i>Le RR a prévu des</i> <u><i>informations complémentaires</i></u> <i>mais elles ne sont pas utilisées par les radioamateurs :</i><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>la largeur de bande nécessaire est codée par un préfixe composé de 3 chiffres et 1 lettre et commence par</i> <i>un chiffre compris entre 1 et 9. La lettre (G pour GHz, M pour MHz, K pour kHz et H pour Hz) remplace</i> <i>la virgule décimale : 90 Hz = 90H0, 400 Hz = 400H, 2,7 kHz = 2K70 et 6 MHz = 6M00. Le code ayant 4</i> <i>caractères, les nombres seront arrondis si nécessaire : 15,84 GHz = 15G8 et 15,85 GHz = 15G9</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>des détails sur le signal transmis et la nature du multiplexage forment un suffixe facultatif à 2 lettres.</i> </p>- <u><i>Type de modulation :</i></u><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>les modulations de fréquence et de phase sont si proches que, souvent, on ne les différencie pas. En cas</i> <i>de doute sur la modulation utilisée, le code F sera retenu.</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>logique du codage : on commence par l’amplitude seule (</i><u><i><b>A</b></i></u> <i>= AM pure, B et C = AM spécifique) puis</i> <i>amplitude et angulaire (D) puis angulaire seule (</i><u><i><b>F</b></i></u> <i>= fréquence et G = phase). Viennent ensuite les trois</i> <i>types de BLU (H, J et</i> <u><i><b>R</b></i></u> <i>= réduite). A la fin, on trouve les trains d’impulsions (K, L, M, P, Q et V). Les</i> <i>lettres O et I ne sont pas utilisées (risques de confusion avec 0 et 1) ainsi que E, S, T, U, X, Y et Z.</i> </p>- <u><i>Nature du signal modulant :</i></u><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>lorsque la nature du signal modulant est codée 1 ou 2, il s’agit d’« une seule voie contenant de</i> <i>l’information numérique ou quantifiée avec (ou sans) emploi de sous porteuse modulante ». En CW,</i> <i>l’information est quantifiée car la durée des traits est trois fois plus longue que la durée des points.</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>dans les modes digitaux, l’information est numérique (code B, D ou W) et la sous-porteuse modulante</i> <i>(code 2) permet de distinguer par une fréquence différente les 0 et les 1 transmis les uns à la suite des</i> <i>autres. L’emploi du code 7 signifie que les données sont transmises en parallèle sur deux voies ou plus.</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>logique du codage : on commence par une seule voie numérique (1 : simple et 2 : avancé), on continue</i> <i>avec l’analogique (3), puis même ordre avec plusieurs voies (7 : numérique puis 8 : analogique) et enfin</i> <i>combinaison des deux (9). 0 signifie « pas de signal modulant ». Les chiffres 4, 5 et 6 ne sont pas utilisés.</i> </p>- <u><i>Type d’information transmis :</i></u><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>une distinction est faite entre les images fixes (fac-similé, C) et la vidéo (télévision, F).</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>lorsque plusieurs types d’information sont transmis simultanément (par exemple, pour la télévision, le</i> <i>son et la vidéo qui correspondent respectivement aux codes F et E), le code W est utilisé.</i> </p><p style=\"margin:0 0 0 1.1em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>mnémotechnique (initiale du code) :</i> <u><i><b>A</b></i></u><i>uditif,</i> <u><i><b>B</b></i></u><i>écane (= machine),</i> <u><i><b>C</b></i></u><i>opie,</i> <u><i><b>D</b></i></u><i>onnées,</i> <u><i><b>E</b></i></u><i>coute,</i> <u><i><b>F</b></i></u><i>rance</i> <i>Télévision,</i> <u><i><b>N</b></i></u><i>o info,</i> <u><i><b>W</b></i></u><i>et suit (= combinaison de plongée en anglais…).</i> </p>",
+"pg":15
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemples de définition de classe d'émission :</b></u></span><br><span style=\"color:#800000\"><u><b>A1A</b></u></span> = Télégraphie auditive ; modulation d'amplitude par tout ou rien sans emploi de sous porteuse modulante (= CW manipulée avec une « pioche »)<br><span style=\"color:#800000\"><u><b>A1B</b></u></span> = Télégraphie automatique ; modulation d'amplitude par tout ou rien sans emploi de sous porteuse modulante (= CW générée par une machine comme, par exemple, un micro-ordinateur)<br><span style=\"color:#800000\"><u><b>F2A</b></u></span> = Télégraphie auditive ; modulation de fréquence ; une seule voie avec sous porteuse modulante (= CW en FM : classe d’émission utilisée pour un récepteur FM car la sous porteuse restitue la tonalité CW)<br><span style=\"color:#800000\"><u><b>F3E</b></u></span> = Téléphonie ; modulation de fréquence (= FM)<br><span style=\"color:#800000\"><u><b>J3E</b></u></span> = Téléphonie ; modulation d'amplitude BLU, porteuse supprimée (= BLU, sans différenciation BLI / BLS) <i>(avec une bande passante de 2,4 kHz (BF de 300 à 2700 Hz), le code avec préfixe sera :</i> <span style=\"color:#800000\"><i><b>2K40J3E</b></i></span><i>)</i><br><span style=\"color:#800000\"><u><b>G2B</b></u></span> = Télégraphie automatique ; modulation de phase ; une seule voie avec sous porteuse modulante (par exemple : PSK31 qui n’est pas une classe d’émission mais un protocole utilisant la classe G2B)<br><span style=\"color:#800000\"><u><b>J3C</b></u></span> = Fac-similé ; modulation d'amplitude BLU, porteuse supprimée (par exemple : SSTV en BLU car, malgré son nom, la SSTV transmet des images fixes et non pas des images vidéo au sens du code F)<br><span style=\"color:#800000\"><u><b>F7W</b></u></span> = Combinaison de différents types d’information, modulation de fréquence, plusieurs voies numériques (classe utilisée par le protocole D-Star transmettant numériquement de la téléphonie et des données)<br><span style=\"color:#800000\"><u><b>N0N</b></u></span> = aucune information, porteuse non modulée (un réglage d’émetteur sans charge non rayonnante…)",
+"pg":15,
+"anchors":[
+"R-1.2b"
+]
+},
+{
+"t":"p",
+"html":"Depuis mars 2013, les stations peuvent émettre dans toutes les classes d’émission. Toutefois la bande passante occupée définie au §R-1.3b doit être respectée (notamment pour la télévision où la bande passante peut atteindre plusieurs MHz). Les opérateurs de classe 3 n’ont droit qu’aux 6 classes d’émission suivantes : A1A, A2A, A3E, F3E, G3E et J3E. Ces classes correspondent respectivement à de la télégraphie auditive et à de la téléphonie (AM, FM, PM et BLU). Les modes numériques sont donc interdits aux opérateurs de classe 3.",
+"pg":15
+},
+{
+"t":"p",
+"html":"<i>Dans la partie réglementation de l’examen, quelques questions portent sur la représentation des modulations</i> <i>sous forme d’oscillogrammes (représentation temporelle, voir ci-dessous) ou de spectrogrammes (représentation</i> <i>fréquentielle) dont l’étude sera approfondie dans la partie technique du cours (voir §12.1a).</i>",
+"pg":15
+},
+{
+"t":"fig",
+"id":"c015_1",
+"pg":15
+},
+{
+"t":"p",
+"html":"<i>Dans ces schémas, l’axe vertical indique la tension du signal et la partie grisée représente le niveau de HF émis.</i> <i>L’oscillogramme de la BLU, qui est une forme de modulation d’amplitude, ne permet pas de comprendre son</i> <i>fonctionnement. Il faudra attendre la fin du cours (voir §12.6a) pour en comprendre toutes les subtilités.</i>",
+"pg":15
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-1.3) Conditions techniques</b></u></span><i>. Avant la décision 12-1241, les matériels suivants étaient obligatoires : indicateur</i> <i>de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La</i> <i>puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la</i> <i>fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/- 1.10</i><sup><i>-4</i></sup> <i>au-delà), de même que la stabilité des</i> <i>oscillateurs (5.10</i><sup><i>-5</i></sup> <i>pendant 10 minutes après 30 minutes de chauffe) et la bande maximum occupée en FM (6</i> <i>kHz jusqu’à 30 MHz ou 15 kHz au-delà).</i>",
+"pg":16,
+"anchors":[
+"R-1.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Depuis la décision ARCEP 12-1241, le seul <u><b>matériel obligatoire</b></u> reste l’<u><b>indicateur de puissance</b></u> (indicateur généralement intégré aux transceivers modernes) <i>(annexe 1 à la décision 12-1241).</i>",
+"pg":16,
+"anchors":[
+"R-1.3a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La <u><b>largeur de bande occupée</b></u> (ou bande passante) doit rester dans la bande attribuée et ne doit pas dépasser :<p style=\"margin:0 0 0 0.6em\">- <b>6 kHz</b> pour les fréquences inférieures à 28 MHz, </p><p style=\"margin:0 0 0 0.6em\">- <b>12 kHz</b> entre 28 et 144 MHz (donc sur les bandes des 28 et 50 MHz) </p><p style=\"margin:0 0 0 0.6em\">- <b>20 kHz</b> entre 144 et 225 MHz <i>(annexe 3 à la décision 12-1241)</i>, </p><p style=\"margin:0 0 0 0.6em\">- <b>aucune limite n’est fixée au-delà de 225 MHz</b>. Toutefois, « en choisissant la classe d'émission, tous les efforts doivent être faits pour réduire le plus possible la largeur de bande occupée, compte tenu des considérations techniques et d'exploitation concernant le service à assurer » <i>(§3 du préambule de la décision</i> <i>12-1241 rappelant la disposition S15.9 du RR).</i></p><p style=\"margin:0 0 0 1.1em\"><i>La largeur de bande transmise peut être codée par un préfixe de la classe d’émission (voir §R-1.2a)</i> </p>",
+"pg":16,
+"anchors":[
+"R-1.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Avant 2012, le niveau relatif des rayonnements non essentiels était d'au moins -50 dB pour une puissance</i> <i>inférieure ou égale à 25 W et -60 dB au-delà.</i> Depuis 2012, le <u><b>niveau de puissance maximal toléré pour les</b></u> <u><b>rayonnements non essentiels</b></u> doit être conforme à l’appendice 3 du RR <i>(§4 du préambule de la décision 12-</i><i>1241)</i>. Ce niveau, défini par rapport à la puissance de l’émission fondamentale (dBc), ne devra pas dépasser <b>43 dB + 10 log[P]</b> où P est la puissance de l’émetteur (PEP en AM ou en BLU) et où 10 log[P] est la puissance de l’émetteur exprimée en dBW <i>(voir §R-5.1 pour les définitions des décibels (dB, dBc, dBW) et les calculs)</i>. Le RR limite le niveau des rayonnements non essentiels au moins contraignant entre la formule générale et :<p style=\"margin:0 0 0 0.6em\">- <b>–50 dBc</b> pour les <b>fréquences inférieures à 30 MHz</b> <i>(cette limite ne s’applique qu’au service amateur)</i></p><p style=\"margin:0 0 0 0.6em\">- <b>–70 dBc</b> pour les <b>fréquences supérieures à 30 MHz</b>. La puissance d’émission étant limitée à 120 W sur ces fréquences, soit environ 21 dBW, l’atténuation à rechercher est au maximum de <b>–</b>64 dBc (43 + 21). </p>Les rayonnements non essentiels sont les <b>émissions non désirées</b> qui ne sont pas dans le domaine des <b>émissions</b> <b>hors bande</b> (rayonnements adjacents à la <b>bande passante nécessaire</b> pour l’émission, communément appelés « moustaches » ou « splatters », à ne pas confondre avec des émissions qui ne se situent pas dans les bandes de fréquences attribuées au service amateur). La frontière entre les rayonnements non essentiels et les émissions hors bande est définie dans l’appendice 3 du RR : <b>2,5 fois la bande</b> <b>passante nécessaire</b> (BP) de part et d’autre de la fréquence centrale de l’émission et pas moins de :<p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> 10 kHz pour les fréquences &lt; à 30 MHz </p><p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> 62,5 kHz de 30 MHz à 1 GHz </p><p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>250 kHz de 1 à 10 GHz</i> </p><p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>750 kHz de 10 à 15 GHz</i></p><p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>1,25 MHz de 15 à 26 GHz</i></p><p style=\"margin:0 0 0 1.7em\"><span style=\"font-family:'Liberation Mono'\">o</span> <i>2,5MHz au-delà de 26 GHz</i></p>En applicant la formule générale (<i>43 dB + 10 log[P]</i>) <b>pour les fréquences supérieures à 30 MHz, le niveau</b> <b>des rayonnements non essentiels ne peut jamais excéder -43 dBW</b> (soit -13 dBm ou encore <b>50 µW</b>).",
+"pg":16,
+"anchors":[
+"R-1.3c"
+]
+},
+{
+"t":"fig",
+"id":"c016_1",
+"pg":16,
+"indent":207
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>La décision ARCEP 12-1241 ne fait pas de référence explicite aux normes européennes CISPR 11 et</i> <i>EN 301 783. Pour autant, nos appareils sont concernés par ces deux normes puisqu’elles définissent les</i> <i>« exigences essentielles », voir §R-4.2d. Les</i> <i><b>perturbations réinjectées dans le réseau de distribution électrique</b></i> <i>sont limitées par la norme</i> <i><b>CISPR 11</b></i> <i>(plus contraignante que l’ancienne EN 55011). Selon cette norme, les</i> <i>appareils radioamateurs sont du groupe 2 (matériel d’émission radioélectrique) et de classe B (usage</i> <i>domestique). Leurs perturbations réinjectées dans le réseau électrique ne devront pas dépasser :</i><p style=\"margin:0 0 0 0.6em\">- <i>une valeur décroissant linéairement avec la fréquence de 2 mV à 0,15 MHz jusqu’à 0,63 mV à 0,5 MHz</i> </p><p style=\"margin:0 0 0 0.6em\">- <i>0,63 mV (soit 56 dBµV) entre 0,5 et 5 MHz (dBµV signifie « décibel par rapport à 1 µV », voir §R-5.1b)</i> </p><p style=\"margin:0 0 0 0.6em\">- <i>1 mV (soit 60 dBµV) entre 5 et 30 MHz</i> </p><p style=\"margin:0 0 0 1.1em\"><i>(rappel des valeurs de l’ancienne norme EN 55011 : 2 mV de 0,15 à 0,5 MHz ; 1 mV de 0,5 à 30 MHz)</i> </p>",
+"pg":16,
+"anchors":[
+"R-1.3d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <i>La norme</i> <i><b>EN 301 783</b></i> <i>fixe les</i> <i><b>caractéristiques techniques à respecter pour les équipements radioamateurs</b></i> <i>(en émission et en réception) mis sur le marché. La norme reprend les valeurs limites édictées par l’appendice 3</i> <i>du RR et la méthode à utiliser pour les mesures est décrite. Les seuils d’immunité aux perturbations</i> <i>électromagnétiques (voir §R5-4a) sont aussi précisés.</i>",
+"pg":16,
+"anchors":[
+"R-1.3e"
+]
+}
+]
+}

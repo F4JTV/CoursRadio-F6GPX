@@ -1,0 +1,621 @@
+{
+"id":"T-4",
+"title":"4) DÉCIBEL, CIRCUITS R-C et L-C, LOI de THOMSON",
+"short":"4 Décibel, circuits RC et LC",
+"blocks":[
+{
+"t":"chapter",
+"html":"4) DÉCIBEL, CIRCUITS R-C et L-C, LOI de THOMSON",
+"pg":57
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>4.1) Le décibel</b></u></span> (noté dB) est une unité permettant d'exprimer un <u><b>rapport</b></u> entre deux unités de même nature. Dans le domaine de la radioélectricité, cette unité est souvent la puissance (le watt) mais d’autres unités peuvent être utilisées. A notre opinion, bien que ce ne soit pas clairement précisé dans les textes, seuls les décibels exprimant un rapport de puissance sont au programme de l’épreuve de technique.<br><span style=\"color:#000080\"><b>Gain</b></span> <span style=\"color:#000080\">(dB) =</span> <span style=\"color:#000080\"><b>10 log (P</b></span><span style=\"color:#000080\"><sub><b>s</b></sub></span> <span style=\"color:#000080\"><b>/ P</b></span><span style=\"color:#000080\"><sub><b>e</b></sub></span><span style=\"color:#000080\"><b>)</b></span> ou <span style=\"color:#000080\"><b>P</b></span><span style=\"color:#000080\"><sub><b>s</b></sub></span> <span style=\"color:#000080\"><b>= 10</b></span> <span style=\"color:#000080\"><sup><b>(dB / 10)</b></sup></span> <span style=\"color:#000080\"><b>x P</b></span><span style=\"color:#000080\"><sub><b>e</b></sub></span> avec P<sub>s</sub> = puissance de sortie et P<sub>e</sub> = puissance d'entrée",
+"pg":57,
+"anchors":[
+"T-4.1",
+"T-4.1a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><b>Table de conversion</b></u><u></u> : le nombre des dizaines de dB correspond à l’exposant de la puissance de 10 du rapport de puissance (c’est-à-dire au nombre de 0 du rapport arithmétique). Les principales unités de dB sont indiquées en gras dans le tableau ci-dessous (0, 3, 6, 7, 9 dB correspond à un rapport arithmétique arrondi de 1, 2, 4 5 et 8).",
+"pg":57,
+"anchors":[
+"T-4.1b"
+]
+},
+{
+"t":"fig",
+"id":"c057_1",
+"pg":57,
+"min":6.5
+},
+{
+"t":"p",
+"html":"Soit un rapport arithmétique de 400 à <u><b>convertir en décibels</b></u> (exemple 2 ci-dessous) : on pose 400 = 10² x 4. Dans le tableau ci-dessus, le nombre des dizaines de dB (1<sup>ère</sup> ligne) est 2 (et correspond à la puissance de 10) et le nombre d’unités de dB (2<sup>ème</sup> ligne) est 6 (6 correspond à un rapport de 4), d’où un nombre de dB de 26. Inversement, soit un gain de 26 dB à <u><b>convertir en rapport arithmétique</b></u> : les lignes du tableau sont lues dans l’autre sens : le nombre des dizaines de dB est l’exposant de 10 (dans notre exemple, 2 correspond à 10², soit<br>100) et le rapport correspondant à 6 unités de dB est 4, d’où un rapport arithmétique de : 100 x 4 = 400",
+"pg":57
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span><br>Rapport arithmétique → dB :<p style=\"margin:0 0 0 1.2em\"><b>1)</b> Rapport = 8 → <span style=\"color:#800000\">9 dB</span></p><p style=\"margin:0 0 0 1.2em\"><b>2)</b> Rapport = 400 = 100 x 4 = 10² x 4 → <span style=\"color:#800000\">26 dB</span></p>",
+"pg":57
+},
+{
+"t":"ex",
+"html":"dB → Rapport arithmétique :<p style=\"margin:0 0 0 1.1em\"><b>3)</b> 16 dB → 10<sup>1</sup> x 4 = 10 x 4 = <span style=\"color:#800000\">40</span></p><p style=\"margin:0 0 0 1.1em\"><b>4)</b> 20 dB → 10² x 1 = 100 x 1 = <span style=\"color:#800000\">100</span></p><p style=\"margin:0 0 0 1.1em\"><b>5)</b> 33 dB → 10<sup>3</sup> x 2 = 1000 x 2 = <span style=\"color:#800000\">2000</span></p>",
+"pg":57
+},
+{
+"t":"fig",
+"id":"c057_3",
+"pg":57,
+"indent":248
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Sur une calculette, en écriture naturelle</u></span> <span style=\"color:#800000\">:</span><br>Pour passer du rapport arithmétique au décibel : 10 x [LOG] 2000 = 33,0103 arrondi à 33<br>Pour passer des décibels au rapport arithmétique : [10<sup>x</sup>] (33 ÷ 10) = 1995,26 arrondi à 2000<p style=\"margin:0 0 0 2.6em\">ou, si la calculette ne possède pas la fonction [10<sup>x</sup>] : 10 [^] (33 ÷ 10) = 1995,26 </p><p style=\"margin:0 0 0 2.6em\"><u>Attention</u>, ne pas utiliser la fonction « .10 <sup>x</sup> » (ou E<sup>x</sup>), utilisée pour saisir des multiples, mais utiliser la fonction « 10 puissance x », généralement proche, sur les calculettes, de la fonction « LOG » </p>",
+"pg":57
+},
+{
+"t":"ex",
+"html":"Dans l’exemple ci-dessus, nous avons arrondi à 2000 et non pas à 1995 car les valeurs indiquées dans la table sont arrondies. Il faudra toujours <u><b>arrondir le résultat de la calculette</b></u>, plus précis, car ce sont les valeurs arrondies (celles de la table de conversion simplifiée) qu’il faut connaître pour l’examen.",
+"pg":57,
+"indent":29
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Un <u><b>nombre de dB négatif</b></u> inverse le rapport arithmétique et indique une atténuation et non un gain (exemple : – 16 dB = 1 / (10 x 4) = 1 / 40 = 0,025).",
+"pg":57,
+"anchors":[
+"T-4.1c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Les décibels se définissent à partir des logarithmes et possèdent donc les caractéristiques de ces derniers : ils transforment les gains successifs (multiplication) en addition, les pertes (division) en soustraction, les puissances et les racines (affaiblissement linéique) en multiplication et en division.",
+"pg":57,
+"anchors":[
+"T-4.1d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> La perte d’un câble est appelée <u><b>l’affaiblissement linéique</b></u> car elle est fonction de la longueur du câble. Cette perte est exprimée en dB/m (voir §10.1a).",
+"pg":57,
+"anchors":[
+"T-4.1e"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quel est le gain (en dB) de l’ensemble de réception représenté ci-dessous ?",
+"pg":57,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c057_2",
+"pg":57
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Réponse :</u></span><br>Perte du câble coaxial au mètre : 3 dB / 100 = 0,03 dB donc perte du câble coaxial : 0,03 dB/m x 33 m = 1 dB Gain de l'ensemble : 19 dB + 20 dB – 1 dB – 2 dB = <span style=\"color:#800000\">36 dB</span> <i>(soit un rapport arithmétique de 4000</i>)",
+"pg":57
+},
+{
+"t":"ex",
+"html":"<i>Calcul de la perte du câble à partir du rapport arithmétique : perte arithmétique pour 100 mètres = 0,5 donc pour</i> <i>1/3 de longueur de câble, perte arithmétique =</i> <sup><i>3</i></sup><i>√(0,5) « racine cubique de 0,5 » ≈ 0,8 soit 20% pour 33 mètres.</i> <i>Par tâtonnements, on trouve que 0,8</i><sup><i>3</i></sup> <i>= 0,8 x 0,8 x 0,8 ≈ 0,5 ; donc</i> <sup><i>3</i></sup><i>√(0,5) (= 0,5</i><sup><i>1/3</i></sup><i>) ≈ 0,8. La racine cubique</i> <i>(notée</i> <sup><i>3</i></sup><i>√) est utilisée car la longueur du coaxial (33 m) est de 1/3 de la longueur de référence (100 m). Si le</i> <i>câble utilisé était long de 200 m, la perte arithmétique serait de 0,5² = 0,25 (= 1/4 = –6 dB, soit 0,03 dB x 200).</i> <i>La simplification en calculant avec les décibels est évidente dans cet exemple.</i> <i>Les calculs seraient difficilement</i> <i>réalisables si les rapports des longueurs n’étaient pas des rapports simples (1/3 et x2 dans nos exemples).</i>",
+"pg":57
+},
+{
+"t":"ex",
+"html":"<i>Autres conversions : antenne : 19 dB correspond à un rapport de 80 ; préamplificateur : 20 dB correspond à un</i> <i>rapport de 100 ; connecteur HF : -2 dB correspond à un rapport de 1 / 1,58 soit 0,63.</i>",
+"pg":57
+},
+{
+"t":"ex",
+"html":"<i>Calcul du rapport arithmétique de l’ensemble : 80 x 100 x 0,8 x 0,63 = 4032 ≈ 4000 (écart dû aux arrondis)</i>",
+"pg":57,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>Lorsque les</i> <u><i>valeurs du rapport</i></u> <i>sont</i> <u><i>exprimées en tension</i></u><i>, les formules deviennent :</i> <span style=\"color:#000080\"><i><b>Gain (dB) = 20 log (U</b></i></span><span style=\"color:#000080\"><sub><i><b>s</b></i></sub></span> <span style=\"color:#000080\"><i><b>/</b></i></span> <span style=\"color:#000080\"><i><b>U</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span><span style=\"color:#000080\"><i><b>)</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>U</b></i></span><span style=\"color:#000080\"><sub><i><b>s</b></i></sub></span> <span style=\"color:#000080\"><i><b>= 10</b></i></span> <span style=\"color:#000080\"><sup><i><b>(dB / 20)</b></i></sup></span> <span style=\"color:#000080\"><i><b>. U</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span><i><b>.</b></i> <i>Le rapport des puissances est le carré du rapport des tensions (car P = U² / R). Le</i> <i>gain (en dB) est le double de celui calculé lorsque les valeurs sont exprimées en watts (effet du logarithme) : un</i> <i>rapport de tension de 2 correspond à 6 dB (=3 dB x 2 ; 3 dB correspond à un rapport de puissance de 2).</i>",
+"pg":58,
+"anchors":[
+"T-4.1f"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple</b></i></u></span> <span style=\"color:#800000\"><i>:</i></span> <i>Quel est le gain (en dB) de l’amplificateur représenté ci-dessous ?</i><p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\"><u><i>Réponse</i></u></span> <span style=\"color:#800000\"><i>:</i></span> <i>Le rapport des tensions est U</i><sub><i>s</i></sub> <i>/ U</i><sub><i>e</i></sub> <i>= 16 / 8 = 2. Le rapport des puissances est</i> <i>donc 2² = 4. Le rapport de puissance de 4 correspond à un gain de 6 dB (= 3 dB x 2)</i> </p><p style=\"margin:0 0 0 4em\"><i>Autre méthode : Gain = 20 log (U</i><sub><i>s</i></sub> <i>/ U</i><sub><i>e</i></sub><i>) = 20 log (8 / 4) = 20 log (2) = 20 x 0,3 =</i> <span style=\"color:#800000\"><i>6 dB</i></span></p><p style=\"margin:0 0 0 4em\"><i>Attention : ceci n’est valable que si les impédances d’entrée et de sortie (Z</i><sub><i>e</i></sub> <i>et Z</i><sub><i>s</i></sub><i>) sont</i> <span style=\"font-family:'Liberation Sans'\"><i>identiques. Sinon, la formule devient :</i></span> <span style=\"color:#000080\"><i><b>Gain (dB) = 20 log (U</b></i></span><span style=\"color:#000080\"><sub><i><b>s</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ U</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span><span style=\"color:#000080\"><i><b>) + 10 log (Z</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ Z</b></i></span><span style=\"color:#000080\"><sub><i><b>s</b></i></sub></span><span style=\"color:#000080\"><i><b>)</b></i></span> <i>puisque, à tension égale, la puissance est inversement proportionnelle à l’impédance (P = U² / R).</i></p>",
+"pg":58
+},
+{
+"t":"fig",
+"id":"c058_1",
+"pg":58
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>4.2) Un circuit RC</b></u></span> est un filtre composé d’une résistance et d’un condensateur. Selon la place des composants, ce filtre laissera passer soit les fréquences supérieures à la fréquence de coupure (filtre passe-haut), soit les fréquences inférieures (filtre passe-bas). Les filtres RC sont essentiellement dédiés aux basses fréquences. A la <u><b>fréquence de coupure</b></u>, l’impédance du condensateur est égale à la résistance, d'où <b>:</b>",
+"pg":58,
+"anchors":[
+"T-4.2",
+"T-4.2a"
+]
+},
+{
+"t":"fig",
+"id":"c058_2",
+"pg":58
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple</b></u></span> <span style=\"color:#800000\">:</span> Quelle est la fréquence de coupure du filtre RC représenté ci-contre ?<br><span style=\"color:#800000\"><u>Sur une calculette</u></span> <span style=\"color:#800000\">:</span><br><span style=\"color:#800000\">en écriture naturelle</span> : f = 1 ÷ (2 x [π] x 200<i>(R)</i> x 5.10<sup>-6</sup><i>(C)</i>) = 159,15.10<sup>0</sup> = <span style=\"color:#800000\">159 Hz</span> <span style=\"color:#800000\">formule simplifiée</span> : f<i>(en Hz)</i> = 159 ÷ 0,2 <i>(R en kΩ)</i> ÷ 5 <i>(C en µF)</i> = <span style=\"color:#800000\">159 Hz</span>",
+"pg":58
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><b>Mnémotechnique :</b></u> dans un schéma de filtre passe-bas, le condensateur est en bas. Le condensateur est en haut dans le schéma d’un filtre passe-haut. Attention : pour que l’expression mnémotechnique fonctionne, il faut que, dans le schéma, la masse (représentée sur le schéma par le trait gras) soit en bas.",
+"pg":58,
+"anchors":[
+"T-4.2b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> L’<u><b>octave supérieure</b></u> est l'harmonique 2 d'une fréquence (2 fois la fréquence). La 2<sup>ème</sup> octave est l'harmonique 4 (4 fois la fréquence). La 3<sup>ème</sup> octave est l’harmonique 8 (= 2<sup>3</sup> et non pas l’harmonique 3 qui n’est pas une octave). La <u><b>décade supérieure</b></u> est l'harmonique 10 d'une fréquence. La 2<sup>ème</sup> décade supérieure est la fréquence multipliée par 100 (= 10<sup>2</sup>). L’octave inférieure qui n’est pas un harmonique est la fréquence de référence divisée par 2 (et par 10 pour la décade inférieure).",
+"pg":58,
+"anchors":[
+"T-4.2c"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> Soit une fréquence de 150 kHz. Calculez sa 5<sup>ème</sup> octave supérieure et sa 3<sup>ème</sup> décade inférieure.<br><span style=\"color:#800000\"><u>Réponses :</u></span> 5<sup>ème</sup> octave supérieure = fréquence x 2<sup>5</sup> = f x 32 = 150 kHz x 32 = 4800 kHz = <span style=\"color:#800000\">4,8 MHz</span> 3<sup>ème</sup> décade inférieure = fréquence / 10<sup>3</sup> = f / 1000 = 150 kHz / 1000 = <span style=\"color:#800000\">150 Hz</span>",
+"pg":58
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> L'<u><b>atténuation</b></u> de ces deux filtres est de <u><b>3 dB à la fréquence de coupure</b></u> (la puissance du signal à la sortie de ce filtre est divisée par 2) et de <u><b>6 dB par octave à partir de la fréquence de coupure</b></u> (par octave supérieure pour un filtre passe bas et par octave inférieure pour un filtre passe haut).",
+"pg":58,
+"anchors":[
+"T-4.2d"
+]
+},
+{
+"t":"p",
+"html":"Le phénomène d’atténuation s’explique ainsi : la tension de sortie du filtre est fonction du rapport entre l’impédance du condensateur et l’impédance du circuit série résistance + condensateur <i>(§1.7b, répartition des</i> <i>tensions dans un groupement série et §2.5b, condensateur non parfait)</i>. A la fréquence de coupure, par définition, l’impédance du condensateur est égale à la résistance. A la sortie du circuit, la tension est divisée par 1,414 car le circuit série R+C a une impédance 1,414 fois supérieure à R (effet du déphasage de 90°). La puissance est donc divisée par 2 (puisque P=U²/R), soit une atténuation de 3 dB Dans un filtre passe-haut, lorsque la fréquence du signal augmente, l’impédance du condensateur diminue alors que la résistance est constante : la tension aux bornes de la résistance (celle de sortie du filtre) augmente et l’atténuation est moindre. Inversement, l’atténuation augmente quand la fréquence diminue et l’atténuation d’un filtre passe-bas augmente quand la fréquence s’élève. Le même phénomène se produit avec les circuits LC passe-haut et passe-bas (§ 4.3).",
+"pg":58
+},
+{
+"t":"fig",
+"id":"c058_3",
+"pg":58,
+"indent":326
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple :</b></i></u></span> <i>Quelle est la tension V</i><sub><i>s</i></sub> <i>lorsque la fréquence de V</i><sub><i>e</i></sub> <i>est de 6 kHz ?</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>la fréquence de coupure du filtre est : F=1/(2 x π x 21,22 x 5.10</i><sup><i>-6</i></sup><i>) ≈</i><p style=\"margin:0 0 0 1.4em\"><i>1500 Hz. 6 kHz est la 2</i><sup><i>ème</i></sup> <i>octave supérieure de la fréquence de coupure.</i> </p><p style=\"margin:0 0 0 1.4em\"><i>L’atténuation de ce filtre à cette fréquence est donc de 12 dB. Le rapport</i> <i>de tension correspondant à –12 dB est : 10</i><sup><i>(-12/20)</i></sup> <i>= 10</i><sup><i>(-0,6)</i></sup> <i>= 0,25. Donc : V</i><sub><i>s</i></sub> <i>= V</i><sub><i>e</i></sub> <i>x 0,25 =</i> <span style=\"color:#800000\"><i>1 V</i></span><i>.</i> </p><p style=\"margin:0 0 0 1.4em\"><i>Plus précisément, Z</i><sub><i>C</i></sub> <i>= 1/(2πfC) = 5,3052 Ω ; Z</i><sub><i>RC</i></sub> <i>= √(21,22² + 5,3052²) = 21,873 Ω</i> </p><p style=\"margin:0 0 0 1.4em\"><i>V</i><sub><i>s</i></sub> <i>= V</i><sub><i>e</i></sub> <i>x (Z</i><sub><i>C</i></sub> <i>/ Z</i><sub><i>RC</i></sub><i>) = 4 x (5,3052 / 21,873) = 0,9702 V soit une atténuation de 12,3 dB (20 log[0,9702 / 4] =</i> <i>12,304) au lieu des 12 dB prévus initialement (voir la courbe réelle au §4.3g).</i> </p>",
+"pg":58
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <i>Les bobines ayant un comportement inverse par rapport aux condensateurs, les</i> <i>circuits RL ont un comportement inverse par rapport aux circuits RC. La fréquence</i> <i>de coupure des circuits RL est :</i> <span style=\"color:#000080\"><i><b>f = R / (2πL)</b></i></span><span style=\"color:#000080\"><i>.</i></span> <i>Ces circuits montés en passe-haut ou</i> <i>passe-bas (en inversant la place de la bobine) ont les mêmes caractéristiques que les</i> <i>circuits RC.</i>",
+"pg":59,
+"anchors":[
+"T-4.2e"
+]
+},
+{
+"t":"fig",
+"id":"c059_3",
+"pg":59,
+"indent":365
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>4.3) Les circuits LC</b></u></span> sont des filtres composés de bobines et de condensateurs. Ces filtres, s’ils sont montés comme les filtres RC (la bobine remplaçant la résistance), ont un effet de coupure. Seuls les circuits LC ont un effet de résonance à une fréquence s’ils sont montés en série ou en parallèle. Les filtres LC sont utilisés dans le domaine de la Haute Fréquence (HF). A la résonance comme à la coupure, on a Z<sub>C</sub> = Z<sub>L</sub> (<u><b>loi de Thomson</b></u>), d'où :",
+"pg":59,
+"anchors":[
+"T-4.3",
+"T-4.3a"
+]
+},
+{
+"t":"fig",
+"id":"c059_1",
+"pg":59
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le tableau ci-après récapitule les quatre montages de base des filtres LC. Comme pour les filtres RC, l’expression mnémotechnique citée plus haut sera employée pour reconnaître les filtres passe-haut ou passe-bas (« dans un filtre passe-haut, le condensateur est en haut et dans un filtre passe-bas, le condensateur est en bas »).",
+"pg":59,
+"anchors":[
+"T-4.3b"
+]
+},
+{
+"t":"p",
+"html":"Les graphiques expriment l’atténuation du signal à la sortie du filtre en fonction de la fréquence. 0 dB signifie qu’il n’y a aucune atténuation. L’axe des fréquences est souvent logarithmique (comme l’axe des décibels). D’autres graphiques expriment la tension aux bornes du circuit ou son impédance en fonction de la fréquence.",
+"pg":59
+},
+{
+"t":"p",
+"html":"<u><b>Tableau comparatif des 4 montages de base des circuits LC</b></u>",
+"pg":59,
+"align":"left",
+"indent":101
+},
+{
+"t":"fig",
+"id":"c059_2",
+"pg":59
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quelle est la fréquence de résonance d'un circuit bouchon avec L = 32 µH et C = 200 pF ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> f(MHz) = 159 / [√(L(µH).C(pF)] = 159 / [√(32 x 200)] = 159 / √(6400) = 159 / 80 = 1,9875 ≈ <span style=\"color:#800000\">2 MHz</span>",
+"pg":59
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Sur une calculette :</u></span><p style=\"margin:0 0 0 1.3em\"><span style=\"color:#800000\">en écriture naturelle :</span> 1 ÷ (2 x [π] x [√] (32.10<sup>-6</sup><i>(L)</i> x 200.10<sup>-12</sup><i>(C)</i>)) = 1,98944.10<sup>6</sup> arrondi à <span style=\"color:#800000\">2 MHz</span> <span style=\"color:#800000\">formule simplifiée :</span> f<i>(en MHz)</i> = 159 / √[L . C] = 159 ÷ √ [32 <i>(L en µH)</i> x 200 <i>(C en pF)</i>] = 1,9875 ≈ <span style=\"color:#800000\">2 MHz</span></p>",
+"pg":59
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <u><b>Le filtre bouchon</b></u> est un filtre utilisé pour bloquer les signaux HF d’une fréquence désirée. Lorsque le condensateur est rempli, il cherche à se vider et le courant qui en sort parcourt la bobine qui génère un champ magnétique. Lorsque les armatures du condensateur sont au même potentiel, le champ magnétique de la bobine est maximum et va générer un courant qui remplit le condensateur d’une tension inverse à celle du départ. Lorsque la bobine a restitué toute son énergie, son champ magnétique est nul et le condensateur est à nouveau rempli mais en sens inverse du départ. Et le condensateur cherche à nouveau à se vider. Si ce phénomène se produit en phase avec le signal aux bornes du circuit, il y a résonance et l’impédance très élevée du circuit empêche le courant HF de traverser ce filtre.",
+"pg":59,
+"anchors":[
+"T-4.3c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Dans <u><b>le filtre série</b></u>, le même phénomène se produit. Mais, dans ce cas, si le signal aux bornes du circuit est en phase avec le courant parcourant la bobine et le condensateur, le signal traversera le filtre.",
+"pg":59,
+"anchors":[
+"T-4.3d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> La fréquence que donne la loi de Thomson est appelée <u><b>fréquence de résonance</b></u> dans le cas des circuits bouchon ou série et <u><b>fréquence de coupure</b></u> dans le cas des circuits passe bas et passe haut. <u><b>Pour baisser la</b></u> <u><b>fréquence de résonance</b></u> (ou de coupure) d'un circuit LC, il faut soit augmenter la valeur du condensateur, soit augmenter la valeur du bobinage (en particulier en introduisant un noyau magnétique à l’intérieur de l’enroulement). Inversement, <u><b>pour augmenter la fréquence</b></u>, il faut réduire la valeur du condensateur et/ou du bobinage. Pour doubler la fréquence de résonance, la valeur du condensateur ou du bobinage sera divisée par 4 (effet de la racine carrée). Inversement, la valeur du bobinage ou du condensateur sera multipliée par 9 pour diviser par 3 la fréquence de résonance du circuit.",
+"pg":59,
+"anchors":[
+"T-4.3e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <u><b>L’atténuation</b></u> d’un circuit passe bas ou passe haut est de <u><b>3 dB à la fréquence de coupure</b></u> et, à partir de cette fréquence, l’atténuation est, pour les octaves supérieures dans le cas des filtres passe bas (et pour les octaves inférieures dans le cas des filtres passe haut), <u><b>de 6 dB par éléments actifs et par octave</b></u> ou <u><b>20 dB par décade et</b></u> <u><b>par éléments actifs.</b></u> Les bobines et les condensateurs sont des éléments actifs. Dans un filtre RC, seul le condensateur est un élément actif. Un circuit passe bas LC constitué d’une seule cellule (donc deux éléments actifs) aura, à partir de la fréquence de coupure une atténuation de 12 dB (2 x 6) par octave ou encore de 40 dB (2 x 20) par décade. Ce filtre est appelé filtre du deuxième ordre car c’est le carré de la fréquence qui intervient dans sa fonction de transfert (rapport entre grandeur d’entrée et grandeur de sortie).",
+"pg":60,
+"anchors":[
+"T-4.3f"
+]
+},
+{
+"t":"p",
+"html":"<i>Un filtre passe bas composé de deux cellules LC identiques (2 circuits comportant chacun une bobine et un</i> <i>condensateur, soit 4 éléments) aura, à la troisième octave supérieure (harmonique 8), une atténuation 72 dB</i> <i>(6 dB x 4 éléments x 3 octaves) et, à la décade supérieure, une atténuation de 80 dB (20 dB x 4 éléments</i><i><b>).</b></i>",
+"pg":60
+},
+{
+"t":"p",
+"html":"<u><i><b>Attention</b></i></u> <u><i>:</i></u> <i>une cellule peut comporter plusieurs éléments de même nature (condensateurs ou bobines) montés en</i> <i>série ou en parallèle pour former une association fonctionnant comme un seul élément (condensateur ou bobine</i> <i>équivalent). Le nombre d’éléments d’un circuit ne détermine donc pas forcément les propriétés du circuit (voir</i> <i>cas du circuit en pi au §4.5).</i>",
+"pg":60
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> Les courbes de réponse des filtres sont souvent représentées par des graphiques dont les échelles sont logarithmiques : l’échelle des abscisses (axe horizontal) donne les fréquences : chaque doublement de la fréquence prend la même place. L’atténuation du filtre (en dB) est donnée sur l’échelle des ordonnées (axe vertical). La particularité d’un tel graphique est que le point d’origine (où se rencontrent l’abscisse et l’ordonnée) n’a sur aucun des axes pour valeur 0. La courbe de réponse des filtres sur de tels graphiques longe une droite brisée à la fréquence de coupure. La courbe est asymptotique : elle se rapproche de plus en plus des droites sans jamais les couper ni même les atteindre.",
+"pg":60,
+"anchors":[
+"T-4.3g"
+]
+},
+{
+"t":"fig",
+"id":"c060_2",
+"pg":60,
+"indent":296
+},
+{
+"t":"p",
+"html":"<i>Dans ce graphique, la pente a son origine à la fréquence de coupure (fc). La courbe d’atténuation (en trait</i> <i>coupé gras sur le graphique) est asymptotique à cette pente puis, au-delà de la fréquence de coupure, la courbe</i> <i>devient asymptotique à l’axe indiquant 0 dB. Le graphique ci-dessus représente un filtre passe haut. Pour un</i> <i>filtre passe bas, la courbe est inversée (la pente est négative) mais les caractéristiques sont les mêmes.</i>",
+"pg":60
+},
+{
+"t":"p",
+"html":"<i>Dans le graphique ci-dessus, pour la fréquence ½ f, la courbe d’atténuation (réelle) suit de très près la pente</i> <i>(théorique) du filtre. Ce filtre, dont la pente est d’environ 40 dB/octave, pourrait être un circuit à 7 éléments</i> <i>actifs (6 dB x 7 éléments = 42 dB), composé, par exemple, de 4 condensateurs et 3 bobines. Ce filtre serait donc</i> <i>un filtre du 7</i><sup><i>ème</i></sup> <i>ordre. Si ce filtre était passe bas, à l’harmonique 3, l’atténuation serait égale à 42 dB x √2</i> <i>= 59,4 dB (proche de –60 dB correspondant dans notre exemple à l’atténuation à</i> <sup><i>1</i></sup><i>/</i><sub><i>3</i></sub> <i>f, plus proche sur le</i> <i>graphique de ¼ f que de ½ f car l’échelle n’est pas linéaire mais logarithmique).</i>",
+"pg":60
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>4.4) Les circuits RLC</b></u></span> sont des circuits LC non parfaits : le circuit est alors constitué d’un condensateur, d’une bobine et d’une résistance fictive R montée soit en série avec la bobine, représentant la résistance du circuit (principalement de la bobine) comme dans le circuit série ou le circuit bouchon, soit en parallèle avec le condensateur représentant son défaut d’isolement. Aussi, dans les formules ci-dessous, la réactance (X<sub>L</sub>) sera distinguée de l’impédance (Z<sub>L</sub>), cette dernière incluant R. A cause de cette résistance parasite (représentée en pointillé car ce n’est pas un composant), l’impédance des circuits à la résonance n’est plus nulle ou infinie. Cette résistance a une incidence négligeable sur la pente d’atténuation des filtres passe-haut ou passe-bas.",
+"pg":60,
+"anchors":[
+"T-4.4",
+"T-4.4a"
+]
+},
+{
+"t":"fig",
+"id":"c060_1",
+"pg":60
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> calcul de la fréquence de résonance : fo = 159 / √(LC) = 159 / √(25 x 100) = 159 / 50 = <span style=\"color:#800000\">3,18 MHz</span>",
+"pg":60,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Sur une calculette :</u></span><p style=\"margin:0 0 0 1.3em\"><span style=\"color:#800000\">en écriture naturelle :</span> fo = 1 ÷ (2 x [π] x [√] (25.10<sup>-6</sup><i>(L)</i> x 100.10<sup>-12</sup> <i>(C)</i>)) = 3,183.10<sup>6</sup> converti en <span style=\"color:#800000\">3,183 MHz</span> <span style=\"color:#800000\">formule simplifiée :</span> fo = 159 / √(L.C) = 159 ÷ (√ (25 <i>(L en µH)</i> x 100 <i>(C en pF)</i>)) = <span style=\"color:#800000\">3,18 MHz</span></p>",
+"pg":60
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> L’effet de peau fait que la résistance du fil de la bobine est plus importante que sa simple mesure à l’ohmmètre : le courant HF ne circule qu’à la périphérie du fil. <i>L’épaisseur de la « peau » (en m) se calcule avec</i> <i>la formule (voir aussi formule simplifiée au §1.4e) :</i> <span style=\"color:#000080\"><i><b>√ [ρ(Ωm) / π.µ</b></i></span><span style=\"color:#000080\"><sub><i><b>o</b></i></sub></span><span style=\"color:#000080\"><i><b>.µ</b></i></span><span style=\"color:#000080\"><sub><i><b>r</b></i></sub></span><span style=\"color:#000080\"><i><b>.f(Hz)]</b></i></span> <i>avec µ</i><sub><i>r</i></sub> <i>et ρ propre au fil utilisé :</i> <i>dans la première « peau » passe 63% du courant puis, dans la seconde peau de même épaisseur, passe 63% du</i> <i>courant restant et ainsi de suite. Cette progression est similaire à celle de la charge du condensateur (§2.4a).</i>",
+"pg":60,
+"anchors":[
+"T-4.4a1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> Impédance du <u><b>circuit série</b></u> : Z<sub>série</sub> = √(R² + [ωL – 1/ωC]²) <i>(voir § 2.5c)</i>. A la fréquence de résonance, par définition, on a X<sub>L</sub> = X<sub>C</sub> donc ωL = 1 / ωC, donc ωL – (1 / ωC) = 0, donc <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= R</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <b>à la résonance</b>",
+"pg":60,
+"anchors":[
+"T-4.4a2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> Impédance du <u><b>filtre bouchon</b></u> : 1/Z = 1/[√((ωL)²+R²)]+1/[1/(-ωC)] avec la formule des résistances en parallèle ou la formule simplifiée des groupements : Produit des impédances / Somme des impédances, d’où :",
+"pg":60,
+"anchors":[
+"T-4.4a3"
+]
+},
+{
+"t":"fig",
+"id":"c061_2",
+"pg":61
+},
+{
+"t":"p",
+"html":"R étant petit par rapport à ωL, on a : √((ωL)² + R²) ≈ ωL et on vient de voir que, à la résonance : √(R² + [ωL – 1/ωC]²) = R, donc :<br>Z<sub>bouchon</sub> = (ωL<b>/</b>ωC)/R donc <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>= L/(R.C)</b></span> <b>à la résonance</b> ;<br>formule simplifiée : Z(kΩ) = L(μH)/R(kΩ)/C(pF)",
+"pg":61
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a4<span style=\"color:#800080\">.</span></b> Impédance du <u><b>circuit parallèle</b></u> : L et C forment une impédance infinie à la fréquence de résonance (le circuit donne l’impression d’être coupé) donc <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>parallèle</b></sub></span> <span style=\"color:#000080\"><b>= R</b></span><span style=\"color:#000080\"><sub><b>parallèle</b></sub></span> <b>à la résonance</b>.",
+"pg":61,
+"anchors":[
+"T-4.4a4"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Dans les exemples ci-dessus :</b></u></span> sans calcul, on trouve que Z<sub>série</sub> = R = <span style=\"color:#800000\">20 Ω</span> et que Z<sub>parallèle</sub> = R = <span style=\"color:#800000\">12,5 kΩ</span>",
+"pg":61,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"calcul de l’impédance à la résonance du circuit bouchon : Z<sub>bouchon</sub>(Ω) = L(H) / [R(Ω) x C(F)]<p style=\"margin:0 0 0 1.3em\">= 25.10<sup>-6</sup> /(20x100.10<sup>-12</sup>) = 25.10<sup>-6</sup> / 20.10<sup>-10</sup> = (25/20).10<sup>4</sup> = 1,25.10<sup>4</sup> = <span style=\"color:#800000\">12,5 kΩ</span></p><span style=\"color:#800000\"><u>Sur une calculette :</u></span><p style=\"margin:0 0 0 1.3em\"><span style=\"color:#800000\">en écriture naturelle :</span> Z<sub>bouchon</sub> = L / (R x C) = 25.10<sup>-6</sup> / (20 x 100.10<sup>-12</sup>) = 1,25.10<sup>4</sup> = <span style=\"color:#800000\">12,5 kΩ</span> <span style=\"color:#800000\">formule simplifiée :</span> Z<sub>bouchon</sub> = L / R / C = 25 <i>(L en µH</i>) ÷ 0,02 <i>(R en kΩ)</i> ÷ 100 <i>(C en pF)</i> = <span style=\"color:#800000\">12,5 kΩ</span></p>",
+"pg":61
+},
+{
+"t":"p",
+"html":"Ainsi, la résistance du circuit parallèle (12,5 kΩ) est équivalente à la résistance de 20 Ω du circuit bouchon.",
+"pg":61,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le <u><b>facteur Q</b></u> définit la qualité d’un circuit. Si L et C sont en parallèle (circuit bouchon ou parallèle), Q est le rapport obtenu en divisant l’impédance à la résonance (Z) par la partie réactive de la bobine ou du condensateur (X<sub>L</sub> ou X<sub>C</sub>, les deux valeurs étant identiques à la résonance). Si L et C sont en série, le rapport est inversé. Plus Q est faible, plus l’oscillation du circuit s’amortit rapidement car l’énergie disponible est dissipée dans R.",
+"pg":61,
+"anchors":[
+"T-4.4b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b1<span style=\"color:#800080\">.</span></b> Calcul du <u><b>facteur Q d’un circuit bouchon</b></u> : <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>= Z</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>/ X</b></span><span style=\"color:#000080\"><sub><b>L</b></sub></span> ou <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>= Z</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>/ X</b></span><span style=\"color:#000080\"><sub><b>C</b></sub></span><br>On a vu que : Z<sub>bouchon</sub> = L / (C x R) et on verra au §4.6a que X<sub>L</sub> (=X<sub>C</sub>) = √ (L / C). En remplaçant les valeurs Z<sub>bouchon</sub> et X<sub>L</sub> (=X<sub>C</sub>) : Q<sub>bouchon</sub> = [L / (C x R)] / [√ (L / C)]. Après transformation : <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>bouchon</b></sub></span> <span style=\"color:#000080\"><b>= √ (L / C) / R</b></span>,",
+"pg":61,
+"anchors":[
+"T-4.4b1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b2<span style=\"color:#800080\">.</span></b> Calcul du <u><b>facteur Q d’un circuit série</b></u> : <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= X</b></span><span style=\"color:#000080\"><sub><b>L</b></sub></span> <span style=\"color:#000080\"><b>/ Z</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= X</b></span><span style=\"color:#000080\"><sub><b>L</b></sub></span> <span style=\"color:#000080\"><b>/ R</b></span> ou <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= X</b></span><span style=\"color:#000080\"><sub><b>C</b></sub></span> <span style=\"color:#000080\"><b>/ Z</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= X</b></span><span style=\"color:#000080\"><sub><b>C</b></sub></span> <span style=\"color:#000080\"><b>/ R</b></span><br>On verra au §4.6a que X<sub>L</sub> (=X<sub>C</sub>) = √ (L / C) et on a vu que Z<sub>série</sub> = R<sub>série</sub>. En remplaçant les valeurs X<sub>L</sub> (=X<sub>C</sub>) et Z<sub>série</sub>, on obtient donc : <span style=\"color:#000080\"><b>Q</b></span><span style=\"color:#000080\"><sub><b>série</b></sub></span> <span style=\"color:#000080\"><b>= √ (L / C) / R</b></span> soit la même formule que Q<sub>bouchon</sub><br>Autre présentation : Q = √ (L/C/R²) ou formule simplifiée : Q<sub>bouchon</sub> = Q<sub>série</sub> = √ [L(µH) / C(pF)] / R (kΩ)",
+"pg":61,
+"anchors":[
+"T-4.4b2"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Dans l’exemple du circuit bouchon ou du circuit série :</b></u></span> X<sub>L</sub> = 2πfL = 6,28 x 3,18.10<sup>6</sup> x 25.10<sup>-6</sup> = 499,26 Ω ≈ <span style=\"color:#800000\">500 Ω</span> ou X<sub>C</sub> = 1/(2πfC) = 1/(6,28 x 3,18.10<sup>6</sup> x 100.10<sup>-12</sup>) = 1/(1,997.10<sup>-3</sup>) = 500,75 Ω ≈ <span style=\"color:#800000\">500 Ω</span> donc : Q<sub>bouchon</sub> = Z<sub>bouchon</sub> / X<sub>L</sub> = Z<sub>bouchon</sub> / X<sub>C</sub> = 12500 / 500 = <span style=\"color:#800000\">25</span> ou Q<sub>bouchon</sub> = √ (L / C) / R = √ (25.10<sup>-6</sup> / 100.10<sup>-12</sup>) / 20 = √(0,25.10<sup>6</sup>) / 20 = 0,5.10<sup>3</sup> / 20 = 500 / 20 = <span style=\"color:#800000\">25</span><br>Q<sub>série</sub> = X<sub>L</sub> / R = 500 / 20 = 25 (le résultat est identique à Q<sub>bouchon</sub> bien que la formule ne soit pas la même)<br><span style=\"color:#800000\"><u>Sur une calculette :</u></span><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\">en écriture naturelle :</span> Q = √ [L / C] / R = √ [25.10<sup>-6</sup> / 100.10<sup>-12</sup>] / 20 = <span style=\"color:#800000\">25</span> <span style=\"color:#800000\">formule simplifiée</span> : Q = √ [L(µH) / C(pF)] / R (kΩ) = √(25/100) / 0,02 = 0,5 / 0,02 = <span style=\"color:#800000\">25</span></p>",
+"pg":61
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b3<span style=\"color:#800080\">.</span></b> <i>Dans le</i> <u><i>circuit parallèle</i></u><i>, L et C étant en parallèle, on a :</i> <span style=\"color:#000080\"><i><b>Q</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>= Z</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ X</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span> <span style=\"color:#000080\"><i><b>= Z</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R / X</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span><span style=\"color:#000080\"><i><b>= R /</b></i></span> <span style=\"color:#000080\"><i><b>X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <i>et, comme verra au §4.6a, X</i><sub><i>L</i></sub> <i>= X</i><sub><i>C</i></sub> <i>=√ (L / C) d’où :</i> <span style=\"color:#000080\"><i><b>Q</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>=</b></i></span> <span style=\"color:#000080\"><i><b>R / [√ (L / C)]</b></i></span>",
+"pg":61,
+"anchors":[
+"T-4.4b3"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i>Dans l’exemple du circuit parallèle :</i></u></span> <i>Q</i><sub><i>parallèle</i></sub> <i>= R / X</i><sub><i>L</i></sub> <i>= R / (2πfL) = 12500 / (6,28 x 3,18.10</i><sup><i>6</i></sup> <i>x 25.10</i><sup><i>-6</i></sup><i>) = 12500 / 500 =</i> <span style=\"color:#800000\"><i>25</i></span> <i>ou Q</i><sub><i>parallèle</i></sub> <i>= R / [√(L / C)] = 12500 / [√(25.10</i><sup><i>-6</i></sup> <i>/ 100.10</i><sup><i>-12</i></sup><i>)] = 12500 / √(0,25.10</i><sup><i>6</i></sup><i>) = 12500 / 500 =</i> <span style=\"color:#800000\"><i>25.</i></span> <i>Avec des</i> <i>valeurs pour L et C identiques et lorsque R</i><sub><i>parallèle</i></sub> <i>= X</i><sub><i>L</i></sub><i>² / R</i><sub><i>bouchon</i></sub> <i>= X</i><sub><i>C</i></sub><i>² / R</i><sub><i>bouchon</i></sub> <i>= (L/C) / R</i><sub><i>bouchon</i></sub><i>, le circuit</i> <i>parallèle et le circuit bouchon ont le même facteur Q.</i>",
+"pg":61
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b4<span style=\"color:#800080\">.</span></b> La tension aux bornes d’un circuit bouchon à la fréquence de résonance sera fonction de la puissance du signal à l’entrée du circuit et de son impédance à la résonance (d’où l’autre nom du facteur Q pour un circuit bouchon : <u><b>coefficient de surtension</b></u>). <i>Dans notre exemple de circuit bouchon, avec une puissance de 50 pW,</i> <i>correspondant à un signal S9 (soit 50 µV sous 50 Ω, voir §11.4), la tension aux bornes du circuit bouchon sera</i> <i>de : U = √(P x Z) = √(50.10</i><sup><i>-12</i></sup> <i>x 12,5.10</i><sup><i>3</i></sup><i>) = √(625.10</i><sup><i>(-12+3)</i></sup><i>) = 7,9.10</i><sup><i>-4</i></sup><i>= 790 µV (soit un écart égal à la racine</i> <i>carrée du rapport des impédances : 790 / 50 = 15,8 et √(12500 / 50) = √(250) = 15,8).</i>",
+"pg":61,
+"anchors":[
+"T-4.4b4"
+]
+},
+{
+"t":"p",
+"html":"<i>Dans un</i> <u><i>circuit série</i></u><i>, le facteur Q est égal au rapport de la tension efficace aux bornes du condensateur U</i><sub><i>C</i></sub> <i>divisé par la tension efficace U aux bornes du circuit RLC lorsque le circuit est à la fréquence de résonance. En</i> <i>effet,</i> <span style=\"color:#000080\"><i><b>Q = X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ R = X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span><span style=\"color:#000080\"><i><b>.I / R.I = U</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ U</b></i></span><i>. Si Q est grand, la tension aux bornes du condensateur peut prendre des</i> <i>valeurs élevées par rapport à la tension aux bornes de l’ensemble. Q apparaît comme un facteur de surtension.</i>",
+"pg":61
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b5<span style=\"color:#800080\">.</span></b> Les valeurs que prennent Z et Q selon le circuit utilisé sont récapitulées dans le tableau ci-contre. On verra au §4.6a une variante de la loi de Thomson : X<sub>L</sub> = X<sub>C</sub> = √ (L / C) à la résonance.",
+"pg":61,
+"anchors":[
+"T-4.4b5"
+]
+},
+{
+"t":"fig",
+"id":"c061_1",
+"pg":61,
+"indent":202
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Le facteur Q d’un circuit détermine sa<b></b> <u><b>bande passante à –3 dB</b></u> (B) à la fréquence de résonance : <span style=\"color:#000080\"><b>B = fo / Q</b></span><b>.</b> Plus Q est élevé, plus le filtre est étroit et ses flancs sont raides et mieux les fréquences adjacentes seront rejetées.",
+"pg":61,
+"anchors":[
+"T-4.4c"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Dans les exemples ci-dessus :</b></u></span> B<sub>bouchon</sub> = B<sub>série</sub> = B<sub>parallèle</sub> = 3,18 MHz / 25 = 0,127 MHz = <span style=\"color:#800000\">127 kHz</span>",
+"pg":61,
+"align":"left"
+},
+{
+"t":"p",
+"html":"On peut vérifier les courbes caractéristiques d’un filtre grâce à un <u><b>analyseur de spectre</b></u> où la fréquence est en abscisse et la puissance du signal, ou sa tension, en ordonnée. La puissance est souvent indiquée en puissance relative (en dBm : décibel par rapport au milliwatt sous une impédance donnée, généralement 50 Ω). Un contacteur détermine la puissance maximum lue et deux autres contacteurs déterminent la fréquence centrale (ou la fréquence de début) et la largeur de la plage de fréquence à explorer.",
+"pg":61
+},
+{
+"t":"p",
+"html":"Un <u><b>wobulateur</b></u> est un générateur de fréquence variable couplé à un oscilloscope ce qui permet, en branchant le wobulateur à l’entrée de l’étage ou du filtre à mesurer, de lire la courbe de réponse en fréquence de l’amplificateur ou du filtre. L’ensemble wobulateur+oscilloscope remplace un analyseur de spectre.",
+"pg":62
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Lorsqu’un filtre est constitué de plusieurs cellules LC résonant sur la même fréquence ou dont les fréquences de résonance sont légèrement décalées (comme ci-dessous, l’atténuation des 2 cellules est en pointillé), la courbe de réponse du filtre n’est plus définie par le facteur Q mais par sa largeur de bande passante et son taux de sélectivité (ou facteur de forme). La <u><b>largeur de la bande passante</b></u> peut être définie à un autre niveau que –3 dB.",
+"pg":62,
+"anchors":[
+"T-4.4d"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quelle est la largeur de la bande passante à – 13 dB du signal visualisé sur l’écran de l’analyseur de spectre ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> La puissance crête du signale mesure 39 dBm. La bande passante de ce signal à – 13 dB est la largeur du signal dont la puissance est supérieure à 26 dBm (= 39 dBm –13 dB).<br>Les fréquences extrêmes du signal sont 540 et 600. La bande passante à – 13 dB du signal est de <span style=\"color:#800000\">60</span> (= 600 – 540). <i>Si on n’avait</i> <i>que la graduation en volts, puisque U</i><sub><i>maxi</i></sub> <i>= 24 V, que –13 dB</i> <i>correspond à un rapport de puissance de 1/20 et que U = √(P.R), la tension à – 13 dB sera calculée comme suit :</i> <i>24 V / √20 = 24 / 4,45</i> <span style=\"font-family:'Liberation Serif'\"><i>≈</i></span> <i>5,4 V. Enfin, sachant que 39 dBm = 8 W, que 26 dBm = 0,4 W et que 13 dBm = 0,02 W,</i> <i>l’impédance du signal mesuré est : Z = U²/P = 24²/8 (= 5,4²/0,4 ou 1,2²/0,02) = 72 Ω</i>",
+"pg":62
+},
+{
+"t":"fig",
+"id":"c062_2",
+"pg":62,
+"indent":277
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Le <u><b>taux de sélectivité</b></u> (S) qui est le rapport (en %) obtenu en divisant B (la bande passante à –3 dB) par la bande passante à –60 dB (appelée aussi réjection ultime et notée δf à –60 dB ; δ : lettre grecque minuscule delta signifiant « variations »). En pratique, d’autres niveaux de réjections ultimes peuvent être définis (-40 dB par exemple). Le <u><b>facteur de forme</b></u> (F) est l'inverse du taux de sélectivité. Plus le taux de sélectivité se rapproche de 100%, plus les flancs du filtre sont raides, plus le facteur de forme se rapproche de 1 sans jamais l’atteindre.<p style=\"margin:0 0 0 4em\"><span style=\"color:#000080\"><b>S (%) = [(B x 100) / δf à -60 dB]</b></span></p><p style=\"margin:0 0 0 4em\">et <span style=\"color:#000080\"><b>F = 100 / S</b></span> <span style=\"color:#000080\">ou</span> <span style=\"color:#000080\"><b>F = δf à -60 dB / B</b></span></p>",
+"pg":62,
+"anchors":[
+"T-4.4e"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> dans le schéma ci-contre représentant la courbe de réponse d’un filtre passe bande, on mesure B = 5 kHz et δf à -60 dB = 25 kHz. Quels sont le taux de sélectivité et le facteur de forme du filtre ?<br><span style=\"color:#800000\"><u>Réponses :</u></span> Sélectivité = (5 x 100) / 25 = 500 / 25 = <span style=\"color:#800000\">20 %</span><br>Facteur de forme = 100 / S = 100 / 20 = 5 ou 25 / 5 = <span style=\"color:#800000\">5</span>.",
+"pg":62
+},
+{
+"t":"fig",
+"id":"c062_3",
+"pg":62,
+"indent":290
+},
+{
+"t":"p",
+"html":"<i>L’atténuation du signal à la sortie du filtre RLC constitué d’une seule cellule suit une courbe de Gauss et la</i> <i>bande passante du circuit pour une atténuation différente de 3 dB est donnée par la formule :</i> <span style=\"color:#000080\"><i><b>Bp = B x√(p – 1)</b></i></span> <i>avec B = fo / Q et p = rapport de puissance de la bande passante Bp. Ainsi, un circuit RLC à une seule cellule a</i> <i>un facteur de forme de 1000 (soit S = 0,1%) car δf à -60 dB = √(1 000 000 – 1) x B ≈ 1000 x B.</i>",
+"pg":62
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>Un</i> <u><i>ondemètre à absorption</i></u> <i>est un appareil de mesure de fréquence qui nécessite de la puissance pour</i> <i>fonctionner. La bobine interchangeable du circuit LC de l’ondemètre est couplée avec le signal dont on veut</i> <i>connaître la fréquence. Lorsque la valeur du condensateur varie, la tension aux bornes du circuit LC lue par le</i> <i>voltmètre de l’appareil marque un pic très net (le « dip ») indiquant que le circuit est accordé. La fréquence est</i> <i>relevée sur l’échelle de lecture du condensateur. Si le pic n’est pas franc, il peut s’agir d’un harmonique. Le</i> <i>voltmètre peut être remplacé par une lampe à incandescence dont l’éclat indique le pic de résonance.</i>",
+"pg":62,
+"anchors":[
+"T-4.4f"
+]
+},
+{
+"t":"p",
+"html":"<i>Un</i> <u><i>grid-dip</i></u> <i>fonctionne sur le même principe mais n’a besoin d’aucune puissance externe pour fonctionner car il</i> <i>possède son propre générateur HF. Lorsque le circuit à mesurer résonne sur la fréquence de l’oscillateur, la</i> <i>consommation de ce dernier chute brutalement indiquant que le circuit est accordé.</i>",
+"pg":62
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>4.5) Le filtre en pi</b></u></span> (appelé ainsi à cause de sa forme : en П, lettre grecque pi majuscule) est un filtre passe-bas anti-harmonique qui a une impédance d'entrée différente de celle de sortie grâce aux deux condensateurs variables indépendants CV1 et CV2. Utilisé dans une boîte de couplage, ce filtre permet d’adapter l'impédance de l’ensemble câble + antenne avec l'impédance de sortie de l’émetteur. L'atténuation de ce filtre est de 12 dB par octave (6 dB x 2 éléments, filtre du second ordre) car les deux CV se comportent comme un seul CV de valeur C<sub>T</sub> (montage en série). Les résistances parasites (en série ou en parallèle) évoquées au §4.4a ont une incidence négligeable sur les caractéristiques des filtres passe-haut et passe-bas. <u><b>Le filtre en T</b></u> est un filtre passe-haut du second ordre nommé ainsi à cause de sa forme (en T) constitué d’une bobine et de deux condensateurs.",
+"pg":62,
+"anchors":[
+"T-4.5"
+]
+},
+{
+"t":"fig",
+"id":"c062_1",
+"pg":62,
+"indent":10
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><i><b>4.6) Autres calculs à partir des formules de ce chapitre</b></i></u></span> <i>(variantes des formules des §4.3 et §4.4). Bien que</i> <i>ce paragraphe soit édité en italique, quelques questions d’examen nécessitant la maîtrise de formules citées ci-</i><i>dessous ont été recensées (en particulier R à calculer à partir de L, C et Q, formule vue au §b).</i>",
+"pg":62,
+"anchors":[
+"T-4.6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <i>Les variantes suivantes sont déterminées à partir de la formule de Thomson (à la résonance, X</i><sub><i>L</i></sub> <i>= X</i><sub><i>C</i></sub><i>) :</i><br>- <i>Calcul de L ou de C pour une fréquence donnée à partir d’une des valeurs L ou C connues : f = 1/ [2π√(LC)]</i> <i>donc, en mettant au carré les deux termes : f² = 1/ [4π²LC], donc :</i> <span style=\"color:#000080\"><i><b>C = 1 / 4π²f²L</b></i></span> <i>ou encore :</i> <span style=\"color:#000080\"><i><b>L = 1 / 4π²f²C</b></i></span> <i>ou formules simplifiées :</i> <span style=\"color:#000080\"><i><b>C(pF) = 25 330 / f²(MHz) / L(µH)</b></i></span> <span style=\"color:#000080\"><i>et</i></span> <span style=\"color:#000080\"><i><b>L(µH) = 25 330 / f²(MHz) / C(pF)</b></i></span><span style=\"color:#000080\"><i>.</i></span><p style=\"margin:0 0 0 0.6em\"><i>Dans les formules simplifiées ci-dessus, 25 330 = 10 000 / 4π² ≈ 159²</i> </p>- <i>Calcul de la pulsation à la résonance : f= 1/[2π√(LC)], alors : 2πf = 1/√(LC) donc :</i> <span style=\"color:#000080\"><i><b>ω = 1/√(L.C)</b></i></span><br>- <i>Calcul de X</i><sub><i>L</i></sub> <i>et de X</i><sub><i>C</i></sub> <i>: on vient de voir que 2πf = 1/ √(LC), alors 2πfL = L/√(LC) donc</i> <span style=\"color:#000080\"><i><b>X</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C)</b></i></span> <i>ou encore :</i> <i>2πfC = C/√(LC) donc 1/(2πfC) = √(LC)/C donc</i> <span style=\"color:#000080\"><i><b>X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C)</b></i></span><i>. A la résonance, on a bien X</i><sub><i>L</i></sub> <i>= X</i><sub><i>C</i></sub>",
+"pg":63,
+"anchors":[
+"T-4.6a"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i>Sur une calculette</i></u></span><span style=\"color:#800000\"><i>,</i></span> <i>à partir des valeurs du circuit bouchon du §4.4a :</i><br><i>- Calcul de C avec f = 3,183 MHz et L = 25 µH</i><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>en écriture naturelle :</i></span> <i>C = 1 / (4 π² f² L) = 1 / (4 x [π]² x [3,183.10</i><sup><i>-6</i></sup><i>]² x 25.10</i><sup><i>-6</i></sup><i>) = 100.10</i><sup><i>-12</i></sup> <i>=</i> <span style=\"color:#800000\"><i>100 pF</i></span> <span style=\"color:#800000\"><i>formule simplifiée :</i></span> <i>C(pF) = 25330 ÷ 3,183² (f en MHz) ÷ 25 (L en µH) = 25330 / 3,183 / 3,183 / 25 =</i> <span style=\"color:#800000\"><i>100 pF</i></span></p><i>- Calcul de L avec f = 3,183 MHz et C = 100 pF :</i><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>en écriture naturelle :</i></span> <i>L = 1 / (4 π² f² C) = 1 / (4 x [π]² x [3,183.10</i><sup><i>-6</i></sup><i>]² x 100.10</i><sup><i>-12</i></sup><i>) = 25.10</i><sup><i>-6</i></sup> <i>=</i> <span style=\"color:#800000\"><i>25 µH</i></span> <span style=\"color:#800000\"><i>formule simplifiée :</i></span> <i>L(µH) = 25 330 ÷ 3,183² (f en MHz) ÷ 100 (C en pF) = 25 330 / 3,18 / 3,18 / 100 =</i> <span style=\"color:#800000\"><i>25 µH</i></span></p><i>- Calcul de la pulsation :</i><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>en écriture naturelle :</i></span> <i>ω = 1 / [√(L x C)] = 1 / [√(25.10</i><sup><i>-6</i></sup> <i>x 100.10</i><sup><i>-12</i></sup><i>)] = 20.10</i><sup><i>6</i></sup> <i>=</i> <span style=\"color:#800000\"><i>20 000 000 rad/s</i></span></p><p style=\"margin:0 0 0 0.7em\"><u><i>vérification</i></u> <i>: ω = 2πf = 2 x</i> <i>π x 3,183.10</i><sup><i>6</i></sup> <i>= 6,28 x 3,183.10</i><sup><i>6</i></sup> <i>=</i> <span style=\"color:#800000\"><i>19 989 240 rad/s</i></span> <i>arrondi à 20 000 000 rad/s</i> </p><i>- Calcul de X</i><sub><i>L</i></sub> <i>et de X</i><sub><i>C</i></sub> <i>:</i><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>en écriture naturelle :</i></span> <i>X</i><sub><i>L</i></sub> <i>= √(L / C) = √[25.10</i><sup><i>-6</i></sup><i>(L) ÷ 100.10</i><sup><i>-12</i></sup><i>(C)] = 500.10</i><sup><i>0</i></sup> <i>=</i> <span style=\"color:#800000\"><i>500 Ω</i></span></p><p style=\"margin:0 0 0 0.7em\"><u><i>vérifications</i></u> <i>:</i> </p><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>en écriture naturelle</i></span> <i>X</i><sub><i>L</i></sub> <i>= 2π f L = 6,28 x 3,183.10</i><sup><i>6</i></sup> <i>x 25.10</i><sup><i>-6</i></sup> <i>=</i> <span style=\"color:#800000\"><i>499,731 Ω</i></span> <i>arrondi à 500 Ω</i> </p><p style=\"margin:0 0 0 4em\"><i>X</i><sub><i>C</i></sub> <i>= 1 / (2π f C) = 1 / (6,28 x 3,183.10</i><sup><i>6</i></sup> <i>x 100.10</i><sup><i>-12</i></sup><i>) = 500,3.10</i><sup><i>0</i></sup> <i>arrondi à</i> <span style=\"color:#800000\"><i>500 Ω</i></span></p><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><i>formules simplifiées :</i></span> <i>X</i><sub><i>L</i></sub> <i>= ωL = 6,28 x f(MHz) x L(µH) = 6,28 x 3,183 x 25 =</i> <span style=\"color:#800000\"><i>500 Ω</i></span></p><p style=\"margin:0 0 0 4em\"><i>X</i><sub><i>C</i></sub> <i>= 159 / f(MHz) / C(nF) = 159 / 3,183 / 0,1 =</i> <span style=\"color:#800000\"><i>500 Ω</i></span></p>",
+"pg":63
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Les variantes suivantes sont déterminées à partir des formules de calcul de Z</i><sub><i>bouchon</i></sub> <i>et de Q</i><sub><i>bouchon</i></sub> <i>:</i><br>- <i>A la résonance, ωL = 1 / ωC et Z</i><sub><i>bouchon</i></sub> <i>= (ωL/ωC) / R = (ωL)² / R donc</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= X</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span><span style=\"color:#000080\"><i><b>² / R</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span><span style=\"color:#000080\"><i><b>² / R</b></i></span><br>- <i>Puisque Z</i><sub><i>bouchon</i></sub> <i>=X</i><sub><i>L</i></sub><i>² / R ou Z</i><sub><i>bouchon</i></sub> <i>= X</i><sub><i>C</i></sub><i>² / R et que Q = Z</i><sub><i>bouchon</i></sub> <i>/ X</i><sub><i>L</i></sub> <i>alors :</i> <span style=\"color:#000080\"><i><b>Q</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= X</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ R = X</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ R</b></i></span><i>. On</i> <i>retrouve la formule de calcul de Q</i><sub><i>série</i></sub> <i>(voir §4.4b3) puisque ces deux circuits ont le même facteur Q. Ces</i> <i>formules montrent que le facteur Q est proportionnel à la fréquence de résonance du circuit. Toutefois, dans</i> <i>les circuits bouchon et série, l’effet de peau mis en évidence par R et qui augmente avec la fréquence atténue</i> <i>les variations du facteur Q en fonction de la fréquence.</i><br>- <i>La résistance R d’un circuit bouchon ou série n’est pas facilement mesurable mais elle se calcule à partir de la</i> <i>mesure de la bande passante du circuit bouchon ou du facteur Q du circuit série. Pour un circuit série, le</i> <i>facteur Q est le rapport obtenu en divisant la tension mesurée avec un oscilloscope entre L et C à la fréquence</i> <i>de résonance divisée par la tension issue du générateur branché aux bornes du filtre. Pour un circuit bouchon,</i> <i>à l’aide d’un grid-dip ou d’un oscilloscope, le pic de tension à la fréquence de résonance (fo) est mesuré puis</i> <i>on note les fréquences inférieures et supérieures pour lesquelles le signal est atténué de 3 dB (soit 0,707 de la</i> <i>tension à Fo). B étant l’écart entre ces deux fréquences, Q est déduit par le calcul : puisque B = fo / Q, alors</i> <span style=\"color:#000080\"><i><b>Q</b></i></span> <span style=\"color:#000080\"><i><b>= fo / B</b></i></span><span style=\"color:#000080\"><i>.</i></span> <i>De plus, pour le circuit bouchon et le circuit série, Q = √</i><i>(</i><i>L / C) / R, d’où :</i><p style=\"margin:0 0 0 1.9em\"><span style=\"color:#000080\"><i><b>R</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R</b></i></span><span style=\"color:#000080\"><sub><i><b>série</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C) / Q</b></i></span> <i>formule simplifiée :</i> <span style=\"color:#000080\"><i><b>R</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span><span style=\"color:#000080\"><i><b>(kΩ) = R</b></i></span><span style=\"color:#000080\"><sub><i><b>série</b></i></sub></span><span style=\"color:#000080\"><i><b>(kΩ) = √ [L(µH) / C(pF)] / Q</b></i></span></p>- <i>On sait que Q = Z</i><sub><i>bouchon</i></sub> <i>/ X</i><sub><i>L</i></sub> <i>donc Z</i><sub><i>bouchon</i></sub> <i>= Q x X</i><sub><i>L</i></sub><i>. En remplaçant X</i><sub><i>L</i></sub> <i>par sa formule,</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C) . Q</b></i></span> <i>D’autre part, Q</i><sub><i>parallèle</i></sub> <i>= Z</i><sub><i>parallèle</i></sub> <i>/ X</i><sub><i>L</i></sub> <i>= R</i><sub><i>parallèle</i></sub> <i>/ X</i><sub><i>L</i></sub> <i>donc R</i><sub><i>parallèle</i></sub> <i>= X</i><sub><i>L</i></sub> <i>x Q donc :</i> <span style=\"color:#000080\"><i><b>R</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C) . Q</b></i></span> <i>Formules simplifiées :</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span><span style=\"color:#000080\"><i><b>(kΩ)</b></i></span> <span style=\"color:#000080\"><i>=</i></span> <span style=\"color:#000080\"><i><b>R</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span><span style=\"color:#000080\"><i><b>(kΩ) = √ [L(µH) / C(pF)] . Q</b></i></span><p style=\"margin:0 0 0 0.6em\"><i>Enfin, la valeur de l’impédance à la résonance des circuits série et parallèle se déduit facilement puisque</i> <i>Z = R à la résonance :</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>série</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R</b></i></span><span style=\"color:#000080\"><sub><i><b>série</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C) / Q</b></i></span> <i>et</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(L / C) . Q</b></i></span></p>- <i>A la lecture de ces dernières formules, on remarque que :</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R</b></i></span><span style=\"color:#000080\"><sub><i><b>parallèle</b></i></sub></span> <span style=\"color:#000080\"><i><b>= R</b></i></span><span style=\"color:#000080\"><sub><i><b>bouchon</b></i></sub></span> <span style=\"color:#000080\"><i><b>. Q².</b></i></span> <i>Ainsi, dans un</i> <i>circuit bouchon non parfait, la résistance série est transformée en résistance parallèle et vient en dérivation</i> <i>sur la résistance parallèle du circuit, ce qui diminue la résistance parallèle totale et le facteur Q du circuit.</i>",
+"pg":63,
+"anchors":[
+"T-4.6b"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i>Exemples</i></u></span> <i>à partir des valeurs du circuit bouchon du §4.4a :</i>",
+"pg":63,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<i>Z</i><sub><i>bouchon</i></sub> <i>= X</i><sub><i>L</i></sub><i>² / R = X</i><sub><i>C</i></sub><i>² / R = 500² / 20 =</i> <span style=\"color:#800000\"><i>12 500 Ω</i></span><br><i>Q</i><sub><i>bouchon</i></sub> <i>= X</i><sub><i>L</i></sub> <i>/ R = 2π f L / R = [6,28 x 3,183.10</i><sup><i>6</i></sup> <i>x 25.10</i><sup><i>-6</i></sup><i>] / 20 = 500 / 20 =</i> <span style=\"color:#800000\"><i>25</i></span><br><i>Q</i><sub><i>bouchon</i></sub> <i>= X</i><sub><i>C</i></sub> <i>/ R = [1 / (2π f C)] / R = [1 / (6,28 x 3,183.10</i><sup><i>6</i></sup> <i>x 100.10</i><sup><i>-12</i></sup><i>)] / 20 = 500 / 20 =</i> <span style=\"color:#800000\"><i>25</i></span><br><i>R</i><sub><i>bouchon</i></sub> <i>= √(L / C) / Q =√ [25.10</i><sup><i>-6</i></sup> <i>/ 100.10</i><sup><i>-12</i></sup><i>] / 25 = √(0,25.10</i><sup><i>6</i></sup><i>) / 25 = 0,5.10</i><sup><i>3</i></sup> <i>/ 25 = 500 / 25 =</i> <span style=\"color:#800000\"><i>20 Ω</i></span> <span style=\"color:#800000\"><i>formule simplifiée :</i></span> <i>R(kΩ) = √ [L(µH) / C(pF)] / Q = √(25 / 100) / 25 = 0,5 / 25 = 0,02 kΩ =</i> <span style=\"color:#800000\"><i>20 Ω</i></span><br><i>Z</i><sub><i>bouchon</i></sub> <i>= √ [L / C] x Q = √ [25.10</i><sup><i>-6</i></sup> <i>/ 100.10</i><sup><i>-12</i></sup><i>] x 25 = √(0,25.10</i><sup><i>6</i></sup><i>) x 25 = 500 x 25 =</i> <span style=\"color:#800000\"><i>12 500 Ω</i></span><p style=\"margin:0 0 0 1.3em\"><span style=\"color:#800000\"><i>formule simplifiée :</i></span> <i>Z(kΩ) = √ [L(µH) / C(pF)] x Q = √(25 / 100) x 25 = 0,5 x 25 = 12,5 kΩ =</i> <span style=\"color:#800000\"><i>12 500 Ω</i></span></p><u><i>vérification</i></u> <i>: R</i><sub><i>bouchon</i></sub> <i>x Q² = 20 x 25² = 20 x 625 =</i> <span style=\"color:#800000\"><i>12 500 Ω</i></span> <i>= Z</i><sub><i>bouchon</i></sub> <i>= R</i><sub><i>parallèle</i></sub>",
+"pg":63
+}
+]
+}

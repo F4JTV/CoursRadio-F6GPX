@@ -1,0 +1,772 @@
+{
+"id":"T-2",
+"title":"2) COURANTS ALTERNATIFS, BOBINES et CONDENSATEURS",
+"short":"2 Courants alternatifs",
+"blocks":[
+{
+"t":"chapter",
+"html":"2) COURANTS ALTERNATIFS, BOBINES et CONDENSATEURS",
+"pg":45
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>2.1) Courants Alternatifs</b></u></span>",
+"pg":45,
+"align":"left",
+"anchors":[
+"T-2.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Dans le premier chapitre, nous avons vu le comportement des résistances dans le cas de courants continus. Or, dans le domaine qui nous intéresse, celui de la radio, les courants (tensions ou intensités) sont alternatifs (on dit aussi périodiques). Le courant est qualifié d’alternatif lorsqu’il change continuellement de valeur au cours du temps et que la forme du signal se répète régulièrement. Les <u><b>courants alternatifs</b></u> peuvent prendre plusieurs formes : signal carré, signal triangulaire, signal dent de scie, signal impulsionnel pour les plus courants.",
+"pg":45,
+"anchors":[
+"T-2.1a"
+]
+},
+{
+"t":"fig",
+"id":"c045_1",
+"pg":45
+},
+{
+"t":"p",
+"html":"De même, plusieurs courants peuvent se <u><b>superposer</b></u> : courants continus et courants alternatifs mais aussi courants alternatifs entre eux. Superposer des courants revient à additionner leurs valeurs instantanées. Les courants qui résultent de ces superpositions seront toujours considérés comme des courants alternatifs.",
+"pg":45
+},
+{
+"t":"fig",
+"id":"c045_2",
+"pg":45,
+"indent":10
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le signal <u><b>sinusoïdal</b></u><u></u> est la forme la plus régulière, sans à-coups, des signaux alternatifs. C’est cette forme de signal alternatif que nous retrouvons le plus souvent dans les applications radio mais aussi en mécanique (mouvement du balancier d’une horloge, d’une bielle entraînée par une roue, …).",
+"pg":45,
+"anchors":[
+"T-2.1b"
+]
+},
+{
+"t":"fig",
+"id":"c045_3",
+"pg":45
+},
+{
+"t":"p",
+"html":"Pour représenter une fonction Sinus, le point M tourne à vitesse constante sur un cercle trigonométrique de centre O dont le rayon est 1 (le vecteur OM tourne dans le sens inverse des aiguilles d’une montre, appelé aussi sens antihoraire ou sens trigonométrique). La fonction Sinus représente la hauteur du point M en fonction du temps. Le temps pendant lequel le point M (ou le vecteur OM) fait un tour complet s'appelle <u><b>période</b></u> (ou <u><b>cycle</b></u>). La période est composée de deux <u><b>alternances</b></u> (une positive et une négative). Le nombre de périodes par seconde est donné en <u><b>hertz</b></u> (Hz). La durée (t), en secondes, d'une période est l'inverse de la fréquence (f) en hertz, soit t(s) = 1 / f(Hz), ou t(ms) = 1 / f(kHz), ou encore t(µs) = 1 / f(MHz). Le radian (noté rad) est une mesure d’angle et est la distance parcourue par le point M sur le cercle trigonométrique. Exemples : 90° = π/2 = 1,57 rad ; 180° = π = 3,14 rad ; 360° = 2π = 6,28 rad. Remarquez que si le point M tourne en sens inverse (dans le sens des aiguilles d’une montre), la forme de la fonction reste identique à la différence près qu’elle sera décalée de 180° comme si l’origine du point M se trouvait en π. La <u><b>pulsation</b></u> (notée ω, lettre grecque oméga minuscule) est une autre manière de définir une fréquence à partir d’angles (en radians par secondes au lieu des périodes par secondes pour les Hz) puisqu’une période (360°) est égale à 2π, d’où le nom de <u><b>vitesse angulaire</b></u>. <i>C’est aussi le rapport</i> <i>entre les surfaces de la zone hachurée (S = 2πf pour une seconde) et de la zone grisée (s = 1)</i>. <i>On peut dire aussi</i> <i>que « s » représente la « partie active » de la sinusoïde et mesure 1/2πf de la durée totale « S ».</i>",
+"pg":45
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Quelle est la pulsation d'un signal dont la fréquence est de 10 MHz ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> ω = 2π . F = 6,28 x 10 000 000 = <span style=\"color:#800000\">62 800 000 rad/s</span>",
+"pg":45
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Quelle est la fréquence (en kHz) d’un signal sinusoïdal composé de 5 alternances et durant 15 µs ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 5 alternances forment 2,5 périodes ; 1 période dure donc 15 µs / 2,5 (durée totale / nombre de période) = 6 µs ; f(MHz) = 1 / t(µs) = 0,166 MHz soit <span style=\"color:#800000\">166 kHz</span>",
+"pg":45
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Fourier a démontré que n’importe quelle fonction périodique (quelle que soit sa forme pourvu qu’elle se</i> <i>répète périodiquement) est la somme (superposition) de fonctions sinusoïdales dont les fréquences sont multiples</i> <i>(harmoniques) de la période. La</i> <u><i>transformée de Fourier</i></u> <i>décrit l’ensemble composé d’un signal continu et de</i> <i>fonctions sinusoïdales superposées. Ainsi tout signal périodique se traite comme des signaux sinusoïdaux.</i>",
+"pg":45,
+"anchors":[
+"T-2.1c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>2.2) Valeur maximum, efficace, moyenne, crête à crête.</b></u></span> Ces notions ne s’appliquent qu’aux courants, c’est-à-dire à la tension et à l’intensité (qui varient dans le temps dans le cas d’un signal alternatif) mais pas à la puissance (issue du produit de la tension par l’intensité) ni à la résistance (qui reste, par nature, constante).",
+"pg":46,
+"anchors":[
+"T-2.2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La <u><b>valeur maximale</b></u> (Umax ou Imax) d’un signal alternatif est la valeur la plus grande que prend le signal au cours d’une période. Elle est appelée aussi valeur crête (Ucrête ou Icrête).",
+"pg":46,
+"anchors":[
+"T-2.2a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La <u><b>valeur efficace</b></u> (Ueff ou Ieff) d’un signal alternatif est la valeur pour laquelle les lois d'Ohm et de Joule peuvent être appliquées. La formule ci-dessous est utilisée si et seulement si le signal est sinusoïdal. Des formules existent pour transformer les valeurs maximales d’autres signaux alternatifs (carrés, triangle, etc.) en valeurs efficaces mais sortent du programme de l’examen. On rappelle que le sinus de 45° est égal à 1/√2, soit 0,707.",
+"pg":46,
+"anchors":[
+"T-2.2b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>Umax = √2.Ueff = 1,414 x Ueff</b></span> ou <span style=\"color:#000080\"><b>Ueff = Umax/√2 = 0,707 x Umax</b></span><span style=\"color:#000080\">.</span>",
+"pg":46,
+"align":"center",
+"indent":71
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> La <u><b>valeur moyenne</b></u> (Umoy ou Imoy) d’un signal alternatif est la moyenne algébrique du courant ou de la tension et est la valeur lue par un galvanomètre, voir § 3.4b. La valeur moyenne d’un courant sinusoïdal dont la longueur est égale à un nombre entier de période (comme dans le schéma ci-dessous) est nulle car la surface des alternances positives est égale à celle des alternances négatives (loi des aires).",
+"pg":46,
+"anchors":[
+"T-2.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> La valeur <u><b>crête à crête</b></u> (Ucàc ou Icàc), à ne pas confondre avec la valeur crête, est la valeur de l’écart entre l’extrême positif et l’extrême négatif du signal, soit 2 fois la valeur maximale pour un courant sinusoïdal.",
+"pg":46,
+"anchors":[
+"T-2.2d"
+]
+},
+{
+"t":"fig",
+"id":"c046_1",
+"pg":46
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><b>Attention :</b></u> seules les valeurs efficaces (Ueff et Ieff) doivent être utilisées dans les calculs en courants alternatifs sinusoïdaux pour appliquer les lois d’Ohm et de Joule. Il faut donc transformer toutes les valeurs en valeurs efficaces avant d’effectuer d’autres calculs. Les valeurs efficaces ne portent aucun signe (+ ou –) et calculer la valeur efficace de deux signaux superposés est difficile sans utiliser trop de mathématiques.",
+"pg":46,
+"anchors":[
+"T-2.2e"
+]
+},
+{
+"t":"p",
+"html":"<i>Le calcul le plus simple est la superposition d’un signal sinusoïdal avec une composante continue. Dans ce cas,</i> <i>on retiendra la formule suivante :</i> <span style=\"color:#000080\"><i><b>U</b></i></span><span style=\"color:#000080\"><sub><i><b>efftot</b></i></sub></span> <span style=\"color:#000080\"><i><b>=</b></i></span> <span style=\"color:#000080\"><i><b>√(U</b></i></span><span style=\"color:#000080\"><sub><i><b>cont</b></i></sub></span><span style=\"color:#000080\"><sup><i><b>2</b></i></sup></span><span style=\"color:#000080\"><i><b>+ U</b></i></span><span style=\"color:#000080\"><sub><i><b>eff</b></i></sub></span><span style=\"color:#000080\"><sup><i><b>2</b></i></sup></span><span style=\"color:#000080\"><i><b>)</b></i></span><i>. Les autres combinaisons sont plus complexes.</i>",
+"pg":46
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple :</b></i></u></span> <i>calculer la tension efficace Ueff de ce signal</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>calcul de la tension efficace du signal sinusoïdal :</i><br><i>Ucac = 5V [= 4V –(– 1V)], donc Umax = 2,5 V et Ueff = 1,77 V (= 2,5 x 0,707).</i> <i>La composante continue de ce signal est égale à sa tension moyenne :</i> <i>Ucont = Umoy = [4 + (– 1)] / 2 = 1,5 V</i><br><i>Ueff = √ [U</i><sub><i>cont</i></sub><sup><i>2</i></sup> <i>+ U</i><sub><i>eff</i></sub><sup><i>2</i></sup><i>] = √ [1,5</i><sup><i>2</i></sup> <i>+ 1,77</i><sup><i>2</i></sup><i>] =</i> <span style=\"color:#800000\"><i>2,3 V</i></span>",
+"pg":46
+},
+{
+"t":"fig",
+"id":"c046_2",
+"pg":46,
+"indent":348
+},
+{
+"t":"p",
+"html":"Nous avons vu au §1.1d que l’intensité est une agitation organisée d’électrons. En courant alternatif, les électrons continuent de s’agiter au rythme du courant mais ne bougent presque plus de place, surtout en haute fréquence. En revanche, la propagation de l’agitation se déplace à la vitesse de la lumière (ou presque), comme en courant continu, en allant de la source (le générateur) vers la charge (qui consomme l’énergie). On peut comparer la propagation de l’agitation à la chute de dominos : une fois l’impulsion donnée par la chute du premier domino, les dominos suivants chutent les uns après les autres en se déplaçant très peu alors que le mouvement de chute se propage de la première à la dernière pièce.<br>Le développement des réseaux électriques à la fin du 19<sup>ème</sup> siècle impose le courant alternatif dont l’énergie se transporte plus facilement que celle du courant continu malgré ses dangers.",
+"pg":46
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Un <u><b>oscilloscope</b></u> est un instrument de mesure qui permet de visualiser sur un écran cathodique la forme d’un signal en fonction du temps. Le point lumineux qui parcourt l’écran représente la tension du signal et se déplace de la gauche vers la droite. Une sonde branchée au bout d’un câble collecte la tension à mesurer par rapport à la masse. Un contacteur multipositions (noté U/div) détermine la tension lue sur l’écran cathodique où sont repérées des divisions (en pointillé). Un autre contacteur permet de déterminer la durée de la lecture (temps que met le point lumineux à parcourir une division de l’écran de gauche à droite). Les divisions verticales permettent de déterminer le temps de lecture et donc la fréquence du signal.",
+"pg":46,
+"anchors":[
+"T-2.2f"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> quelle est la tension efficace et la fréquence du signal visualisé sur l’écran ?",
+"pg":47,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c047_2",
+"pg":47,
+"indent":391
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Réponses :</u></span><br>- tension efficace : le signal occupe 2 divisions (en hauteur). L’indication 5V/div permet de définir la tension crête à crête du signal, soit 10 Vcàc, soit 5 Vmax, soit <span style=\"color:#800000\">3,53 Veff</span> (= 5 Vmax x 0,707) en supposant que le signal n’ait pas de composantes continues.<br>- fréquence du signal : une période entière du signal occupe 2 divisions sur l’écran (en largeur).<p style=\"margin:0 0 0 1.3em\">L’indication 2 ms/div permet de définir la durée d’une période du signal, soit 4 ms, soit une fréquence de <span style=\"color:#800000\">250 Hz</span> (4 ms = 0,004 s ; f = 1/t = 1/0,004 = 250 Hz). </p>",
+"pg":47
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>2.3) Bobines et Condensateurs</b></u></span> <span style=\"color:#800000\"><u><b>:</b></u></span> après le composant Résistance dont nous avons étudié le comportement en présence de courants continus et de courants alternatifs, nous étudions deux composants qui ont des comportements particuliers en présence de courants alternatifs : la bobine et le condensateur.",
+"pg":47,
+"anchors":[
+"T-2.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Le condensateur et la bobine possèdent leurs propres caractéristiques et ont des comportements opposés mais complémentaires aussi bien en présence de courants alternatifs que de courants continus. Ces caractéristiques sont récapitulées dans le tableau suivant :",
+"pg":47,
+"anchors":[
+"T-2.3a"
+]
+},
+{
+"t":"fig",
+"id":"c047_1",
+"pg":47
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Dans les formules simplifiées, le <u><b>facteur 159</b></u> est fréquemment utilisé au numérateur des fractions. Ce nombre correspond à une approximation de 1000 / 2π, soit 1000 / 6,2832. Les formules ainsi simplifiées donnent un résultat approximatif mais suffisant pour répondre aux questions de l’examen lorsque les candidats sont mal à l’aise avec les calculatrices et les calculs avec puissances de 10 (sous évaluation du résultat de 0,1%). Dans les questions de l’examen portant sur des calculs faisant intervenir le nombre π (impédance, fréquence, …), <u><b>les</b></u> <u><b>résultats sont toujours arrondis</b></u> : ne cherchez pas dans les réponses le chiffre exact que donne votre calculette. Dans les formules simplifiées, faire très attention aux multiples et sous-multiples utilisés. A l’examen, lorsqu’intervient 2π dans une formule, il est parfois indiqué de retenir 1 / 2π = 0,16 (ou 2π = 6,28) ; ce qui revient à arrondir le résultat ou à utiliser le facteur 160 (au lieu de 159) dans les formules simplifiées.",
+"pg":48,
+"anchors":[
+"T-2.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c1<span style=\"color:#800080\">.</span></b> Le <u><b>condensateu</b></u><b>r</b> (noté C dans les schémas) est constitué de deux plaques métalliques (appelées aussi armatures) en vis-à-vis et isolées par un diélectrique (isolant). Le condensateur fonctionne grâce à l'effet <u><b>électrostatique</b></u> entre ses deux plaques (ou lames). C'est l'effet observé en frottant une barre en plexiglas avec un chiffon, ce qui attire de petits morceaux de papier. C'est aussi la décharge électrique ressentie en touchant une masse métallique après que l'on se soit frotté les pieds sur la moquette. Les électrons présents dans une des lames du condensateur constituent la réserve d’électricité et chassent les électrons qui sont en face, dans l’autre lame.",
+"pg":48,
+"anchors":[
+"T-2.3c1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c2<span style=\"color:#800080\">.</span></b> L’unité de mesure du condensateur est le <u><b>farad</b></u> (noté F). Cette unité a une très forte valeur si bien que l’on utilise pour mesurer les condensateurs des sous multiples : picofarad (10<sup>-12</sup>), nanofarad (10<sup>-9</sup>), microfarad (10<sup>-6</sup>) ou, pour les très grosses valeurs, millifarad (10<sup>-3</sup>). La valeur du condensateur se nomme aussi la <u><b>capacité</b></u>.",
+"pg":48,
+"anchors":[
+"T-2.3c2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c3<span style=\"color:#800080\">.</span></b> La formule de base du calcul d’un condensateur à partir de ses dimensions est : <span style=\"color:#000080\"><b>C(F) = ε . S(m²) / E(m)</b></span> avec ε (<i>lettre grecque epsilon minuscule</i>) = permittivité du diélectrique, S = surface des lames en vis à vis et E = épaisseur du diélectrique (isolant séparant les lames). Plus la surface des lames en vis-à-vis est grande et plus l’épaisseur du diélectrique est faible, plus grande sera la valeur du condensateur.",
+"pg":48,
+"anchors":[
+"T-2.3c3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c4<span style=\"color:#800080\">.</span></b> <i>La permittivité (ε) du diélectrique dépend du matériau employé. Le diélectrique de référence est le vide dont</i> <i>la permittivité, ε</i><sub><i>o</i></sub><i>, est</i> <span style=\"color:#000080\"><i><b>1/(36π.10</b></i></span><span style=\"color:#000080\"><sup><i><b>9</b></i></sup></span><span style=\"color:#000080\"><i><b>)F/m</b></i></span><i>, soit 8,8419 pF/m.. La permittivité relative, ε</i><sub><i>r</i></sub> <i>(ou</i> <u><i>coefficient diélectrique</i></u> <i>ou encore</i> <u><i>constante diélectrique</i></u><i>) d’autres matériaux est définie par rapport à celle du vide (ε</i><sub><i>r</i></sub> <i>du vide = 1) et</i> <i>est toujours supérieure à 1 : 1,0014 pour l’air sec ; 2,1 pour le téflon ; 2,3 pour le Polyéthylène (PE) ; 3 à 4</i> <i>pour le papier ; 3,7 pour la bakélite ; 4,5 pour la fibre de verre ; 5 à 6 pour le mica ; 10 pour le verre ; 10 et</i> <i>plus pour les céramiques. Ainsi, la permittivité du polyéthylène est : ε</i><sub><i>0</i></sub><i>.ε</i><sub><i>r</i></sub> <i>= 1/(36π.10</i><sup><i>9</i></sup><i>) x 2,3 = 2.10</i><sup><i>-11</i></sup> <i>= 20 pF/m</i>",
+"pg":48,
+"anchors":[
+"T-2.3c4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c5<span style=\"color:#800080\">.</span></b> <i>Le pouvoir d’isolement du diélectrique se nomme la</i> <u><i>rigidité</i></u> <i>: au-delà d’une tension déterminée par</i> <i>l’épaisseur et la rigidité du diélectrique, celui-ci sera percé (claquage). Rigidité de quelques matériaux (en</i> <i>kV/mm) : 4 pour l’air sec, 6 pour le papier, 10 pour le carton, le verre et la bakélite, 17 pour le téflon et le PE,</i> <i>70 pour le mica.</i>",
+"pg":48,
+"anchors":[
+"T-2.3c5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c6<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>code des couleurs des condensateurs</i></u> <i>est identique à celui des résistances (voir § 1.5a). Les couleurs se</i> <i>lisent du haut vers le bas (les pattes) et sont souvent au nombre de 5 : 1er chiffre, 2ème chiffre, Multiplicateur</i> <i>(comme pour les résistances). L'unité de base est le picofarad. Les deux dernières couleurs indiquent la</i> <i>tolérance (blanc : 10%, noir : 20%) et la tension à ne pas dépasser (rouge :</i> <u><i><b>2</b></i></u><i>50 V, jaune :</i> <u><i><b>4</b></i></u><i>00 V). Selon les</i> <i>fabricants, il existe d'autres présentations. Enfin, la valeur des très anciens condensateurs peut être indiquée en</i> <i>cm avec 1 cm ≈ 1,1 pF.</i>",
+"pg":48,
+"anchors":[
+"T-2.3c6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c7<span style=\"color:#800080\">.</span></b> <i>Certains condensateurs sont</i> <u><i>variables</i></u> <i>: les lames fixes sont montées dans une cage isolée des lames mobiles</i> <i>qui tournent sur un axe. La valeur du condensateur est fonction de la surface des lames en vis-à-vis, leur</i> <i>espacement étant fixe. D’autres condensateurs, dont le diélectrique est chimique, sont</i> <u><i>polarisés</i></u> <i>: si la tension à</i> <i>leurs bornes est inversée ou supérieure à leur tension d’utilisation, ils chauffent et peuvent même exploser.</i>",
+"pg":48,
+"anchors":[
+"T-2.3c7"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c8<span style=\"color:#800080\">.</span></b> Un condensateur d’un farad peut, par définition, contenir dans ses armatures une réserve d’électricité égale à un coulomb en présence d’une tension de un volt à ses bornes : <span style=\"color:#000080\"><b>Q(C) = C(F) . U(V)</b></span>. Plus la tension aux bornes du condensateur est élevée, plus la quantité d’électricité emmagasinée dans le condensateur est importante. De plus, la quantité d’énergie emmagasinée dans un condensateur est : <span style=\"color:#000080\"><b>E(J) = ½.Q(C) . U(V)</b></span>. En remplaçant Q ou U par sa valeur tirée de Q = C . U, on a : E(J) = ½ . C(F) . U²(V) et encore : E(J) = Q²(C) / 2.C(F).",
+"pg":48,
+"anchors":[
+"T-2.3c8"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d1<span style=\"color:#800080\">.</span></b> La <u><b>bobine</b></u> (notée L en hommage au physicien allemand Heinrich Lenz) fonctionne grâce à ses propriétés <u><b>électromagnétiques</b></u>. Le courant qui parcourt la bobine génère un champ magnétique autour et à l’intérieur des spires. Ce champ magnétique constitue la réserve d’énergie de la bobine (loi de Laplace). La valeur d’une bobine, appelé <u><b>inductance</b></u>, dépend de la forme de la bobine, de sa section (donc du carré de son diamètre) et du carré du nombre de ses spires<i>.</i> Une bobine se mesure en <u><b>Henry</b></u> (noté H) avec les sous multiples millihenry (10<sup>-3</sup>, filtres BF), microhenry (10<sup>-6</sup>, le plus courant) et nanohenry (10<sup>-9</sup>, utilisé pour de très faibles valeurs).",
+"pg":48,
+"anchors":[
+"T-2.3d1"
+]
+},
+{
+"t":"p",
+"html":"<u><b>Attention :</b></u> éviter d’utiliser le terme « self » pour désigner un enroulement électrique. Utiliser le mot bobine (ou bobinage). Le terme « self » est un anglicisme mal utilisé : il y a confusion entre un phénomène physique (self-induction) et l’élément matériel qui le produit (bobine). De même, préférer l’adjectif « réactif » à « selfique ».",
+"pg":48
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d2<span style=\"color:#800080\">.</span></b> <u><i>Les grandeurs électromagnétiques</i></u> <i>sont :</i><br>- <i><b>H</b></i> <i>(à ne pas confondre avec le H de l’unité des bobines, le Henry) est l’</i><u><i>excitation magnétique</i></u> <i>(courant</i> <i>électrique générant un champ magnétique autour d’un fil rectiligne ou au centre d’une bobine) mesurée en</i> <i>ampères-mètres (A.m) pour les fils rectilignes et en ampères-tours (A.t) pour les bobines,</i><br>- <i><b>µ</b></i> <i>(lettre grecque mu minuscule) est la</i> <u><i>perméabilité</i></u> <i>(en H/m). C’est l’aptitude d’un matériau (ou d’un milieu) à</i> <i>guider les champs magnétiques. La perméabilité du vide, notée µ</i><sub><i>o</i></sub><i>, est égale à</i> <span style=\"color:#000080\"><i><b>4π.10</b></i></span><span style=\"color:#000080\"><sup><i><b>-7</b></i></sup></span><span style=\"color:#000080\"><i><b>H/m</b></i></span><i>, soit 1,2566 µH/m</i><br>- <i><b>B</b></i> <i>est l'</i><u><i>induction magnétique</i></u> <i>du champ mesurée en Tesla (1 Tesla = 10000 Gauss). B est le champ magnétique</i> <i>issu de l’excitation H agissant sur une surface plane et perpendiculaire à ses lignes de force :</i> <span style=\"color:#000080\"><i><b>B = H . µ</b></i></span><br>- <i>le flux</i> <i><b>Φ</b></i> <i>(lettre grecque phi majuscule) est le</i> <u><i>flux d'induction magnétique</i></u> <i>(en weber, Wb) qui, traversant une</i> <i>bobine, y produit une force électromotrice U si on annule le flux progressivement sur une période t :</i> <span style=\"color:#000080\"><i><b>Φ = U . t</b></i></span>",
+"pg":48,
+"anchors":[
+"T-2.3d2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d3<span style=\"color:#800080\">.</span></b> <i>Par définition, le Henry est l'inductance d'une bobine constituée d’une seule spire, parcourue par un courant</i> <i>de 1 ampère et générant un flux Φ de 1 weber qui, lui-même, peut libérer une énergie égale à 1 joule. Ce qui</i> <i>donne la formule de base :</i> <span style=\"color:#000080\"><i><b>L(H) = Φ(Wb) / I(A)</b></i></span><i>. La quantité d’énergie emmagasinée dans la bobine est donnée</i> <i>par la formule :</i> <span style=\"color:#000080\"><i><b>E(J) = ½ Φ(Wb) . I(A)</b></i></span> <i>soit, en remplaçant Φ par sa valeur</i> <i>(Φ= L.I),</i> <span style=\"color:#000080\"><i><b>E(J) = ½ L(H) . I²(A)</b></i></span>",
+"pg":49,
+"anchors":[
+"T-2.3d3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d4<span style=\"color:#800080\">.</span></b> <i>Si la capacité des condensateurs est assez facile à déterminer grâce à ses dimensions, il n’existe aucune</i> <i>formule fiable pour le calcul de l’inductance des bobines. En théorie, on a</i> <span style=\"color:#000080\"><i><b>L = µ</b></i></span><span style=\"color:#000080\"><sub><i><b>o</b></i></sub></span><span style=\"color:#000080\"><i><b>.D².N²/longueur</b></i></span> <i>(avec L =</i> <i>valeur de la bobine en Henry, µ</i><sub><i>o</i></sub> <i>= perméabilité du vide (ou constante magnétique = 1,2566 µH/m), D =</i> <i>diamètre de la bobine en mètres, N = nombre de spires et longueur de la bobine en mètres). Mais, selon la forme</i> <i>de la bobine, le flux d’induction magnétique (Φ) est plus ou moins dispersé car une partie de celui-ci n’est pas</i> <i>guidé (les spires n’embrassent pas tout le champ magnétique car elles ne sont pas jointives ou parce que la</i> <i>bobine est trop longue) et une partie de sa force électromagnétique est perdue. Pour calculer l’inductance d’une</i> <i>bobine, on a alors recours à des formules empiriques comme celle citée dans le tableau comparatif. Celle-ci ne</i> <i>fonctionne qu’avec une bobine comportant une seule couche de spires jointives et dont le rapport</i> <i>diamètre/longueur est compris entre 0,5 et 1. D’autres formules existent : elles utilisent toutes un coefficient issu</i> <i>du rapport diamètre/longueur de la bobine. Un fil rectiligne aura aussi une inductance, très faible par rapport à</i> <i>une bobine (≈ 1 µH/m pour un fil rectiligne en cuivre) ; cette faible valeur sera intéressante pour des</i> <i>applications en UHF et au-delà.</i>",
+"pg":49,
+"anchors":[
+"T-2.3d4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d5<span style=\"color:#800080\">.</span></b> <i>L’inductance de la bobine augmente significativement en introduisant un</i> <u><i>noyau magnétique</i></u> <i>à l’intérieur des</i> <i>spires (ou en enroulant les spires autour d’un</i> <u><i>tore</i></u><i>), ce qui guide le champ magnétique et augmente</i> <i>artificiellement la section de la bobine. Le noyau peut être constitué de différents matériaux (feuille de tôle,</i> <i>ferrite, poudre ferromagnétique) ayant chacun leur</i> <u><i>perméabilité relative</i></u> <i>notée µ</i><sub><i>r</i></sub> <i>et calculée par rapport à la</i> <i>perméabilité du vide, µ</i><sub><i>o</i></sub><i>. L’air sec a une perméabilité très proche de celle du vide (µ</i><sub><i>r</i></sub> <i>de l’air sec = 1,000 0004).</i> <i>Les</i> <u><i>matériaux magnétiques</i></u> <i>sont le fer, le nickel, le cobalt, le silicium et leurs alliages. Lorsque leur µ</i><sub><i>r</i></sub> <i>est</i> <i>proche de 1, les conducteurs sont paramagnétiques s’ils s’aimantent dans le sens du champ magnétisant (alumi-</i><i>nium, manganèse, platine) ou diamagnétiques s’ils s’aimantent en sens inverse (cuivre, zinc, argent, bismuth).</i>",
+"pg":49,
+"anchors":[
+"T-2.3d5"
+]
+},
+{
+"t":"p",
+"html":"<i>Les</i> <u><i>ferrites</i></u> <i>sont des mélanges à base d’oxydes de fer. Leur µ</i><sub><i>r</i></sub> <i>varie de 20 à 3000 selon le matériau employé et</i> <i>leur forme. Elles sont utilisables sur une plage de fréquence et pour un champ magnétique donnés, ce qui limite</i> <i>la puissance utile dans la bobine quand les dimensions du noyau sont trop petites (saturation). Le</i> <u><i>coefficient AL</i></u> <u><i>des ferrites</i></u><i>, lié au µ</i><sub><i>r</i></sub> <i>du matériau et à la forme de la bobine, exprime le rapport entre la valeur réelle de la</i> <i>bobine avec son noyau (ou son tore) divisé par la valeur de cette même bobine dont le noyau a été retiré.</i>",
+"pg":49
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <i>Les équations de Maxwell mettent en relation la permittivité et la perméabilité du vide par l’égalité suivante :</i> <span style=\"color:#000080\"><i><b>µ</b></i></span><span style=\"color:#000080\"><sub><i><b>o</b></i></sub></span> <span style=\"color:#000080\"><i><b>. ε</b></i></span><span style=\"color:#000080\"><sub><i><b>o</b></i></sub></span> <span style=\"color:#000080\"><i><b>. c</b></i></span><span style=\"color:#000080\"><sup><i><b>2</b></i></sup></span> <span style=\"color:#000080\"><i><b>= 1</b></i></span> <i>(avec c = vitesse de la lumière, soit 3.10</i><sup><i>8</i></sup> <i>m/s)</i>",
+"pg":49,
+"anchors":[
+"T-2.3e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Lorsqu’ils sont traversés par des courants alternatifs, les bobines et les condensateurs réagissent différemment : le condensateur ne laissera passer que la composante alternative d’une tension tandis que la bobine s’opposera à toute variation de l’intensité. Ceci se mesure en ohms mais on ne peut plus parler de résistance puisque cela dépend de la fréquence. Le terme d’<u><b>impédance</b></u> (noté Z) est employé et plus précisément de <u><b>réactance</b></u> pour la bobine et de <u><b>capacitance</b></u> pour le condensateur. De plus, <u><b>aucune énergie n’est consommée</b></u> : les bobines et les condensateurs emmagasinent l’énergie puis la restituent à l’identique. Etymologiquement, Impédance provient du langage militaire où les « impédiments » désignaient les bagages qui ralentissaient la marche d’une armée. <u><b>L’impédance</b></u> de la bobine et du condensateur <u><b>varie en fonction de la fréquence</b></u> du courant qui les traverse.",
+"pg":49,
+"anchors":[
+"T-2.3f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f1<span style=\"color:#800080\">.</span></b> Dans une bobine, plus la fréquence augmente et plus la valeur de la bobine est grande, plus l’impédance est élevée. L’impédance de la bobine est nulle lorsque le courant qui la traverse est continu (fréquence nulle). L’impédance de la bobine est égale à son inductance multipliée par la pulsation : <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>L</b></sub></span><span style=\"color:#000080\"><b>(Ω) = ωL(H)</b></span>. <i>D’où vient</i> <i>cette formule ? On sait que : L = Φ / I et Φ = U.t, donc U / I = L / t. En régime sinusoïdal, la partie active de la</i> <i>tension ou de l’intensité (t) a une durée de 1/(2πF) (voir schéma §2.1b). Donc U/I =</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>L</b></i></sub></span> <span style=\"color:#000080\"><i><b>= 2πfL</b></i></span><i>.</i>",
+"pg":49,
+"anchors":[
+"T-2.3f1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f2<span style=\"color:#800080\">.</span></b> Dans un condensateur, plus la fréquence augmente et plus la capacité du condensateur est grande, plus l’impédance est faible. L’impédance du condensateur est infinie lorsqu’on lui applique un courant continu (aucun courant ne traverse le condensateur). L’impédance d’un condensateur est égale à l’inverse du produit de la pulsation multipliée par sa capacité : <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>C</b></sub></span><span style=\"color:#000080\"><b>(Ω) = 1/[ωC(F)]</b></span>. En présence d’un courant continu superposé à un courant alternatif, on a l’impression que seule la composante alternative traverse le condensateur. Mais ce n’est qu’une illusion : les électrons qui entrent dans le condensateur ne sont pas les mêmes que ceux qui sortent de l’autre côté car le diélectrique les sépare. <i>D’où vient la formule du condensateur ? On sait que : C = Q / U et</i> <i>Q = I.t, donc U / I = t / C. On vient de voir au §2.3f1 que t = 1/(2πf). Donc U/I =</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span> <span style=\"color:#000080\"><i><b>= 1/(2πfC)</b></i></span><i>.</i>",
+"pg":49,
+"anchors":[
+"T-2.3f2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> Les condensateurs et les bobines peuvent être montés en <u><b>groupement série ou parallèle</b></u>. Le montage des bobines en parallèle est peu utilisé.",
+"pg":49,
+"anchors":[
+"T-2.3g"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g1<span style=\"color:#800080\">.</span></b> L’inductance équivalente des <u><b>bobines en série</b></u> est égale à la somme des inductances (comme pour les résistances) si les bobines ne sont pas couplées. Si les bobines sont couplées, il faut ajouter ou soustraire la <u><b>mutuelle-induction</b></u>, elle-même fonction du <u><b>coefficient de couplage</b></u> des bobines <i>(coefficient k compris entre –1</i> <i>et +1 : si k = 1, les bobines sont parfaitement couplées ; si k = 0, elles ne sont pas couplées ; si k &lt; 0, rendant la</i> <i>mutuelle-induction négative, le sens des spires des bobines est inversé). Pour éviter le couplage des bobines, on</i> <i>pourra soit les éloigner suffisamment entre elles, soit isoler leur champ magnétique à l’aide d’un blindage ou</i> <i>simplement les disposer perpendiculairement entre elles, ce qui sous-entend qu’on ne peut disposer ainsi plus de</i> <i>trois bobines (une bobine dans chacun des trois axes).</i>",
+"pg":50,
+"anchors":[
+"T-2.3g1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g2<span style=\"color:#800080\">.</span></b> Pour calculer la <u><b>capacité équivalente</b></u> des condensateurs, les formules de calcul sont inversées par rapport à celles utilisés pour les résistances : on additionne les valeurs lorsque les condensateurs sont en parallèle et, lorsque les condensateurs sont en série, on calcule l’inverse de la somme des inverses (ou le produit des valeurs divisé par leur somme s’il n’y a que 2 condensateurs).",
+"pg":50,
+"anchors":[
+"T-2.3g2"
+]
+},
+{
+"t":"p",
+"html":"<i>La tension aux bornes d’un groupement de</i> <u><i>condensateurs montés en série</i></u> <i>est égale à la somme des tensions aux</i> <i>bornes de chacun des condensateurs (loi des mailles), on a : U</i><sub><i>t</i></sub> <i>= U</i><sub><i>C1</i></sub> <i>+ U</i><sub><i>C2</i></sub> <i>+ … . De plus, par définition,</i> <i>Q = C . U, on en déduit que U = Q / C. Remplaçons U par sa valeur : Q</i><sub><i>t</i></sub> <i>/ C</i><sub><i>t</i></sub> <i>= Q</i><sub><i>C1</i></sub> <i>/ C1 + Q</i><sub><i>C2</i></sub> <i>/ C2 + … Du fait</i> <i>de la loi des mailles, la quantité d’électricité (Q) emmagasinée dans chacun des condensateurs (Q</i><sub><i>C1</i></sub><i>, Q</i><sub><i>C2</i></sub><i>, etc.)</i> <i>est égale à la quantité d’électricité emmagasinée dans l’ensemble (Q</i><sub><i>t</i></sub><i>). La valeur Q, commune aux deux</i> <i>membres de l’équation, peut être remplacée par 1 :</i> <span style=\"color:#000080\"><i><b>1 / C</b></i></span><span style=\"color:#000080\"><sub><i><b>t</b></i></sub></span> <span style=\"color:#000080\"><i><b>= 1 / C1 + 1 / C2 + …</b></i></span> <i>On retrouve la formule des</i> <i>résistances en parallèle que l’on simplifie pour deux condensateurs par :</i> <span style=\"color:#000080\"><i><b>C</b></i></span><span style=\"color:#000080\"><sub><i><b>t</b></i></sub></span> <span style=\"color:#000080\"><i><b>= (C1 . C2) / (C1 + C2)</b></i></span><i>.</i><br><i>La</i> <u><i>répartition de la tension entre des condensateusr montés en série</i></u> <i>se fait au prorata inverse de la valeur des</i> <i>capacités : le plus petit condensateur aura la tension la plus élevée à ses bornes. Le groupement des</i> <u><i>condensateurs en parallèle</i></u> <i>se conçoit plus facilement : les surfaces en vis à vis s’additionnent et donc la</i> <i>capacité équivalente est la somme des valeurs de chacun des condensateurs du groupement.</i>",
+"pg":50
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> Lorsqu’un courant sinusoïdal traverse une résistance, tension et intensité sont en phase. Par contre, lorsqu’un courant sinusoïdal traverse un condensateur ou une bobine, des <u><b>déphasages</b></u> entre tension et intensité se produisent. <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h1<span style=\"color:#800080\">.</span></b> Le <u><b>déphasage introduit par le condensateur</b></u> entre la tension à ses bornes et l’intensité le traversant s’explique ainsi : lorsque le condensateur est « rempli », la tension à ses bornes est maximum et aucune intensité n’est constatée puisqu’il est plein. Dès que le condensateur se vide, un courant sort du condensateur (intensité négative) tandis que la tension (positive) diminue. Lorsque le condensateur est vide (tension nulle), l’intensité (négative) est à son maximum. Puis la tension à ses bornes s’inverse tandis que le courant (négatif) diminue jusqu’à devenir nul lorsque le condensateur est rempli. A ce moment, la tension est maximum et inversée par rapport au début. Puis le cycle continue en sens inverse lorsque le condensateur se vide à nouveau. Il y a d'abord établissement de l’intensité puis établissement de la tension car l’intensité remplit le condensateur. <u><b>La</b></u> <u><b>tension est en retard de 90° par rapport à l’intensité</b></u> (ou l’intensité est en avance de 90° sur la tension mais le déphasage est par convention constaté par rapport à l’intensité, voir §2.5c pour une représentation schématique).",
+"pg":50,
+"anchors":[
+"T-2.3h"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h2<span style=\"color:#800080\">.</span></b> Le <u><b>déphasage introduit par la bobine</b></u> s’explique ainsi : lorsqu’un courant continu parcourt la bobine, elle crée un champ magnétique dans ses spires. En l’absence de variation du courant, aucune tension n’apparaît aux bornes de la bobine. Si le courant parcourant la bobine diminue, le champ de la bobine restitue l’énergie emmagasinée lors de la création du champ en générant une tension inverse comme si la bobine était un générateur. La tension (négative) sera maximum lorsque le courant sera nul car, en régime sinusoïdal, c’est à ce moment que la variation du courant est la plus importante. Lorsque le courant s’inverse, le champ magnétique s’inverse et la tension négative diminue. Lorsque l’intensité atteint son maximum en sens inverse, la tension est nulle et le champ magnétique a été inversé. Puis le cycle continue lorsque le courant traversant la bobine diminue de nouveau. Une tension est préalablement nécessaire pour générer un courant dans la bobine puis, une fois la réserve d’énergie créée sous la forme d’un champ magnétique, le courant s’établit. <u><b>La tension est en avance de</b></u> <u><b>90° par rapport à l’intensité</b></u>.",
+"pg":50,
+"anchors":[
+"T-2.3h2"
+]
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>i<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemples</b></u></span> <span style=\"color:#800000\"><u><b>:</b></u></span> <b>1)</b> Un condensateur variable a une capacité de 100 pF. Quelle sera sa valeur si la surface des lames en vis à vis est diminuée de moitié? <span style=\"color:#800000\"><u>Réponse :</u></span> avec C = d . S / E, si S / 2 alors C / 2 donc C = 100 / 2 = <span style=\"color:#800000\">50 pF</span>",
+"pg":50,
+"anchors":[
+"T-2.3i"
+]
+},
+{
+"t":"ex",
+"html":"<b>2)</b> L’inductance d’une bobine cylindrique a une valeur de 5 µH. Cette bobine possède 40 spires. Quelle sera la valeur de l’inductance avec seulement 10 spires (en nH) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> L = F . N² . D² ; si N / 4 → L / 4² → L / 16 → L = 5µH / 16 = 0,3125 µH = <span style=\"color:#800000\">312,5 nH</span> <i>; en fait, comme la</i> <i>forme de la bobine change car elle est plus courte ou, si on l’étire pour garder la même longueur, l’espace</i> <i>entre les spires est plus grand, son inductance n’est pas exactement proportionnelle au carré des spires.</i>",
+"pg":50
+},
+{
+"t":"ex",
+"html":"<b>3)</b> Quelle est l’impédance de la bobine ?<p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\"><u>Réponse :</u></span> Z = ωL = 2πfL=6,28 x 8.10<sup>6</sup> x 12,5.10<sup>-6</sup> = 6,28 x 8 x 12,5 = <span style=\"color:#800000\">628 Ω</span></p><p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\"><u>sur une calculette :</u></span></p><p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\">en écriture naturelle</span> : 2 x [π] x 8.10<sup>6</sup> <i>(f)</i> x 12,5.10<sup>-6</sup> <i>(L)</i> = 628.10<sup>0</sup> = 628 Ω <span style=\"color:#800000\">formule simplifiée</span> : 6,28 x 8<i>(f en MHz)</i> x 12,5 <i>(L en µH)</i> = <span style=\"color:#800000\">628 Ω</span></p>",
+"pg":50
+},
+{
+"t":"fig",
+"id":"c050_3",
+"pg":50,
+"indent":7
+},
+{
+"t":"ex",
+"html":"<b>4)</b> Quelle est la valeur du condensateur (en µF) et la quantité d’énergie (en mJ) emmagasinée dans le condensateur ?<br><span style=\"color:#800000\"><u>Réponses :</u></span> C(F) = Q(C) / U(V) = 0,0008 / 20 = 0,00004 F = <span style=\"color:#800000\">40 µF</span><p style=\"margin:0 0 0 1.3em\">E(J) = ½ x Q(C) x U(V) = ½ x 0,0008 x 20 = 0,008 J = <span style=\"color:#800000\">8 mJ</span></p>",
+"pg":50
+},
+{
+"t":"fig",
+"id":"c050_1",
+"pg":50,
+"indent":330
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Réponse :</u></span><br>Z=1/(2πfC) = 1/(6,28x15.10<sup>3</sup>x10.10<sup>-6</sup>) = 10<sup>3</sup>/(6,28x15x10) = 1000/(6,28x150) ≈ 1 Ω 14 V<sub>max</sub> x 0,707 ≈ 10 V<sub>eff</sub> ; I = U / Z = 10V / 1Ω = <span style=\"color:#800000\">10 A</span><span style=\"color:#800000\"><sub>eff</sub></span> (<i>valeur exacte = 9,33</i>)<br><span style=\"color:#800000\"><u>sur une calculette, calcul de l’impédance du condensateur :</u></span><br><span style=\"color:#800000\">en écriture naturelle</span> : Z = 1 ÷ (2 x [π] x 15.10<sup>3</sup><i>(f)</i> x 10.10<sup>-6</sup><i>(C)</i>) = 1,0610.10<sup>0</sup> ≈ 1 <span style=\"color:#800000\">formule simplifiée</span> : 159 / f / C = 159 ÷ 0,015 <i>(f en MHz)</i> ÷ 10000 <i>(C en nF)</i> ≈ 1",
+"pg":50,
+"indent":105
+},
+{
+"t":"fig",
+"id":"c050_2",
+"pg":50,
+"min":6.0
+},
+{
+"t":"ex",
+"html":"<b>6)</b> Calculer la capacité équivalente de cet ensemble (en pF)<p style=\"margin:0 0 0 0.6em\"><span style=\"color:#800000\"><u>Réponse :</u></span> 0,4 nF = 400 pF </p><p style=\"margin:0 0 0 0.6em\">C<sub>t</sub> = C1 + C2 = 100pF + 400pF = <span style=\"color:#800000\">500 pF</span></p>",
+"pg":51
+},
+{
+"t":"fig",
+"id":"c051_3",
+"pg":51,
+"indent":332
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>2.4) Charge, décharge et constante de temps pour les condensateurs :</b></u></span> <b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Le circuit ci-dessous est constitué d’un condensateur C suivi d’une résistance R en série. Lorsque l’inverseur est sur « Charge », la pile remplit le condensateur. Lorsque l’inverseur est sur « Décharge », le condensateur se vide.",
+"pg":51,
+"anchors":[
+"T-2.4"
+]
+},
+{
+"t":"fig",
+"id":"c051_1",
+"pg":51
+},
+{
+"t":"p",
+"html":"Pour déterminer le temps de charge du condensateur, on part de la formule t(s) = Q(C) / I(A) (voir §1.3a). On sait que, par la définition du condensateur, Q(C) = C(F).U(V) et que, dans la résistance, I = U/R. Par substitution (t = C.U/[U/R]), on en déduit la <u><b>constante de temps</b></u>, <i>T</i><span style=\"color:#000080\"><b>(s) = R(Ω) . C(F)</b></span>. Mais, à mesure que le condensateur se charge, la tension à ses bornes augmente et, conséquemment, la tension aux bornes de R diminue. La loi d’Ohm implique que le courant remplissant le condensateur diminue. Si bien qu’au bout du temps <i>T</i>, le condensateur n’est chargé qu’au deux tiers environ de la tension présente à ses bornes (<i>63,21% exactement, soit 1–[1/e] avec e</i> <i>(nombre d’Euler) = 2,718 = [1 + (1 / n)]</i><sup><i>n</i></sup><i>, n étant très grand</i>). Au bout de 1 <i>T</i>, on a U<sub>C</sub> = (2/3).E. Au bout de 2 <i>T</i>, la tension sera (8/9).E (ou E – [1/3]².E). A 3 <i>T</i>, on aura (26/27).E (ou E – [1/3]<sup>3</sup>.E), etc. Au bout de 4,605 <i>T</i>, le condensateur est chargé à 99% <i>(1 – e</i><sup><i>-4,605</i></sup> <i>= 0,99)</i>. Au bout de 5 <i>T</i>, le condensateur est considéré comme complètement chargé. Le raisonnement est inverse pour la décharge : à chaque constante de temps, le condensateur se vide du tiers de la tension restant à ses bornes. Au bout de 1 <i>T</i>, il reste (1/3).E ; au bout de 2 <i>T</i>, il reste (1/9).E (ou (1/3)<sup>2</sup>.E), etc. Au bout de 5 <i>T</i>, la tension résiduelle est inférieure à 1% de la tension d’origine : le condensateur s’est vidé. En théorie, le condensateur n’est jamais ni complètement chargé ni complètement vide (attention aux doigts !).",
+"pg":51
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> un condensateur de 100 µF se vide par l’intermédiaire d’une résistance de 8 kΩ. En combien de temps le condensateur se videra-t-il (moins de 1% de sa tension d’origine) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> le condensateur sera vide au bout de 5 <i>T</i> : <i>T</i>(s) = R(Ω) . C(F) = 8.10<sup>3</sup> x 100.10<sup>-6</sup> = 800.10<sup>-3</sup> = 800 ms ou <span style=\"color:#800000\">formule simplifiée :</span> <i>T</i>(ms) = R(kΩ) . C(µF) = 8 x 100 = 800 ms ; 5<i>T</i> = 5 x 800 ms = 4000 ms = <span style=\"color:#800000\">4 s</span>",
+"pg":51
+},
+{
+"t":"p",
+"html":"<i>En décharge, la tension aux bornes du condensateur est :</i> <span style=\"color:#000080\"><i><b>U</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span><span style=\"color:#000080\"><i><b>(V) = E(V) x (e</b></i></span> <span style=\"color:#000080\"><sup><i><b>(-t(s)/R(Ω)C(F))</b></i></sup></span><span style=\"color:#000080\"><i><b>)</b></i></span><i>. En charge, la formule</i> <i>devient :</i> <span style=\"color:#000080\"><i><b>U</b></i></span><span style=\"color:#000080\"><sub><i><b>C</b></i></sub></span><span style=\"color:#000080\"><i><b>(V) = E(V) x [1 – (e</b></i></span> <span style=\"color:#000080\"><sup><i><b>(-t(s)/R(Ω)C(F))</b></i></sup></span><span style=\"color:#000080\"><i><b>)]</b></i></span><i>.</i>",
+"pg":51
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>L'établissement du courant dans une bobine (ou l'interruption du courant) suit la même courbe. La constante</i> <i>de temps est, dans ce cas,</i> <span style=\"color:#000080\"><i><b>T(s) = L(H) / R(Ω)</b></i></span><i>. Lors de l'interruption brusque du courant, une tension inverse</i> <i>peut atteindre plusieurs dizaines de fois la tension présente aux bornes de la bobine (</i><u><i>loi de Lenz)</i></u><i>.</i>",
+"pg":51,
+"anchors":[
+"T-2.4b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><i><b>2.5) Calcul de l'impédance de bobines et de condensateurs non parfaits :</b></i></u></span>",
+"pg":51,
+"align":"left",
+"anchors":[
+"T-2.5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Les bobines et les condensateurs ne sont jamais parfaits : ils ont toujours une partie résistive que nous appelons résistance pure. Dans les schémas ci-dessous, la résistance pure est représentée en pointillé. Rappelons que, du fait de l’effet de peau (§1.4e), le courant ne se déplace qu’en surface des fils, ce qui rend le fil moins conducteur qu’à la simple lecture d’un ohm-mètre et ceci d’autant moins que la fréquence du courant est élevée.",
+"pg":51,
+"anchors":[
+"T-2.5a"
+]
+},
+{
+"t":"p",
+"html":"La réactance (rapport U / I) de la bobine ou du condensateur ne peut pas s’additionner avec la résistance du fil à cause du déphasage de l’intensité par rapport à la tension aux bornes de la bobine ou de condensateur. La partie résistive (résistance pure du fil) ne s'ajoute pas arithmétiquement à la réactance (déphasage de ± 90°) comme dans le cas des résistances en série, mais géométriquement (somme vectorielle).",
+"pg":51
+},
+{
+"t":"fig",
+"id":"c051_2",
+"pg":51
+},
+{
+"t":"p",
+"html":"Cette représentation vectorielle (vecteurs de Fresnel) traduit une somme de grandeurs sinusoïdales de même fréquence sans que l'on puisse déterminer la fréquence des signaux (vitesse de rotation des vecteurs)",
+"pg":51
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><i>L’impédance équivalente</i></u> <i>(Z) d’un groupement en série d’une résistance et d’une bobine ou d’un condensateur</i> <i>se calcule en utilisant le théorème de Pythagore. R est le vecteur de la résistance ; X</i><sub><i>L</i></sub> <i>et X</i><sub><i>C</i></sub> <i>sont les vecteurs de</i> <i>la réactance de la bobine et du condensateur et sont perpendiculaires au vecteur R. La longueur des vecteurs est</i> <i>proportionnelle à leurs valeurs en Ω. Pour un composant idéal, sans résistance, le vecteur Z est vertical et</i> <i>Z</i><sub><i>L</i></sub> <i>= X</i><sub><i>L</i></sub> <i>ou Z</i><sub><i>C</i></sub> <i>= X</i><sub><i>C</i></sub><i>. Si la bobine ou le condensateur ne sont pas parfaits, la formule est :</i> <span style=\"color:#000080\"><i><b>Z = √(R² + X²)</b></i></span><i>.</i><br><i>De plus, un condensateur a toujours une composante réactive (bobine) à cause de la forme de ses armatures</i> <i>(formant un coude, par exemple). Une bobine a une composante capacitive liée à l'espacement entre ses spires.</i> <i>Les trois vecteurs (R, L et C) sont représentés ci-dessous : en partant de O et en gardant la même échelle de</i> <i>longueur en Ω, le vecteur de réactance de la bobine (L) va vers le haut (+90°), celui du condensateur (C) vers le</i> <i>bas (-90°), le vecteur de la résistance (R) va vers la droite (0°, pas de déphasage). La direction du vecteur OZ</i> <i>donnera le déphasage (en ° ou en fraction de π) à analyser comme dans le cercle trigonométrique.</i>",
+"pg":52,
+"anchors":[
+"T-2.5b"
+]
+},
+{
+"t":"p",
+"html":"<i>En mettant les vecteurs R, L et C bout à bout, la résultante (somme vectorielle) donne la valeur de l'</i><u><i>impédance</i></u> <i>et</i> <u><i>l’angle de déphasage</i></u> <i>de la tension par rapport à l’intensité. L’impédance (Z) est formée d’une résistance (R)</i> <i>et d’une</i> <u><i>réactance</i></u> <i>positive (+X</i><sub><i>L</i></sub><i>) ou négative (–X</i><sub><i>C</i></sub><i>) qui lui est perpendiculaire. La valeur de l’impédance</i> <i>s’écrira sous la forme R ± jX. Le symbole j et son signe indiquant le sens du déphasage signifie qu’on ne peut</i> <i>pas additionner (ou soustraire) R et X bien que tous deux se mesurent en Ω.</i>",
+"pg":52
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Le rapport réactance/résistance détermine la tangente de l’angle de déphasage. Si l’angle de déphasage est</i> <i>positif, la réactance sera positive et la tension sera en avance par rapport à l’intensité. Dans le cas contraire, la</i> <i>réactance sera négative et la tension sera en retard par rapport à l’intensité.</i>",
+"pg":52,
+"anchors":[
+"T-2.5c"
+]
+},
+{
+"t":"fig",
+"id":"c052_1",
+"pg":52
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+290.6,
+162.5
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i>Arcsinus (noté arcsin ou sin</i><sup><i>–1</i></sup><i>) est la fonction inverse du Sinus</i>",
+"sans":false
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>Z(Ω) =√(R² + [X</i><sub><i>L</i></sub> <i>– X</i><sub><i>C</i></sub><i>]²) = R ± jX</i>",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><i>Exemple</i></u> <i>: sin (45°) = 0,707 et sin</i><sup><i>–1</i></sup> <i>(0,707) = 45°</i>",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>φ = déphasage de U par rapport à I</i>",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i>Sur certaines calculettes, les angles doivent être exprimés en radians</i>",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>= arctg (X / R)</i>",
+"sans":false
+}
+],
+"pad":7.6
+},
+{
+"r":3,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<i>(et non pas en °) c’est-à-dire en longueur sur le cercle trigonométrique = arctg ((X</i><sub><i>L</i></sub> <i>–X</i><sub><i>C</i></sub> <i>) / R)</i>",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i>dont la demi-circonférence (soit 180°) mesure π.</i>",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>= arcsin (X / Z)</i>",
+"sans":false
+}
+],
+"pad":7.6
+},
+{
+"r":5,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><i>Exemples</i></u> <i>: 45° = (45 / 180) x π = π / 4 = 0,7854 radian</i>",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>= arcsin [(X</i><sub><i>L</i></sub> <i>–X</i><sub><i>C</i></sub> <i>)/√(R² + (X</i><sub><i>L</i></sub> <i>– X</i><sub><i>C</i></sub><i>)²)]</i>",
+"sans":false
+}
+],
+"pad":7.6
+},
+{
+"r":6,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i>1,05 rad = 1,05 x 180 / π = 60° ; 360° = 2 π = 6,28 radians</i>",
+"sans":false
+}
+]
+},
+{
+"r":6,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>= arccos (R / Z)</i>",
+"sans":false
+}
+],
+"pad":7.6
+}
+],
+"pg":52
+},
+{
+"t":"p",
+"html":"<i>sin(45°) = sin(0,7854 rad) = 0,707 et sin</i><sup><i>–1</i></sup><i>(0,707) = 0,7854 rad = 45°</i> <i>= arccos [R/√(R² + (X</i><sub><i>L</i></sub> <i>– X</i><sub><i>C</i></sub><i>)²)]</i>",
+"pg":52,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i>une bobine de 6 µH est parcourue par un courant de 1,06 MHz. La résistance pure de la bobine est de 69</i> <i>Ω. Quelle est l’impédance de la bobine ? Quel déphasage génère cette bobine non parfaite ?</i><br><span style=\"color:#800000\"><u><i>Réponses :</i></u></span> <i>réactance de la bobine : X</i><sub><i>L</i></sub> <i>= Z</i><sub><i>L</i></sub> <i>= 2</i><i>π</i><i>FL = 6,28 x 1,06.10</i><sup><i>6</i></sup> <i>x 6.10</i><sup><i>-6</i></sup> <i>= 6,28 x 6,36 =</i> <span style=\"color:#800000\"><i>40 Ω ;</i></span><br><i>Z</i><sub><i>L</i></sub> <i>=√(R² + X</i><sub><i>L</i></sub><i>²) =√(69² + 40²) ≈ 80 Ω ; Déphasage = arctg (X / R) = tg</i><sup><i>–1</i></sup> <i>(40 / 69) = tg</i><sup><i>–1</i></sup> <i>(0,5797) =</i> <span style=\"color:#800000\"><i>+30°</i></span>",
+"pg":52
+},
+{
+"t":"fig",
+"id":"c052_2",
+"pg":52
+},
+{
+"t":"p",
+"html":"<i>Le déphasage de tension introduit par les bobines et les condensateurs est compris entre +90° et –90°. La</i> <i>représentation d’un</i> <u><i>signal déphasé</i></u> <i>est illustrée par le schéma ci-dessus : à gauche, le signal en pointillé (bleu)</i> <i>est en avance de 30° par rapport au signal de référence (en rouge) et correspond au déphasage de la tension</i> <i>par rapport à l’intensité de la bobine de l’exemple ci-dessus. L’impédance du signal s’écrit 69 Ω + j40 Ω. A</i> <i>droite, le signal en pointillé (vert) est en retard de 90° et correspond au déphasage de tension par rapport à</i> <i>l’intensité (par convention, représentant le signal de référence) introduit par un condensateur parfait.</i>",
+"pg":52
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Le calcul de l’impédance (Z) permet d’appliquer la loi d’Ohm (U = Z.I). Mais, pour appliquer la loi de Joule</i> <i>(P = U.I), il faut tenir compte du déphasage tension/intensité, ce qui amène à la formule :</i> <span style=\"color:#000080\"><i><b>P = U.I.cosφ.</b></i></span> <i>Dans le</i> <i>cas d’une bobine ou d’un condensateur parfait, aucune puissance n’est consommée puisque cos(90°) = 0.</i>",
+"pg":52,
+"anchors":[
+"T-2.5d"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples</b></i></u></span> <span style=\"color:#800000\"><i><b>:</b></i></span> <i>à partir des données de l’exemple ci-dessus, en supposant U = 40 V aux bornes de la bobine, calculer</i> <i>l’intensité parcourue dans la bobine et la puissance dissipée (par la résistance pure de la bobine).</i><br><span style=\"color:#800000\"><u><i>Réponses :</i></u></span> <i>I = U / Z = 40 / 80 =</i> <span style=\"color:#800000\"><i>0,5 A</i></span> <i>; P = U.I.cos</i><i>φ</i> <i>= 40 x 0,5 x cos(30°) = 20 x 0,866 =</i> <span style=\"color:#800000\"><i>17,32 W</i></span>",
+"pg":52
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <i>Le rapport entre l'impédance de la bobine (ou du condensateur) et sa résistance pure détermine le déphasage</i> <i>mais aussi le coefficient de qualité appelé</i> <u><i>facteur Q</i></u> <i>: on a</i> <span style=\"color:#000080\"><i><b>Q = Z / R</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Q = 1 / cos φ</b></i></span><i>. Q exprime le rapport</i> <i>entre l’énergie totale emmagasinée dans le composant et l’énergie qui sera dissipée en chaleur. Si R est petit par</i> <i>rapport à Z, le déphasage est faible et Q = 2πfL/R = 1/(2πfCR). Q dépend donc de la fréquence mais aussi de la</i> <i>résistance pure : plus R est petit, plus le coefficient de qualité Q est important et meilleur est le composant.</i>",
+"pg":52,
+"anchors":[
+"T-2.5e"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple</b></i></u></span> <span style=\"color:#800000\"><i><b>:</b></i></span> <i>à partir des données de l’exemple ci-dessus, calculer le facteur Q de l’ensemble.</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>Q = Z / R = 80 / 69 =</i> <span style=\"color:#800000\"><i>1,16</i></span> <i>ou encore Q = 1 / cos</i> <i>φ</i> <i>= 1 / cos (30°) = 1 / 0,866 =</i> <span style=\"color:#800000\"><i>1,16</i></span>",
+"pg":52
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>Les résistances à fils, du fait de leur mode de fabrication (§1.5c) ont des composantes inductives (spirale</i> <i>creusée dans le matériau pour ajuster la valeur) et capacitives (embouts où sont soudées les pattes). Les</i> <i>résistances de faible valeur (jusqu'à 100 Ω) ont un comportement plutôt inductif et les résistances supérieures à</i> <i>300 Ω sont plutôt capacitives. Vers 150-200 Ω, les deux effets s’annulent jusqu’à quelques GHz. Ces résistances,</i> <i>montées en série ou en dérivation pour obtenir la valeur désirée, sont utilisables en très haute fréquence.</i>",
+"pg":52,
+"anchors":[
+"T-2.5f"
+]
+}
+]
+}

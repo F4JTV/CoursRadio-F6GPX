@@ -1,0 +1,283 @@
+{
+"id":"T-11",
+"title":"11) Les SYNOPTIQUES",
+"short":"11 Les synoptiques",
+"blocks":[
+{
+"t":"chapter",
+"html":"11) Les SYNOPTIQUES",
+"pg":89
+},
+{
+"t":"p",
+"html":"Les synoptiques ne sont pas des schémas électriques mais des <u><b>schémas de principes</b></u> : ils montrent comment s’enchaînent les différents étages d’un émetteur ou d’un récepteur. Les liaisons entre les étages sont souvent omises sauf lorsqu’elles permettent de mieux expliquer le fonctionnement de l’ensemble (transformateur, potentiomètre par exemple). Les différents étages RF et leurs liaisons ont été présentés aux §7.3 à 7.7. Les étages de modulation et de démodulation seront vus aux §12.2 et suivants.",
+"pg":89
+},
+{
+"t":"p",
+"html":"A l’examen, de nombreuses questions sur les synoptiques ont été recensées (déterminer le nom manquant d’un étage ou définir les fonctions d’un étage). Quelquefois, la représentation des schémas n’est pas aussi orthodoxe que ci-dessous : il faut bien comprendre l’enchainement des étages avant de répondre. D’autres fois, seule une partie du synoptique est représentée : le nom des étages doit vous guider vers la bonne réponse.",
+"pg":89
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>11.1) Récepteur sans conversion de fréquence</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span>",
+"pg":89,
+"align":"left",
+"anchors":[
+"T-11.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Un synoptique de récepteur se lit <u><b>de l'antenne vers le haut parleur</b></u>. Un récepteur sans conversion se compose d'une série d'amplis RF accordés sur la fréquence HF à recevoir. S’il y a plusieurs fréquences à recevoir, les fréquences d'accord de RF1 et RF2 varient en même temps, généralement par un moyen mécanique.",
+"pg":89,
+"anchors":[
+"T-11.1a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le démodulateur (qui sera étudié au §12.2) suit les étages RF et extrait le signal utile BF du signal HF. Sans plus d’information sur le démodulateur, on ne peut pas savoir quel type de modulation peut recevoir ce récepteur.",
+"pg":89,
+"anchors":[
+"T-11.1b"
+]
+},
+{
+"t":"fig",
+"id":"c089_1",
+"pg":89,
+"indent":165
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> En dehors de l’antenne et du haut-parleur qui sont toujours représentés, le seul composant de ce synoptique est un potentiomètre qui dose le niveau BF appliqué au haut-parleur par l’étage AF.",
+"pg":89,
+"anchors":[
+"T-11.1c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Dans les synoptiques, les étages amplificateurs sont représentés soit par des rectangles (comme pour RF1 et RF2) soit par des triangles dont la pointe indique la sortie (comme pour AF).",
+"pg":89,
+"anchors":[
+"T-11.1d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>11.2) Récepteur avec fréquence intermédiaire (FI)</b></u></span> ou récepteur <u><b>superhétérodyne</b></u> : sans conversion, un récepteur est difficile à accorder sur une bande, surtout si les étages RF sont nombreux. Le principe de l’<u><b>hétérodyne</b></u> (ou hétérodynage) est de mélanger la fréquence à recevoir avec une fréquence variable générée par un oscillateur local puis de l’appliquer à un étage appelé <u><b>fréquence intermédiaire</b></u>. Dans un récepteur superhétérodyne, seul le premier étage R.F. du récepteur sans conversion subsiste mais il est modifié pour devenir un filtre de bande dont la largeur détermine la plage de fréquence à recevoir. La fréquence de l’oscillateur est calculée de telle manière que la fréquence à recevoir soit « transférée » sur une fréquence fixe, la FI. A la sortie du mélangeur se présentent deux fréquences (voir §7.7b), dont une est la FI, l’autre étant éliminée par filtrage. Le rôle de l’étage FI (qui est constitué d’amplificateurs et de filtres) est d'<u><b>améliorer la sélectivité</b></u> (filtres dont les flancs seront les plus raides possible, voir calcul du taux de sélectivité au §4.4e : cette notion est mieux adaptée aux étages RF et FI qu’aux simples filtres LC) <u><b>et la sensibilité</b></u> (réception du signal HF le plus faible) du récepteur. Le démodulateur et les étages suivants sont identiques au récepteur sans conversion.",
+"pg":89,
+"anchors":[
+"T-11.2",
+"T-11.2a"
+]
+},
+{
+"t":"fig",
+"id":"c089_2",
+"pg":89
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les fréquences de l'oscillateur local (FO), de la fréquence à recevoir (HF) et de l’étage de fréquence intermédiaire (FI) sont calculées de telle manière que l'on a :",
+"pg":89,
+"anchors":[
+"T-11.2b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>FI = HF – FO</b></span> (mélange infradyne car FO &lt; HF) ou <span style=\"color:#000080\"><b>FI = FO – HF</b></span> (mélange supradyne car FO &gt; HF) ou <span style=\"color:#000080\"><b>FI = FO + HF</b></span> (mélange supradyne si FO &gt; HF ou mélange infradyne si FO &lt; HF)",
+"pg":89,
+"indent":30
+},
+{
+"t":"p",
+"html":"Si la fréquence de l’oscillateur (FO) est inférieure à la fréquence à recevoir (HF), le récepteur est <u><b>infradyne</b></u> ; dans le cas contraire, le récepteur est <u><b>supradyne</b></u>. Pour augmenter la fréquence à recevoir sans changer la FI quand le mélange conduit à sélectionner la différence (FI =HF-FO ou FO-HF), il faut augmenter la fréquence FO. Dans ce cas, le spectre du signal HF à recevoir est inversé dans l’étage FI <i>(repli spectral)</i> et la fréquence FI est plus basse que la fréquence à recevoir<i>.</i> A l’inverse, quand le mélange conduit à sélectionner la somme (FI =HF+FO), il faut diminuer la fréquence FO pour augmenter la fréquence à recevoir. Si bien que la FI est plus élevée que la fréquence à recevoir et qu’il n’y a pas de repli spectral <i>(voir schéma ci-après).</i>",
+"pg":89
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>récepteur à conversion directe</i></u> <i>(qui ne fonctionne qu’en AM ou modulations apparentées) sera étudié au</i> <i>§12.6i : il ne peut être classé dans les superhétérodynes même s’il possède un oscillateur local et un mélangeur.</i>",
+"pg":89,
+"anchors":[
+"T-11.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> L’antenne reçoit le signal HF que l’on souhaite recevoir mais aussi tous les autres. Le filtre de bande, avant le mélangeur, effectue un premier tri puis l’étage FI, grâce à sa sélectivité, extrait le signal désiré. Dans notre schéma, à droite du signal à recevoir, apparaît un signal adjacent qui pourra dégrader la réception une fois notre signal démodulé. Pour supprimer ce signal parasite, il faudrait un filtre FI avec une bande passante plus étroite.",
+"pg":90,
+"anchors":[
+"T-11.2d"
+]
+},
+{
+"t":"fig",
+"id":"c090_3",
+"pg":90
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Les récepteurs modernes ont plusieurs fréquences intermédiaires permettant de filtrer plus efficacement. Dans ce cas, l’oscillateur local utilisé pour la seconde fréquence intermédiaire est fixe (de préférence piloté par quartz).",
+"pg":90,
+"anchors":[
+"T-11.2e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>Les récepteurs modernes sont dotés d’un</i> <u><i>étage DSP</i></u> <i>(Digital Signal Process, traitement numérique du signal)</i> <i>situé avant l’amplificateur AF ou, de préférence, avant le démodulateur. Le traitement numérique fait appel aux</i> <u><i>convertisseurs analogiques numériques</i></u> <i>(CAN) et aux</i> <u><i>transformées de Fourier</i></u> <i>(FFT), voir §2.1c et §8.5e. Le</i> <i>signal, une fois numérisé, est traité par des algorithmes (filtres digitaux) faisant appel aux matrices. Le nombre</i> <i>de bits de codage du signal détermine la dynamique du circuit (en dB, rapport entre le signal le plus puissant</i> <i>avant saturation et le signal le plus faible, 6 dB par bit de codage). Une fois le traitement numérique effectué, le</i> <i>signal filtré est reconverti en analogique (CNA) puis envoyé à l’étage AF s’il s’agit d’un signal audio BF.</i>",
+"pg":90,
+"anchors":[
+"T-11.2f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <i>Un</i> <u><i>récepteur SDR</i></u> <i>(Software Defined Radio) combine la conversion directe avec un traitement numérique du</i> <i>signal grâce à un mélangeur à double sortie (I et Q, phase et quadrature) dont le traitement numérique est</i> <i>beaucoup plus rapide que les FFT et qui monte beaucoup plus facilement en fréquence car le nombre</i> <i>d’échantillons requis pour convertir le signal est limité (mais il faut deux séries déphasés de 90 °).</i>",
+"pg":90,
+"anchors":[
+"T-11.2g"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>11.3) Fréquence image</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> La fréquence image (Fim) est la fréquence obtenue par le mélange inverse (par exemple, somme des fréquences au lieu de différence des fréquences) utilisé pour générer la FI.",
+"pg":90,
+"anchors":[
+"T-11.3",
+"T-11.3a"
+]
+},
+{
+"t":"p",
+"html":"Soit un récepteur ayant les caractéristiques suivantes : HF = 14 MHz ; FO = 5 MHz ; FI = 9 MHz. Si le filtre d'entrée H.F. est de mauvaise qualité et laisse passer le 4 MHz, le mélange 4 MHz (Fim) et 5 MHz (FO) donne 9 MHz (4 + 5 = 9), soit la Fréquence Intermédiaire. Les deux signaux (HF et Fim) seront présents dans l’étage FI et il sera impossible, à ce niveau, de les séparer. <i>La Fréquence Image se calcule à partir de 2.FO ou 2.FI :</i><p style=\"margin:0 0 0 0.6em\"><i>- si le récepteur est infradyne (FO&lt;HF), avec FI = HF</i> <span style=\"color:#000080\"><i><b>–</b></i></span> <i>FO :</i> <span style=\"color:#000080\"><i><b>Fim = |2.FO – HF|</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Fim = |2.FI – HF|</b></i></span> <i>et avec FI = HF + FO :</i> <span style=\"color:#000080\"><i><b>Fim = 2.FO + HF</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Fim = 2.FI – HF</b></i></span></p><p style=\"margin:0 0 0 0.6em\"><i>- si le récepteur est supradyne (FO&gt;HF) avec FI = FO</i> <span style=\"color:#000080\"><i><b>–</b></i></span> <i>HF :</i> <span style=\"color:#000080\"><i><b>Fim = 2.FO – HF</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Fim = 2.FI + HF</b></i></span></p><p style=\"margin:0 0 0 1.6em\"><i>et avec FI = HF + FO :</i> <span style=\"color:#000080\"><i><b>Fim = 2.FO + HF</b></i></span> <i>ou</i> <span style=\"color:#000080\"><i><b>Fim = 2.FI – HF</b></i></span> </p><p style=\"margin:0 0 0 0.6em\"><i>Dans notre exemple (récepteur infradyne avec FI = HF</i> <span style=\"color:#000080\"><i>–</i></span> <i>FO), Fim =|(2 x 5)</i> <span style=\"color:#000080\"><i>–</i></span> <i>14| ou |(2 x 9)</i> <span style=\"color:#000080\"><i>–</i></span> <i>14| = 4.</i> </p>",
+"pg":90
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Pour limiter ce problème, les récepteurs à large couverture sont à double changement de fréquence avec une première FI élevée (100 MHz et plus), rejetant très loin la Fréquence Image et facilitant ainsi le filtrage d’entrée. La seconde FI, fixée vers 500 kHz, permet d’utiliser des filtres moins onéreux ou un traitement numérique.",
+"pg":90,
+"anchors":[
+"T-11.3b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><i><b>11.4) La sensibilité d'un récepteur</b></i></u></span> <i>se mesure par son signal d'entrée minimum. Une liaison radio est jugée</i> <i>bonne si le bruit propre du récepteur est très en dessous du signal à recevoir. Plus un récepteur est sensible,</i> <i>plus il \"sortira\" les signaux faibles. La puissance du signal se mesure en points S. S9 correspond à une tension</i> <i>de 50 µV sur l'entrée du récepteur (charge de 50 Ω) soit une puissance P = U² / R = 50 µV² / 50 Ω = 50 pW.</i> <i>Entre chaque point S, il y a 6 dB, l'échelle des S pour les fréquences inférieures à 30 MHz est ainsi définie :</i>",
+"pg":90,
+"anchors":[
+"T-11.4"
+]
+},
+{
+"t":"fig",
+"id":"c090_1",
+"pg":90,
+"min":10.0
+},
+{
+"t":"p",
+"html":"<i>Les récepteurs modernes ont couramment une sensibilité de l'ordre de S1 ou S0. Mais l’étalonnage du S-mètre</i> <i>est souvent très fantaisiste et ne correspond pas à la norme indiquée dans le tableau ci-dessus. La mesure du</i> <i>signal d’entrée d’un récepteur se mesure aussi en dBm (décibel par rapport au milliwatt) : un signal S9</i> <i>correspond à –73 dBm (rapport entre 50 pW et 1 mW, soit 1/(2.10</i><sup><i>7</i></sup><i>)) et un signal S0 correspond à –127 dBm</i> <i>(= –73 – [9 x 6]). Afin d’augmenter la sensibilité d’un récepteur, chacun des étages (oscillateur, amplificateur)</i> <i>devra générer le moins de bruit possible (voir §11.7e) et donc être le plus linéaire possible.</i>",
+"pg":90
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>11.5) Émetteur</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> Un synoptique d'émetteur se lit <u><b>du</b></u> <u><b>microphone vers l'antenne</b></u>. De même que pour les récepteurs, il peut y avoir un ou plusieurs changements de fréquences. Le <u><b>modulateur</b></u> comprend nécessairement un oscillateur HF et modifie le signal HF au rythme de la BF (<i>voir le</i> <i>chapitre suivant pour les différents types de</i> <i>modulations</i>). Un émetteur est obligatoirement équipé d'un <u><b>filtre anti-harmonique passe-bas</b></u> pour éviter les rayonnements non essentiels. Lorsque l’émetteur est couplé à un récepteur (<i>formant alors un transmetteur ou transceiver en anglais</i>), certains éléments sont en commun : l’oscillateur local (ainsi, la fréquence de réception varie avec celle de l’émission ; pour cela, la fréquence en sortie du modulateur sera égale à la FI du récepteur), la prise antenne qui permettra d’utiliser le même aérien. Toutes ces possibilités nécessitent un système de commutation (commutateurs, relais électromécaniques ou diodes de commutation) permettant de passer facilement de l’émission à la réception.",
+"pg":91,
+"anchors":[
+"T-11.5"
+]
+},
+{
+"t":"fig",
+"id":"c090_2",
+"pg":90,
+"indent":205
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>11.6) La Compatibilité Électromagnétique</b></u></span> (CEM) est la faculté d'un émetteur de <u><b>ne pas perturber son</b></u> <u><b>environnement</b></u> (notamment un récepteur) ou la faculté d'un récepteur de <u><b>ne pas être perturbé par un émetteur</b></u> ou son environnement. Un matériel électrique, électromécanique ou électronique a un certain <u><b>niveau d'immunité</b></u> à son environnement électromagnétique. Quand les perturbations dépassent ce niveau, son <u><b>seuil de susceptibilité</b></u> est atteint Il faut alors prendre des mesures de <u><b>durcissement</b></u> pour atteindre un meilleur niveau d'immunité. Nous parlons d'<u><b>émission</b></u> lorsqu'il s'agit du générateur de perturbations et de <u><b>susceptibilité</b></u> lorsqu'il s'agit de matériel perturbé ou récepteur de perturbations. Une perturbation (émission ou susceptibilité) est dite <u><b>conduite</b></u> lorsqu'elle est véhiculée par l'intermédiaire de conducteurs (fils, câbles, pistes de circuits imprimés, ...). Une perturbation est dite <u><b>rayonnée</b></u> lorsqu'elle se propage dans l'espace environnant par un champ électromagnétique.",
+"pg":91,
+"anchors":[
+"T-11.6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>11.7) Intermodulation, transmodulation et bruit :</b></u></span> Tout produit d'<u><b>intermodulation</b></u> est créé par un mélange de fréquences au niveau d'un étage (ou d'un composant) non linéaire (à la sortie d'un émetteur ou sur l'entrée d'un récepteur). Le mélange correspond à la somme et la différence des fréquences fondamentales et de leurs harmoniques. Soient A et B, deux fréquences utilisées, on aura A + B et A – B mais aussi 2B – A et 2A – B, produit du troisième ordre, d'autant plus difficile à éliminer que A et B seront des fréquences voisines. Dans notre exemple du §11.3a, si les fréquences 14,1 et 14,2 MHz sont présentes à l’entrée du récepteur et que l’étage RF n’est pas linéaire, on pourra entendre sur 14 MHz le produit du 3<sup>ème</sup> ordre (14,2 – [14,1 x 2] = 14 MHz).",
+"pg":91,
+"anchors":[
+"T-11.7",
+"T-11.7a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le <u><b>point d'interception du 3ème ordre</b></u> (IP3) est le croisement de la droite représentant la caractéristique entrée/sortie du récepteur et de la droite des produits d'intermodulation du 3ème ordre qui augmentent beaucoup plus vite que les signaux d'entrée. Ce point théorique, exprimé en dBm, doit être le plus élevé possible.",
+"pg":91,
+"anchors":[
+"T-11.7b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Lorsqu’un signal de fréquence voisine de F, fréquence du signal désiré, est un signal puissant de forte amplitude, celui-ci va provoquer une surcharge de l’étage d’entrée du récepteur qui devient non-linéaire (le signal à la sortie n’est plus proportionnel au signal d’entrée). Ce signal puissant, non désiré, va alors interférer avec le signal désiré et moduler ce dernier. En conséquence, on entendra la modulation normale du signal désiré mais également la nouvelle modulation : c’est l’effet de <u><b>transmodulation.</b></u>",
+"pg":91,
+"anchors":[
+"T-11.7c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Une partie du <u><b>bruit</b></u> provient de la chaleur (agitation des électrons) et arrive par l’antenne. La puissance de bruit se calcule de préférence en mW ou en dBm. <i>Le niveau du bruit thermique est donnée par les formules :</i>",
+"pg":91,
+"anchors":[
+"T-11.7d"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><i><b>P(W) = k . T(K) . B(Hz</b></i></span><i><b>)</b></i> <i>ou, pour une température de 17°C :</i> <span style=\"color:#000080\"><i>P(dBm) = –174 dBm + 10 log[B(Hz)]</i></span><br><i>k = constante de Boltzmann = 1,38.10</i><sup><i>-23</i></sup> <i>; T = température en K (soit °C + 273) ; B = bande passante en Hz</i>",
+"pg":91,
+"indent":9
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i>quelle est la puissance (en dBm) du bruit thermique dans une antenne à la température ambiante de 35°C</i> <i>pour une bande passante de 2500 Hz ? Même question à 17°C ? Et avec une bande passante de 500 Hz ?</i><br><span style=\"color:#800000\"><u><i>Réponses :</i></u></span> <i>P(W) = k.T(K).B(Hz) = 1,38.10</i><sup><i>-23</i></sup> <i>x (35 + 273) x 2500 = 1,063.10</i><sup><i>-17</i></sup> <i>W =</i> <span style=\"color:#800000\"><i>–139,74 dBm</i></span><p style=\"margin:0 0 0 3.9em\"><i>P(W) = k.T(K).B(Hz) = 1,38.10</i><sup><i>-23</i></sup> <i>x (17 + 273) x 2500 = 1,000.10</i><sup><i>-17</i></sup> <i>W =</i> <span style=\"color:#800000\"><i>–140 dBm</i></span></p><p style=\"margin:0 0 0 3.9em\"><i>P(dBm) = –174 dBm + 10 log(B) = –174 dBm + 10 log (2500) = –174 + 34 =</i> <span style=\"color:#800000\"><i>–140 dBm</i></span></p><p style=\"margin:0 0 0 3.9em\"><i>P(dBm) = –174 dBm + 10 log (500) ≈ –174 + 27 =</i> <span style=\"color:#800000\"><i>–147 dBm</i></span> <i>(7 dB correspond à un rapport de 5)</i> </p>",
+"pg":91
+},
+{
+"t":"p",
+"html":"<i>On voit la forte incidence de la bande passante du signal à traiter et la faible incidence de la température pour</i> <i>les applications radioamateurs. Sur une antenne, à ce bruit thermique s’ajoutent le bruit généré par l’homme</i> <i>qualifié de pollution radioélectrique, le bruit atmosphérique très important sur les bandes basses et le bruit</i> <i>galactique dû essentiellement à l’activité solaire surtout sensible dans les fréquences élevées (VHF et au-delà).</i>",
+"pg":91
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <i>Au niveau du récepteur, il faut ajouter une partie du bruit généré par chaque étage. Le bruit généré par le</i> <i>premier étage doit être le plus faible possible. Le facteur de bruit total est donné par la relation suivante :</i>",
+"pg":91,
+"anchors":[
+"T-11.7e"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><i><b>F = F</b></i></span><span style=\"color:#000080\"><sub><i><b>1</b></i></sub></span> <span style=\"color:#000080\"><i><b>+ (F</b></i></span><span style=\"color:#000080\"><sub><i><b>2</b></i></sub></span> <span style=\"color:#000080\"><i><b>– 1) / G</b></i></span><span style=\"color:#000080\"><sub><i><b>1</b></i></sub></span> <span style=\"color:#000080\"><i><b>+ (F</b></i></span><span style=\"color:#000080\"><sub><i><b>3</b></i></sub></span> <span style=\"color:#000080\"><i><b>– 1) / (G</b></i></span><span style=\"color:#000080\"><sub><i><b>1</b></i></sub></span> <span style=\"color:#000080\"><i><b>. G</b></i></span><span style=\"color:#000080\"><sub><i><b>2</b></i></sub></span><span style=\"color:#000080\"><i><b>) + … + (F</b></i></span><span style=\"color:#000080\"><sub><i><b>n</b></i></sub></span> <span style=\"color:#000080\"><i><b>– 1) / (G</b></i></span><span style=\"color:#000080\"><sub><i><b>1</b></i></sub></span> <span style=\"color:#000080\"><i><b>. G</b></i></span><span style=\"color:#000080\"><sub><i><b>2</b></i></sub></span> <span style=\"color:#000080\"><i><b>. G</b></i></span><span style=\"color:#000080\"><sub><i><b>3</b></i></sub></span> <span style=\"color:#000080\"><i><b>. … . G</b></i></span><span style=\"color:#000080\"><sub><i><b>n-1</b></i></sub></span><span style=\"color:#000080\"><i><b>)</b></i></span><br><i>F = facteur de bruit total ; F</i><sub><i>1</i></sub> <i>= facteur de bruit (ou perte) apporté par l’étage 1 ; G</i><sub><i>1</i></sub> <i>= gain de l’étage 1.</i> <i>Le facteur de bruit et le gain de chaque étage sont exprimés en rapport (et non pas en dB)</i>",
+"pg":91,
+"indent":15
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i>au centre d’un câble ayant une perte totale de 6 dB, on installe un préamplificateur de 16 dB ayant un</i> <i>facteur de bruit de 1 dB. Quel est le facteur de bruit (en dB) de l’ensemble ? Quel est le gain de l’ensemble ?</i><br><span style=\"color:#800000\"><u><i>Réponses :</i></u></span> <i>facteur de bruit de chaque morceau de câble Fc = 2 (= 6 dB / 2) ; gain de chaque morceau du câble</i> <i>Gc = 0,5 (= 1 / Fc) ; facteur de bruit du préampli Fp= 1,26 (= 1 dB) ; gain du préampli Gp = 40 (= 16 dB) ;</i> <i>calcul du facteur de bruit total : F = Fc + ((Fp – 1) / Gc) + ((Fc – 1) / (Gc x Gp)) = 2 + ((1,26 – 1) / 0,5) + ((2 – 1) /</i> <i>(0,5 x 40) = 2 + 0,52 + 0,05 = 2,57 soit un facteur de bruit total de</i> <span style=\"color:#800000\"><i>4,1 dB</i></span> <i>;</i><br><i>Gain de l’ensemble = gain du préampli – pertes dues au facteur de bruit = 16 – 4,1 =</i> <span style=\"color:#800000\"><i>11,9 dB</i></span> <i>(et non pas somme</i> <i>des gains – somme des pertes = 16 – (3 + 1 + 3) = 9 dB : le facteur de bruit amené par le second morceau de</i> <i>câble, c’est-à-dire sa perte, est masqué en grande partie par le gain du préamplificateur)</i>",
+"pg":91
+},
+{
+"t":"p",
+"html":"<i>Bien souvent, l’ensemble du bruit extérieur au récepteur (thermique + atmosphérique + galactique + pollution</i> <i>radioélectrique) est supérieur aux –127 dBm correspondant à un signal de force S0 sur l’antenne. Dans ce cas,</i> <i>le signal, noyé dans le bruit, ne pourra pas être démodulé, même si le récepteur est parfait (aucun bruit généré).</i>",
+"pg":91
+}
+]
+}

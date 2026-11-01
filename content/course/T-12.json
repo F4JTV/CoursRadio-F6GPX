@@ -1,0 +1,473 @@
+{
+"id":"T-12",
+"title":"12) Les DIFFÉRENTS TYPES de MODULATIONS",
+"short":"12 Les modulations",
+"blocks":[
+{
+"t":"chapter",
+"html":"12) Les DIFFÉRENTS TYPES de MODULATIONS",
+"pg":92
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>12.1) Schématisation des différents types de modulation</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span>",
+"pg":92,
+"align":"left",
+"anchors":[
+"T-12.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La tension instantanée en fonction du temps d’un signal sinusoïdal peut se caractériser par trois grandeurs : <u><b>l’amplitude, la fréquence et la phase</b></u>. Si on désire transporter une information (voix, image, données informatiques, …) grâce à ce signal, il faut le moduler en fonction de cette information. Moduler ce signal consiste à modifier une de ses trois grandeurs au rythme de l’information que l’on désire transporter.",
+"pg":92,
+"anchors":[
+"T-12.1a"
+]
+},
+{
+"t":"fig",
+"id":"c092_1",
+"pg":92
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Un <u><b>oscillogramme</b></u> représente la modulation en fonction du temps qu’afficherait un oscilloscope. Un <u><b>spectrogramme</b></u> représente la modulation en fonction de la fréquence qu’afficherait un analyseur de spectre.",
+"pg":92,
+"anchors":[
+"T-12.1b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Si on modifie l’amplitude, on parle de <u><b>modulation d’amplitude</b></u> (AM) : le niveau de H.F. est modulée par le niveau de B.F. ; la B.F. produit une enveloppe (marquée en pointillé dans le schéma ci-dessus) autour de la H.F. En représentant l'AM en fonction de la fréquence, on retrouve la porteuse au centre et deux bandes latérales (une de chaque côté de la porteuse) transportant le message B.F. car moduler la HF (porteuse) par la BF revient à les mélanger (voir § 7.7a) ; la résultante de ce mélange donne les fréquences HF + BF, HF – BF et HF.",
+"pg":92,
+"anchors":[
+"T-12.1c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> La BLU (<u><b>Bande Latérale Unique</b></u>), SSB (Single Side Band) en anglais, est créée à partir de l'AM dont on supprime la porteuse et une bande latérale afin d'optimiser la puissance émise : la porteuse ne transporte aucun message, les deux bandes latérales transportent le même message. Le spectre BF est représenté par un rectangle barré ce qui permet de différencier le bas et le haut du spectre BF (le côté bas de la barre indique la fréquence BF la plus basse). En BLU, le signal BF est simplement translaté (déplacé) vers une fréquence plus élevée. En BLS, le spectre BF émis s’étend de 200 Hz (à gauche du rectangle) à 3 kHz (à droite). En BLI, le spectre BF est inversé : il devra être « retourné » lors de la démodulation, sinon le signal restera incompréhensible.",
+"pg":92,
+"anchors":[
+"T-12.1d"
+]
+},
+{
+"t":"p",
+"html":"<i>La modulation d’amplitude avec</i> <u><i><b>bandes latérales indépendantes</b></i></u> <i>(à ne pas confondre avec la BLI, bande</i> <i>latérale inférieure) permet de transmettre deux signaux indépendants dans chacune des bands latérales. La mise</i> <i>au point de cette modulation, pas encore utilisée pas les radioamateurs, est délicate.</i>",
+"pg":92
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> La <u><b>CW</b></u> (de l’anglais Continuous Waves, ondes entretenues) est simplement de la H.F. modulée en tout ou rien. La CW est une modulation d’amplitude réduite à sa plus simple expression.",
+"pg":92,
+"anchors":[
+"T-12.1e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> La modulation de phase et la <u><b>modulation de fréquence</b></u> (FM) sont des modulations « angulaires ». En FM, la fréquence de la porteuse est modulée au rythme de la BF. Lorsque la BF est au maximum, la fréquence est maximum, et vice versa. <u><b>L'excursion</b></u> en fréquence (ou swing) est l'écart entre la fréquence centrale et une des deux fréquences extrêmes. La bande passante (ou occupée) est le double de l'excursion et est l'écart entre les deux fréquences extrêmes.",
+"pg":92,
+"anchors":[
+"T-12.1f"
+]
+},
+{
+"t":"p",
+"html":"Si l’on modifie la phase, on parle de <u><b>modulation de phase</b></u>. La représentation temporelle de ce signal ressemble alors à celle d’un signal modulé en fréquence et les propriétés d’un signal modulé en phase sont très proches de celles d’un signal modulé en fréquence. D’ailleurs, l’oreille humaine ne fait pas la distinction ; en revanche, l’ordinateur (et le traitement numérique de sa carte son) la fait.",
+"pg":92
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <i>Les</i> <u><i>modes digitaux</i></u> <i>(appelés aussi MGM : Modulation Générée par une Machine) n’échappent pas à cette</i> <i>classification : la CW est une modulation d’amplitude numérique à 2 états (tout ou rien). Avec le</i> <u><i>FSK</i></u> <i>(Frequency Shift Keying), la fréquence est modulée par une sous-porteuse contenant l’information numérique.</i> <i>Le</i> <u><i>PSK</i></u> <i>(Phase Shift Keying) module la phase qui prend 2 états (0 et π donnant du 2-PSK), 4 états (0, π/2, π et</i> <i>3π/2 donnant du 4-PSK), voire plus. Transmettre en</i> <u><i>AFSK</i></u> <i>sur un émetteur BLU équivaut à moduler en FSK.</i>",
+"pg":92,
+"anchors":[
+"T-12.1g"
+]
+},
+{
+"t":"p",
+"html":"<i>La modulation d’amplitude en quadrature (</i><u><i>QAM)</i></u> <i>combine les modulations d’amplitude et de phase ce qui</i> <i>permet jusqu’à 256 états (soit 16²) correspondant chacun à une amplitude et une phase. Ceci complique la</i> <i>modulation et la démodulation (surtout en présence de parasites ou de fading) mais augmente le débit binaire.</i> <i>En effet le</i> <u><i>débit binaire</i></u><i>, donné en bits par seconde (bps), est égal au nombre de changement d’état par seconde</i> <i>(vitesse en</i> <u><i>Bauds</i></u><i>, déterminant la bande occupée par le signal) multiplié par le nombre d’états que peut prendre</i> <i>le signal (</i><u><i>valence</i></u><i>). Depuis 2012, cette classe d’émission (1</i><sup><i>ère</i></sup> <i>lettre = D), utilisée notamment dans les systèmes</i> <i>Wi-Fi, est autorisée aux radioamateurs français (sauf aux opérateurs de classe 3, voir §R-2.2a)</i>",
+"pg":93
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>12.2) Les modulateurs et les démodulateurs :</b></u></span> dans le programme de l’examen, seuls les noms des étages et les synoptiques, selon le type de modulation, sont à connaître. Voir les paragraphes suivants pour plus de détails.",
+"pg":93,
+"anchors":[
+"T-12.2"
+]
+},
+{
+"t":"fig",
+"id":"c093_1",
+"pg":93
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>12.3) La Modulation d'Amplitude</b></u></span>",
+"pg":93,
+"align":"left",
+"anchors":[
+"T-12.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La modulation d’amplitude (AM) reste la modulation la plus simple à mettre en œuvre tant en émission qu’en réception. C’est par ce type de modulation qu’ont été effectués les premières émissions radiophoniques et les premiers contacts radioamateurs en téléphonie. Mais, compte tenu des piètres performances de cette modulation, elle n’est quasiment plus utilisée par les radioamateurs, sauf en Télévision analogique.",
+"pg":93,
+"anchors":[
+"T-12.3a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La <u><b>détection</b></u> (ou détecteur d'enveloppe) est constituée d'une diode suivie d'un circuit RC passe-bas pour filtrer la H.F. Le niveau B.F. appliqué à l’amplificateur AF est ajusté sur le point variable du potentiomètre R. Le semi-conducteur utilisé pour la diode pourra être du Germanium car sa tension de seuil (0,3 volt) est plus faible que le Silicium : l’enveloppe BF sera ainsi mieux restituée dans les creux. Les diodes de détection se présentent souvent sous la forme de petits tubes en verre avec une pointe métallique à l’intérieur.",
+"pg":93,
+"anchors":[
+"T-12.3b"
+]
+},
+{
+"t":"fig",
+"id":"c093_2",
+"pg":93
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Le <u><b>contrôle automatique de gain</b></u> (CAG) est un dispositif qui permet d’obtenir le même niveau B.F. quelle que soit la force du signal H.F. à l'entrée du récepteur. Plus précisément, le CAG agit sur le gain des étages RF d’entrée et/ou sur celui des étages FI afin qu’ils ne soient pas saturés en présence d’un signal fort et que le signal à leur sortie soit exploitable (non écrêté). In fine, c’est bien le niveau BF qui est impacté par ce circuit. La tension à l’entrée de l’étage CAG est prélevée sur la détection à travers la résistance R. Le niveau de CAG est réglé par le potentionmètre RF Gain. La tension de sortie ajuste le gain d'un étage FI à transistor FET double porte (ou le gain d’un autre étage RF). C’est cette tension qu’indique le S-mètre du récepteur.",
+"pg":93,
+"anchors":[
+"T-12.3c"
+]
+},
+{
+"t":"fig",
+"id":"c093_3",
+"pg":93
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Une</i> <u><i>onde porteuse en AM</i></u> <i>peut être modulée de différentes façons : en agissant sur l’alimentation de</i> <i>l'amplificateur final (schéma à gauche) ou en mélangeant HF et BF grâce à un MOS-FET (schéma à droite).</i>",
+"pg":93,
+"anchors":[
+"T-12.3d"
+]
+},
+{
+"t":"fig",
+"id":"c094_1",
+"pg":94
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> La représentation d’un signal AM en fonction du temps est donnée ci-après. La valeur crête du signal HF, « B », est la <u><b>puissance de pointe de l’enveloppe</b></u> (PEP) : l’émetteur ne peut pas fournir une puissance supérieure. C’est cette puissance qui est retenue pour la détermination de la puissance maximum autorisée (voir §R-2.2a). En l’absence de BF, la valeur du signal HF doit être de B/2 (zone 1 du schéma) ; une fois modulée par le signal BF (« enveloppe BF » en pointillé), le signal HF varie autour de B/2 (puissance moyenne lue par le wattmètre, la moitié de la puissance PEP) avec une valeur allant de « a » à « A », soit une variation de « b » (zone 2 du schéma). Si la BF est centrée par rapport à B, on a : b = A – a et B = A + a.",
+"pg":94,
+"anchors":[
+"T-12.3e"
+]
+},
+{
+"t":"fig",
+"id":"c094_2",
+"pg":94
+},
+{
+"t":"p",
+"html":"Si l’enveloppe BF passe au dessus de « B » (zone 3) ou si l’enveloppe BF passe en dessous de 0 (zone 4), il y a <u><b>surmodulation</b></u> et distorsion du signal BF puisqu’une partie de celui-ci n’est pas émis. La modulation est optimisée lorsque la valeur « b » est la plus grande possible, sans toutefois que l’enveloppe BF dépasse les deux limites énoncées ci-dessus (0 et B) car, au-delà, les distorsions sont sévères.",
+"pg":94
+},
+{
+"t":"p",
+"html":"Le <u><b>taux de modulation</b></u> de l'AM est noté K (en %) et est calculé ainsi : <span style=\"color:#000080\"><b>K(%) = (A – a) / (A + a) = b / B</b></span>. Les valeurs B et b sont plus simples à conceptualiser tandis que les valeurs A et a sont plus simples à mesurer. Le taux de modulation obtenu par les valeurs A et a suppose que l’enveloppe BF soit centrée par rapport à la valeur crête de la porteuse (B) et que l’enveloppe BF reste comprise entre 0 et B. Pour éviter la surmodulation et optimiser le taux de modulation, un <u><b>compresseur de modulation</b></u> peut être inséré entre l’amplificateur AF et le modulateur : les pointes du signal BF issu du microphone sont plus ou moins atténuées alors que les creux sont, au contraire, amplifiés.",
+"pg":94
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple</b></u></span> <span style=\"color:#800000\">:</span> dans la zone 2 du schéma, on mesure les valeurs : A = 4,2 V et a = 1,8 V, quel est le taux de modulation ?<br><span style=\"color:#800000\"><u>Réponse</u></span> <span style=\"color:#800000\">:</span> K = (A–a)/(A+a) = (4,2–1,8)/(4,2+1,8) = 2,4/6 = 0,4 = <span style=\"color:#800000\">40%</span>. <i>(2,4 V et 6 V sont les valeurs de b et B)</i>",
+"pg":94
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>12.4) La Modulation de Fréquence</b></u></span>",
+"pg":94,
+"align":"left",
+"anchors":[
+"T-12.4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La modulation de fréquence, FM, et la modulation de phase, PM, sont des modulations angulaires et possèdent des caractéristiques très proches. Si proches que les circuits de démodulation sont identiques et que nous parlons toujours de<br>FM alors que nous avons souvent affaire à de la PM. Si l’oreille humaine ne fait pas la différence entre la FM et la PM, l’ordinateur (et sa carte son) et les DSP ne confondront pas ces deux modulations. On remarque ci-dessus le déphasage de la PM par rapport à la porteuse de -90° et +90° selon la modulation BF. En FM, c’est le nombre de périodes par unité de temps (et donc la fréquence) par rapport à la porteuse (fréquence de référence) qui varie<i>.</i> En l’absence de modulation BF, la FM et la PM sont en phase avec la porteuse.",
+"pg":94,
+"anchors":[
+"T-12.4a"
+]
+},
+{
+"t":"fig",
+"id":"c094_3",
+"pg":94,
+"indent":183
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La FM et la PM sont démodulées par un <u><b>discriminateur</b></u> qui transforme les variations de la fréquence du signal à démoduler en variations de tension BF. Lorsque deux signaux sont présents à l’entrée du démodulateur, seul le signal le plus fort sera démodulé, contrairement à l’AM (et à la BLU) où les deux signaux seront extraits.",
+"pg":94,
+"anchors":[
+"T-12.4b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b1<span style=\"color:#800080\">.</span></b> Un <u><b>détecteur de pente</b></u> est composé d’un filtre dont la fréquence de résonance est décalée par rapport à la fréquence de la porteuse de telle manière que le signal FM se trouve sur la partie la plus linéaire des flancs du filtre (généralement située en dessous de la fréquence de résonance). Si bien que lors des variations de fréquences, la fonction de transfert du filtre transforme la variation de fréquence en variation de tension.",
+"pg":95,
+"anchors":[
+"T-12.4b1"
+]
+},
+{
+"t":"fig",
+"id":"c095_4",
+"pg":95
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b2<span style=\"color:#800080\">.</span></b> Le discriminateur de type <u><b>Travis</b></u> reprend le même principe que le détecteur de pente en réduisant son manque de linéarité. Il est composé de deux circuits oscillants calculés pour les fréquences extrêmes d'excursion (convertisseur équilibré). Quand la fréquence à démoduler se rapproche de FI – δF, la tension en A est supérieure à celle en B.",
+"pg":95,
+"anchors":[
+"T-12.4b2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b3<span style=\"color:#800080\">.</span></b> Le discriminateur de type <u><b>Foster-Seeley</b></u> démodule la modulation de phase (PM) grâce au déphasage introduit par le condensateur C dans le circuit oscillant de sortie.",
+"pg":95,
+"anchors":[
+"T-12.4b3"
+]
+},
+{
+"t":"fig",
+"id":"c095_3",
+"pg":95,
+"indent":309
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b4<span style=\"color:#800080\">.</span></b> <i>Les discriminateurs modernes utilisent une boucle PLL : le signal FM</i> <i>est comparé au signal HF issu du VCO. Après un filtre passe-bas, le</i> <i>signal de sortie qui est aussi le signal BF pilote la fréquence du VCO.</i>",
+"pg":95,
+"anchors":[
+"T-12.4b4"
+]
+},
+{
+"t":"fig",
+"id":"c095_1",
+"pg":95
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> En l’absence de signal sur son entrée, le discriminateur génère du bruit.<br>Pour éviter ce souffle, on utilise un <u><b>squelch</b></u> (ou silencieux) qui coupe l'alimentation d’un étage AF en l'absence de HF (ou en cas d'un niveau HF trop faible) à la sortie FI. En complément, un circuit <u><b>limiteur</b></u> situé à la sortie de la FI écrête les variations d’amplitude du signal FM ou PM dues, en particulier, aux parasites qui peuvent perturber le discriminateur.",
+"pg":95,
+"anchors":[
+"T-12.4c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Un modulateur FM est un</i> <u><i>oscillateur à réactance</i></u> <i>transformant les variations de la BF en variations de</i> <i>fréquence (ou de phase). Dans les schémas présentés ci-dessous, la réactance du modulateur est générée par un</i> <i>micro capacitif associé à un circuit LC ou par une diode Varicap. En utilisant une boucle PLL, l’excursion en</i> <i>fréquence et la fréquence centrale du modulateur sont facilement ajustables par le VXO et le diviseur</i> <i>programmable. La BF est injectée après le filtre passe-bas dont la fréquence de coupure est très basse (&lt;10 Hz).</i>",
+"pg":95,
+"anchors":[
+"T-12.4d"
+]
+},
+{
+"t":"fig",
+"id":"c095_2",
+"pg":95
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> On appelle <u><b>indice de modulation</b></u> (m) le rapport obtenu en divisant l’excursion de fréquence (soit la moitié de la bande passante du signal FM, δF) par la fréquence maximum du signal modulant (BF<sub>maxi</sub>) : <span style=\"color:#000080\"><b>m = Excursion (Hz) / BF</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>(Hz).</b></span> <i>La</i> <u><i>règle de Carson</i></u> <i>permet</i> <i>d'évaluer la largeur de bande passante (B) d’un signal modulé en fréquence où passe 98%</i> <i>de la puissance modulée :</i> <span style=\"color:#000080\"><i><b>B = 2(m + 1).BF</b></i></span><span style=\"color:#000080\"><sub><i><b>maxi</b></i></sub></span><i>. Lorsque l’indice de modulation devient</i> <i>inférieur à 1 (NBFM, Narrow Band FM), la largeur de bande passante B s’écarte de la</i> <i>règle de Carson et se rapproche de celle de l’AM (largeur des deux bandes latérales). Si</i> <i>bien que le gain en rapport S/B (signal+bruit/bruit) diminue fortement et que la qualité du</i> <i>signal transmis se dégrade (bruit, surtout dans les aigus).</i> Pour réduire ce bruit (et augmenter le rapport S/B), le signal BF peut être modifié par un <u><b>préaccentuateur</b></u> qui renforce les aigus et qui est situé avant le modulateur FM. Le démodulateur FM sera alors constitué d’un <u><b>limiteur</b></u> suivi du <u><b>discriminateur</b></u> et du <u><b>désaccentuateur</b></u> qui restitue la BF envoyée à l’étage d’amplification AF.",
+"pg":95,
+"anchors":[
+"T-12.4e"
+]
+},
+{
+"t":"p",
+"html":"Le fait de passer le signal FM par un multiplicateur change son excursion et son indice de modulation. Ainsi, un signal FM passant dans un doubleur de fréquence voit son excursion et son indice de modulation doubler : l’excursion est doublée mais la fréquence de la BF modulante ne change pas.",
+"pg":95
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple</b></u></span> <span style=\"color:#800000\">:</span> quel est l’indice de modulation d’un signal FM transmis sur 144 MHz dont l’excursion est de 7,5 kHz et dont le spectre BF couvre une bande de 300 à 3.000 Hz?<br><span style=\"color:#800000\"><u>Réponse :</u></span> m = excursion / BF maxi = 7,5 kHz / 3.000 Hz = 7,5 / 3 = 2,5",
+"pg":95
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>La tension du signal FM en fonction du temps, S(t), s'écrit ainsi (avec F = fréquence de la porteuse,</i> <i>f = fréquence de la BF modulante, P = tension crête de la porteuse et M = niveau BF déterminant l’indice de</i> <i>modulation) :</i> <span style=\"color:#000080\"><i><b>S(t) = cos [2π.[F + M . cos (2π.f.t)].t].P</b></i></span> <i>tandis que le même signal modulé en phase s'écrit ainsi :</i> <span style=\"color:#000080\"><i><b>S(t) = cos [2π.F.t + M . cos (2π.f.t)].P</b></i></span><i>. On voit que ces deux fonctions sont très proches l’une de l’autre : le</i> <i>signal utilisé pour moduler de la PM est la dérivée du signal modulant BF utilisé pour générer de la FM.</i>",
+"pg":95,
+"anchors":[
+"T-12.4f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>12.5) La manipulation pour coupure de porteuse, CW</b></u></span> (de l’anglais Continuous Waves, traduit en français par ondes entretenues). Ce terme « ondes entretenues » tire son origine des années 1910. A cette époque, la technique de l’émission est passée de l’éclateur générant une onde amortie qui couvrait une gamme de fréquence très étendue à des oscillateurs générant une onde entretenue beaucoup plus pure. C’est cette technique de l’onde entretenue qui a permis le développement de la TSF au début du XX<sup>ème</sup> siècle.",
+"pg":96,
+"anchors":[
+"T-12.5",
+"T-12.5a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La CW peut être modulée par rupture d'alimentation sur différents étages : oscillateur, FI, amplificateur final. La modulation peut être aussi effectuée par rupture de liaison entre deux étages.",
+"pg":96,
+"anchors":[
+"T-12.5b"
+]
+},
+{
+"t":"fig",
+"id":"c096_1",
+"pg":96
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Lorsque le signal est modulé par rupture de l’alimentation de l’oscillateur, la stabilité de ce dernier peut être détériorée ce qui génère des <u><b>piaulements</b></u> en réception. La manipulation par rupture entre les étages provoque, quant à elle, d’importantes variations d’impédance de charge des étages suivants, pouvant générer des <u><b>claquements</b></u> en réception. La CW est démodulée de la même manière que la BLU (voir § suivant).",
+"pg":96,
+"anchors":[
+"T-12.5c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>12.6) La Bande Latérale Unique (BLU)</b></u></span>",
+"pg":96,
+"align":"left",
+"anchors":[
+"T-12.6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <u><b>Modulation BLU</b></u> : la BLU est une forme de modulation d'amplitude. Quand un signal AM est représenté en fonction de la fréquence, la porteuse ne transmet aucun signal BF et les signaux BF se situent au dessus et au dessous de la fréquence de la porteuse : les fréquences BF et porteuse sont mélangées, donnant la résultante porteuse + BF et porteuse – BF. La BF est donc présente deux fois dans les deux bandes latérales. Pour réduire le spectre d'occupation et les puissances mises en jeu, seule la <u><b>bande latérale inférieure</b></u> ou <u><b>supérieure</b></u> est conservée. Attention : les deux bandes latérales ne sont pas les enveloppes BF situées en haut et en bas de la représentation de l’AM en fonction du temps. Le côté inférieur de la barre des rectangles indique le 0 Hz BF.",
+"pg":96,
+"anchors":[
+"T-12.6a"
+]
+},
+{
+"t":"fig",
+"id":"c096_2",
+"pg":96,
+"indent":30
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>La tension du signal AM en fonction du temps, S(t), s'écrit (avec K = taux de modulation, P = tension crête de</i> <i>la porteuse sans modulation (= B / 2), F = fréquence de la porteuse et f = fréquence de la BF modulante) :</i>",
+"pg":96,
+"anchors":[
+"T-12.6b"
+]
+},
+{
+"t":"fig",
+"id":"c096_3",
+"pg":96
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Si le taux de modulation, K, est égal à 100% (dans le meilleur des cas), la tension de la porteuse est le double de celle des deux bandes latérales (voir schéma ci-dessus). En termes de puissance, la porteuse contient les deux tiers de la puissance émise et les deux bandes latérales contiennent le reste. Sur 150 W émis et avec K = 100%, la porteuse contient 100 W et chaque bande latérale contient 25 W. La puissance des bandes latérales est donc au mieux 6 dB en dessous de la puissance de la porteuse (4 fois moindre).",
+"pg":96,
+"anchors":[
+"T-12.6c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <u><b>Pour générer de la BLU</b></u>, un <u><b>mélangeur équilibré</b></u> est utilisé. Il génère de la double bande latérale (DBL = BLI + BLS) puis la bande latérale désirée est filtrée grâce à un filtre à quartz. Lorsqu'il n'y a pas de signal B.F., le transformateur de sortie est équilibré. Il n'y a donc pas de H.F. Par contre, en présence d'un signal B.F., l'ensemble est déséquilibré et la H.F. (DBL) passe. <i>La modulation d’amplitude avec bandes latérales</i> <i>indépendantes (code B, voir §R-1.2a, modulation difficile à mettre au point et peu utilisée par les</i> <i>radioamateurs) n’est pas de la DBL car les deux bandes latérales transmettent chacune un signal différent</i>.",
+"pg":96,
+"anchors":[
+"T-12.6d"
+]
+},
+{
+"t":"fig",
+"id":"c096_4",
+"pg":96
+},
+{
+"t":"p",
+"html":"Dans le <u><b>mélangeur équilibré à diodes</b></u>, le sens des diodes est différent de celui du pont redresseur : les diodes sont les unes derrière les autres (en anneau). Le mélangeur à diodes est monté dans un boîtier à quatre broches (2 entrées, 1 sortie et une masse) intégrant non seulement les 4 diodes mais aussi les transformateurs.",
+"pg":97
+},
+{
+"t":"p",
+"html":"<i>Qu’il soit équilibré ou non, le mélangeur à MOS-FET est souvent remplacé par le mélangeur à diodes car ce</i> <i>dernier multiplie parfaitement les tensions présentes sur ses entrées si bien qu’en sortie, il n’y a que f1 + f2 et</i> <i>f1 – f2. Les diodes utilisées sont du type Schottky (commutation rapide). Ce circuit est affecté de trois défauts :</i><p style=\"margin:0 0 0 0.6em\">- <i>son facteur de bruit introduit une perte d’environ 10 dB qu'il faudra compenser par de l'amplification ;</i> </p><p style=\"margin:0 0 0 0.6em\">- <i>il faut lui fournir sur une des entrées un signal puissant (l’oscillateur local par exemple) ;</i> </p><p style=\"margin:0 0 0 0.6em\">- <i>ce mélangeur demande d'être chargé par les impédances définies par le constructeur (le plus souvent 50 Ω),</i> <i>ce qui n'est pas toujours simple à réaliser quand la bande à couvrir est très large.</i> </p><i>Lorsqu’il est monté en mélangeur équilibré, les transformateurs d’entrée et de sortie du mélangeur à diodes en</i> <i>anneau équilibrent la sortie en l’absence de BF, comme dans le montage à MOS-FET.</i>",
+"pg":97
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Un <u><b>filtre à quartz</b></u> est composé de condensateurs à quartz (voir §7.5b) montés en série et taillés pour une fréquence proche du signal à filtrer. Ce type de filtre possède des pentes très raides car un signal adjacent à 400 Hz (écart entre la BLI et la BLS si on retient un spectre BF à émettre allant de 200 Hz à 3000 Hz) doit pouvoir être ramené à – 60 dB par rapport au signal utile. Si le filtre à quartz est moins sélectif, on retiendra un spectre BF à émettre commençant plus haut (300 Hz par exemple), ce qui dégradera la qualité du signal dans les graves.",
+"pg":97,
+"anchors":[
+"T-12.6e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Le <u><b>générateur deux tons</b></u> permet de vérifier la linéarité de l’émetteur : deux signaux BF sinusoïdaux, de même niveau et non harmoniques (par exemple : 900 et 1700 Hz) sont appliqués à l’entrée microphonique de l’émetteur. Un analyseur de spectre, branché à la sortie de l’émetteur, ne devra faire apparaître aucune distorsion de fréquences (les deux signaux auront le même niveau) ni aucun autre signal parasite, signe du manque de linéarité d’un étage. Souvent, l’étage fautif est le mélangeur équilibré qui présente des distorsions quadratiques ou cubiques (voir §7.4b3 et §7.4b4). A défaut d’analyseur de spectre, le signal émis pourra être vérifié par un logiciel d’analyse spectral de son en branchant la sortie BF d’un récepteur sur la carte son d’un ordinateur. Toutefois, si un étage du récepteur manque de linéarité, le défaut apparaitra dans l’analyse…",
+"pg":97,
+"anchors":[
+"T-12.6f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i><b>modulation par déphasage</b></i></u> <i>des signaux HF et BF est peu répandue. Les déphaseurs utilisés sont difficiles à</i> <i>régler. La démonstration mathématique de cette technique dépasse largement le programme de l’examen.</i>",
+"pg":97,
+"anchors":[
+"T-12.6g"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> Le système qui permet de <u><b>démoduler la CW et la BLU</b></u> se nomme un BFO (<u><b>Oscillateur de Battement de</b></u> <u><b>Fréquence</b></u>). Le BFO est un oscillateur fixe qui génère une fréquence proche de la fréquence à démoduler. Il rétablit la porteuse supprimée à l'émission pour générer de l'AM ou pour générer une note audible en CW. Le mélangeur du BFO est suivi d'une détection AM qui forme un ensemble appelé <u><b>détecteur de produit</b></u>.",
+"pg":97,
+"anchors":[
+"T-12.6h"
+]
+},
+{
+"t":"fig",
+"id":"c097_2",
+"pg":97
+},
+{
+"t":"p",
+"html":"En CW, l’écart entre la fréquence issue de la FI et celle du BFO donne en les mélangeant une fréquence audible (800 Hz environ). En BLU, la fréquence du BFO correspond à la fréquence théorique de la porteuse supprimée à l'émission. Si la porteuse n’est pas rétablie sur la bonne fréquence, la voix de votre correspondant sera sensiblement modifiée mais restera compréhensible. En BLU comme en CW, la fréquence affichée par le transceiver est la fréquence de la porteuse. Dans nos exemples : 7,030 MHz en CW et 7,200 MHz, fréquence de la porteuse supprimée en BLI. Ce qui signifie qu’en BLU, il n’y a aucune émission sur la fréquence affichée par l’émetteur (puisque la porteuse est supprimée) alors qu’en CW, l’émission se fait sur la fréquence affichée.",
+"pg":97
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>i<span style=\"color:#800080\">.</span></b> <i>Dans un</i> <u><i>récepteur à conversion directe</i></u><i>, la fréquence de l’oscillateur local est</i> <i>proche de la fréquence à recevoir. Le filtre de bande (étage RF) est suivi d’un</i> <i>mélangeur avec en sortie un signal issu des bandes latérales, qui est le signal</i> <i>modulant lui-même. Le démodulateur et les étages FI ont disparu ainsi que les</i> <i>problèmes liés à la Fréquence Intermédiaire (notamment la fréquence image).</i><br><i>Ce récepteur simple à construire nécessite un amplificateur AF à grand gain (au</i> <i>moins 100 dB) et ne démodule que des signaux modulés en amplitude (AM,</i><br><i>BLU). Pour les modulations angulaires (FM, PM), le signal AF sera traité numériquement (démodulateur I-Q et</i> <i>traitement du signal en bande de base via la carte son d’un ordinateur) avant d’être appliqué au haut-parleur.</i>",
+"pg":97,
+"anchors":[
+"T-12.6i"
+]
+},
+{
+"t":"fig",
+"id":"c097_1",
+"pg":97,
+"indent":335
+}
+]
+}

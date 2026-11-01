@@ -1,0 +1,1241 @@
+{
+"id":"R-4",
+"title":"4) CONDITIONS D'EXPLOITATION et INDICATIFS D’APPEL",
+"short":"R-4 Exploitation et indicatifs",
+"blocks":[
+{
+"t":"chapter",
+"html":"4) CONDITIONS D&#x27;EXPLOITATION et INDICATIFS D’APPEL",
+"pg":24
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.1) journal de bord</b></u></span> : le titulaire d’une autorisation d’émettre est tenu de consigner dans un journal de bord (ou « carnet de trafic ») les renseignements relatifs à l'activité de sa station : <u><b>date et heure de communication</b></u> (UTC ou heure légale mais toujours la même), <u><b>indicatif</b></u> (correspondant ou relais), <u><b>fréquence d’émission</b></u>, <u><b>classe</b></u> <u><b>d'émission</b></u> et, éventuellement, le lieu d'émission (en portable ou en mobile) et, pour les radio-clubs, l’indicatif d’appel de l’utilisateur (et le nom et prénom des candidats en formation ayant effectué un contact). Il doit être constamment à jour, présenté à toutes réquisitions des fonctionnaires chargés du contrôle dans le cadre de la prévention des brouillages et afin de faciliter les opérations de contrôle de l’utilisation des fréquences. Il doit être conservé pendant un an à compter de la dernière inscription <i>(art. 6 de la décision 12-1241). La décision 10-0537</i> <i>(abrogée) précisait que le journal de trafic pouvait être soit à pages numérotées et non détachables, soit tenu à</i> <i>jour informatiquement ou, pour les handicapés ou les non-voyants, par d'autres procédés adaptés.</i>",
+"pg":24,
+"anchors":[
+"R-4.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.2) L’exploitation d’une station</b></u></span> se différencie par le suffixe utilisé après l’indicatif d’appel de l’opérateur<br>- en <u><b>station fixe</b></u>, l’opérateur émet avec son indicatif d’appel sans suffixe depuis l’<u><b>adresse déclarée à l’ANFR</b></u> qui doit être informée de tout <u><b>changement dans les 2 mois</b></u> <i>(article 7 de l’arrêté du 21/09/00 modifié).</i> Depuis 2021, deux adresses peuvent être communiquées à l’ANFR : celle du <u><b>domicile de l’opérateur</b></u> et celle de la <u><b>station</b></u> <i>(la résidence secondaire de l’opérateur par exemple ou toute autre adresse).</i>",
+"pg":24,
+"anchors":[
+"R-4.2",
+"R-4.2a"
+]
+},
+{
+"t":"p",
+"html":"Pour une utilisation portable, mobile ou maritime, l’indicatif d’appel personnel devra être complété de la lette /P, /M ou /MM (<i>dernier alinéa de l’article 7 de l’arrêté du 21/09/00 modifié</i>) dans les cas suivants :",
+"pg":24
+},
+{
+"t":"p",
+"html":"- une station <u><b>transportable</b></u> est une station construite de manière à être déplacée mais ne peut pas fonctionner pendant son transport. L’indicatif d’appel est suivi du suffixe « /P » en CW ou « Portable » en téléphonie.",
+"pg":24
+},
+{
+"t":"p",
+"html":"- une station <u><b>mobile</b></u> est « destinée à être utilisée lorsqu'elle est en mouvement, ou pendant des haltes en des points non déterminés » <i>(S1.67 du RR)</i>. L’indicatif d’appel est suivi du suffixe « /M » en CW ou « Mobile ».",
+"pg":24
+},
+{
+"t":"p",
+"html":"- une station installée à bord d’un navire situé dans les eaux internationales (à plus de 12 milles nautiques des côtes) utilisera le suffixe « /MM » ou « <u><b>Maritime Mobile</b></u> ». La station est alors assimilée à une station de navire <i>(art. S1.77 du RR)</i> et relève de l'autorité du capitaine <i>(art D406-12 du CPCE)</i>. Une station située dans un navire dans les eaux territoriales, sur un fleuve ou à quai dans un port est assimilée à une station mobile (/M).",
+"pg":24
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i>un radioamateur émettant en CW depuis la station d’un autre radioamateur utilisera un indicatif d’appel</i> <i>sous la forme « F5ABC/P » ; le même opérateur émettant en téléphonie depuis un véhicule ou en se promenant</i> <i>à pied ou en vélo s’identifiera ainsi : « Foxtrot Cinq Alfa Bravo Charlie Mobile ».</i>",
+"pg":24
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Les textes en vigueur ne règlent pas le cas du radioamateur français qui n’émet pas depuis le territoire pour</i> <i>lequel son indicatif d’appel lui a été attribué. L’usage veut que, dans ce cas, l’indicatif d’appel est précédé du</i> <i>préfixe de localisation du lieu d’émission (voir §R-4.6a) et d'une barre de fraction puis suivi du suffixe /P ou /M.</i> <i>De même, lors de l’exploitation en portable ou en mobile, le numéro de département peut être précisé. Mais ce</i> <i>ne sont que des usages provenant d’anciens textes abrogés et pas des obligations réglementaires.</i>",
+"pg":24,
+"anchors":[
+"R-4.2b"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i>un radioamateur novice domicilié en Alsace et émettant depuis son lieu de vacances en Martinique ou à</i> <i>Paris utilisera l’indicatif d’appel F0ABC/P sans plus de précision. L’usage de donner son lieu d’émission en</i> <i>ajoutant le préfixe de sous localisation ou le n° de département conduit à utiliser selon le cas FM/F0ABC/P ou</i> <i>F0ABC/P75 ce qui informe les correspondants du lieu d’émission pour faciliter le pointage des antennes.</i>",
+"pg":24
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Depuis 2013, l'utilisation d'équipements radioélectriques <u><b>à bord d'un aéronef</b></u> (avions, ballons, …) est autorisée et soumise à des conditions particulières par les autorités en charge de la réglementation aérienne. L'obtention préalable de toutes les autorisations nécessaires en matière d'aviation civile, notamment de sécurité aérienne, auprès des autorités nationales d'immatriculation des aéronefs (DGAC) est obligatoire <i>(§5.3 préambule</i> <i>décision 12-1241). Dans ce cas, la station est mobile et son indicatif doit être suivi du suffixe « /M ».</i>",
+"pg":24,
+"anchors":[
+"R-4.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> L’article L34-9 du CPCE impose que « les équipements radioélectriques doivent faire l'objet d'une évaluation de leur <u><b>conformité aux exigences essentielles</b></u> ». La conformité du matériel est indiquée par le marquage CE (depuis 2008, ce marquage n’est que déclaratif). Toutefois, l’article R20-3 précise que cette exigence ne s'applique pas aux <u><b>constructions personnelles</b></u> réalisées « par des radioamateurs (…) non disponibles dans le commerce ; les ensembles de pièces détachées à assembler [kits] par des radioamateurs, pour leur usage, et les équipements modifiés par eux ne sont pas considérés comme des équipements disponibles dans le commerce ». Cette exception est confirmée par le décret 2015-1084 qui transpose la directive 2014/30/CE (CEM), plus contraigante pour les fabricants et les distributeurs que l’ancienne 2004/108/CE. La directive 2014/53/EU (RED<br>- Radio Equipment Directive), transposée en droit français par l’ordonnance 2016-493, remplace la Directive R&amp;TTE et concerne tout émetteur ou récepteur de radiocommunication (les terminaux filaires sont exclus).",
+"pg":24,
+"anchors":[
+"R-4.2d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> L’article 5 de l’arrêté du 17/12/07 modifié prévoit que les <u><b>installations fixes</b></u> dont la <u><b>PAR</b></u> (puissance apparente rayonnée) est <u><b>supérieure à 5 watts</b></u> sont <u><b>soumises à déclaration</b></u>. Les stations portables et mobiles ne sont pas concernées par cette déclaration à transmettre à l’ANFR <u><b>dans les 2 mois suivant l’installation</b></u> et qui comprend :<p style=\"margin:0 0 0 0.6em\">- l’adresse de la station (définissant ainsi le préfixe attribué) </p><p style=\"margin:0 0 0 0.6em\">- ses coordonnées géographiques en degrés, minutes et secondes au format WGS84 (coordonnées GPS) </p><p style=\"margin:0 0 0 0.6em\">- la PAR maximum utilisée dans les 4 gammes d’onde HF, VHF, UHF et SHF </p>",
+"pg":24,
+"anchors":[
+"R-4.2e"
+]
+},
+{
+"t":"p",
+"html":"Cette déclaration peut s’effectuer par Internet à partir du site https://teleservice-amateurs.anfr.fr.",
+"pg":25,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Le §1 du préambule de la décision 12-1241 indique que « la fixation éventuelle des modalités de <u><b>connexion</b></u> des stations radioélectriques du service d'amateur <u><b>à un réseau ouvert au public (ROP)</b></u> [Internet] ne relève pas de la compétence de l'ARCEP mais du pouvoir réglementaire » (c’est-à-dire du Ministre). A la date de publication de ce document, un tel texte n’est toujours pas paru au JO. <i>La création d’un nouvel article du CPCE pourrait</i> <i>autoriser la connexion d’une station d’amateur à un ROP sous réserve de « prendre toute mesure pour</i> <i>préserver l’intégrité et la sécurité des réseaux ouverts au public ». L’ARCEP ou l’ANFR pourra ordonner la</i> <i>suspension de la connexion lorsque celle-ci portera atteinte à l’intégrité ou à la sécurité de fonctionnement du</i> <i>ROP ou aux conditions d’utilisation des fréquences radioélectriques. Mais,</i> <i><b>tant que ce texte n’est pas publié, la</b></i> <i><b>connexion à un ROP reste interdite</b></i>.",
+"pg":25,
+"anchors":[
+"R-4.2f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> Les installations radioélectriques « peuvent être provisoirement saisies et exploitées […] sans indemnité par décision du conseil des ministres » <i>(§5.4 du préambule de la décision 12-1241 et L65-1 du CPCE,</i> procédure de <u><b>réquisition</b></u> décidée par décret et par un vote du Parlement si sa durée dépasse 12 jours dans deux cas précis : l’état d’urgence qui peut s’appliquer localement et l’état de siège qui s’applique à tout le territoire). De plus, l’annexe 2 du TNRBF prévoit une affectation des fréquences spécifique en temps de crise <i>(voir §R-2.1a).</i>",
+"pg":25,
+"anchors":[
+"R-4.2g"
+]
+},
+{
+"t":"p",
+"html":"Le matériel d’émission détenu n’a pas à être déclaré. Toutefois, mettez à jour votre déclaration PAR en cas d’acquisition ou de cession de matériel. En cas de contrôle de l’installation par l’ANFR dans le cadre d’une instruction pour brouillage, la déclaration PAR et le journal de bord sont regardés en premier lieu...",
+"pg":25
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.3) Les installations de radio-club</b></u></span> sont utilisées sous la responsabilité du titulaire de l’indicatif d’appel du radio-club. Le responsable des installations du radio-club doit être titulaire d’un certificat d’opérateur HAREC <i>(« classe unique » français ou équivalent)</i>. Pour la demande d’un nouvel indicatif de radio-club, un récépissé de déclaration de l'association délivré par l'autorité compétente doit être fourni. La station d’un radio-club peut être <u><b>exploitée par tout opérateur titulaire d’un indicatif d’appel</b></u>, en utilisant l’indicatif du radio-club suivi de son indicatif personnel (<i>article 7 de l’arrêté du 21/09/00 modifié).</i> L’utilisateur de la station doit émettre sur une bande, dans un mode et avec une puissance autorisés à sa classe d’opérateur. Outre les mentions habituelles (<i>voir</i> <i>§R-4.1</i>), le journal de bord du radio-club indique les indicatifs d’appel des utilisateurs de la station.",
+"pg":25,
+"anchors":[
+"R-4.3",
+"R-4.3a"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple :</b></i></u></span> <i>un opérateur manœuvrant la station d’un radio-club s’identifiera par « F6KGL/F6GPX » en CW ou « Foxtrot 6</i> <i>Kilo Golf Lima opéré par Foxtrot 6 Golf Papa X-ray » en téléphonie.</i>",
+"pg":25
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Une <span style=\"color:#800080;font-size:1.20em\"><u><b>station répétitrice</b></u></span> est une <u><b>balise</b></u> de fréquence ou toute autre installation automatique (<u><b>relais</b></u>). La station pourra être établie sur un autre site que celui de la station de l’utilisateur (titulaire d’un certificat d’opérateur autre que l’ex-classe 3), ne pourra pas servir à un usage personnel ou un groupe restreint et ne doit transmettre que des informations conformes à la réglementation : son indicatif d’appel, des données relatives à sa position, à son fonctionnement et aux conditions locales intervenant sur les conditions de propagation radioélectrique. Un dispositif d’arrêt d’urgence doit être prévu et, en cas de brouillages persistants, des mesures appropriées proposées par l’ANFR peuvent être imposées <i>(conditions d’exploitation définies antérieurement à</i> <i>2012 mais toujours en application bien qu’aucun texte en vigueur ne précise ces conditions)</i>.",
+"pg":25,
+"anchors":[
+"R-4.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Concernant les <span style=\"color:#800080;font-size:1.20em\"><u><b>satellites radioamateurs</b></u></span>, la disposition S25.11 précise que « les administrations autorisant des stations spatiales du service d'amateur par satellite doivent faire en sorte que des stations terriennes de commande en nombre suffisant soient installées avant le lancement, afin de garantir que tout brouillage préjudiciable causé par des émissions d'une station du service d'amateur par satellite puisse être éliminé immédiatement ». En outre, la disposition S22.1 prévoit que « les stations spatiales doivent être dotées de dispositifs permettant de faire cesser immédiatement, par télécommande, leurs émissions radioélectriques chaque fois que cette cessation est requise en vertu des dispositions du présent Règlement » <i>(§3 du préambule de la</i> <i>décision ARCEP 12-1241 rappelant les dispositions du RR).</i> Le §4 du préambule de la décision 12-1241 rappelle la nécessité d’obtenir une « autorisation du ministre chargé des communications électroniques pour l’exploitation d’une assignation de fréquence à un système satellitaire prévue par l’article L97-2 du CPCE ».",
+"pg":25,
+"anchors":[
+"R-4.3c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.4) Sanctions</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> l’article 7-3 de l’arrêté du 21/09/00 modifié a rétabli les sanctions et prévoit qu’en cas de manquement à la réglementation ou aux conditions d’utilisation d’un réseau ouvert au public ou en cas d’usurpation d’indicatif, <u><b>l’indicatif attribué</b></u> par l’administration <u><b>peut être suspendu</b></u> pour une durée maximum de trois ans <u><b>ou révoqué</b></u> définitivement. La décision de suspension ou de révocation est motivée, proportionnelle à la gravité du manquement et notifiée à l’intéressé. Elle est prise, dans le cadre d’une procédure contradictoire, par l’autorité administrative qui a délivré l’indicatif à son initiative, sur proposition de l’ANFR, de l’ARCEP, des départements ministériels chargé de la sécurité publique, de la justice, des armées ou à la vue de rapports d’infractions transmis par des administrations étrangères ou des organismes internationaux spécialisés ». La sanction ne peut donc pas être prise à la demande directe d’une personne ou d’une association.",
+"pg":25,
+"anchors":[
+"R-4.4",
+"R-4.4a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> En complément du retrait de l’indicatif d’appel, il peut y avoir des <u><b>sanctions pénales</b></u> (prises par un tribunal après dépôt d’une plainte). L’<u><b>article L39-1</b></u> du CPCE prévoit qu’« est puni de six mois d'emprisonnement et de 30 000 € d'amende le fait (…) de <u><b>perturber</b></u>, en utilisant une fréquence, un équipement ou une installation radioélectrique (…) ou d'<u><b>utiliser une fréquence</b></u> en dehors des conditions prévues à l'article L33-3 ». Un refus (ou une omission intentionnée) de déclaration à l’ANFR sera puni de trois mois d’emprisonnement et de 30.000 € d’amende (<i>L39-4</i>). Le tribunal peut prononcer la confiscation du matériel ou ordonner sa destruction <i>(L39-6)</i> mais ne peut pas retirer lui-même l’indicatif de l’opérateur condamné. Enfin, « toute personne qui effectue des transmissions radioélectriques en <u><b>utilisant sciemment</b></u> un indicatif d'appel de la série internationale attribué à une station de l'État ou à une autre station autorisée, est punie d'un an d’emprisonnement » <i>(L39-8)</i>.",
+"pg":26,
+"anchors":[
+"R-4.4b"
+]
+},
+{
+"t":"p",
+"html":"Mais, pour qu’un tribunal prenne une sanction pénale, il faut qu’une infraction soit constatée. L’article <u><b>L40 du</b></u> <u><b>CPCE</b></u> précise qu’« outre les officiers et agents de police judiciaire agissant conformément aux dispositions du code de procédure pénale, les <u><b>fonctionnaires et agents de l'administration des télécommunications</b></u> (…) peuvent rechercher et constater par procès-verbal les infractions ». Dans la pratique, les agents habilités de l’administration des télécommunications, de l’Arcep et de l’ANFR qui disposent d'un pouvoir de police judiciaire en vertu de l’article L40 du CPCE ne peuvent intervenir seuls que dans des lieux à usage professionnel entre 8h00 et 20h00 et pendant les heures d’ouverture lorsque le local est ouvert au public. En cas d’intervention dans un lieu à usage privé (comme l’est l’habitation d’un radioamateur ou le local d’un radio-club), les agents de l'administration chargée des télécommunications interviennent en tant qu'assistant technique d’un Officier de Police Judiciaire agissant sur commission rogatoire délivrée par un juge.",
+"pg":26
+},
+{
+"t":"p",
+"html":"<i>En cas de</i> <u><i>plainte pour brouillage</i></u> <i>(TV en particulier), l’ANFR intervient en tant qu’expert pour déterminer si les</i> <i>torts viennent de la station du radioamateur (brouillage) ou de l’installation perturbée (non conformité).</i> <i>L’intervention, qui est une taxe et non pas une amende, coûte 450 € (depuis 2003) à la charge du responsable</i> <i>des désordres. L’ANFR n’a pas vocation à intervenir en cas de plainte pour usurpation d’indicatif.</i>",
+"pg":26
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.5) Les modalités de l’examen</b></u></span> sont fixées par l’article 2 de l’arrêté du 21/09/00 modifié. Quelques questions portent sur le déroulement des épreuves. Depuis 2021, il n’y a plus de frais d’examen <i>(auparavant 30 €)</i>.",
+"pg":26,
+"anchors":[
+"R-4.5"
+]
+},
+{
+"t":"p",
+"html":"Pour passer l’examen, <u><b>il n’y a plus d’âge minimum</b></u> depuis l’arrêté du 21/09/00.",
+"pg":26,
+"align":"left"
+},
+{
+"t":"p",
+"html":"Après avoir réussi l’examen, l’ANFR vous envoie spontanément votre certificat d’opérateur (document avec trame de sécurité) mais, pour pouvoir émettre, il vous faut attendre de recevoir la notification de l’indicatif d’appel. <u><b>En cas d'échec</b></u> à l'une des épreuves, le candidat doit attendre <u><b>deux mois</b></u> avant de repasser l'épreuve. Le candidat conserve pendant <u><b>un an</b></u> le bénéfice de l'épreuve dans laquelle il a obtenu la moyenne.",
+"pg":26
+},
+{
+"t":"p",
+"html":"Les opérateurs de l’ex-classe 3 (F0) n’ont à passer que l’épreuve de Technique pour obtenir un certificat d’opérateur « HAREC », quelque soit la date à laquelle ils ont réussi l’examen de Réglementation.",
+"pg":26
+},
+{
+"t":"p",
+"html":"Si le candidat a un <u><b>taux d’incapacité physique permanente</b></u> (IPP) supérieur ou égal à 70%, les épreuves sont adaptées à son handicap, le <u><b>temps de l’examen est triplé</b></u> et l’épreuve peut se dérouler au domicile du candidat.",
+"pg":26
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.6) Formation des indicatifs d’appel</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> tous les indicatifs d’appel français sont formés selon les règles de la disposition S19-68 du RR et de l’annexe 4 (grille de codification des indicatifs des services d’amateur) de l’arrêté du 21/09/00 modifié. L’<u><b>adresse déclarée de la station</b></u> détermine son préfixe (voir aussi §R-4.2a). Les indicatifs d’appel individuels sont notifiés par l’ANFR et comportent : le nom le prénom de l’opérateur, sa date de naissance, son adresse postale, le numéro de certificat d’opérateur délivré au titulaire et la date de délivrance <i>(avant 2015 : la notification était délivrée par le Ministre, par le Haut-Commissaire de la République en</i> <i>Nouvelle Calédonie et en Polynésie Française, par l’Administrateur supérieur à Wallis &amp; Futuna et dans les</i> <i>Terres Australes Antarctiques Françaises ou par le Préfet à Mayotte)</i>.",
+"pg":26,
+"anchors":[
+"R-4.6"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Le <u><b>préfixe</b></u> des stations déclarées en <u><b>France continentale est la lettre F</b></u>.<p style=\"margin:0 0 0 1.1em\">Le préfixe des stations déclarées en <u><b>Corse, dans les DROM</b></u> (Départements et Régions d’Outre-Mer) <u><b>et dans</b></u> <u><b>les COM</b></u> (Collectivités d’Outre-Mer) est composé de <u><b>2 lettres</b></u> propres à la localisation. La région UIT (voir </p><p style=\"margin:0 0 0 1.1em\">§ R-2.1a) est indiquée entre parenthèses : </p>",
+"pg":26,
+"anchors":[
+"R-4.6a"
+]
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+148.8,
+155.9,
+134.7
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FG</b></u> : Guadeloupe (DROM - 2)",
+"sans":false
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FM</b></u> : Martinique (DROM - 2)",
+"sans":false
+}
+]
+},
+{
+"r":0,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FY</b></u> : Guyane (DROM - 2)",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FR</b></u> : Réunion (DROM - 1)",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<u><b>TK</b></u> : Corse (1)",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FK</b></u> : Nouvelle Calédonie (3)",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FH</b></u> : Mayotte (DROM - 1)",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FJ</b></u> : St Barthélemy (2)",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FP</b></u> : St Pierre &amp; Miquelon (2)",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FS</b></u> : St Martin (2)",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":1,
+"cs":2,
+"items":[
+{
+"h":"<u><b>FO</b></u> : Polynésie Française (3) et Clipperton (2)",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":0,
+"cs":3,
+"items":[
+{
+"h":"<u><b>FT</b></u> : Terres Australes Antarctiques Françaises : Crozet et, depuis 2007, îles Eparses (Glorieuses, Bassas da India, Juan de",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"Nova, Europa et Tromelin) (1), Kerguelen, St Paul &amp; Amsterdam et Terre Adélie (3)",
+"sans":false
+}
+],
+"pad":7.1
+},
+{
+"r":5,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<u><b>FW</b></u> : Wallis &amp; Futuna (3)",
+"sans":false
+}
+]
+}
+],
+"pg":26,
+"indent":14
+},
+{
+"t":"p",
+"html":"<u><b>FX</b></u> : Satellites français du service amateur",
+"pg":26,
+"align":"left",
+"indent":14
+},
+{
+"t":"p",
+"html":"Le <u><b>suffixe</b></u>, propre à chaque station, commence par un <u><b>chiffre indiquant la classe de l’opérateur</b></u> :<p style=\"margin:0 0 0 1.1em\"><u><b>0</b></u> = opérateur de l’ex-classe 3 ; </p><p style=\"margin:0 0 0 1.1em\"><u><b>1 et 4</b></u> = opérateur de l’ex-classe 2. Le chiffre 4 est attribué aux nouveaux opérateurs ; </p><p style=\"margin:0 0 0 1.1em\"><u><b>5, 6 et 8</b></u> = opérateur de l’ex-classe 1 (et radio-club). </p><p style=\"margin:0 0 0 1.1em\"><u><b>2, 3, 7 et 9</b></u> restent en réserve, une partie ayant déjà été affectée à des indicatifs individuels avec un suffixe à deux lettres pour des opérateurs de l’ex-classe 1 en France Continentale. </p><p style=\"margin:0 0 0 2.3em\"><i>Dans les DROM, les COM et en Corse, les chiffres utilisés pour les indicatifs d’appels individuels sont : 0</i> <i>(ex-classe 3), 1 (ex-classe 2), 4 (nouveaux opérateurs), 5 (ex-classe 1) et 8 (ex-classe 1)</i> </p>",
+"pg":26
+},
+{
+"t":"p",
+"html":"Après le chiffre, le suffixe attribué à chaque station comporte <u><b>deux à quatre lettres</b></u> :<p style=\"margin:0 0 0 1.1em\"><u><b>AAA à UZZZ</b></u> et <u><b>AA à ZZ</b></u> sont affectés aux indicatifs d’appel individuels. Lorsque la série des indicatifs d’appel à 3 lettres au suffixe aura été attribuée, les indicatifs comporteront 4 lettres au suffixe. </p>",
+"pg":26
+},
+{
+"t":"p",
+"html":"Dans les DROM-COM et en Corse, seule la série à 2 lettres (AA à ZZ) a été attribuée.<br><u><b>KAA à KZZ</b></u> sont affectés aux radio-clubs (et <u><b>KA à KZ</b></u> pour les radio-clubs de Corse et des DROM-COM <i>Toutefois, quelques suffixes à 3 lettres ont été attribués à des radio-clubs dans les DROM-COM.</i><br><u><b>VAA à VZZ</b></u> sont affectés aux amateurs de l’Union Européenne installés pour plus de trois mois en France <i>(le</i> <i>« Brexit » voté en 2016 conduit à affecter la série Wxx aux nouveaux ressortissants britanniques)</i> ;<br><u><b>WAA à WZZ</b></u> sont affectés aux amateurs étrangers hors UE installés pour plus de trois mois en France ; <u><b>XAA à XZZ</b></u> et <u><b>YAA à YZZ</b></u> sont en réserve. <i>Jusqu’en 2009, ces séries étaient respectivement réservée aux</i> <i>balises et aux stations répétitrices numériques. Quelques indicatifs de ces séries ont été attribués ;</i><br><u><b>ZAA à ZZZ</b></u> sont affectés aux stations répétitrices (Relais analogiques ou numériques) et aux balises.",
+"pg":27,
+"indent":14
+},
+{
+"t":"p",
+"html":"Ainsi, les indicatifs individuels d’appel de France continentale se présentent sous les formes suivantes : F0AAA, F1AA, F1AAA, F2AA, F3AA, F4AAA, F5AA, F5AAA, F6AAA, F8AA, F8AAA et F9AA. Les indicatifs d’appel des DROM-COM et de Corse se présentent ainsi : TK0AA, FY1AA, FM5KA, FG4ZAA.",
+"pg":27
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> - Un indicatif d’appel du type FM1AB est attribué à un radioamateur résidant en Martinique.",
+"pg":27,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"- FY5KA est attribué à un radio-club de Guyane",
+"pg":27,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"- F4VAA est attribué à un radioamateur originaire d’un pays membre de l’UE installé plus de 3 mois en France et ayant un certificat d’opérateur équivalent à la classe unique française.",
+"pg":27
+},
+{
+"t":"ex",
+"html":"- F4WAA est attribué à un radioamateur britannique installé plus de 3 mois en France et ayant demandé son indicatif individuel après le 31 janvier 2020 (date de la sortie du Royaume Uni de l’Union Européenne).",
+"pg":27
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La Loi de Finances pour 2019 a supprimé la taxe annuelle sur les radioamateurs (<i>46 € en 2018, tarif inchangé</i> <i>depuis 1991)</i>. Les indicatifs d’appel restent la propriété de l’État et <u><b>ne sont pas transmissibles</b></u>. Sauf nécessité constatée par l’administration, <u><b>les indicatifs</b></u> <i>[individuels]</i> <u><b>à suffixe de deux lettres devenus disponibles ne sont</b></u> <u><b>pas réattribués</b></u> <i>(article 7 de l’arrêté du 21/09/00 modifié)</i>.",
+"pg":27,
+"anchors":[
+"R-4.6b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Les <u><b>indicatifs spéciaux</b></u>, délivrés sur demande motivée pour une <b>durée maximum de 15 jours non consécutifs</b> pendant une période de 6 mois, sont composés du préfixe <u><b>TM</b></u> pour la France continentale, <u><b>TK</b></u> en Corse, <u><b>TO</b></u> dans les DROM et à St Pierre &amp; Miquelon, St Martin et St Barthélemy, <u><b>TX</b></u> dans les autres CTOM ou <u><b>FX</b></u> pour un événement exceptionnel lié à une station spatiale en orbite autour de la terre. 2 à 7 caractères au choix du demandeur forment le suffixe qui commence par 1 à 3 chiffres suivis de 4 caractères dont le dernier est une lettre. La demande, <b>déposée au moins 20 jours ouvrables avant la date d’utilisation de l’indicatif</b>, comportera : le nom, l’adresse et l’indicatif du demandeur (qui ne peut être qu’un opérateur HAREC), le lieu d’installation de la station (adresse physique et position au format WGS84), la liste des opérateurs, l’intitulé de l’évènement et les dates d’utilisation. <i>Seul le demandeur joindra une copie de sa notification d’indicatif d’appel. L’adresse et la</i> <i>position de la station temporaire étant définies dès la demande, l’exploitation en portable ou en mobile est</i> <i>interdite. Les indicatifs spéciaux figurent sur l’annuaire ANFR des radioamateurs (la date de début indiquée est</i> <i>le premier jour d’activité déclaré) et sont réattribuables 6 mois après la première date d’utilisation de la</i> <i>demande précédente.</i>",
+"pg":27,
+"anchors":[
+"R-4.6c"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> à la demande d’une station pour un évènement, l’administration délivrera l’indicatif spécial TM9A. Cet indicatif spécial pourra être utilisé 7 week-ends (samedi et dimanche) de novembre 2012 à avril 2013.",
+"pg":27
+},
+{
+"t":"ex",
+"html":"L’administration pourra aussi délivrer des indicatifs sous la forme : TO9AA, TX99A, TM9AAAA ou TK9999A9Z.",
+"pg":27,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Le titulaire qui ne souhaite plus utiliser son indicatif d'appel peut demander la <u><b>suspension volontaire</b></u> à l’ANFR <i>(article 7-4 de l’arrêté du 21/09/00 modifié)</i>. Après 10 ans de suspension volontaire, l’indicatif pourra être réattribué ou supprimé définitivement. Lorsque le titulaire souhaite réutiliser son indicatif, il joint à sa demande le courrier accusant réception de sa demande de suspension. <i>Depuis 2019, la suppression de la taxe</i> <i>annuelle relativise cette opportunité.</i>",
+"pg":27,
+"anchors":[
+"R-4.6d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> L’ANFR gère et publie l’<u><b>annuaire des radioamateurs</b></u> (https://annuaire-amateurs.anfr.fr) : nom, prénom, indicatif et adresse postale des radioamateurs autorisés. Chacun peut s’opposer à tout moment à ce que figurent les informations le concernant à l’exception de son indicatif personnel (liste orange). Si les renseignements sont déjà publiés au moment de la demande de figurer sur la liste orange, un nouvel indicatif ayant la même structure alphanumérique peut être attribué <i>(article 7-5 de l’arrêté du 21/09/00 modifié)</i>. L’annuaire comporte aussi les coordonnées des radio-clubs, des stations répétitrices et des indicatifs spéciaux ainsi que l'indicatif personnel du radioamateur responsable de ces stations. Pour les indicatifs spéciaux dont la date de validité n’est pas échue, l'annuaire comporte l'indicatif, la période de validité, l'intitulé de l'événement et l’indicatif du responsable.",
+"pg":27,
+"anchors":[
+"R-4.6e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>R-4.7) Utilisation de l’autorisation d’émettre dans les pays de la CEPT :</b></u></span> les <u><b>radioamateurs</b></u> originaires des pays appliquant la recommandation T/R 61-01 ou des pays ayant signé un accord d’Etat à Etat avec la France peuvent trafiquer en France <u><b>pour un séjour de moins de 3 mois</b></u> sans formalité. L'indicatif utilisé sera formé du préfixe français selon la localisation géographique (F, FY, TK, etc.) suivi d'une barre de fraction, de l’indicatif personnel du pays d’origine et du suffixe /P ou /M <i>(art 7-2 de l’arrêté du 21/09/00 modifié).</i>",
+"pg":27,
+"anchors":[
+"R-4.7",
+"R-4.7a"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> F/I9AAA/P est une station italienne émettant depuis un hôtel à Paris.",
+"pg":27,
+"align":"left"
+},
+{
+"t":"p",
+"html":"De même, pour les <u><b>radioamateurs français</b></u> titulaires d'une autorisation d’émettre de classe 1 ou 2 <u><b>se déplaçant</b></u> <u><b>pour un séjour de moins de 3 mois</b></u> dans un pays appliquant la recommandation CEPT T/R 61-01, l'indicatif utilisé sera formé du préfixe du pays visité suivi d'une barre de fraction, de son indicatif d’appel français et du suffixe /P ou /M selon le cas <i>(§ 2.3 de l’annexe I à la T/R 61-01)</i>.",
+"pg":27
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> un radioamateur français émettant en CW depuis son véhicule en Belgique s’identifiera par : ON/F6ABC/M Le même radioamateur s’identifiera en téléphonie avec le code d’épellation international : « Oscar November Barre de fraction (ou « stroke » en anglais) Foxtrot Six Alfa Bravo Charlie Mobile ».",
+"pg":28
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><b>Liste des pays membres de la CEPT</b></u> (et de leurs dépendances) avec les préfixes à utiliser entre parenthèses. Les 27 pays membres de l’Union Européenne sont édités en <span style=\"color:#7030a0\"><b>violet</b></span> :",
+"pg":28,
+"anchors":[
+"R-4.7b"
+]
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+154.2,
+158.5,
+126.8
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Albanie</b> (ZA)",
+"sans":false
+}
+],
+"pad":29.0
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Allemagne</b></span> (DL)",
+"sans":false
+}
+],
+"pad":31.7
+},
+{
+"r":0,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Andorre</b> (C3)",
+"sans":false
+}
+],
+"pad":27.2
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Autriche</b></span> (OE)",
+"sans":false
+}
+],
+"pad":26.6
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Belgique</b></span> (ON)",
+"sans":false
+}
+],
+"pad":35.2
+},
+{
+"r":1,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Bosnie Herzégovine</b> (E7)",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Bulgarie</b></span> (LZ)",
+"sans":false
+}
+],
+"pad":27.8
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Chypre</b></span> (5B)",
+"sans":false
+}
+],
+"pad":39.0
+},
+{
+"r":2,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Croatie</b></span> (9A)",
+"sans":false
+}
+],
+"pad":29.2
+},
+{
+"r":3,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Danemark</b></span> (OZ, Îles Féroé-OY, Groenland-OX)",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Espagne</b></span> (EA)",
+"sans":false
+}
+],
+"pad":26.8
+},
+{
+"r":4,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Estonie</b></span> (ES)",
+"sans":false
+}
+],
+"pad":30.6
+},
+{
+"r":4,
+"c":1,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Finlande</b></span> (OH)",
+"sans":false
+}
+],
+"pad":34.9
+},
+{
+"r":5,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>France</b></span> et Outre-Mer (voir liste au §R-4.6a)",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Grèce</b></span> (SV)",
+"sans":false
+}
+],
+"pad":41.9
+},
+{
+"r":5,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Hongrie</b></span> (HA, HG)",
+"sans":false
+}
+],
+"pad":16.9
+},
+{
+"r":6,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Irlande</b></span> (EI)",
+"sans":false
+}
+],
+"pad":31.7
+},
+{
+"r":6,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Islande</b> (TF)",
+"sans":false
+}
+],
+"pad":39.6
+},
+{
+"r":6,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Italie</b></span> (I)",
+"sans":false
+}
+],
+"pad":38.5
+},
+{
+"r":7,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Lettonie</b></span> (YL)",
+"sans":false
+}
+],
+"pad":27.8
+},
+{
+"r":7,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Liechtenstein</b> (HB0)",
+"sans":false
+}
+],
+"pad":22.9
+},
+{
+"r":7,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Lituanie</b></span> (LY)",
+"sans":false
+}
+],
+"pad":26.8
+},
+{
+"r":8,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Luxembourg</b></span> (LX)",
+"sans":false
+}
+],
+"pad":18.0
+},
+{
+"r":8,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Macédoine</b> (Z3)",
+"sans":false
+}
+],
+"pad":32.0
+},
+{
+"r":8,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Malte</b></span> (9H)",
+"sans":false
+}
+],
+"pad":32.6
+},
+{
+"r":9,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Moldavie</b> (ER)",
+"sans":false
+}
+],
+"pad":25.7
+},
+{
+"r":9,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Monaco</b> (3A)",
+"sans":false
+}
+],
+"pad":37.6
+},
+{
+"r":9,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Monténégro</b> (4O)",
+"sans":false
+}
+],
+"pad":19.0
+},
+{
+"r":10,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Norvège</b> (LA) (Spitzberg-JW)",
+"sans":false
+}
+]
+},
+{
+"r":10,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Pays Bas</b></span> (PA)",
+"sans":false
+}
+],
+"pad":35.5
+},
+{
+"r":10,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Pologne</b></span> (SP)",
+"sans":false
+}
+],
+"pad":28.8
+},
+{
+"r":11,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Portugal</b></span> (CT7, Açores-CT8, Madère-CT9)",
+"sans":false
+}
+]
+},
+{
+"r":11,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Roumanie</b></span> (YO)",
+"sans":false
+}
+],
+"pad":22.3
+},
+{
+"r":12,
+"c":0,
+"cs":3,
+"items":[
+{
+"h":"<b>Royaume-Uni</b> <i>(*)</i> : Angleterre-M, Île de Man-MD, Irlande du Nord-MI, Jersey-MJ, Écosse-MM, Guernesey-",
+"sans":false
+}
+]
+},
+{
+"r":13,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"MU, Pays de Galles-MW",
+"sans":false
+}
+],
+"pad":14.3
+},
+{
+"r":13,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Fédération de Russie</b> (RA) (**)",
+"sans":false
+}
+]
+},
+{
+"r":13,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Saint Marin</b> (T7)",
+"sans":false
+}
+],
+"pad":19.7
+},
+{
+"r":14,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Serbie</b> (YU)",
+"sans":false
+}
+],
+"pad":31.4
+},
+{
+"r":14,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Slovaquie</b></span> (OM)",
+"sans":false
+}
+],
+"pad":32.0
+},
+{
+"r":14,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Slovénie</b></span> (S5)",
+"sans":false
+}
+],
+"pad":28.3
+},
+{
+"r":15,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>Suède</b></span> (SM)",
+"sans":false
+}
+],
+"pad":32.3
+},
+{
+"r":15,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Suisse</b> (HB9)",
+"sans":false
+}
+],
+"pad":38.5
+},
+{
+"r":15,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#7030a0\"><b>République Tchèque</b></span> (OK)",
+"sans":false
+}
+]
+},
+{
+"r":16,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Turquie</b> (TA)",
+"sans":false
+}
+],
+"pad":28.1
+},
+{
+"r":16,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Ukraine</b> (UT)",
+"sans":false
+}
+],
+"pad":36.8
+},
+{
+"r":16,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Cité du Vatican</b> (HV)",
+"sans":false
+}
+],
+"pad":10.6
+}
+],
+"pg":28,
+"indent":14
+},
+{
+"t":"p",
+"html":"<i>(*) le</i> <i><b>Royaume-Uni</b></i> <i>a quitté l’UE le 31 janvier 2020</i>.",
+"pg":28,
+"align":"left",
+"indent":14
+},
+{
+"t":"p",
+"html":"La CEPT comprend 46 pays membres. Or, les 2 (**) pays suivants n’appliquent pas la T/R 61-01 ou n’ont pas donné d’information à l’ECO qui tient à jour cette liste pour le compte de la CEPT :<p style=\"margin:0 0 0 2.7em\"><b>Azerbaïdjan</b> (4K) <b>Géorgie</b> (4L) </p><p style=\"margin:0 0 0 1.1em\"><i>Le</i> <i><b>Kosovo</b></i><i>, ancienne province de Serbie qui a proclamé unilatéralement son indépendance en 2008, ne fait</i> <i>pas encore partie de la CEPT mais l’UIT devrait lui affecter le préfixe Z6.</i> </p><p style=\"margin:0 0 0 1.1em\"><i>(**) La CEPT a suspendu l’adhésion de la Fédération de Russie et de la Biélorussie en mars 2022.</i> </p>",
+"pg":28
+},
+{
+"t":"fig",
+"id":"c028_1",
+"pg":28,
+"min":10.0,
+"indent":189
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <u><b>Liste des 8 pays non membres de la CEPT mais appliquant la recommandation T/R 61-01</b></u> :",
+"pg":28,
+"align":"left",
+"anchors":[
+"R-4.7c"
+]
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+176.4,
+144.4,
+95.8
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Australie</b> (VK)",
+"sans":false
+}
+],
+"pad":25.3
+},
+{
+"r":0,
+"c":1,
+"cs":2,
+"items":[
+{
+"h":"<b>Afrique du Sud</b> (ZS)",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":3,
+"items":[
+{
+"h":"<b>Antilles néerlandaises</b> (Curaçao-PJ2, Bonnaire-PJ4, St Eustatius-PJ5, Saba-PJ6, St Maarten-PJ7)",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":3,
+"items":[
+{
+"h":"<b>Canada</b> (VE, Terre Neuve et Labrador-VO, Yukon et Île du Prince Édouard-VY)",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":0,
+"cs":3,
+"items":[
+{
+"h":"<b>États-Unis</b> (selon la localisation, les suffixes W, KH ou KP sont suivis d’un chiffre)",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>Israël</b> (4X)",
+"sans":false
+}
+],
+"pad":33.8
+},
+{
+"r":4,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<b>Pérou</b> (OA)",
+"sans":false
+}
+],
+"pad":18.8
+},
+{
+"r":4,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<b>Nouvelle-Zélande</b> (ZL)",
+"sans":false
+}
+]
+}
+],
+"pg":28,
+"indent":14
+},
+{
+"t":"p",
+"html":"<i><b>Hong Kong</b></i> <i>(VR2) applique uniquement la T/R 61-02 pour la reconnaissance du niveau de l’opérateur</i>",
+"pg":28,
+"align":"left",
+"indent":14
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <u><b>Liste des 5 pays ayant conclu un accord d’Etat à Etat avec la France</b></u> :<p style=\"margin:0 0 0 2.7em\"><b>Brésil</b> (PY) <b>Côte d'Ivoire</b> (TU) <b>Japon</b> (JA) <b>Kenya</b> (5Y) <b>Thaïlande</b> (HS) </p>",
+"pg":28,
+"anchors":[
+"R-4.7d"
+]
+},
+{
+"t":"p",
+"html":"Les listes ci-dessus donnent les préfixes à utiliser dans le cadre de la Recommandation CEPT T/R 61-01 (libre circulation) ou des accords bilatéraux mais l’ANFR privilégie une approche différente dans les questions posées : elles portent sur les <u><b>préfixes attribués aux radioamateurs des pays européens</b></u>. Ainsi, le <b>Royaume Uni</b> a attribué des indicatifs avec la lettre <b>G</b> en préfixe (et Gx pour les sous-localisations, par exemple GM pour l’Ecosse) ; la <b>Fédération de Russie</b> emploie aussi le préfixe <b>UA</b> ; enfin, le préfixe de l’<b>ONU</b> (et de l’<b>UIT</b> qui a son siège à Genève) est <b>4U</b>.",
+"pg":28
+},
+{
+"t":"p",
+"html":"<i>Ces trois listes ont été mises à jour à la date de publication de ce document à partir d’informationss disponibles</i> <i>sur Internet. Pour tout trafic à l’étranger, il faudra se renseigner sur la réglementation propre à chaque pays</i> <i>visité (conditions d’exploitation, limites de bande, puissances et classes d’émission autorisées).</i> <i>Dans certains</i> <i>pays, il faut ajouter au préfixe un chiffre correspondant à la localisation géographique. De plus en plus</i> <i>rarement, des pays continuent d’exiger la connaissance du morse pour accéder aux bandes inférieures à</i> <i>30 MHz sur leur territoire.</i>",
+"pg":28
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Pour <u><b>les séjours de plus de 3 mois en France</b></u>, les radioamateurs étrangers titulaires d’un certificat d’opérateur conforme à la recommandation CEPT T/R 61-02 (HAREC) ou originaires d’un pays ayant signé un accord avec la France doivent demander un indicatif d’appel temporaire <i>(article 7-2 de l’arrêté du 21/09/00 modifié, depuis</i> <i>2019, il n’y a plus de taxe annuelle)</i>. Les demandeurs devront apporter la preuve que leur certificat étranger est bien un équivalent HAREC et devront fournir un justificatif de validité de leur indicatif étranger et de leur résidence effective de plus de 3 mois sur le territoire national. Selon le pays d’origine, le suffixe de l’indicatif d’appel sera de la série VAA à VZZ ou WAA à WZZ <i>(annexe 4 de l’arrêté du 21/09/00 modifié, voir § R-4.6a)</i>. Malheureusement, tous les pays ne proposent pas cette opportunité pour les séjours de longue durée. Dans de nombreux pays de la CEPT, les radioamateurs étrangers auront à repasser les examens locaux pour obtenir un indicatif du pays visité.",
+"pg":28,
+"anchors":[
+"R-4.7e"
+]
+},
+{
+"t":"p",
+"html":"<i>La « licence CEPT de radioamateur Novice » (recommandation ECC (05)06 et rapport ERC 32), n’est</i> <i>applicable ni pour les Novices étrangers visitant la France, ni pour les opérateurs français de l’ex-classe 3.</i>",
+"pg":28
+}
+]
+}

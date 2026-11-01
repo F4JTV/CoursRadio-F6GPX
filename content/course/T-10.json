@@ -1,0 +1,463 @@
+{
+"id":"T-10",
+"title":"10) LIGNES DE TRANSMISSIONS et ADAPTATIONS",
+"short":"10 Lignes de transmission",
+"blocks":[
+{
+"t":"chapter",
+"html":"10) LIGNES DE TRANSMISSIONS et ADAPTATIONS",
+"pg":85
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>10.1) La ligne de transmission</b></u></span> est utilisée pour <u><b>transférer l'énergie</b></u> de l'émetteur vers l'antenne ou de l'antenne vers le récepteur. Ce dispositif, appelé feeder en anglais, est composé de deux conducteurs séparés par un isolant (diélectrique). La ligne peut être asymétrique (câble coaxial) ou symétrique (ligne bifilaire, tween lead en anglais ou échelle à grenouille ; <i>pour des fréquences très élevées, la ligne est dessinée sur le circuit imprimé</i> <i>(microstrip) dont l’envers sera un plan de masse</i>. Une ligne de transmission est équivalente à un circuit constitué fictivement d’une bobine, de deux résistances et d’un condensateur (représentés en pointillé). Le rapport √(L / C) fournit <u><b>l'impédance caractéristique</b></u> de la ligne (en ohms), voir § 10.2a. La qualité de la ligne se mesure par sa <u><b>perte (en dB/m)</b></u>. Elle est déterminée par la valeur des résistances : R2 doit être très faible et R1 très élevée. La perte est donnée par le constructeur du câble pour une fréquence et augmente avec la fréquence du signal transféré. La perte, qui est moindre dans une ligne bifilaire, est fonction de la longueur de la ligne, appelée aussi <u><b>affaiblissement linéique</b></u>, et se calcule avec les décibels (voir § 4.1e). Cette perte n'a aucun rapport avec l’impédance de la ligne.",
+"pg":85,
+"anchors":[
+"T-10.1",
+"T-10.1a"
+]
+},
+{
+"t":"fig",
+"id":"c085_2",
+"pg":85,
+"indent":39
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Si les courants dans les deux fils (ou âme et tresse) sont conjugués (égaux et de valeurs contraires), la ligne de transmission fonctionne en <u><b>mode différentiel</b></u>. Dans un câble, les courants circulent à l’intérieur de celui-ci : il n’y a pas de rayonnement. Dans une ligne bifilaire, l'intensité étant la cause du rayonnement, la ligne ne rayonne pas puisque, les intensités étant égales et de sens contraire, les champs électromagnétiques créés s’annulent mutuellement puisque les conducteurs sont espacés de quelques cm au plus. Lorsque les courants ne sont plus conjugués, la ligne fonctionne en <u><b>mode commun</b></u> : l'énergie excédentaire chemine à l'extérieur, en surface de la gaine ou sur la face extérieure des fils. Dans ce cas, la ligne rayonne et fonctionne comme une antenne long fil. <i>Pour réduire le mode commun, l’antenne</i> <i>sera alimentée grâce à un symétriseur (balun, voir § 10.4b) ou quelques boucles</i> <i>seront faites avec le câble coaxial (</i><u><i>choc-balun</i></u><i>) pour réduire le courant de gaine</i>.",
+"pg":85,
+"anchors":[
+"T-10.1b"
+]
+},
+{
+"t":"fig",
+"id":"c085_1",
+"pg":85,
+"indent":350
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>10.2) L'impédance caractéristique</b></u></span> dépend du <u><b>rapport √(L / C)</b></u> de la ligne (en Henry et en Farad par mètre). Cette formule est issue des lois de Maxwell qui définissent l’impédance d’un milieu de propagation : <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>milieu</b></sub></span><span style=\"color:#000080\"><b>(Ω) =</b></span> <span style=\"color:#000080\">√[Z</span><span style=\"color:#000080\"><sub>L</sub></span> <span style=\"color:#000080\">x Z</span><span style=\"color:#000080\"><sub>C</sub></span><span style=\"color:#000080\">]</span> donc <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>ligne</b></sub></span><span style=\"color:#000080\"><b>(Ω)</b></span> <span style=\"color:#000080\">= √(ωL / ωC)</span> <span style=\"color:#000080\"><b>= √(L(H/m)/C(F/m)</b></span>. Les signaux transférés dans une ligne de transmission ont toujours la même impédance (rapport tension/intensité égal à l’impédance caractéristique de la ligne) quelque soient la fréquence du signal transféré, l’impédance du signal d’entrée ou de la charge. Idéalement, les impédances du générateur, de la ligne, de la charge et du signal transféré sont égales.",
+"pg":85,
+"anchors":[
+"T-10.2",
+"T-10.2a"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quelle est l'impédance d'un câble ayant comme caractéristiques L = 0,5 µH/mètre et C = 200 pF/mètre ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> Z = √(0,5.10<sup>-6</sup>/ 200.10<sup>-12</sup>) = √(2500) = <span style=\"color:#800000\">50 Ω</span><p style=\"margin:0 0 0 0.7em\"><span style=\"color:#800000\"><u>Sur une calculette, en écriture naturelle :</u></span> Z = [√] (0,5.10<sup>-6</sup><i>(L)</i> ÷ 200.10<sup>-12</sup> <i>(C)</i>) = 50.10<sup>0</sup> = <span style=\"color:#800000\">50 Ω</span></p>",
+"pg":85
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> L’impédance caractéristique peut aussi s’estimer à partir du diélectique employé pour séparer les conducteurs et du <u><b>rapport entre les dimensions des conducteurs</b></u> (rapport entre le diamètre intérieur de la tresse et le diamètre de l’âme ou rapport entre l’écartement des conducteurs et leurs diamètres ou leurs largeurs). Dans une ligne, la vitesse de propagation des ondes (<u><b>vélocité</b></u>, en % de la vitesse dans l'air ou le vide) est plus faible que dans l'air ou dans le vide et est fonction du diélectrique employé. <i>Soit ε le coefficient du diélectrique et v la</i> <i>vélocité, on a :</i> <span style=\"color:#000080\"><i><b>v = 1/√ε</b></i></span><i>. Les diélectriques utilisés couramment sont le polyéthylène (PE, ε = 2,3) et le téflon (ε =</i> <i>2,1). Pour les constantes diélectriques d’autres matériaux, voir aussi § 2.3c4. Le coefficient de vélocité est de</i> <i>66% (=1/√(2,3) pour un diélectrique en PE) mais peut atteindre 80% (câble semi-aéré en PE expansé, ε = 1,5),</i> <i>voire 95% dans le cas de la ligne bifilaire (diélectrique = écarteur et air, ε = 1,1), ou descendre à 50% pour les</i> <i>pistes sur circuits imprimés (microstrip, ε bakélite ou fibre de verre ≈ 4).</i>",
+"pg":85,
+"anchors":[
+"T-10.2b"
+]
+},
+{
+"t":"fig",
+"id":"c085_3",
+"pg":85
+},
+{
+"t":"p",
+"html":"<i>Les formules aboutissant au facteur 138 proviennent de l’inductance linéique et de la capacité linéique du câble</i> <i>calculées à partir de µ</i><sub><i>0</i></sub> <i>et ε</i><sub><i>0</i></sub> <i>dans un conducteur rond (voir aussi §10.4a4). Le résultat final donne</i> <i>√(µ</i><sub><i>0</i></sub><i>/ε</i><sub><i>0</i></sub><i>)/(2π.√ε).ln(D/d) et [√(µ</i><sub><i>0</i></sub><i>/ε</i><sub><i>0</i></sub><i>).ln(10)]/2π = 60.ln(10) = 138,2 (ln = logarithme népérien d‘un nombre).</i> <i>Pour un coaxial rond et un diélectrique en PE, un rapport de diamètre tresse/âme de 3,5 donne une impédance</i> <i>de 50 Ω. En SHF et au-delà, deux autres paramètres interviennent dans le calcul : la résistance linéique (R2</i> <i>dans le schéma du §10.1a, très faible pour un câble de bonne qualité mais qui augmente avec la fréquence à</i> <i>cause de l’effet de peau) et la conductance linéique (R1 dans le schéma du §10.1a, négligeable jusqu’à 1 GHz et</i> <i>due aux défauts du diélectrique utilisé).</i>",
+"pg":86
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Un</i> <u><i>guide d’onde</i></u> <i>(tubes de section rectangulaire ou circulaire assemblés par des brides) transfère les ondes</i> <i>par réflexion sur les parois conductrices d’un tube entre deux « transitions » (sortes d’antennes qui font</i> <i>l’adaptation câble-guide). Le guide d’onde a des pertes moindres qu’un câble coaxial mais ne peut transférer</i> <i>que des fréquences dont la demi-longueur d’onde est inférieure à son diamètre ou à son plus grand côté. La</i> <u><i>fibre optique</i></u> <i>est un cas particulier de guide d’onde permettant de transférer de la lumière à l’intérieur d’un fil</i> <i>de verre ou de plastique translucide (on n’est plus vraiment dans le monde de la radio…).</i>",
+"pg":86,
+"anchors":[
+"T-10.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>10.3) Adaptation, désadaptation et ondes stationnaires</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> Le <u><b>transfert de puissance</b></u><u></u> entre un générateur de courant alternatif et une charge est maximal lorsque l’impédance du générateur est égale à celle de la charge et est de signe contraire, si il y a une réactance. Les <u><b>impédances</b></u> sont alors <u><b>conjuguées</b></u>.",
+"pg":86,
+"anchors":[
+"T-10.3",
+"T-10.3a"
+]
+},
+{
+"t":"p",
+"html":"Dans les exemples ci-dessous, on cherche laquelle des 3 résistances (R1, R2 ou R3) dissipe le plus de puissance.",
+"pg":86,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c086_1",
+"pg":86
+},
+{
+"t":"p",
+"html":"Les résistances R1, R2 et R3 peuvent être considérées comme des résistances de charge alimentées par un générateur de résistance interne (R) de 50Ω. Par simplification, il n’y a pas de réactance et le courant est continu. En ajoutant des réactances, un générateur de courant alternatif et un câble coaxial (et donc des ondes stationnaires), la démonstration est plus complexe mais aboutit au même résultat ; les puristes nous excuseront pour ces raccourcis. Ainsi, à la fréquence de résonance, par définition, les réactances d’une bobine et d’un condensateur sont conjuguées et l’impédance d’un tel circuit monté en série avec les deux résistances est nulle (filtre passe-bande) donc sans incidence sur la puissance délivrée sur la charge. <i>Lorsque le rapport des</i> <i>résistances est 2/1 (schéma de gauche), la puissance dissipée par R1 est inférieure de 11% à celle dissipée par</i> <i>R2 et lorsque le rapport des résistances est 1,5/1 (schéma de droite), la puissance dissipée est inférieure de 4% :</i> <i>on retrouve les mêmes relations entre le ROS et le taux de puissance réfléchie comme on va le voir plus loin.</i>",
+"pg":86
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La désadaptation des impédances entraîne qu’une partie de l’énergie émise n’est pas transférée et retourne au générateur. Si bien que deux courants de même impédance et de sens inverse se superposent dans la ligne et, à certains endroits, les courants s’additionnent et à d’autres, ils s’annulent. Les endroits où se situent ces maxima (ou ventres) et ces minima (ou nœuds) sont fixes, d’où le nom d’<u><b>ondes stationnaires</b></u>, et dépendent de l’endroit de la mesure sur la ligne et de la fréquence. Les maximas et les minimas sont distants les uns des autres d’un quart d’onde : le phénomène se répète donc toutes les demi-ondes. La désadaptation se mesure par :",
+"pg":86,
+"anchors":[
+"T-10.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b1<span style=\"color:#800080\">.</span></b> - le <u><b>coefficient de réflexion</b></u>, nommé ρ (rhô) et égal au <u><b>rapport</b></u> obtenu en divisant le <u><b>courant</b></u> (tension ou intensité) <u><b>réfléchi</b></u> par le <u><b>courant émis</b></u> (ou incident), les deux valeurs étant exprimés dans la même unité (V ou A). La seconde formule (avec les valeurs maxi/mini) est utilisée dans la pratique et donne le même résultat. Si les valeurs mesurées sont exprimées en Watts, on prendra la racine carrée du rapport (car U = √PR). Le <u><b>TOS</b></u> (<u><b>Taux d’Ondes Stationnaires</b></u>, en %) est égal à 100 fois le coefficient de réflexion. La puissance réfléchie est égale à la puissance émise multipliée par le carré du coefficient de réflexion.<p style=\"margin:0 0 0 1.8em\">coefficient = <span style=\"color:#000080\"><b>ρ = U</b></span><span style=\"color:#000080\"><sub><b>R</b></sub></span> <span style=\"color:#000080\"><b>/ U</b></span><span style=\"color:#000080\"><sub><b>E</b></sub></span> <span style=\"color:#000080\"><b>= (U</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>– U</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span><span style=\"color:#000080\"><b>) / (U</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>+ U</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span><span style=\"color:#000080\"><b>)</b></span> ou <span style=\"color:#000080\"><b>ρ = I</b></span><span style=\"color:#000080\"><sub><b>R</b></sub></span> <span style=\"color:#000080\"><b>/ I</b></span><span style=\"color:#000080\"><sub><b>E</b></sub></span> <span style=\"color:#000080\"><b>= (I</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>– I</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span><span style=\"color:#000080\"><b>) / (I</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>+ I</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span><span style=\"color:#000080\"><b>)</b></span> coefficient = <span style=\"color:#000080\"><b>ρ = √(P</b></span><span style=\"color:#000080\"><sub><b>R</b></sub></span> <span style=\"color:#000080\"><b>/ P</b></span><span style=\"color:#000080\"><sub><b>E</b></sub></span><span style=\"color:#000080\"><b>)</b></span> <span style=\"color:#000080\"><b>TOS (%) = 100 ρ</b></span> <span style=\"color:#000080\"><b>P</b></span><span style=\"color:#000080\"><sub><b>réfléchie</b></sub></span> <span style=\"color:#000080\"><b>= P</b></span><span style=\"color:#000080\"><sub><b>émise</b></sub></span> <span style=\"color:#000080\"><b>. ρ²</b></span> </p>",
+"pg":86,
+"indent":14,
+"anchors":[
+"T-10.3b1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b2<span style=\"color:#800080\">.</span></b> - le <u><b>ROS</b></u> (<u><b>Rapport d’Ondes Stationnaires</b></u>, toujours supérieur à 1) est égal au <u><b>rapport des impédances</b></u> <u><b>d’entrée et de sortie</b></u> ou des valeurs maxi/mini présentes sur la ligne. Le calcul avec les impédances n’est valable que dans le cas où les impédances sont des résistances pures (sans composantes réactives) :<p style=\"margin:0 0 0 4em\"><span style=\"color:#000080\"><b>ROS (rapport / 1) = Z plus forte (Ω) / Z plus faible (Ω) = U</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>/ U</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span> <span style=\"color:#000080\"><b>= I</b></span><span style=\"color:#000080\"><sub><b>maxi</b></sub></span> <span style=\"color:#000080\"><b>/ I</b></span><span style=\"color:#000080\"><sub><b>mini</b></sub></span></p>Les appareils de mesures (réflectomètres) indiquent rarement le TOS. En revanche, ils indiquent le ROS et le taux de puissance réfléchie défini par la formule <span style=\"color:#000080\"><i><b>[100 . (Pr / Pe)]</b></i></span>, à ne pas confondre avec le TOS.",
+"pg":86,
+"anchors":[
+"T-10.3b2"
+]
+},
+{
+"t":"p",
+"html":"Le fait d’insérer une <u><b>boîte de couplage</b></u> entre la ligne et l’émetteur protège l’amplificateur final en limitant la puissance réfléchie mais ne solutionne pas les problèmes liés à la désadaptation (pertes supplémentaires liées au ROS, mode commun, …). Une boîte de couplage constituée d’un filtre en pi ou en T (voir § 4.5) permet d’accorder l’impédance de la ligne et de sa charge avec celle de l’amplificateur.",
+"pg":86
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b3<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> On mesure U<sub>E</sub>=100 V et U<sub>R</sub>=4 V, quel est le TOS ? <span style=\"color:#800000\"><u>Réponse :</u></span> ρ = 4/100 = 0,04 ; TOS = 100 ρ = <span style=\"color:#800000\">4%</span>",
+"pg":86,
+"align":"left",
+"anchors":[
+"T-10.3b3"
+]
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+271.7,
+164.6
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>2)</b> Quel est le ROS ? <b>a)</b> Z coax = 50 Ω; Z doublet λ/2 = 75 Ω",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u>Réponses :</u></span> ROS = 75 / 50 = <span style=\"color:#800000\">1,5 / 1</span>",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<b>b)</b> Z coax = 50 Ω; Z antenne verticale λ/4 = 36 Ω",
+"sans":true
+}
+],
+"pad":94.7
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ROS = 50 / 36 = <span style=\"color:#800000\">1,389 / 1</span>",
+"sans":true
+}
+],
+"pad":61.6
+}
+],
+"pg":86
+},
+{
+"t":"ex",
+"html":"<b>3)</b> Dans le schéma ci-contre, quels sont le ROS et le TOS ?<br><span style=\"color:#800000\"><u>Réponses :</u></span> ROS = V<sub>maxi</sub>/V<sub>mini</sub>=10/8 (<i>ou I</i><sub><i>maxi</i></sub> <i>/I</i><sub><i>mini</i></sub> <i>= 0,2/0,16</i>) = <span style=\"color:#800000\">1,25/1</span> ρ=[(10–8)/(10+8)] (<i>ou [(0,2–0,16)/(0,2+0,16)]</i>)=0,111 ; TOS=<span style=\"color:#800000\">11%</span>",
+"pg":87
+},
+{
+"t":"fig",
+"id":"c087_4",
+"pg":87,
+"indent":286
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b4<span style=\"color:#800080\">.</span></b> <i>Dans le schéma ci-dessus, les ventres (maximum) et les nœuds (minimum) dans le câble sont représentés</i> <i>avec leurs valeurs efficaces. Le générateur délivre 9 V et la tension réfléchie est de 1 V. La désadaptation</i> <i>résulte d’un rapport d’impédance</i> de <i>50 / 40 (ROS = 1,25/1). Le taux de puissance réfléchie est ρ² = 1,23 %</i> <i>(=1/9²). L’impédance de la charge étant plus faible que celle du générateur, la tension réfléchie équilibrant le</i> <i>système est en opposition de phase si bien que la superposition des tensions émise et réfléchie (</i><span style=\"color:#0000ff\"><i>en bleu</i></span><i>) donne</i> <i>un nœud puis, à λ/4 de la charge, les valeurs s’inversent (ventre) et enfin reviennent à celles d’origine à λ/2.</i> <i>L’intensité résultante (superposition des intensités émise et réfléchie</i> <span style=\"color:#ff0000\"><i>en rouge</i></span><i>) est déphasée de 180°. Les</i> <i>impédances et la position des nœuds et des ventres se répètent toutes les demi-ondes. Remarquez les valeurs</i> <i>maxi et mini de</i> <span style=\"color:#0000ff\"><i>U</i></span> <i>et</i> <span style=\"color:#ff0000\"><i>I</i></span> <i>dans ce schéma :</i><p style=\"margin:0 0 0 0.6em\"><i>- Impédances : Z</i><sub><i>cable</i></sub> <i>= U</i><sub><i>maxi</i></sub><i>/I</i><sub><i>maxi</i></sub> <i>= U</i><sub><i>mini</i></sub><i>/I</i><sub><i>mini</i></sub> <i>= 10/0,2 = 8/0,16 = 50 Ω ; Z</i><sub><i>charge</i></sub> <i>= 8/0,2 = 40 Ω ;</i> </p><p style=\"margin:0 0 0 1.5em\"> <i>Z</i><sub><i>signal émis</i></sub> <i>= ([10+8]/2)/([0,20+0,16]/2) = 9/0,18 = 50 Ω ; Z</i><sub><i>signal réfléchi</i></sub> <i>= ([10-8]/2)/([0,20-0,16]/2) = 1/0,02 = 50 Ω</i> </p><p style=\"margin:0 0 0 0.9em\"> <i>- Puissance délivrée et absorbée : P</i><sub><i>e</i></sub> <i>= U²/R = 9²/50 = 1,62 W ; P</i><sub><i>charge</i></sub> <i>= U x I = 8 x 0,2 = 1,6 W = P</i><sub><i>e</i></sub> <i>x (1-ρ²)</i> </p><i>Des complications sont à prévoir si l’impédance de la charge est réactive : le déphasage U/I ne sera plus 180°...</i>",
+"pg":87,
+"anchors":[
+"T-10.3b4"
+]
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b5<span style=\"color:#800080\">.</span></b> <i>Lorsque l’onde réfléchie atteint le générateur, elle est renvoyée vers la charge (en se superposant à l’onde</i> <i>émise par le générateur) où elle sera une nouvelle fois partiellement absorbée (</i><u><i>régime transitoire</i></u><i>). Après</i> <i>plusieurs allers-retours, la puissance du générateur est entièrement absorbée par la charge (</i><u><i>régime établi</i></u><i>).</i>",
+"pg":87,
+"anchors":[
+"T-10.3b5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b6<span style=\"color:#800080\">.</span></b> <i>Pour transformer le coefficient de réflexion (ρ) en ROS et inversement, les formules générales sont :</i>",
+"pg":87,
+"align":"left",
+"anchors":[
+"T-10.3b6"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><i><b>ROS = (1 + ρ) / (1 – ρ)</b></i></span> <i>et</i> <span style=\"color:#000080\"><i><b>ρ = (ROS – 1) / (ROS + 1)</b></i></span>",
+"pg":87,
+"align":"left",
+"indent":104
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+276.5,
+175.3
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><i><b>Exemples :</b></i></u></span> <i><b>1)</b></i> <i>Soit TOS = 33%, quel est le ROS ?</i>",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i><b>2)</b></i> <i>Soit un ROS de 2 / 1, quel est le TOS ?</i>",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>TOS = 33% donc</i> ρ <i>= 0,33</i>",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>ρ = (2 – 1) / (2 + 1) = 1 / 3 = 0,33</i>",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i>ROS = (1 + 0,33) / (1 –0,33) = (1,33 / 0,67) =</i> <span style=\"color:#800000\"><i>2 / 1</i></span>",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i>TOS = ρ x 100 = 0,33 x 100 =</i> <span style=\"color:#800000\"><i>33%</i></span>",
+"sans":true
+}
+]
+}
+],
+"pg":87
+},
+{
+"t":"fig",
+"id":"c087_1",
+"pg":87,
+"min":9.0
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>10.4) Lignes d'adaptation et symétriseurs :</b></u></span> si l’impédance de la charge n’est pas égale à l’impédance de la ligne, il y a des ondes stationnaires dans la ligne de transmission et l’impédance ramenée à l’entrée peut avoir des composantes réactives (inductives ou capacitives). Toutefois, pour certaines longueurs de ligne (tenir compte du coefficient de vélocité pour déterminer la longueur du câble), ces composantes réactives s’annulent. Les relations suivantes sont calculées avec Z<sub>c</sub> = impédance du câble, Z<sub>e</sub> = impédance d’entrée et Z<sub>s</sub> = impédance de sortie :",
+"pg":87,
+"anchors":[
+"T-10.4",
+"T-10.4a"
+]
+},
+{
+"t":"fig",
+"id":"c087_3",
+"pg":87
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> - à chaque nombre pair de quart d’onde (donc <span style=\"color:#000080\"><b>à chaque</b></span> <span style=\"color:#000080\"><b>demi-onde</b></span>), on a <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>e</b></sub></span> <span style=\"color:#000080\"><b>= Z</b></span><span style=\"color:#000080\"><sub><b>s</b></sub></span>",
+"pg":87,
+"align":"left",
+"anchors":[
+"T-10.4a1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> - <span style=\"color:#000080\"><b>à chaque</b></span> <span style=\"color:#000080\"><b>nombre impair de quart d’onde</b></span>, on a <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>c</b></sub></span><span style=\"color:#000080\"><b>² = Z</b></span><span style=\"color:#000080\"><sub><b>e</b></sub></span> <span style=\"color:#000080\"><b>x Z</b></span><span style=\"color:#000080\"><sub><b>s</b></sub></span>. ou, formule utilisée le plus souvent, <span style=\"color:#000080\"><b>Z</b></span><span style=\"color:#000080\"><sub><b>c</b></sub></span> <span style=\"color:#000080\"><b>= √(Z</b></span><span style=\"color:#000080\"><sub><b>e</b></sub></span> <span style=\"color:#000080\"><b>. Z</b></span><span style=\"color:#000080\"><sub><b>s</b></sub></span><span style=\"color:#000080\"><b>)</b></span>. Pour obtenir toutes les variantes, on utilisera le triangle ci-contre, comme pour la loi d’Ohm.",
+"pg":87,
+"anchors":[
+"T-10.4a2"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Pour adapter les impédances suivantes : Z<sub>e</sub> = 50 Ω et Z<sub>s</sub> = 100 Ω, quelle impédance aura le câble λ/4 ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> Z<sub>c</sub> = √(50 x 100) = √5000 = <span style=\"color:#800000\">70,7 Ω</span> pour un câble de longueur de λ/4<p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><u>Sur une calculette, en écriture naturelle :</u></span> [√] (50 <i>(Z</i><sub><i>e</i></sub><i>)</i> x 100 <i>(Z</i><sub><i>s</i></sub><i>)</i>) = <span style=\"color:#800000\">70,7</span></p>Remarquez que l’impédance du câble à utiliser est toujours comprise entre les impédances d’entrée et de sortie.",
+"pg":87
+},
+{
+"t":"ex",
+"html":"<i>Dans le schéma de l’exemple n°3 du §10.3, à λ/4, on a Z = U/I = 10V/0,16A = 62,5 Ω (et 62,5 x 40 = 50²)</i>",
+"pg":87,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<i>Un morceau de coaxial 75 Ω (valeur approchée) d'une longueur λ/4 adaptera à</i> <i>une valeur proche de 50 Ω une antenne ayant une impédance de 100 Ω. Dans</i> <i>cette situation, l’impédance à l’entrée du câble, Z</i><sub><i>e</i></sub><i>, est égale à Z</i><sub><i>c</i></sub><i>² / Z</i><sub><i>s</i></sub><i>= 75² /100</i> <i>= 56,25 Ω, générant un ROS de 1,125 / 1 (Z+ / Z- = 56,25 / 50) au lieu de 2 / 1</i> <i>(Z+ / Z- = 100 / 50) si on avait utilisé du câble de 50 Ω.</i><br><span style=\"color:#800000\"><u><i>Autre calcul</i></u></span> <span style=\"color:#800000\"><i>:</i></span> <i>impédance à la sortie du câble : Z</i><sub><i>s</i></sub> <i>= Z</i><sub><i>c</i></sub><i>² / Z</i><sub><i>e</i></sub> <i>= 75² / 50 = 112,5 Ω</i> <i>générant un ROS de 1,125 / 1.</i>",
+"pg":87
+},
+{
+"t":"fig",
+"id":"c087_2",
+"pg":87,
+"indent":335
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> Les propriétés des lignes quart d’onde et demi-onde permettent de réaliser des filtres en insérant des morceaux de câble coaxial (ou de ligne bifilaire) de longueur λ/4 ou λ/2 dans une ligne de transmission. Pour le calcul de la longueur du câble, comme précédemment, le coefficient de vélocité de la ligne doit être pris en compte. <u><b>L'impédance des lignes quart d'onde et demi-onde diffèrent selon qu'elles sont fermées ou ouvertes</b></u>. Une ligne est dite fermée lorsqu’à l’extrémité du câble, âme et tresse sont reliées ; dans ce cas, l’impédance de la charge de sortie est nulle ; sinon, la ligne est dite ouverte et l’impédance de la charge de sortie est élevée.",
+"pg":87,
+"anchors":[
+"T-10.4a3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a4<span style=\"color:#800080\">.</span></b> <i>L’impédance d’un milieu de propagation est égale à √(Z</i><sub><i>L</i></sub> <i>x Z</i><sub><i>C</i></sub><i>), soit √(L/C), voir</i> <u><i>lois de Maxwell</i></u> <i>au §10.2a.</i> <u><i>Le vide</i></u><i>, avec sa perméabilité µ</i><sub><i>o</i></sub> <i>(= 1/36π.10</i><sup><i>9</i></sup><i>H/m = 1,26 µH/m) et sa permittivité ε</i><sub><i>o</i></sub> <i>(= 4π.10</i><sup><i>-7</i></sup><i>F/m = 8,84 pF/m)</i> <u><i>a une impédance de 377 Ω</i></u> <i>(soit 120π). Les permittivité et perméabilité relatives de l’air sec sont très proches de</i> <i>celles du vide (µ</i><sub><i>r</i></sub> <i>= 1,00068 et ε</i><sub><i>r</i></sub> <i>= 1,0014) si bien que les impédances de l’air sec et du vide sont égales.</i>",
+"pg":87,
+"anchors":[
+"T-10.4a4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a5<span style=\"color:#800080\">.</span></b> En reprenant le calcul des impédances des lignes de λ/2 et de λ/4, et quelle que soit l’impédance caractéristique de la ligne de transmission, les résultats suivants sont obtenus :",
+"pg":87,
+"anchors":[
+"T-10.4a5"
+]
+},
+{
+"t":"fig",
+"id":"c088_3",
+"pg":88
+},
+{
+"t":"p",
+"html":"<i>Nous venons de voir que le vide a une impédance de 377 Ω. Il sera donc difficile d’obtenir une impédance</i> <i>infinie sur une ligne ouverte. D’où la préférence pour les lignes fermées dont l’impédance est certaine.</i>",
+"pg":88
+},
+{
+"t":"p",
+"html":"<i>Dans une ligne ouverte, l’impédance commence par être capacitive et</i> <i>diminue jusqu’à ce que la ligne atteigne λ/4. A cet endroit</i> <i>l’impédance est celle d’un circuit LC série (nulle). Puis l’impédance</i> <i>devient inductive et augmente pour être celle d’un circuit bouchon</i> <i>(infinie) à λ/2 puis diminue en redevenant capacitive et devient de</i> <i>nouveau nulle à 3λ/4 et ainsi de suite… La ligne fermée (schéma ci-</i> <i>contre) a un comportement décalé de λ/4 : son impédance inductive</i> <i>augmente avant λ/4, est infinie à cet endroit puis devient capacitive en</i> <i>diminuant. L’impédance de la ligne fermée est nulle à λ/2. Ces lignes</i> <i>forment d’excellents filtres peu onéreux.</i>",
+"pg":88
+},
+{
+"t":"fig",
+"id":"c088_2",
+"pg":88,
+"indent":293
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Une antenne n’est pas toujours symétrique : les deux brins d’un doublet n’ont pas exactement la même longueur ; le sol sous l’antenne n’est pas uniforme ; un obstacle dans l’environnement immédiat d’un des brins modifie son rayonnement. La conséquence de ces problèmes est que les courants mesurés sur chacun des brins ne sont plus conjugués. Une adaptation est alors nécessaire entre la ligne de transmission et l’antenne. C’est le rôle du <u><b>symétriseur</b></u> ou <u><b>balun</b></u> (de l’anglais BALanced UNbalanced). Selon le montage, le balun symétrise les tensions (comme ci-contre) ou les intensités (voir choc-balun au § 10.1b). Seul le balun symétriseur de tension peut transformer son impédance de sortie ce qui permet d’adapter des antennes d’impédance différente de celle de la ligne de transmission. Le rapport de transformation du balun représenté ci-contre est 1/1 car le nombre de spires de l’entrée asymétrique est égal au nombre de spires de la sortie symétrique. Le problème principal de ces symétriseurs est l’adaptation des impédances.<br>Selon la ferrite utilisée, 7 à 10 spires sur le primaire permettent d’approcher une impédance de 50 Ω en entrée sur l’ensemble des bandes décamétriques. Les trois fils du balun 1/1 sont torsadés ensemble afin de générer une inductance qui neutralisera la capacité créée entre les fils.",
+"pg":88,
+"anchors":[
+"T-10.4b"
+]
+},
+{
+"t":"fig",
+"id":"c088_1",
+"pg":88
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>D’autres systèmes d’adaptation sont utilisés plutôt en VHF et au-delà :</i> <u><i>Gamma match</i></u> <i>(en forme de Γ, lettre</i> <i>grecque majuscule gamma),</i> <u><i>T match</i></u> <i>(sorte de « double gamma ») ;</i> <u><i>stub</i></u> <i>(système apparenté aux lignes).</i>",
+"pg":88,
+"anchors":[
+"T-10.4c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <u><i>Les cavités</i></u> <i>sont souvent adoptées pour coupler des paires d'émetteurs / récepteurs (de fréquence A et B dans</i> <i>les schémas ci-dessous) sur une seule antenne. Les cavités, comme tout élément passif, sont bidirectionnelles</i> <i>(émission / réception) et peuvent être montées en série (passe bande) ou en dérivation vers la masse (réjection).</i> <i>On peut bien entendu combiner les montages dont les caractéristiques sont données ci-dessous. Dans le schéma</i> <i>de principe, les bornes d’entrée et de sortie (ici, de type BNC) sont reliées à un système de couplage composé</i> <i>d’une « épingle à cheveux » en résonance avec un condensateur. La vis de réglage permet d’ajuster la longueur</i> <i>pour laquelle le tube central laissera passer la fréquence souhaitée par réflexion sur les parois de la cavité. Du</i> <i>fait de leur encombrement, les cavités sont utilisées sur des fréquences élevées.</i>",
+"pg":88,
+"anchors":[
+"T-10.4d"
+]
+},
+{
+"t":"fig",
+"id":"c088_4",
+"pg":88,
+"indent":18
+}
+]
+}

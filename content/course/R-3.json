@@ -1,0 +1,432 @@
+{
+"id":"R-3",
+"title":"3) ALPHABET INTERNATIONAL et CODE Q",
+"short":"R-3 Alphabet et code Q",
+"blocks":[
+{
+"t":"chapter",
+"html":"3) ALPHABET INTERNATIONAL et CODE Q",
+"pg":21
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-3.1) Table d'épellation international :</b></u></span> <i>(annexe I de l’arrêté du 21/09/00)</i><br>La table d’épellation des lettres étant internationale, ce sont l’orthographe et la prononciation anglaise des mots qui sont utilisées. <i>Toutefois, le texte français donne, pour la lettre Z, l’orthographe française (Zoulou) alors que</i> <i>les textes internationaux et européens utilisent l’orthographe anglaise (Zulu).</i>",
+"pg":21,
+"anchors":[
+"R-3.1"
+]
+},
+{
+"t":"fig",
+"id":"c021_1",
+"pg":21,
+"min":10.0
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Comment épelle-t-on « F5PTC » ? <span style=\"color:#800000\"><u>Réponse :</u></span> Foxtrot 5 Papa Tango Charlie",
+"pg":21,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<i>Cette table d’épellation (Appendice A14 du RR) a été adoptée par l’UIT en 1956. Auparavant, les analogies</i> <i>d’épellation des lettres avaient été définies dès 1927 lors de la conférence de Washington. Ces analogies</i> <i>correspondaient à des noms de villes ou de pays : Amsterdam pour A, Baltimore pour B, Canada pour C, etc.</i> <i>Seul le Q de Quebec a été repris dans la nouvelle table d’épellation.</i>",
+"pg":21
+},
+{
+"t":"p",
+"html":"<i>Il existe aussi une table d’épellation des chiffres qui n’a pas à être connue pour l’examen et qui est peu utilisée</i> <i>par les radioamateurs.</i>",
+"pg":21
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>R-3.2) Abréviations en code Q</b></u></span> <i>(annexe I de l’arrêté du 21/09/00)</i>",
+"pg":21,
+"align":"left",
+"anchors":[
+"R-3.2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Les 22 abréviations en code Q à connaître sont issues de la recommandation T/R 61-02 (<i>programme HAREC</i>). Une abréviation du code Q est formulée comme une <u><b>question</b></u> si elle est suivie d'un point d'interrogation. Sinon, il s'agit d'une <u><b>réponse</b></u> (ou d’un avis) qui peut être suivie d'une information complémentaire.",
+"pg":21,
+"anchors":[
+"R-3.2a"
+]
+},
+{
+"t":"fig",
+"id":"c021_2",
+"pg":21,
+"min":10.0
+},
+{
+"t":"fig",
+"id":"c022_1",
+"pg":22,
+"min":10.0
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+219.7,
+229.0
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span>- Que siginfie « QRO ? »",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u>Réponse :</u></span> Dois-je augmenter ma puissance d'émission ?",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"- Que signifie « QRG 14050 » ?",
+"sans":true
+}
+],
+"pad":49.7
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u>Réponse :</u></span> Votre fréquence exacte est 14050 (kHz)",
+"sans":true
+}
+]
+}
+],
+"pg":22
+},
+{
+"t":"ex",
+"html":"- Quel est le code pour « Avez-vous quelque chose pour moi ? » <span style=\"color:#800000\"><u>Réponse :</u></span> QRU ?<br>- Quel est le code pour « La force de vos signaux est très bonne » <span style=\"color:#800000\"><u>Réponse :</u></span> QSA 5",
+"pg":22,
+"indent":21
+},
+{
+"t":"p",
+"html":"Les abréviations à connaître sont celles utilisées pour les communications officielles. Elles peuvent avoir une autre signification dans le trafic radioamateur. Ainsi, <u><b>QRA, QSO, QSP et QTH</b></u> ont une définition plus restrictive et le sens de <u><b>QRK et QSA</b></u> est interverti dans le trafic radioamateur.",
+"pg":22
+},
+{
+"t":"p",
+"html":"Les réponses en code Q avec une <u><b>note de 1 à 5</b></u> se comprennent en prenant <u><b>1 pour non</b></u> et <u><b>5 pour oui</b></u>. Ainsi la réponse à QRM ? (êtes-vous brouillé ?) sera QRM 1 si on n’est pas brouillé (non) et la réponse à QSA ? (mes signaux sont-ils forts ?) sera QSA 5 si les signaux reçus sont forts (oui).",
+"pg":22
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>code RST</i></u> <i>définit la qualité d’un signal reçu en code Morse sur trois critères : « Readibility, Strength,</i> <i>Tone » ou, en français, « Lisibilité, Force, Tonalité ». La valeur du T est omise si l’émission n’est pas en code</i> <i>Morse. La variable R prend des valeurs de 1 à 5 et la variable S est, de nos jours, la valeur lue par le S-mètre</i> <i>(de 1 à 9). Depuis 1927, le RR a toujours défini les codes QRK (lisibilité) et QSA (force du signal) de manière</i> <i>similaire avec une note de 1 à 5. Mais, en 1932, lors de la définition du RST, un document de travail diffusé lors</i> <i>de la conférence définit la manière de passer le contrôle précis d'une émission quant à sa puissance (QRK, oui</i> <i>QRK !), la compréhensibilité du message (QSA, oui QSA !) et la tonalité des signaux (QRI). C’est ce qu’ont</i> <i>retenu les radioamateurs d’où l’inversion de la signification de ces deux codes ! Bien entendu, c’est la</i> <i>codification UIT (pas celle en usage chez les radioamateurs) qu’il faut connaître pour l’examen…</i>",
+"pg":22,
+"anchors":[
+"R-3.2b"
+]
+},
+{
+"t":"p",
+"html":"<i>Les abréviations</i> <u><i>QTH et QRA</i></u> <i>s’adressent au service radiomaritime, respectivement position et nom du navire</i> <i>(l’indicatif du navire sera codé QRZ). Quant à</i> <u><i>QSO et QSP</i></u><i>, tout leur sens est donné dans un contexte</i> <i>professionnel où transmettre des messages n’est pas un loisir (contact entre deux personnes partageant la même</i> <i>passion) mais un travail rémunéré (transmettre un message entre deux clients au moindre coût).</i>",
+"pg":22
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>D’autres abréviations sont définies par l’UIT : la recommandation M.1172 donne la signification de 77 codes</i> <i>Q (de QRA à QTZ excepté QST) et de 64 autres signes et abréviations. Une partie de ces signes et abréviations</i> <i>et d’autres séries de codes Q (37 codes au format QOx ou QUx) concernent exclusivement le service</i> <i>radiomaritime et/ou aéronautique. Enfin, il existe aussi le</i> <u><i>code Z</i></u> <i>utilisé par les militaires.</i>",
+"pg":22,
+"anchors":[
+"R-3.2c"
+]
+},
+{
+"t":"p",
+"html":"<i>En 1859, la Western Union établit la norme du \"</i><u><i>code 92</i></u><i>\" : une liste de nombres de 1 à 92 représentait des</i> <i>phrases complètes utilisées par les opérateurs télégraphistes à l’instar du futur code Q. Dans ce code, le nombre</i> <i>73 signifie \"Veuillez accepter mes hommages respectueux\" qui se transformera dans le monde radioamateur par</i> <i>\"Amitiés\" ; le nombre 88 signifie \"Affectueusement\".</i>",
+"pg":22
+},
+{
+"t":"p",
+"html":"<i>Proposé par Marconi en 1904 et généralisé dès 1908 dans le trafic radiomaritime, le code</i> <u><i>CQ</i></u> <i>demandait</i> <i>l’attention de tous les navires (CQ pour « Sécurité », mot français utilisé dans les procédures internationales de</i> <i>sécurité et de détresse).</i>",
+"pg":22
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <u><i><b>Abréviations en code Morse</b></i></u> <i>: le programme de l’examen de Morse (partie 3 de l’annexe 1 de l’arrêté du</i> <i>21/09/00) a été supprimé par l’arrêté du 23/04/12. Pour autant, la recommandation T/R 61-02 cite ces</i> <u><i><b>15</b></i></u> <u><i><b>abréviations</b></i></u> <i>à connaître et des questions sur les 3 abréviations soulignées ci-dessous sont posées à l’examen.</i>",
+"pg":22,
+"anchors":[
+"R-3.2d"
+]
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+168.2,
+172.3,
+113.1
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i><b>AR</b></i> <i>(collé) : Fin de transmission</i>",
+"sans":false
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":2,
+"items":[
+{
+"h":"<i><b>BK</b></i> <i>: (Break) signal utilisé pour interrompre une transmission en cours</i>",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i><b>CQ</b></i> <i>: Appel généralisé à toutes les stations</i>",
+"sans":false
+}
+]
+},
+{
+"r":1,
+"c":1,
+"cs":2,
+"items":[
+{
+"h":"<i><b>CW</b></i> <i>: (Continuous Waves) onde entretenue – Télégraphie</i>",
+"sans":false
+}
+],
+"pad":55.1
+},
+{
+"r":2,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<i><b>DE</b></i> <i>: utilisé pour séparer l’indicatif d’appel des stations appelées et appelantes</i>",
+"sans":false
+}
+]
+},
+{
+"r":2,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<i><b>K</b></i> <i>: Invitation à émettre</i>",
+"sans":false
+}
+],
+"pad":19.1
+},
+{
+"r":3,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<i><b>MSG</b></i> <i>: Message</i>",
+"sans":false
+}
+]
+},
+{
+"r":3,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<u><i><b>PSE</b></i></u> <i>: (Please) s'il vous plaît</i>",
+"sans":false
+}
+],
+"pad":44.4
+},
+{
+"r":3,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<i><b>R</b></i> <i>: Reçu</i>",
+"sans":false
+}
+],
+"pad":78.0
+},
+{
+"r":4,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<i><b>RST</b></i> <i>: Lisibilité, force du signal, tonalité (Report)</i> <u><i><b>RX</b></i></u> <i>: Récepteur</i>",
+"sans":false
+}
+]
+},
+{
+"r":4,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<i><b>SIG</b></i> <i>: Signal</i>",
+"sans":false
+}
+],
+"pad":62.4
+},
+{
+"r":5,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<u><i><b>TX</b></i></u> <i>: Emetteur</i>",
+"sans":false
+}
+]
+},
+{
+"r":5,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<i><b>UR</b></i> <i>: (Your) votre</i>",
+"sans":false
+}
+],
+"pad":44.4
+},
+{
+"r":5,
+"c":2,
+"cs":1,
+"items":[
+{
+"h":"<i><b>VA</b></i> <i>(collé) : Fin de vacation</i>",
+"sans":false
+}
+]
+}
+],
+"pg":22
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-3.3) Déroulement d'un contact :</b></u></span>",
+"pg":22,
+"align":"left",
+"anchors":[
+"R-3.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> L’article 4 de la décision ARCEP 12-1241 rappelle la disposition S25.9 du RR : « au cours de leurs émissions, les stations d'amateur doivent transmettre leur indicatif d'appel à de courts intervalles » et précise :<p style=\"margin:0 0 0 1.1em\">« et au moins : </p><p style=\"margin:0 0 0 2.3em\">- au début et à la fin de toute période d'émission ; </p><p style=\"margin:0 0 0 2.3em\">- toutes les quinze minutes au cours de toute émission d’une durée supérieure à quinze minutes sur une même fréquence <i>(le §3 du préambule rappelle que cette disposition est valable pour tous les types de</i> <i>stations, y compris les satellites, relais et balises qui doivent se conformer aux dispositions générales)</i> ; </p><p style=\"margin:0 0 0 2.3em\">- en cas de changement de fréquence d’émission, au début de toute période d’émission sur la nouvelle fréquence ». </p>D’autre part, l’annexe de la décision 12-1241 prévoit que l'utilisateur d'une station du service d’amateur :<p style=\"margin:0 0 0 1.1em\">- s’assure préalablement que ses émissions ne <u><b>brouilleront pas des émissions déjà en cours</b></u> d’autres utilisateurs radioamateurs <i>(toujours écouter la fréquence avant de passer en émission…)</i>. </p><p style=\"margin:0 0 0 1.1em\">- ne doit pas utiliser la <u><b>même fréquence en permanence</b></u></p><p style=\"margin:0 0 0 1.1em\">- <u><b>ne pas brouiller volontairement</b></u> des émissions déjà en cours; </p><p style=\"margin:0 0 0 1.1em\">- ne pas installer une station répétitrice, ou utiliser une classe d'émission, <u><b>pour un usage personnel ou pour</b></u> <u><b>un groupe restreint</b></u> (<i>ces deux derniers alinéas ont été ajoutés dans l’arrêté du 02/03/21</i>). </p>",
+"pg":23,
+"anchors":[
+"R-3.3a"
+]
+},
+{
+"t":"p",
+"html":"L’utilisation de deux fréquences différentes, l’une pour l’émission, l’autre pour la réception (trafic en mode « split » (même bande) ou « cross-band » (bande différente), trafic via relais ou transpondeur) est autorisée sous réserve d’émettre dans les conditions autorisées par la classe d’opérateur (classe d’émission, puissance et bande)",
+"pg":23
+},
+{
+"t":"p",
+"html":"Peu importe que le relais (ou le satellite) retransmette le message d’un opérateur Novice (ex-classe 3) sur une bande qui ne lui est pas attribuée du moment que l’opérateur utilise sa station avec une classe d’émission, une fréquence et une puissance autorisées.",
+"pg":23
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> L’ANFR, dans le cadre de ses missions relatives à l’instruction des cas de brouillage, peut être amenée à demander à l'utilisateur d'une station des <u><b>informations concernant les logiciels et protocoles utilisés</b></u> <i>(§4 du</i> <i>préambule de la décision 12-1241)</i>.",
+"pg":23,
+"anchors":[
+"R-3.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Les</i> <u><i><b>procédures de détresse</b></i></u> <i>du service mobile maritime (Appendice A13 du RR, abrogé lors de la CMR-07)</i> <i>utilisaient en téléphonie des expressions adaptées du français : Mayday venait du français « Venez m’aider »,</i> <i>phrase mal comprise par les opérateurs anglophones lors du premier message de détresse en téléphonie.</i> <i>D’autre part, la recommandation UIT M-1171 décrit des procédures radiotéléphoniques utilisées pour le service</i> <i>radiomaritime en dehors des messages de détresse, d’urgence et de sécurité dans les très rares cas où. le</i> <i>système ASN (appel sélectif numérique) n’est pas utilisé. A l’examen, aucune question ne porte sur ces</i> <i>procédures.</i>",
+"pg":23,
+"anchors":[
+"R-3.3c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-3.4) Teneur des messages</b></u></span> <span style=\"color:#993365\"><u><b>:</b></u></span>",
+"pg":23,
+"align":"left",
+"anchors":[
+"R-3.4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> L’article 1 de la décision ARCEP 12-1241 rappelle les dispositions du RR :<p style=\"margin:0 0 0 0.6em\">- les transmissions entre stations d'amateur doivent se limiter à des <u><b>communications en rapport avec l'objet</b></u> <u><b>du service d'amateur</b></u>, et à des remarques d'un caractère purement personnel <i>(art S25-2 du RR)</i></p><p style=\"margin:0 0 0 0.6em\">- il est <u><b>interdit de coder</b></u> les transmissions entre des stations d'amateur pour en obscurcir le sens, sauf s'il s'agit des signaux de commande échangés entre des stations terriennes de commande et des stations spatiales du service d'amateur par satellite dans l’objectif de garantir que tout brouillage préjudiciable causé par des émissions de telles stations puisse être éliminé immédiatement <i>(art S25-2A du RR repris dans le §3 du</i> <i>préambule de la décision 12-1241)</i></p><p style=\"margin:0 0 0 0.6em\">- les stations d'amateur ne peuvent pas être utilisées pour transmettre des communications en provenance ou à destination de <u><b>tierces personnes non radioamateurs</b></u> sauf dans des situations d'urgence ou pour les secours en cas de catastrophe <i>(art S25-3 du RR)</i></p>",
+"pg":23,
+"anchors":[
+"R-3.4a"
+]
+},
+{
+"t":"p",
+"html":"L’édition 1989 du « Guide du radioamateur » limitait les messages aux sujets suivants :<p style=\"margin:0 0 0 0.6em\">- radioélectricité, </p><p style=\"margin:0 0 0 0.6em\">- informatique, </p><p style=\"margin:0 0 0 0.6em\">- astronomie et météorologie, </p><p style=\"margin:0 0 0 0.6em\">- contenu d'une revue technique (sans faire de publicité pour ladite revue), </p><p style=\"margin:0 0 0 0.6em\">- réglementation, </p><p style=\"margin:0 0 0 0.6em\">- vie associative, </p><p style=\"margin:0 0 0 0.6em\">- adresse et numéro de téléphone personnels (et pas ceux des tiers sauf dans le cas des opérations de secours), </p><p style=\"margin:0 0 0 0.6em\">- radioguidage (toutefois, le radioguidage est interdit sur les relais sauf, occasionnellement, pour les manifestations amateurs). </p>Quelques questions portant sur ce thème ont été recensées avec des pièges sur les mots utilisés (<i>par exemple :</i> <i>l’astronomie est autorisée mais pas l’astrologie</i>)",
+"pg":23
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Bien que, depuis 1990, l’écoute soit libre, <u><b>le secret des correspondances</b></u> captées volontairement ou non doit être conservé. <i>L'article 226-15 du code pénal (atteinte au secret des correspondances), précise que « est puni</i> <i>[d'un an d'emprisonnement et de 45 000 euros d'amende] le fait, commis de mauvaise foi, d'intercepter, de</i> <i>détourner, d'utiliser ou de divulguer des correspondances émises, transmises ou reçues par la voie électronique</i> <i>ou de procéder à l'installation d'appareils conçus pour réaliser de telles interceptions »</i>",
+"pg":23,
+"anchors":[
+"R-3.4b"
+]
+},
+{
+"t":"p",
+"html":"<i>Enfin, l’article R226-7 du Code Pénal prévoit que « l'acquisition ou la détention de tout appareil figurant sur la</i> <i>liste mentionnée à l'article R226-1 [notamment les scanners] est soumise à une autorisation délivrée par le</i> <i>Premier ministre » alors que la vente de ces appareils est libre suite à deux jugements qui, en 2002, autorisaient</i> <i>leur mise sur le marché au motif que « les dispositions communautaires interdisent aux États membres de limiter</i> <i>ou d'entraver la mise sur le marché et la mise en service d’appareils portant le marquage CE »…</i>",
+"pg":23
+}
+]
+}

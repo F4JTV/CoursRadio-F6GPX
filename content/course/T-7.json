@@ -1,0 +1,361 @@
+{
+"id":"T-7",
+"title":"7) AMPLIFICATEURS, OSCILLATEURS, MÉLANGEURS",
+"short":"7 Amplificateurs, oscillateurs",
+"blocks":[
+{
+"t":"chapter",
+"html":"7) AMPLIFICATEURS, OSCILLATEURS, MÉLANGEURS",
+"pg":70
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.1) Les classes d'amplification</b></u></span> (ou de polarisation) : les trois classes de base (A, B et C) diffèrent selon la valeur de la tension de repos en l’absence de signal à l’entrée du circuit (notée V sur les représentations du signal d’entrée ci-contre) par rapport à la plage de fonctionnement optimale de l’amplificateur (sans distortion).",
+"pg":70,
+"anchors":[
+"T-7.1",
+"T-7.1a"
+]
+},
+{
+"t":"fig",
+"id":"c070_1",
+"pg":70,
+"indent":248
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> - La <u><b>classe A</b></u> est le montage le plus courant : le signal à amplifier est centré par rapport à la plage de d’amplification. La tension de repos est centrée sur cette plage et le signal à amplifier ne la dépasse jamais.",
+"pg":70,
+"anchors":[
+"T-7.1a1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> - La <u><b>classe B</b></u> utilise deux transistors qui amplifient chacun une alternance du signal. La tension de repos est fixée à la limite de la plage d’amplification de chacun des transistors. Ce montage, encombrant à cause des transformateurs, est difficile à régler et nécessite des transistors appairés aux caractéristiques identiques. Le montage avec deux transistors complémentaires (PNP et NPN) appairés évite l’emploi de transformateurs.",
+"pg":70,
+"anchors":[
+"T-7.1a2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> - En <u><b>classe C</b></u>, grâce à la résistance de polarisation Rp branchée au – ou à la masse, seule une partie du signal est amplifiée, le reste est restitué par le circuit oscillant de sortie accordé sur la fréquence d’entrée. Cette classe d’amplification est à prohiber dans le cas d’un signal modulé en amplitude (AM, BLU).",
+"pg":70,
+"anchors":[
+"T-7.1a3"
+]
+},
+{
+"t":"fig",
+"id":"c070_3",
+"pg":70
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i><b>classe D</b></i></u><i>, utilisée en HF de forte puissance (quelques kilowatts et plus) et en audio, a un grand rendement</i> <i>mais repose sur la génération d’impulsions à largeur variable qu’il faut filtrer (voir principe au §8.3).</i> Les autres classes utilisent les principes d’une des 4 classes de base (A, B, C ou D) : la <u><b>classe AB</b></u>, utilisée dans les étages de puissance, s’apparente à la classe A mais le signal d’entrée n’est plus centré sur la plage d’amplification. <i>Lorsque la classe AB est utilisée en émission, l’amplificateur est suivi d’un filtre passe-bas pour</i> <i>bloquer les harmoniques produits par les non-linéarités dues aux écrêtements du signal amplifié. La classe AB1</i> <i>se distingue de la classe AB2 par le fait que l'étage amplificateur à haute impédance n'absorbe pas de courant</i> <i>de l'étage qui le précède. La tension de repos de la classe AB2 a un niveau plus bas qu’en classe AB1 avec un</i> <i>niveau d’harmoniques plus élevé.</i>",
+"pg":70,
+"anchors":[
+"T-7.1b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.2) La résistance de charge</b></u></span> (Rc) est le dispositif normalement utilisé en classe A pour récupérer les variations de tension aux bornes de sortie du transistor. Les résistances R1 et R2 fixe la tension de repos de l’amplificateur. Les variations de la tension d’entrée passent à travers le condensateur d’entrée, Ce, et créent les variations de I<sub>b</sub> (effet diode de la jonction base-émetteur). Les variations d'I<sub>b</sub> créent les variations d'I<sub>c</sub> (I<sub>c</sub> = β.I<sub>b</sub>) quelle que soit la tension d’alimentation du transistor, V<sub>ce</sub>. Le courant collecteur, I<sub>c</sub>, est traduit en tension sur Rc (U = RI). Cette tension est récupérée sur le condensateur de sortie, Cs, pour transmettre le signal à l'étage suivant. La résistance de charge détermine la <u><b>droite de</b></u> <u><b>charge</b></u> de l'amplificateur dont la pente est négative. Quand I<sub>b</sub> est nul, I<sub>c</sub> est nul, U<sub>Rc</sub> est nul et la sortie est au potentiel d'alimentation (+). D'autre part, le courant maximum dans Rc est : U(+) / Rc.",
+"pg":70,
+"anchors":[
+"T-7.2",
+"T-7.2a"
+]
+},
+{
+"t":"fig",
+"id":"c070_2",
+"pg":70
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le graphique de fonctionnement du transistor est composé de 3 quadrants. Celui du bas représente la variation du courant de base en fonction de la tension entre base et émetteur : cette courbe ressemble à celle de la diode en sens passant et montre que le transistor est <u><b>bloqué</b></u> tant que la tension de seuil base-émetteur n’est pas atteinte. Le quadrant en haut à gauche représente le rapport I<sub>c</sub> / I<sub>b</sub>, c’est-à-dire le gain (β) du transistor. Le haut de la courbe montre que le transistor est <u><b>saturé</b></u> au-delà d’un certain point (<u><b>point de</b></u> <u><b>compression</b></u> au-delà duquel l’amplificateur n’est plus linéaire et donc apporte du bruit) . Le quadrant de droite représente les valeurs de I<sub>c</sub> en fonction de V<sub>ce</sub> pour des courants de base fixés. La droite de charge, marquée en pointillé rouge, indique les points de fonctionnement de l'amplificateur. Cette droite passe par U(+), la tension d’alimentation, et par l’intensité maximale parcourue par la résistance,c’est-à-dire U(+) / Rc. Avec une tension V<sub>be</sub> de 1 V, l’intensité I<sub>b</sub> = 30 µA et l’intensité I<sub>c</sub> = 3 mA (puisque β = 100). Compte tenu de la valeur de Rc, cette valeur de I<sub>c</sub> donne V<sub>ce</sub> = 5 V. Les courbes sont données par le constructeur du transistor et la droite de charge (en pointillé rouge) est déterminée par le montage (la tension d’alimentation du transistor, U(+), et la valeur de la résistance de charge, Rc). Pour que le circuit soit linéaire, la partie utilisée de la droite de charge doit se trouver dans la zone où les courbes I<sub>b</sub> sont plates et avant la saturation. Enfin, la droite de charge ne doit pas dépasser la courbe de <u><b>surchauffe</b></u> donnée par le constructeur. Au-delà de cette courbe, la chaleur dégagée par le transistor (P = V<sub>ce</sub> . I<sub>c</sub>) peut conduire à sa destruction.",
+"pg":71,
+"anchors":[
+"T-7.2b"
+]
+},
+{
+"t":"fig",
+"id":"c071_1",
+"pg":71
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Le graphique montre que lorsque la tension V</i><sub><i>be</i></sub> <i>augmente, la tension V</i><sub><i>ce</i></sub> <i>diminue, ce qui explique le déphasage</i> <i>de 180° généré par le montage. Dans cet exemple, l’impédance d’entrée est 1 V / 30 µA = 33 kΩ et l'impédance</i> <i>de sortie est 5 V / 3 mA = 1666 Ω. Si la tension d’alimentation du circuit, U(+), est 12 V, la résistance de charge</i> <i>aura pour valeur (12 V – 5 V) / 3 mA = 2333 Ω (une résistance normalisée de 2200 Ω sera utilisée).</i>",
+"pg":71,
+"anchors":[
+"T-7.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.3) Liaisons entre les étages</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> un étage est un circuit ayant une fonction ou des caractéristiques particulières (amplificateur ou autre circuit étudié dans les paragraphes suivants). Les étages peuvent être liés de différentes manières. En <u><b>direct</b></u>, le collecteur est relié à la base du transistor de l'étage suivant. Mais ce système est peu utilisé. Pour éviter les problèmes de niveau de tension, une ou plusieurs<b></b> <u><b>diodes</b></u> sont rajoutées en série dans le cas d’une liaison en courant continu. Un <u><b>condensateur</b></u> en série séparera les étages dans le cas de courant alternatif. Toujours en courant alternatif et afin d’adapter des impédances, la liaison par <u><b>transformateur</b></u> est utilisée.",
+"pg":71,
+"anchors":[
+"T-7.3",
+"T-7.3a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Un étage spécifique qui prend le nom de <u><b>séparateu</b></u>r (ou tampon) sert à adapter les niveaux de puissances ou de tensions et/ou les impédances entre deux étages. Dans les synoptiques (voir §11), il est fréquent que cet étage purement technique ne figure pas car il ne sert pas à la logique du fonctionnement de l’ensemble.",
+"pg":71,
+"anchors":[
+"T-7.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.4)</b></u></span> <span style=\"font-size:1.20em\">Un</span> <span style=\"color:#800080;font-size:1.20em\"><u><b>amplificateur R.F.</b></u></span> (Radio Fréquences), représenté ci-dessous, amplifie de la Haute Fréquence (HF). Cet amplificateur est constitué de filtres HF (circuit bouchon) et de circuits spécifiques :<br>- le <u><b>condensateur de découplage</b></u> (noté Cd sur le schéma) relié à la masse et la <u><b>bobine de choc</b></u> montée en série au point d'alimentation du circuit évitent que la HF amplifiée « remonte » dans la ligne d’alimentation.<br>- les <u><b>transformateurs</b></u> adaptent les impédances entre les étages.",
+"pg":71,
+"anchors":[
+"T-7.4",
+"T-7.4a"
+]
+},
+{
+"t":"fig",
+"id":"c071_2",
+"pg":71
+},
+{
+"t":"p",
+"html":"- la résistance notée Rcr sur le schéma est une <u><b>résistance de contre-réaction</b></u> pour limiter les <u><b>auto-oscillations</b></u> du circuit. Les capacités parasites du circuit (capacité entre les pistes du circuit imprimé par exemple) ou la mutuelle-induction entre les transformateurs peuvent transformer un amplificateur en oscillateur (voir §7.5a). Rcr, en réinjectant une partie du signal en opposition de phase sur l’entrée, empêche l’amplificateur d’osciller.",
+"pg":71
+},
+{
+"t":"p",
+"html":"- la résistance présente dans le circuit de l’émetteur (notée Re sur le schéma) protège le circuit de <u><b>l’emballement thermique</b></u> en évitant la destruction du transistor : lorsque la température du transistor augmente, son gain augmente, ce qui augmente son courant collecteur et donc sa température. Re fait augmenter la tension d’émetteur lorsque le courant augmente et réduit la tension base-émetteur, réduisant ainsi le courant de base. Un condensateur de découplage de quelques µF, noté « Ce », stabilise la tension aux bornes de Re.",
+"pg":71
+},
+{
+"t":"p",
+"html":"<i>Le terme « bobine de choc » est une mauvaise traduction de « choke coil » (en anglais, to choke = étouffer) qui</i> <i>devrait plutôt se traduire par « bobine d’arrêt » puisque sa forte valeur arrête (ou étouffe) les courants HF.</i>",
+"pg":71
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Malgré les précautions prises, il arrive souvent qu'un amplificateur RF ne soit pas linéaire. Or, tout manque de linéarité est source de bruit qui s’ajoute à celui généré par les transistors (recombinaison trou/électron) sur un très large spectre de fréquences. De plus, des <u><b>distorsions</b></u> peuvent apparaitre à la sortie de l’étage : distorsions de fréquences et/ou harmoniques (aussi appelées distorsions d’amplitude). Ces distorsions sont plus facilement lisibles avec des graphiques ayant pour abscisse la fréquence (à la manière d’un analyseur de spectre).",
+"pg":72,
+"anchors":[
+"T-7.4b"
+]
+},
+{
+"t":"fig",
+"id":"c072_1",
+"pg":72
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b1<span style=\"color:#800080\">.</span></b> Il y a <u><b>distorsion de fréquences</b></u> lorsque, selon sa fréquence, le signal de sortie n'est pas proportionnel au signal d'entrée. Les fréquences élevées peuvent être moins amplifiées que les fréquences basses (ou l’inverse ou une bande de fréquence est plus amplifiée que les autres). Cette distorsion survient quand il y a un circuit accordé (filtres LC, RC, RL)",
+"pg":72,
+"anchors":[
+"T-7.4b1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b2<span style=\"color:#800080\">.</span></b> Dans le cas d'un amplificateur ayant une <u><b>distorsion</b></u> <u><b>harmonique</b></u>, s'il n'existe qu'une fréquence en entrée, plusieurs signaux harmoniques (en général 2F et 3F, et parfois plus) seront présents en sortie à des niveaux plus faibles. Le <u><b>taux de distorsion harmonique</b></u> (TDH, en %) est le rapport obtenu en divisant la tension du signal parasite par la tension du signal désiré. Les signaux parasites sont produits par la déformation du signal d’entrée après son passage dans l’amplificateur.<br><i>La distorsion peut aussi s’exprimer par le</i> <u><i>niveau</i></u> <u><i>d’harmonique</i></u> <i>(en dB). En présence de plusieurs</i> <i>signaux harmoniques (V</i><sub><i>2F</i></sub> <i>et V</i><sub><i>3F</i></sub> <i>par exemple), la</i> <i>tension du signal parasite total (V</i><sub><i>P</i></sub><i>) est :</i> <span style=\"color:#000080\"><i><b>V</b></i></span><span style=\"color:#000080\"><sub><i><b>P</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √(V</b></i></span><span style=\"color:#000080\"><sub><i><b>2F</b></i></sub></span><span style=\"color:#000080\"><i><b>² + V</b></i></span><span style=\"color:#000080\"><sub><i><b>3F</b></i></sub></span><span style=\"color:#000080\"><i><b>² + …).</b></i></span>",
+"pg":72,
+"anchors":[
+"T-7.4b2"
+]
+},
+{
+"t":"p",
+"html":"Le signal d’entrée représenté ci-dessus est appliqué à l’entrée d’un amplificateur monté en classe A. En sortie, le signal est déphasé de 180° (il est inversé) mais il est aussi déformé (saturation lors de l’amplification des alternances de sortie positives). L’amplificateur mal réglé n’est pas linéaire : sa distorsion d’amplitude génère un harmonique 2. Le signal de sortie, dans notre exemple, est la superposition du signal d’entrée amplifié et de son harmonique 2.",
+"pg":72
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b3<span style=\"color:#800080\">.</span></b> La <u><b>distorsion quadratique</b></u> (ou d’intermodulation) est une forme de distorsion d’amplitude. Dans ce cas, l’amplificateur se comportera en partie comme un mélangeur (voir §7.7), générant des produits du second ordre (ou produits quadratiques). Si on applique deux fréquences f<sub>1</sub> et f<sub>2</sub> à l’entrée d’un amplificateur affecté de ce défaut, on trouvera en sortie : f<sub>1</sub> et f<sub>2</sub> (c’est la fonction première de cet amplificateur), 2xf<sub>1</sub> et 2xf<sub>2</sub> (comme l’amplificateur à distorsion harmonique ci-dessus) et les mélanges « classiques » f<sub>1</sub> + f<sub>2</sub> et f<sub>1</sub> – f<sub>2</sub> (ou f<sub>2</sub> – f<sub>1</sub>).",
+"pg":72,
+"anchors":[
+"T-7.4b3"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple</b></u></span> <span style=\"color:#800000\"><u>:</u></span> À l’entrée d’un amplificateur non linéaire générant des distorsions quadratiques, les fréquences 1 kHz et 100 kHz sont présentes. Quelles sont les fréquences en sortie ? <span style=\"color:#800000\"><u>Réponse :</u></span> <span style=\"color:#800000\">1, 2, 99, 100, 101 et 200 kHz</span>",
+"pg":72
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b4<span style=\"color:#800080\">.</span></b> Un amplificateur génère des <u><b>distorsions cubiques</b></u> (ou distorsions du 3<sup>ème</sup> ordre) lorsque les mélanges font intervenir trois fois les fréquences présentes à l’entrée : 3f<sub>1</sub>, 3f<sub>2</sub>, 2f<sub>1</sub>+f<sub>2</sub>, 2f<sub>2</sub>+f<sub>1</sub>, 2f<sub>1</sub>-f<sub>2</sub> et 2f<sub>2</sub>-f<sub>1</sub>. Ces deux derniers mélanges sont d’autant plus perturbants que f<sub>1</sub>et f<sub>2</sub> sont des fréquences proches.",
+"pg":72,
+"anchors":[
+"T-7.4b4"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple</b></u></span> <span style=\"color:#800000\"><u>:</u></span> Un amplificateur génère des distorsions cubiques avec, en entrée, 99 et 100 kHz. Fréquences en sortie ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> <span style=\"color:#800000\">98</span> (2f<sub>1</sub>-f<sub>2</sub>)<span style=\"color:#800000\">, 99</span> (f<sub>1</sub>)<span style=\"color:#800000\">, 100</span> (f<sub>2</sub>)<span style=\"color:#800000\">, 101</span> (2f<sub>2</sub>-f<sub>1</sub>)<span style=\"color:#800000\">, 297</span> (3f<sub>1</sub>)<span style=\"color:#800000\">, 298</span> (2f<sub>1</sub>+f<sub>2</sub>)<span style=\"color:#800000\">, 299</span> (2f<sub>2</sub>+f<sub>1</sub>) <span style=\"color:#800000\">et 300</span> (3f<sub>2</sub>) <span style=\"color:#800000\">kHz</span>",
+"pg":72
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.5) Un oscillateur</b></u></span> <u><b>est un circuit générateur de signaux sinusoïdaux</b></u> de fréquence calculée. Il existe des oscillateurs à fréquence fixe (à quartz) (<u><b>VXO</b></u>) et à fréquence variable. Ces derniers peuvent être commandés mécaniquement avec un condensateur variable (<u><b>VFO</b></u>), par la variation de tension sur une diode Varicap (<u><b>VCO</b></u>) ou électroniquement avec un synthétiseur (<u><b>PLL</b></u> et plus récemment <u><b>DDS</b></u>). Le <u><b>fréquencemètre</b></u> mesure la fréquence d’un signal en comptant les périodes pendant une durée connue et stable. Plus cette durée est longue, plus l’affichage de la fréquence est fin. La précision de l’instrument dépend de la stabilité de la durée de mesure.",
+"pg":72,
+"anchors":[
+"T-7.5",
+"T-7.5a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le quartz se trouve à l’état naturel sous forme de cristaux de silice (SiO</i><sub><i>2</i></sub><i>). Le composant nommé</i> <u><i>quartz</i></u> <i>est</i> <i>constitué d'une lamelle de roche de quartz taillée et coincée entre les deux plaques d'un condensateur. Un quartz</i> <i>fonctionne grâce à l'effet piézo-électrique du matériau. Lorsqu'une pression est exercée sur les faces d'une lame</i> <i>de quartz, des charges électriques y apparaissent. Inversement, si une tension est appliquée à ses faces, la lame</i> <i>se dilate ou se contracte selon la polarité appliquée. La vitesse de propagation du courant dans la masse</i> <i>duquartz est d'environ 5700 m/s. Lorsque la fréquence de la tension coïncide avec la fréquence propre du</i> <i>quartz, fréquence liée à ses dimensions, il y a résonance.</i>",
+"pg":73,
+"anchors":[
+"T-7.5b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><i><b>f (MHz) = 5,7 / [2 . e(mm)]</b></i></span> <i>avec e(mm) = épaisseur de la lame de quartz</i>",
+"pg":73,
+"align":"left",
+"indent":80
+},
+{
+"t":"p",
+"html":"<i>Ainsi, une lame de quartz de 0,3 mm d'épaisseur, résonne en demi-onde (l'onde fait un aller-retour dans la</i> <i>masse du quartz) sur 9,5 MHz : f = 5,7 / (2 x 0,3) = 9,5 MHz</i>",
+"pg":73
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Le principe de fonctionnement d’un oscillateur repose sur la <u><b>réinjection en phase</b></u> d’une partie du signal amplifié sur l’entrée du circuit. La connaissance des schémas présentés ci-dessous n’est pas au programme de l’examen. Les <u><b>facteurs affectant les conditions de stabilité</b></u> des oscillateurs sont les variations de la tension d’alimentation de l’étage, les variations de température des composants (en particulier des transistors et des quartzs) et les défauts de blindage des boîtiers contenant le montage (effet de main).",
+"pg":73,
+"anchors":[
+"T-7.5c"
+]
+},
+{
+"t":"fig",
+"id":"c073_1",
+"pg":73
+},
+{
+"t":"p",
+"html":"A l’examen, aucune question n’a été recensée sur les schémas fonctionnels ci-dessus. En revanche, quelques questions portent sur les synoptiques de PLL et le théorème de Shannon-Nyquist lié au fonctionnement des DDS.",
+"pg":73
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Le schéma synoptique (principe de fonctionnement) d’un <u><b>PLL</b></u> (de l’anglais : Phase Lock Loop, boucle à verrouillage de phase) est présenté ci-dessous. Un VCO génère le signal HF dont la fréquence (δf) varie avec la tension présente sur la Varicap du VCO (δU). Le signal HF passe par un <u><b>diviseur logique</b></u> qui envoie une impulsion sur la sortie quand il a compté le nombre de période déterminé par le nombre binaire présent à son entrée et qui est généré par les roues codeuses ou le microprocesseur. Ce signal impulsionnel est comparé à un signal de référence (VXO) dont la fréquence est très stable. En cas de déphasage, c’est-à-dire si les deux signaux n’apparaissent pas en même temps sur les deux entrées du <u><b>comparateur de phase</b></u>, celui-ci génère une tension proportionnelle à l’écart de phase entre les deux signaux. La tension de sortie du comparateur de phase (appelé aussi <u><b>multiplieur</b></u>) corrige la fréquence du VCO. Le filtre passe bas (généralement un filtre RC) stabilise le système tout en limitant les à-coups (réduction du bruit de phase). Le diviseur et le comparateur sont des circuits logiques dont le fonctionnement interne n’a pas à être connu et qui seront évoqués au §8.4a.",
+"pg":73,
+"anchors":[
+"T-7.5d"
+]
+},
+{
+"t":"fig",
+"id":"c073_3",
+"pg":73
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><b>Un DDS</b></u> (de l’anglais : Direct Digital Synthesis, synthèse numérique directe) fonctionne autour d'un microprocesseur et d'un Convertisseur Numérique/Analogique. Le synoptique est représenté ci-dessous.",
+"pg":73,
+"anchors":[
+"T-7.5e"
+]
+},
+{
+"t":"fig",
+"id":"c073_2",
+"pg":73
+},
+{
+"t":"p",
+"html":"Avec un programme adapté (algorithme), le microprocesseur génère la fréquence par <u><b>échantillonnage</b></u> : un chiffre représentant la tension à générer est calculé selon une cadence très stable générée par un quartz. La détermination de cette cadence est importante car, selon le <u><b>théorème de Shannon-Nyquist</b></u>, la fréquence maximum générée sera la moitié de la fréquence d’échantillonnage (<i>voir le schéma au § 8.5d</i>). En pratique, il convient même de se limiter au quart de la fréquence d’échantillonnage. En sortie du microprocesseur, un <u><b>Convertisseur Numérique / Analogique</b></u> (CNA ou ADC, Analogic Digital Converter en anglais) transforme les chiffres issus du microprocesseur en tension. Le signal est ensuite filtré énergiquement pour éliminer les harmoniques issus des signaux carrés (<u><b>crénelage</b></u>) générés par le convertisseur.",
+"pg":74
+},
+{
+"t":"p",
+"html":"<i>Pour une même fréquence générée, la fréquence de référence d’un PLL est plus basse (effet du diviseur logique)</i> <i>alors que celle d’un DDS est plus élevée (effet de l’échantillonage).</i>",
+"pg":74
+},
+{
+"t":"p",
+"html":"<i>Par construction, les quartz ne fonctionnenent que jusqu’à 30 MHz (soit une lamelle de 1/10 mm d’épaisseur).</i> <i>Au-delà de cette fréquence, l’épaisseur de la roche de quartz est trop mince, ce qui la rend fragile. La solution</i> <i>pour obtenir une fréquence d’oscillation supérieure à 30 MHz est d’utiliser un VCO asservi par un circuit PLL.</i>",
+"pg":74
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>7.6)</b></u></span> <span style=\"font-size:1.20em\">Un</span> <span style=\"color:#800080;font-size:1.20em\"><u><b>multiplicateur de fréquence</b></u></span> est un circuit amplificateur RF monté en classe C (générateur de très fortes distorsions harmoniques à cause de sa non-linéarité intrinsèque) dont le filtre de sortie est accordé sur un des harmoniques de la fréquence d'entrée (x2, x3 ou x5 maximum). Si la fréquence doit être multipliée par 9, deux multiplicateurs par 3 seront montés à la suite l’un de l’autre. On ne peut que multiplier par un nombre entier.",
+"pg":74,
+"anchors":[
+"T-7.6"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Réponse</u></span> <span style=\"color:#800000\">:</span> l’oscillateur génère du 3,5 MHz et la fréquence de sortie est 21 MHz. La fréquence de l’oscillateur est donc multipliée par 6 (21 / 3,5 = 6). Un multiplicateur par 2 est déjà représenté. L’étage marqué « ? » est donc un étage <span style=\"color:#800000\">multiplicateur par 3</span>.",
+"pg":74
+},
+{
+"t":"fig",
+"id":"c074_1",
+"pg":74
+},
+{
+"t":"p",
+"html":"<i>Il faut noter que le spectre d'un signal passant par un multiplicateur est modifié. Par exemple, un signal FM</i> <i>d'excursion de 3 kHz passant dans un doubleur de fréquence aura une excursion de 6 kHz (3 x 2) à la sortie du</i> <i>circuit. Ce signal FM restera exploitable. En revanche, un signal AM ou BLU passant par un multiplicateur de</i> <i>fréquences devient inexploitable car le montage en classe C utilisé n’amplifie que les crêtes du signal.</i>",
+"pg":74
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>7.7) Un mélangeur</b></u></span> <u><b>est un circuit multiplicateur de tension</b></u>. Soient F<sub>1</sub> et F<sub>2</sub> deux fréquences présentes aux entrées du mélangeur. A la sortie de celui-ci, la somme et la différence des fréquences, soit F<sub>1</sub> + F<sub>2</sub> et F<sub>1</sub> – F<sub>2</sub>, sont générées. Un filtre à la sortie du circuit permet de sélectionner une des deux fréquences générées. Dans un mélangeur, les tensions des signaux d’entrée F<sub>1</sub> et F<sub>2</sub> ne sont pas superposées (additionnées) mais multipliées entre elles car l’amplificateur n’est pas linéaire : la distorsion particulière du circuit (<u><b>distorsion quadratique</b></u>) nous permettra de récupérer en sortie un <u><b>mélange de fréquences</b></u>.",
+"pg":74,
+"anchors":[
+"T-7.7",
+"T-7.7a"
+]
+},
+{
+"t":"p",
+"html":"Dans les schémas ci-dessous, les deux fréquences présentes à l’entrée du mélangeur sont HF et Osc. Le graphique à droite montre le signal après le mélangeur : il y a superposition des signaux de fréquences Osc + HF (trait plein) et Osc – HF (en pointillé). Le filtre bouchon LC, s’il est calculé pour la fréquence Osc + HF, éliminera la fréquence Osc – HF et vice-versa. Ainsi, après le filtre LC, le signal ne sera plus « ondulé » comme ci-dessous mais aura une amplitude constante puisque les deux signaux ne seront plus superposés.",
+"pg":74
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Dans un mélangeur dont les fréquences d’entrée sont f<sub>1</sub> et f<sub>2</sub> et dont les fréquences de sortie sont f<sub>min</sub> et f<sub>max</sub>, on a : <span style=\"color:#000080\"><b>f</b></span><span style=\"color:#000080\"><sub><b>max</b></sub></span> <span style=\"color:#000080\"><b>= f</b></span><span style=\"color:#000080\"><sub><b>1</b></sub></span> <span style=\"color:#000080\"><b>+ f</b></span><span style=\"color:#000080\"><sub><b>2</b></sub></span> et <span style=\"color:#000080\"><b>f</b></span><span style=\"color:#000080\"><sub><b>min</b></sub></span> <span style=\"color:#000080\"><b>= f</b></span><span style=\"color:#000080\"><sub><b>1</b></sub></span> <span style=\"color:#000080\"><b>– f</b></span><span style=\"color:#000080\"><sub><b>2</b></sub></span> (ou f<sub>2</sub> – f<sub>1</sub>) et aussi : <span style=\"color:#000080\"><b>f</b></span><span style=\"color:#000080\"><sub><b>1</b></sub></span> <span style=\"color:#000080\"><b>= (f</b></span><span style=\"color:#000080\"><sub><b>max</b></sub></span> <span style=\"color:#000080\"><b>– f</b></span><span style=\"color:#000080\"><sub><b>min</b></sub></span><span style=\"color:#000080\"><b>) / 2</b></span> et <span style=\"color:#000080\"><b>f</b></span><span style=\"color:#000080\"><sub><b>2</b></sub></span> <span style=\"color:#000080\"><b>= f</b></span><span style=\"color:#000080\"><sub><b>max</b></sub></span> <span style=\"color:#000080\"><b>– f</b></span><span style=\"color:#000080\"><sub><b>1</b></sub></span>",
+"pg":74,
+"anchors":[
+"T-7.7b"
+]
+},
+{
+"t":"fig",
+"id":"c074_2",
+"pg":74
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> À l'entrée d'un mélangeur, on a 5 et 8 MHz. Quelles fréquences trouve-t-on à la sortie du mélangeur ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 1) 5 + 8 MHz = <span style=\"color:#800000\">13 MHz</span> ; 2) 5 – 8 MHz (ou 8 – 5 MHz) = <span style=\"color:#800000\">3 MHz</span>.",
+"pg":74
+},
+{
+"t":"ex",
+"html":"<b>2)</b> À la sortie d'un mélangeur, on a 2 MHz et 22 MHz. Quelles sont les fréquences d’entrée du mélangeur ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> f<sub>1</sub> = (f<sub>max</sub> – f<sub>min</sub>) / 2 = (22 – 2) / 2 = 20 / 2 = <span style=\"color:#800000\">10 MHz</span> ; f<sub>2</sub> = f<sub>max</sub> – f<sub>1</sub> = 22 – 10 = <span style=\"color:#800000\">12 MHz</span>.",
+"pg":74
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Mathématiquement, si A et B sont les fréquences présentes à l’entrée d’un mélangeur parfait, la relation des</i> <i>tensions de sortie est :</i> <span style=\"color:#000080\"><i><b>sin(A) . sin(B) = ½ . [sin(A + B) + sin(A – B)]</b></i></span><i>. Si le mélangeur ne multiplie pas</i> <i>exactement les tensions présentes à son entrée (cas des montages Mos-Fet et J-FET ci-dessus), on trouvera en</i> <i>sortie les mélanges « classiques » f</i><sub><i>1</i></sub> <i>+ f</i><sub><i>2</i></sub> <i>et f</i><sub><i>1</i></sub> <i>– f</i><sub><i>2</i></sub> <i>(distorsions quadratiques ou</i> <u><i>mélanges du 2</i></u><sup><i>nd</i></sup> <u><i>ordre</i></u><i>) mais aussi</i> <i>les fréquences f</i><sub><i>1</i></sub> <i>et f</i><sub><i>2</i></sub> <i>et leurs harmoniques (distorsions harmoniques, voir §7.4b3) ainsi que d’autres</i> <i>combinaisons comme par exemple [(2 x f</i><sub><i>1</i></sub><i>) + f</i><sub><i>2</i></sub><i>] ou [(2 x f</i><sub><i>1</i></sub><i>) – f</i><sub><i>2</i></sub><i>] qui sont des</i> <u><i>mélanges du 3</i></u><sup><i>ème</i></sup> <u><i>ordre</i></u> <i>(ou</i> <i>distorsions cubiques). Ceci peut provoquer des perturbations si le niveau de ces signaux parasites est élevé. Le</i> <i>circuit bouchon en sortie risque de ne pas être suffisant pour éliminer ces fréquences indésirables.</i>",
+"pg":74,
+"anchors":[
+"T-7.7c"
+]
+}
+]
+}

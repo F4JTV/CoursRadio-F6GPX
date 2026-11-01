@@ -1,0 +1,239 @@
+{
+"id":"T-6",
+"title":"6) Les TRANSISTORS et leurs MONTAGES",
+"short":"6 Les transistors",
+"blocks":[
+{
+"t":"chapter",
+"html":"6) Les TRANSISTORS et leurs MONTAGES",
+"pg":67
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>6.1)</b></u></span> Un <span style=\"color:#800080;font-size:1.20em\"><u><b>transistor</b></u></span> est composé de deux diodes montées tête-bêche, c’est pour cela qu’on le nomme aussi transistor bipolaire (ou jonction). Un transistor peut donc être <u><b>NPN ou PNP</b></u> mais les NPN sont les plus courants. Les transistors sont différenciés par le sens de leur flèche représentant la jonction base-émetteur. Quand la flèche PéNètre, il s'agit d'un PNP; quand elle Ne PéNètre pas, il s'agit d'un NPN. Comme pour les diodes, le sens de la flèche indique le sens du courant dans le transistor. Un transistor est composé d'un <u><b>émetteur</b></u> repéré par la flèche, d'une <u><b>base</b></u> représentée par un trait vertical qui est une fine couche de matière dopée en polarité inverse de celle de l’émetteur et d'un <u><b>collecteur</b></u> (sans repère) dopé comme l’émetteur. La première lettre du type du transistor donne la polarité où doit être branché l'émetteur du transistor (NPN = émetteur au – ; PNP = émetteur au +). Le collecteur est branché à la polarité inverse de l'émetteur. La base est reliée à une polarité intermédiaire.",
+"pg":67,
+"anchors":[
+"T-6.1",
+"T-6.1a"
+]
+},
+{
+"t":"fig",
+"id":"c067_1",
+"pg":67
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le transistor est monté dans un boîtier et, selon le boîtier, le brochage diffère (ci-</i> <i>contre : boîtier TO18 avec l’ergot repérant l’émetteur). Le collecteur est connecté au</i> <i>boîtier s’il est métallique. Le fonctionnement interne du transistor n’est pas au</i> <i>programme. La jonction base-émetteur est en sens passant. Toutefois la recombinaison</i> <i>électron-trou fonctionne mal car l’émetteur est fortement dopé et la base, très mince,</i> <i>est faiblement dopée. Quelques charges se recombinent mais la plupart se dirigent vers</i> <i>la jonction base-collecteur polarisée en inverse. Le collecteur étant peu dopé, la</i> <i>jonction base-collecteur est peu active et les charges, attirées par la tension du</i> <i>collecteur, y sont propulsées. La recombinaison trou-électron génère du bruit (qui</i> <i>s’ajoute au signal amplifié). Les transistors jonction au Germanium génèrent moins de</i> <i>bruit que ceux au Silicium.</i>",
+"pg":67,
+"anchors":[
+"T-6.1b"
+]
+},
+{
+"t":"fig",
+"id":"c067_3",
+"pg":67,
+"indent":360
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>6.2) Gain d'un transistor :</b></u></span> <u><b>Le courant collecteur est directement fonction du</b></u> <u><b>courant de base</b></u>. β (lettre grecque bêta minuscule) est le gain du transistor, désigné aussi par <i>h</i><sub>FE</sub> dans les caractéristiques du constructeur (data sheet ; <i>h</i> = fonction de transfert ; F = Forward current amplification ; E = common Emitter). Quelle que soit la tension appliquée sur le collecteur, on a <span style=\"color:#000080\"><b>I</b></span><span style=\"color:#000080\"><sub><b>c</b></sub></span> <span style=\"color:#000080\"><b>= I</b></span><span style=\"color:#000080\"><sub><b>b</b></sub></span> <span style=\"color:#000080\"><b>.</b></span> <span style=\"color:#000080\"><b>β</b></span> ou <span style=\"color:#000080\"><b>I</b></span><span style=\"color:#000080\"><sub><b>b</b></sub></span> <span style=\"color:#000080\"><b>=</b></span> <span style=\"color:#000080\"><b>I</b></span><span style=\"color:#000080\"><sub><b>c</b></sub></span><span style=\"color:#000080\"><b>/β</b></span>. Notez que le gain est, dans ce cas, un coefficient multiplicateur, à ne pas confondre avec un gain en dB. On pourra utiliser le triangle comme pour la loi d’Ohm. Le gain est toujours donné par le constructeur pour du courant continu et pour une température de 20°C. <u><b>Le gain augmente avec la température</b></u>, d'où les problèmes liés à l'emballement thermique. Le gain du transistor diminue lorsque la fréquence à amplifier augmente. La <u><b>fréquence de coupure</b></u> est la fréquence pour laquelle le gain du transistor n'est plus que de 70% du gain initial en courant continu. Donc, à cette fréquence, la puissance dissipée sera atténuée de 3 dB (voir §4.1f : dB exprimé en rapport de tension ou d’intensité)",
+"pg":67,
+"anchors":[
+"T-6.2"
+]
+},
+{
+"t":"fig",
+"id":"c067_4",
+"pg":67,
+"indent":333
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> sur la base d'un transistor dont le gain (β) est de 80 est appliqué un courant de 500 µA. Quelle intensité est constatée sur le collecteur du transistor (en mA)?<br><span style=\"color:#800000\"><u>Réponse :</u></span> I<sub>c</sub> = I<sub>b</sub>.β = 500 µA x 80 = 40 000 µA = <span style=\"color:#800000\">40 mA</span>",
+"pg":67
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>6.3) Montages des transistors</b></u></span> : chacun de ces 3 montages fondamentaux a des caractéristiques spécifiques qu’il faut connaître pour l’examen (gain en intensité et en tension, impédance d’entrée et de sortie, déphasage).",
+"pg":67,
+"anchors":[
+"T-6.3",
+"T-6.3a"
+]
+},
+{
+"t":"fig",
+"id":"c067_2",
+"pg":67
+},
+{
+"t":"p",
+"html":"L’élément dit « commun » (émetteur commun, par exemple) est celui qui est relié à une tension fixe (tension d’alimentation, masse ou tension intermédiaire) et sur lequel il n’y a ni l’entrée du signal ni sa sortie.",
+"pg":67
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> Le montage <u><b>en émetteur commun</b></u> est le plus couramment utilisé. Le gain en intensité de ce montage est le gain donné par le constructeur (β). Le gain en tension est directement fonction de la résistance de charge (voir §7.2a) et est du même ordre que le gain en intensité. L’impédance d’entrée est moyenne (une centaine d’ohms) et l’impédance de sortie est élevée (quelques milliers d’ohms). Le rapport impédance de sortie/impédance d’entrée est proche du gain du transistor. Le signal de sortie récupéré sur le collecteur est déphasé de 180° par rapport au signal d’entrée appliqué sur la base (le signal est inversé).",
+"pg":68,
+"anchors":[
+"T-6.3a1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> Le montage en <u><b>collecteur commun</b></u> est reconnaissable au fait que le signal de sortie est récupéré sur l’émetteur, d’où son autre nom : émetteur suiveur. Le gain en intensité est quasiment le même qu’en émetteur commun (β+1) alors que la tension de sortie est légèrement inférieure à celle de l’entrée (gain en tension inférieur à 1). L’impédance d’entrée est élevée (quelques milliers d’ohms). Ce montage est un amplificateur de courant et génère une faible impédance en sortie (jusqu’à quelques dizaines d’ohms). Ce montage, utilisé pour alimenter un haut-parleur ou les « ballasts » des alimentations secteur, n’introduit pas de déphasage.",
+"pg":68,
+"anchors":[
+"T-6.3a2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> Le montage en <u><b>base commune</b></u> est reconnaissable au fait que le signal d’entrée n’est pas appliqué à la base mais sur l’émetteur. Ce montage est un amplificateur de tension sans gain en intensité : l’impédance d’entrée est basse (quelques dizaines d’ohms) tandis que celle de la sortie est très élevée (plusieurs milliers d’ohms). Ce montage, peu utilisé, n’introduit pas de déphasage.",
+"pg":68,
+"anchors":[
+"T-6.3a3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Lorsque le transistor est monté en <u><b>commutateur</b></u>, il fonctionne en « bloqué-saturé » (voir §7.2a) selon l’absence ou la présence de courant de base. Dans ce cas, les notions de gain et d’impédance n’ont pas de sens.",
+"pg":68,
+"anchors":[
+"T-6.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>6.4) Les transistors FET</b></u></span> (Field Effect Transistor en anglais ou transistor à effet de champ) <u><b>s'apparentent</b></u> plus <u><b>aux tubes thermoïoniques</b></u> qu'aux transistors bipolaires (notion de <u><b>pente</b></u> au lieu de gain). L'entrée s'appelle la <u><b>source</b></u>, le <u><b>drain</b></u> est en sortie et la commande se nomme la <u><b>porte</b></u> (gate en anglais). <i>Les FET (surtout ceux à</i> <i>l’arséniure de gallium, cristal GaAs) génèrent beaucoup moins de bruit que les transistors bipolaires puisqu’il</i> <i>n’y a pas de recombinaison trou/électron.</i>",
+"pg":68,
+"anchors":[
+"T-6.4",
+"T-6.4a"
+]
+},
+{
+"t":"p",
+"html":"<i>Le J-FET (FET à jonction) est constitué d’un barreau semi-</i> <i>conducteur de type N appelé canal. Aux deux extrémités du</i> <i>canal sont reliées la source et le drain. La porte est reliée à un</i> <i>semi-conducteur de type P en forme de bague et entoure le</i> <i>canal. La porte est aussi appelée aussi grille par référence aux</i> <i>tubes. La jonction PN au niveau de la porte est isolante lorsque</i> <i>la tension de la porte est négative par rapport au canal. Lorsque</i> <i>la tension inverse sur la porte augmente, la barrière de potentiel</i> <i>s’élargit, le canal se rétrécit et l'intensité diminue. On ne parle</i> <i>pas de gain mais de</i> <u><i><b>pente</b></i></u><i>, qui est le rapport obtenu en divisant</i> <i>l'intensité du drain par la tension appliquée à la porte (</i><span style=\"color:#000080\"><i><b>pente =</b></i></span> <span style=\"color:#000080\"><i><b>I</b></i></span><span style=\"color:#000080\"><sub><i><b>d</b></i></sub></span><span style=\"color:#000080\"><i><b>/V</b></i></span><span style=\"color:#000080\"><sub><i><b>g</b></i></sub></span><i>). L'impédance d'entrée du circuit est très grande (de l'ordre</i> <i>de la résistance de la diode montée en sens inverse).</i> <i>L'impédance de sortie est très faible et varie en fonction de la</i> <i>tension de porte (V</i><sub><i>g</i></sub><i>). La puissance admissible par les FET reste faible.</i>",
+"pg":68
+},
+{
+"t":"fig",
+"id":"c068_1",
+"pg":68,
+"indent":272
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Dans un FET à porte isolée (</i><u><i>MOS-FET</i></u><i>), G1 est la porte de</i> <i>commande où le signal d’entrée est appliqué et, pour les MOS-</i><i>FET à 2 portes, la tension de G2 détermine la pente. A la</i> <i>différence des J-FET, la tension de commande des portes est</i> <i>positive par rapport à la source. Dans un substrat (équivalent du</i> <i>canal pour les FET) faiblement dopé P, sont insérées deux zones</i> <i>N fortement dopées qui sont la source et le drain ; elles sont</i> <i>distantes d'une dizaine de µm et séparées par le substrat P. La</i> <i>source est reliée au substrat. Les portes, placées entre la source</i> <i>et le drain, sont isolées du substrat par une fine couche d'isolant</i> <i>(de l'oxyde de silicium). Cette caractéristique donne son nom au</i> <i>MOSFET : Metal Oxyde Semiconductor. Par effet capacitif, les</i> <i>tensions positives présentes sur les portes attirent les rares</i> <i>électrons présents dans le substrat P créant ainsi une zone N</i> <i>conductrice plus ou moins étroite entre la source et le drain. La puissance admissible par les MOS-FET les rend</i> <i>fréquents dans les étages de puissance.</i>",
+"pg":68,
+"anchors":[
+"T-6.4b"
+]
+},
+{
+"t":"fig",
+"id":"c068_2",
+"pg":68
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>transistor unijonction (UJT)</i></u><i>, appelé aussi diode à deux bases, est composé</i> <i>d’un émetteur sur lequel est appliqué le signal d’entrée et de deux bases. Sa</i> <i>structure interne est proche de celle du FET. Ce transistor, peu courant dans les</i> <i>applications radio, est remplacé de nos jours par le thyristor.</i>",
+"pg":68,
+"anchors":[
+"T-6.4c"
+]
+},
+{
+"t":"fig",
+"id":"c068_3",
+"pg":68,
+"indent":352
+},
+{
+"t":"fig",
+"id":"c069_1",
+"pg":69,
+"indent":7
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>thyristor</i></u> <i>est composé d’une anode, d’une cathode et d’une</i> <i>gâchette et est utilisé en courant continu. Le courant circule</i> <i>comme dans les diodes de l’anode vers la cathode. La structure</i> <i>interne du thyristor est composée de deux jonctions PN mises</i> <i>bout à bout. Le thyristor devient totalement conducteur à la suite</i> <i>d’une impulsion électrique (appelée amorçage) sur la gâchette :</i> <i>la jonction NP centrale, normalement isolante, devient passante</i> <i>comme avec le transistor bipolaire. Non seulement cette</i> <i>conduction est franche et brutale mais elle est permanente même</i> <i>après cessation du courant de gâchette. Le</i> <u><i>triac</i></u><i>, composé de</i> <i>deux thyristors montés tête-bêche, est utilisé en courant alternatif.</i>",
+"pg":69,
+"indent":7,
+"anchors":[
+"T-6.4d"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>6.5)</b></u></span> Les tubes thermoïoniques (ou tubes électroniques) sont encore employés dans les amplificateurs de puissance. <span style=\"color:#800080;font-size:1.20em\"><u><b>Les diodes</b></u></span> <span style=\"color:#800080;font-size:1.20em\"><u><b>thermoïoniques</b></u></span> (appelées aussi valves) ont été les premiers tubes thermoïoniques mis au point au début du 20<sup>ème</sup> siècle. Dans une ampoule en verre ou en céramique, dans laquelle on a fait le vide, se trouvent deux électrodes : la cathode et l’anode. La <u><b>cathode</b></u> est constituée d'un fil métallique chauffé par un <u><b>filament</b></u> (souvent alimenté en 6,3 V). La température élevée de la cathode génère une émission d'électrons. Ceux-ci sont récupérés par <u><b>l'anode</b></u>, ou plaque, lorsque sa tension est positive par rapport à la cathode. Le courant sera d'autant plus fort que la tension plaque sera élevée (50 V et plus). Seule la diode thermoïonique est au programme de l’examen mais aucune question n’a été recensée.",
+"pg":69,
+"anchors":[
+"T-6.5"
+]
+},
+{
+"t":"fig",
+"id":"c069_2",
+"pg":69,
+"indent":279
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><i><b>6.6) Les autres tubes thermoïoniques</b></i></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> <i>l'intensité plaque varie en insérant entre l’anode et la cathode une</i> <u><i><b>grille de commande</b></i></u><i>, alimentée négativement par rapport à la cathode (-6 V à 0 V). Plus la tension grille (V</i><sub><i>g</i></sub><i>)</i> <i>est négative, plus le courant plaque (I</i><sub><i>p</i></sub><i>) est faible car les électrons, qui</i> <i>ont une tension négative, refusent de passer à travers la grille : ils sont</i> <i>repoussés par celle-ci. Ce tube s'appelle</i> <u><i>triode</i></u> <i>car il possède trois</i> <i>électrodes (voir ci-contre). A la différence du transistor bipolaire,</i> <i>l’intensité de sortie est commandée par la tension d’entrée. On ne parle</i> <i>pas de gain mais, comme pour les FET, de pente (rapport I</i><sub><i>p</i></sub> <i>/ V</i><sub><i>g</i></sub><i>).</i><br><i>Dans les schémas, par commodité de lecture, les filaments de chauffage</i> <i>sont souvent représentés tous ensemble et donc à un autre endroit que</i> <i>les électrodes du tube.</i>",
+"pg":69,
+"anchors":[
+"T-6.6",
+"T-6.6a"
+]
+},
+{
+"t":"fig",
+"id":"c069_3",
+"pg":69,
+"indent":311
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>En augmentant la fréquence du courant amplifié par le</i> <i>tube, des effets capacitifs entre la grille et la plaque nuisent</i> <i>au bon fonctionnement du circuit. Pour éviter ce</i> <i>phénomène, une électrode supplémentaire est insérée entre</i> <i>la grille et la plaque :</i> <u><i>l'écran</i></u><i>. Celui-ci est alimenté à la</i> <i>moitié de la tension plaque et augmente l'isolement entre</i> <i>l'entrée et la sortie du tube. Le tube s'appelle alors</i> <u><i>tétrode</i></u><i>.</i> <i>Un résultat similaire est obtenu avec la méthode du</i> <u><i>neutrodynage</i></u> <i>: un condensateur ajustable est branché entre</i> <i>la grille et la plaque.</i>",
+"pg":69,
+"anchors":[
+"T-6.6b"
+]
+},
+{
+"t":"fig",
+"id":"c069_4",
+"pg":69,
+"indent":7
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Dans le tube</i> <u><i>pentode</i></u><i>, une troisième grille est ajoutée, la</i> <u><i>suppresseuse</i></u><i>, qui est reliée à la cathode. Sans cette grille,</i> <i>le choc des électrons sur la plaque les fait rebondir et</i> <i>retournent sur l'écran alimenté par une tension positive.</i>",
+"pg":69,
+"indent":7,
+"anchors":[
+"T-6.6c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Il existe d'autres tubes avec des fonctions spécifiques et des électrodes supplémentaires. Certaines ampoules</i> <i>accueillent plusieurs tubes ayant des fonctions différentes (double triode, oscillateur-mélangeur, double diode)</i>",
+"pg":69,
+"indent":7,
+"anchors":[
+"T-6.6d"
+]
+},
+{
+"t":"fig",
+"id":"c069_5",
+"pg":69,
+"indent":7
+}
+]
+}

@@ -1,0 +1,1205 @@
+{
+"id":"T-1",
+"title":"1) LOIS d’OHM et de JOULE",
+"short":"1 Lois d’Ohm et de Joule",
+"blocks":[
+{
+"t":"section",
+"text":"Section A : Bases d’électricité et composants passifs",
+"pg":38
+},
+{
+"t":"chapter",
+"html":"1) LOIS d’OHM et de JOULE",
+"pg":38
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>1.1) Les bases de l'électricité</b></u></span> reposent sur quatre grandeurs : l'Intensité notée I (le débit) et mesurée en ampère (A) qui correspond au passage d’une quantité d’électricité par seconde ; la Tension ou différence de potentiel (ddp) notée U qui est mesurée en volt (V) ; la Résistance notée R et mesurée en ohm (Ω, lettre grecque oméga majuscule) et la Puissance dégagée (en chaleur dans le cas d’une résistance), notée P et mesurée en watt (W).",
+"pg":38,
+"anchors":[
+"T-1.1",
+"T-1.1a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La <u><b>résistance</b></u> désigne à la fois le phénomène physique (résistance au passage du courant) et le composant (voir description au §1.5c). Les anglophones utilisent deux mots différents : resistance (phénomène physique) et resistor (composant). Le composant résistance se schématise par un rectangle (ou, dans les anciens schémas, par une « dent de scie »). Dans les schémas, la valeur du composant est notée à l'intérieur du rectangle. La mention Ω n'est pas obligatoire. Une valeur de 2200 Ω pourra être notée 2200 mais aussi 2,2 k ou encore 2k2.",
+"pg":38,
+"anchors":[
+"T-1.1b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> La <u><b>tension</b></u> se mesure entre deux points du circuit et se schématise par une flèche entre ces deux points. U<sub>AB</sub> est la tension entre les points A et B. La tension de référence est prise en B par le fil « Com » du voltmètre ; l’autre fil du voltmètre est à brancher au point A indiqué par la flèche de tension. Ainsi, si U<sub>AB</sub> est positif, la flèche indique le sens des potentiels (ou tensions) croissants. La tension en un point du circuit <i>(par exemple U</i><sub><i>A</i></sub><i>)</i> indique la tension par rapport à la masse (0 V) qui sert alors de tension de référence. Ainsi, dans le schéma ci-dessous, U<sub>AB</sub> = U<sub>A</sub> – U<sub>B</sub>. La tension générée par une source est appelée force électromotrice (notée E). La chute de tension aux bornes d’une résistance ou d’une charge est appelée différence de potentiel (Potenzieller Unterschied en allemand, la langue de G. Ohm, d’où le U qui désigne la tension).",
+"pg":38,
+"anchors":[
+"T-1.1c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> L'<u><b>intensité</b></u> est une « agitation ordonnée d’électrons ». Elle se mesure en un point et se schématise par une flèche en ce point sur le circuit. Le sens de la flèche indique le sens du courant (du + vers le –). L’intensité en un point B du circuit sera notée I<sub>B</sub>. Les flèches de tension et d'intensité sont en sens opposé si les valeurs de tension et d’intensité sont positives. Pour mesurer une intensité à l’aide d’un ampèremètre, il faudra couper le circuit et insérer l’instrument de mesure en branchant le fil « Com » de l’ampèremètre sur le fil relié au – du circuit.",
+"pg":38,
+"anchors":[
+"T-1.1d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Le calcul de la <u><b>puissance</b></u> dissipée est utile pour optimiser le dimensionnement des composants. Si la puissance dissipée par les composants est rarement indiquée sur les schémas, elle est toujours donnée dans la nomenclature des composants d’un circuit (en particulier pour les résistances).",
+"pg":38,
+"anchors":[
+"T-1.1e"
+]
+},
+{
+"t":"fig",
+"id":"c038_3",
+"pg":38,
+"indent":281
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> En prenant des références hydrauliques, la tension est comparable à une différence de pression dans un tuyau et se mesure donc entre deux points d’un circuit. L’intensité est un débit et se mesure en insérant l’instrument de mesure en un point du circuit, comme un compteur d’eau. La résistance est comparable à un rétrécissement du tuyau. La chaleur dégagée par la résistance provient des frottements lors du passage des électrons.",
+"pg":38,
+"anchors":[
+"T-1.1f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>1.2) Lois d'Ohm (U = R . I) et de Joule (P = U . I)</b></u></span><span style=\"color:#800080;font-size:1.20em\">.</span> Ces deux lois sont fondamentales car elles expriment les relations entre les quatre grandeurs de base de l’électricité. En développant les deux lois, on trouve les douze équations du tableau ci-dessous : P = U . I et on sait que U = R . I ; en remplaçant U par R . I dans la première équation, on trouve : P = (R . I) . I = RI². De même, on sait que I = U / R, donc P = U . I devient P = U x (U / R) donc P = U² / R. Ainsi, deux données (intensité et résistance, par exemple), permettent de calculer les deux inconnues correspondantes (dans notre exemple : puissance P = RI² et tension U = RI).",
+"pg":38,
+"anchors":[
+"T-1.2",
+"T-1.2a"
+]
+},
+{
+"t":"fig",
+"id":"c038_1",
+"pg":38
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les quatre équations éditées en gras ci-dessus servent de base aux quatre <u><b>triangles de calcul simplifié</b></u> :",
+"pg":38,
+"align":"left",
+"anchors":[
+"T-1.2b"
+]
+},
+{
+"t":"fig",
+"id":"c038_2",
+"pg":38,
+"indent":36
+},
+{
+"t":"p",
+"html":"Choisissez le triangle contenant vos deux données et votre inconnue puis cachez du doigt l'inconnue : vous obtenez la formule à appliquer. Lorsque les données sont en bas (l’inconnue est en haut du triangle), les données sont multipliées pour obtenir l’inconnue. Lorsque l’inconnue est en bas, les données sont divisées (celle du haut par celle du bas). Lorsque l’inconnue cachée est au carré, le résultat est une racine carrée (exemple : U² = PR donc U = √(PR)). Le jour de l’examen, si vous n’êtes pas à l’aise en algèbre, commencez par écrire ces quatre formules sur votre feuille de brouillon à côté de la table de conversion : elles seront ainsi toujours sous vos yeux.",
+"pg":38
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Soit une résistance de 1500 Ω parcourue par un courant 0,1 A. Quelle est la tension à ses bornes ? Quelle est la puissance dissipée ?<p style=\"margin:0 0 0 1.4em\">U = R . I = 1500 x 0,1 = <span style=\"color:#800000\">150 V</span></p><p style=\"margin:0 0 0 1.4em\">P = U . I = 150 x 0,1 = <span style=\"color:#800000\">15 W</span> ou <b>P = R . I²</b> =1.500 x 0,1 x 0,1 = <span style=\"color:#800000\">15 W</span></p>ou encore P = U² / R = (150 x 150) / 1500<br>= 22 500 / 1500 = <span style=\"color:#800000\">15 W</span><p style=\"margin:0 0 0 4em\"><b>2)</b> quelle est la puissance P dissipée et la résistance R ? </p><p style=\"margin:0 0 0 4em\">P = U . I = 2 x 0,05 = <span style=\"color:#800000\">0,1 W</span></p><p style=\"margin:0 0 0 4em\">R = U / I = 2 / 0,05 = <span style=\"color:#800000\">40 Ω</span> ou <b>R = P / I²</b> = 0,1 / (0,05 x 0,05) = 0,1 / 0,0025 = <span style=\"color:#800000\">40 Ω</span> ou encore R = U² / P = 2² / 0,1 = 4 / 0,1 = <span style=\"color:#800000\">40 Ω</span></p>",
+"pg":39
+},
+{
+"t":"fig",
+"id":"c039_4",
+"pg":39,
+"indent":400
+},
+{
+"t":"fig",
+"id":"c039_2",
+"pg":39
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>1.3) Autres unités</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span>",
+"pg":39,
+"align":"left",
+"anchors":[
+"T-1.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Le <u><b>coulomb</b></u> (noté C) est une quantité d’électricité que l’on note Q. L’intensité est un débit et correspond au passage d’un nombre d’électrons <i>(précisément : 6,25.10</i><sup><i>18</i></sup><i>, soit un peu plus de 6 milliards de milliards)</i> par unité de temps <i>(l’unité de temps est la seconde)</i>. <i>En reprenant les références hydrauliques du §1.1f, le coulomb est</i> <i>assimilable à un volume d’eau. En comparaison, un millilitre d’eau (1 cm</i><sup><i>3</i></sup><i>) contient 3,34.10</i><sup><i>22</i></sup> <i>molécules d’eau</i>. Un ampère est égal à un coulomb par seconde :",
+"pg":39,
+"anchors":[
+"T-1.3a"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>Q(C) = I(A) . t(s)</b></span> ou encore <span style=\"color:#000080\"><b>I(A) = Q(C) / t(s)</b></span>",
+"pg":39,
+"align":"center",
+"indent":119
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> De même, il existe une unité d'énergie: le <u><b>joule</b></u> (noté J). Un watt est un joule par seconde. L’énergie est aussi exprimée en <u><b>wattheures</b></u> (Wh), avec la relation suivante : <span style=\"color:#000080\"><b>1 Wh = 3600 J</b></span>. La quantité d’<u><b>énergie disponible</b></u> est notée E (c’est le même E que l’on retrouve dans la formule E = MC², à ne pas confondre avec le E (en volts) de la force électromotrice de la pile que nous étudierons plus tard). La quantité d’<u><b>énergie consommée</b></u> est appelée travail et est notée W (à ne pas confondre avec le W des watts car le travail se mesure en joules). <i>Le travail en</i> <i>joules peut exprimer une énergie thermique (la chaleur), une énergie chimique (sous l’effet de l’électrolyse,</i> <i>l’eau se décompose en oxygène et hydrogène), une énergie mécanique (énergie déployée pour déplacer un</i> <i>poids) ou une énergie électromagnétique. La notion de travail ne donne pas d’indication sur la durée : pour</i> <i>déplacer 10 tonnes de sable, on utilisera une brouette et le travail se fera en une journée ou on emploiera une</i> <i>pelleteuse et le travail sera fait en un quart d’heure : le travail est identique, seule la puissance utilisée change.</i>",
+"pg":39,
+"anchors":[
+"T-1.3b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>E ou W(J) = P(W) . t(s)</b></span> ou encore <span style=\"color:#000080\"><b>P(W) = E ou W(J) / t(s)</b></span>",
+"pg":39,
+"align":"center",
+"indent":84
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> Calculer Q en Coulombs et W en Joules<br><span style=\"color:#800000\"><u>Réponses :</u></span><br>Q(C) = I . t = (U / R) . t = (10 / 5) . 30 = 2 x 30 = <span style=\"color:#800000\">60 C</span><br>W(J) = P . t = (U² / R) . t = (10 x 10 / 5) x 30 = 20 x 30 = <span style=\"color:#800000\">600 J</span><p style=\"margin:0 0 0 1.2em\"> ou, puisque P = U.I, alors P.t = U.I.t, donc : W(J) = U(V) . Q(C) = 10 x 60 = <span style=\"color:#800000\">600 J</span> </p>",
+"pg":39
+},
+{
+"t":"fig",
+"id":"c039_3",
+"pg":39,
+"indent":352
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>1.4) La résistivité</b></u></span> est un nombre qui caractérise le pouvoir d’un matériau à résister au passage du courant électrique continu. La résistivité est notée ρ (lettre grecque minuscule rhô) et se définit en Ωm (ohm-mètre). La résistance d'un corps dépend de sa résistivité, donc de sa nature, mais aussi de ses dimensions. Pour une même résistivité, la résistance d’un corps est proportionnelle à sa longueur et inversement proportionnelle à sa section :",
+"pg":39,
+"anchors":[
+"T-1.4",
+"T-1.4a"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>R(Ω) = ρ(Ωm) . L(m) / s(m²)</b></span><br>avec R= résistance ; ρ = résistivité du matériau ; L = longueur du fil ; s = section du fil",
+"pg":39,
+"align":"center",
+"indent":41
+},
+{
+"t":"p",
+"html":"Les conducteurs ont une faible résistivité (jusqu'à 0,01 Ωm) ; les isolants en ont une très élevée (plus de 1 MΩm). Entre ces deux extrêmes se trouvent les semi-conducteurs. La résistivité est toujours donnée pour une température du matériau de 20°C. D'une façon générale, la résistivité d'un conducteur augmente avec sa température. Dans ce cas, le <u><b>coefficient de température</b></u> est positif. Par contre, la résistivité des isolants, en règle générale, diminue lorsque leur température augmente : leur coefficient de température est négatif. <i>Attention à ne</i> <i>pas confondre diamètre (distance en m) et section (surface en m²) : lorsqu’un diamètre est doublé, la section est</i> <i>quadruplée. On a : S = π x D² / 4 = 0,785 D². Ainsi un fil de 2,5 mm² de section aura un diamètre de 1,78 mm</i>",
+"pg":39
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> un fil métallique a une longueur de 1 mètre, une section de 2 mm² et une résistance de 6 Ω. Quelle résistance aura ce même fil si sa longueur est de 2 mètres et sa section de 6 mm² ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> La longueur est multipliée par 2 et la section par 3 donc : R = ρ . L / S = 6 Ω x (2 / 3) = <span style=\"color:#800000\">4 Ω</span>",
+"pg":39
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><i>Résistivité (ρ) de quelques matériaux</i></u> <i>à 20°C :</i>",
+"pg":39,
+"align":"left",
+"anchors":[
+"T-1.4b"
+]
+},
+{
+"t":"fig",
+"id":"c039_1",
+"pg":39,
+"min":6.0
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i>conductivité</i></u> <i>est utilisée pour caractériser les conducteurs. Elle est donnée en m/Ωm² ou en S/m (avec S =</i> <i>Siemens = 1/Ω ; exemple : conductivité de l’argent = 6,3.10</i><sup><i>7</i></sup> <i>S/m). La conductance étant l’inverse de la</i> <i>résistance, elle était donnée en mho (jeu de mots avec ohm à l’envers) avant que le Siemens soit utilisé.</i>",
+"pg":39,
+"anchors":[
+"T-1.4c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Dans un conducteur, la</i> <u><i>densité de courant</i></u> <i>(en A/mm²) est égale au débit (en ampères) divisé par la section du</i> <i>conducteur (en mm²). La densité de courant dans un fil de cuivre ne doit pas dépasser 5 A/mm².</i>",
+"pg":40,
+"anchors":[
+"T-1.4d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><i>L’effet de peau</i></u><i>, surtout sensible en HF (haute fréquence, au-delà de 20 kHz), fait que le courant ne se déplace</i> <i>qu'à la superficie des conducteurs. L’épaisseur de la peau d’un fil de cuivre (en µm, microns) dans laquelle</i> <i>passera le courant est estimée par la formule suivante :</i> <span style=\"color:#000080\"><i><b>e(µm) = 66 / √ f(MHz)</b></i></span><i>. Ainsi, l’épaisseur de la peau</i> <i>sera de 9,4 mm à 50 Hz, 0,5 mm à 20 kHz, 66 µm à 1 MHz, 12 µm à 30 MHz, 5 µm à 150 MHz et 2 µm à 1 GHz.</i> <i>Un câble composé de plusieurs fils de petit diamètre sera utilisé de préférence à un câble monobrin car ceci</i> <i>augmente la section dans laquelle peut se déplacer le courant HF et donc diminue la résistance du fil. On</i> <i>utilisera aussi du fil recouvert d’un matériau très conducteur (cuivre argenté) ou traité en surface de manière à</i> <i>ce qu’il ne s’oxyde pas (cuivre émaillé ou verni) car l’oxydation rend souvent un métal isolant.</i>",
+"pg":40,
+"anchors":[
+"T-1.4e"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>1.5) Le Code des couleurs</b></u></span>. La valeur des résistances traditionnelles (à fils) est rarement indiquée en chiffres : un code de couleurs défini dans le tableau ci-dessous est utilisé. <i>Nous verrons au §2.3c6 que ce code couleur est</i> <i>aussi utilisé pour marquer la valeur des condensateurs.</i>",
+"pg":40,
+"anchors":[
+"T-1.5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Pour coder une valeur, <u><b>trois bagues au moins</b></u> sont nécessaires : les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance : selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas.<br>Le code des couleurs des <u><b>bagues de tolérance</b></u> (4<sup>ème</sup> bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée.",
+"pg":40,
+"anchors":[
+"T-1.5a"
+]
+},
+{
+"t":"fig",
+"id":"c040_1",
+"pg":40,
+"min":6.5
+},
+{
+"t":"p",
+"html":"Il existe une expression <u><b>mnémotechnique</b></u> pour se souvenir du code des couleurs : Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention : la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc) : Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début.",
+"pg":40
+},
+{
+"t":"p",
+"html":"Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 Ω, on utilisera : Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent).",
+"pg":40
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+191.4,
+192.8
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quelle est la valeur de cette résistance ?",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u>Réponse :</u></span>",
+"sans":true
+}
+],
+"pad":42.5
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#0000ff\">BLEU</span> → 6",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#ff0000\">ROUGE</span> → 2 R = 62 x 10<sup>1</sup> Ω = <span style=\"color:#800000\">620 Ω</span>",
+"sans":true
+}
+]
+}
+],
+"pg":40
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#993300\">MARRON</span> → 1",
+"pg":40,
+"align":"left",
+"indent":163
+},
+{
+"t":"fig",
+"id":"c040_2",
+"pg":40,
+"indent":366
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Les résistances du commerce ont des valeurs « normées ». La</i> <u><i>série des valeurs</i></u> <i>des résistances à 20% de</i> <i>tolérance (sans 4</i><sup><i>ème</i></sup> <i>bague) est : 10 – 15 – 22 – 33 – 47 – 68. Cette série est nommée E6 car elle comporte 6</i> <i>valeurs. L’écart entre chaque valeur de résistance a toujours le même rapport qui est fonction de la tolérance</i> <i>(1,47 pour la série E6). Ainsi, il existe des résistances de 150 Ω à 20% de tolérance mais pas de résistance de</i> <i>200 Ω. Dans la pratique, la valeur la plus proche sera utilisée, soit 220 Ω, dont la valeur est comprise entre</i> <i>176 Ω et 264 Ω (± 20%). Il existe une série E12 pour les résistances à 10% de tolérance (4</i><sup><i>ème</i></sup> <i>bague de couleur</i> <i>Argent) dont les valeurs s’insèrent entre chaque valeur de la série E6. De même, il existe aussi une série E24</i> <i>pour les résistances à 5% de tolérance (4</i><sup><i>ème</i></sup> <i>bague de couleur Or). Au-delà de la série E24, pour des tolérances</i> <i>de 2% ou moins, les résistances sont codées avec 5 bagues : 3 bagues de chiffres significatifs suivies de la bague</i> <i>du multiplicateur et de la bague de tolérance. Ces dernières résistances sont rares et chères. Enfin, pour les</i> <i>résistances de précision (à partir de la série E96 avec 1% de tolérance et moins), une 6</i><sup><i>ème</i></sup> <i>bague indique le</i> <i>coefficient de température (variation maximum de la valeur en fonction de la température du composant).</i>",
+"pg":40,
+"anchors":[
+"T-1.5b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Les résistances existent sous deux présentations : en</i> <u><i>composant à fils</i></u> <i>(traditionnels) et en composant monté en</i> <i>surface (</i><u><i>CMS</i></u><i>) : utilisés de plus en plus souvent avec la miniaturisation des circuits, les CMS sont de petits</i> <i>parallélépipèdes dont les embouts sont directement soudés sur le circuit imprimé. Le code des couleurs n’est pas</i> <i>utilisé mais les chiffres marqués ont la même signification : 682 désigne une valeur de 68 x 10</i><sup><i>2</i></sup><i>, soit 6800</i> <i>Ω.</i> <i>Pour les valeurs inférieures à 10 Ω, la lettre R remplace la virgule : 6R8 désigne une valeur de 6,8 Ω.</i>",
+"pg":41,
+"anchors":[
+"T-1.5c"
+]
+},
+{
+"t":"p",
+"html":"<i>Quatre sortes de résistances avec des méthodes de fabrication différentes sont disponibles dans le commerce :</i><p style=\"margin:0 0 0 1.1em\">- <i>les</i> <u><i>résistances agglomérées</i></u> <i>sont les plus anciennes et sont fabriquées à partir de poudre de carbone</i> <i>mélangée à un isolant et à un liant. Il devient difficile de les trouver dans le commerce.</i> </p><p style=\"margin:0 0 0 1.1em\">- <i>les</i> <u><i>résistances à couche de carbone</i></u> <i>: une très fine couche de carbone est déposée sur de petits barreaux</i> <i>isolants en céramique. Des bagues de connexion sont fixées aux extrémités et la valeur est ajustée en</i> <i>creusant en forme de spirale la couche de carbone. Ce sont les plus courantes et les moins chères.</i> </p><p style=\"margin:0 0 0 1.1em\">- <i>les</i> <u><i>résistances à couche métallique</i></u> <i>sont de qualité supérieure et sont obtenues en déposant une fine couche</i> <i>d’un alliage résistant sur un barreau isolant en céramique (comme les résistances à couche de carbone).</i> </p><p style=\"margin:0 0 0 1.1em\">- <i>les</i> <u><i>résistances bobinées</i></u> <i>sont utilisées pour de faibles valeurs et sont constituées d’un fil résistant (en nickel</i> <i>ou cupronickel) bobiné sur un isolant. Leur utilisation en HF est une source de problèmes.</i> </p>",
+"pg":41
+},
+{
+"t":"p",
+"html":"<i>Les résistances sont disponibles sous diverses</i> <u><i>puissances de dissipation maximum.</i></u> <i>Cette puissance est</i> <i>directement fonction de la dimension du composant. Les valeurs normalisées des résistances sont : 1/16 W et</i> <i>1/10 W (CMS uniquement), 1/8 W, 1/4 W, 1/2 W, 1 W et 2 W (à fils uniquement). D’autres modèles sont montés</i> <i>dans un boîtier spécifique qui peut être fixé sur un radiateur pour dissiper plus de puissance.</i>",
+"pg":41
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> quelle est la puissance minimum de la résistance R ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> P = U² / R = 6² / 220 = 164 mW. La première puissance supérieure proposée sera retenue (exemple : <span style=\"color:#800000\">250 mW</span>). Une puissance de 1/8 W, soit 125 mW, aurait été insuffisante.",
+"pg":41
+},
+{
+"t":"fig",
+"id":"c041_2",
+"pg":41,
+"indent":381
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Il existe des composants dont la résistance est variable (ou ajustable lorsque</i> <i>la</i> <i>valeur</i> <i>est</i> <i>définie</i> <i>une</i> <i>fois</i> <i>pour</i> <i>toutes).</i> <i>Ces</i> <i>résistances sont montées sur un axe ou sur un curseur et peuvent être</i> <i>déportées pour les réglages. Ces composants nommés aussi</i> <u><i>potentiomètres</i></u> <i>sont montés en résistances variables (comme dans le montage 1) ou en pont</i> <i>diviseur (comme dans le montage 2).</i>",
+"pg":41,
+"indent":137,
+"anchors":[
+"T-1.5d"
+]
+},
+{
+"t":"fig",
+"id":"c041_1",
+"pg":41
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><i><b>1.6) Loi des nœuds et des mailles</b></i></u></span> <span style=\"color:#800080\"><u><i><b>:</b></i></u></span> <i>la somme algébrique des courants passant en un</i> <u><i>nœud</i></u> <i>est nulle. Dans un</i> <i>nœud (point d’un circuit où sont connectés plusieurs conducteurs), il y a autant de courant qui y entre que de</i> <i>courant qui en sort. La somme algébrique des tensions en une</i> <u><i>maille</i></u> <i>est nulle. Quand on fait le tour de la maille</i> <i>(réseau de composants en circuit fermé), la tension du générateur est absorbée par les charges. Ci-dessous, la</i> <i>chute de tension générée par le moteur et R2 est égale à la chute de tension aux bornes de R1 et à la tension</i> <i>générée par la pile. Prenez garde au sens des flèches qui indiquent les tensions et les intensités…</i>",
+"pg":41,
+"anchors":[
+"T-1.6",
+"T-1.6a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le</i> <u><i>pont de Wheatstone</i></u> <i>est une application de la loi des mailles : observez l’enchaînement des tensions entre</i> <i>les points du circuit : en suivant les flèches grisées, on trouve successivement + 4 – 1 + 7 = 10 V.</i>",
+"pg":41,
+"anchors":[
+"T-1.6b"
+]
+},
+{
+"t":"fig",
+"id":"c041_3",
+"pg":41
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>La loi des nœuds et des mailles (appelée aussi lois de Kirchhoff), dont nous n’avons abordé ici que les</i> <i>prémices, est très complexe. Elle n’est pas au programme de l’examen mais doit être connue dans ses grands</i> <i>principes pour comprendre le fonctionnement des circuits électriques et les groupements.</i>",
+"pg":41,
+"anchors":[
+"T-1.6c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>1.7) Groupements Série et Parallèle (ou Dérivation)</b></u></span> : les résistances peuvent être groupées en série (les unes derrière les autres) ou en parallèle (le terme « dérivation » est aussi employé). En appliquant les lois d’Ohm et de Joule ainsi que la loi des nœuds et des mailles, on déduit, pour chacun des montages :",
+"pg":41,
+"anchors":[
+"T-1.7",
+"T-1.7a"
+]
+},
+{
+"t":"p",
+"html":"- la résistance équivalente de l’ensemble (ou résistances totales notées R<sub>t</sub> ; R<sub>t</sub> se prononce « R indice t » ou plus couramment « R de t »),",
+"pg":41,
+"indent":14
+},
+{
+"t":"p",
+"html":"- la répartition de la tension totale (notée U<sub>t</sub>) entre les différentes résistances (U<sub>R1</sub> est la tension aux bornes de la résistance R1 ; U<sub>R1</sub> se prononce « U indice R1 » ou plus couramment « U de R1 »),",
+"pg":41,
+"indent":14
+},
+{
+"t":"p",
+"html":"- la répartition de l’intensité totale parcourue dans le circuit (notée I<sub>t</sub>) entre chacune des résistances (I<sub>R1</sub> est l’intensité parcourue dans R1),",
+"pg":42,
+"indent":14
+},
+{
+"t":"p",
+"html":"- la répartition de la puissance dissipée totale (notée P<sub>t</sub>) entre chacune des résistances du groupement (P<sub>R1</sub> est la puissance dégagée par R1) ;",
+"pg":42,
+"indent":14
+},
+{
+"t":"p",
+"html":"- enfin, nous étudierons le cas où les résistances du groupement ont des valeurs identiques.",
+"pg":42,
+"align":"left",
+"indent":14
+},
+{
+"t":"fig",
+"id":"c042_1",
+"pg":42,
+"min":6.5
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Dans <u><b>un groupement série</b></u>, la résistance équivalente du groupement de résistances est toujours supérieure à la valeur de la plus grande résistance du groupement. De plus, la tension aux bornes de la résistance la plus grande est la plus importante, de même que la puissance dissipée par cette même résistance (répartition de la tension et de la puissance de l’ensemble au <u><b>prorata de la valeur des résistances</b></u>) tandis que l’intensité est constante.",
+"pg":42,
+"anchors":[
+"T-1.7b"
+]
+},
+{
+"t":"p",
+"html":"Quand le groupement en série est constitué de <u><b>n résistances de valeur identique</b></u> R, la résistance équivalente est : R<sub>t</sub> = R x n. Dans ce cas, les tensions aux bornes de chacune des résistances et leurs puissances dissipées sont identiques (U<sub>R</sub> = U<sub>t</sub> / n et P<sub>R</sub> = P<sub>t</sub> / n).",
+"pg":42
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Un <u><b>groupement en dérivation</b></u> se nomme aussi <u><b>groupement en parallèle</b></u>. Dans un tel montage, la résistance équivalente du groupement de résistance est toujours inférieure à la plus petite des résistances constituant le groupement. La plus faible résistance du groupement voit passer la plus forte intensité et dissipe le plus de puissance (répartition de la tension et de la puissance dissipée de l’ensemble <u><b>inversement proportionnelle à la</b></u> <u><b>valeur des résistances</b></u>) tandis que la tension est constante. Notez que dans les deux prorata (tension dans un groupement série et intensité dans un groupement parallèle), le numérateur est toujours inférieur au dénominateur. La formule de la résistance équivalente d’un groupement en dérivation, R<sub>t</sub> = (R1 x R2) / (R1 + R2), peut se retenir avec l’expression mnémotechnique « les Pieds sur le Sol » correspondant aux initiales de « Produit des résistances sur (= divisé par) Somme des résistances ». Cette formule simplifiée ne fonctionne qu’avec deux résistances. En présence de trois résistances en parallèle, il faut déjà calculer la résistance équivalente d’un groupement constitué de deux résistances puis calculer la résistance équivalente de ce premier groupe avec la troisième résistance. Dans ce cas, la deuxième formule, R<sub>t</sub> = 1/[(1/R1) + (1/R2) + (1/R3)], est plus rapide à appliquer. Sur une calculette, on posera l’inverse de la somme des inverses des résistances, soit : R<sub>t</sub> = 1÷(1÷R1 + 1÷R2 + 1÷R3).",
+"pg":42,
+"anchors":[
+"T-1.7c"
+]
+},
+{
+"t":"p",
+"html":"<i>Dans un groupement de résistances en parallèle, on a I</i><sub><i>t</i></sub> <i>= I</i><sub><i>R1</i></sub> <i>+ I</i><sub><i>R2</i></sub> <i>+ … En remplaçant I par U / R (loi d’ohm),</i> <i>on obtient : U/R</i><sub><i>t</i></sub> <i>= U/R1 + U/R2 + … . U étant en facteur commun (la tension est constante), on peut le</i> <i>remplacer par 1, d’où : 1/R</i><sub><i>t</i></sub> <i>= 1/R1 + 1/R2 + … . On reconnaît la formule de base. Avec deux résistances et</i> <i>après la transformation du deuxième membre de l’équation par la mise sous un dénominateur commun, on a :</i> <i>1/R</i><sub><i>t</i></sub> <i>= [R2 / (R1 x R2)] + [R1 / (R1 x R2)], d’où : 1/Rt = (R1 + R2) / (R1 x R2), d’où, après inversion, la</i> <i>formule simplifiée pour deux résistances : R</i><sub><i>t</i></sub> <i>= (R1 x R2) / (R1 + R2).</i><br><i>Autre raisonnement : la conductance étant l’inverse de la résistance (voir § 1.4c), la formule « 1/R</i><sub><i>t</i></sub> <i>= 1/R1 +</i> <i>1/R2 + … » revient à dire que la conductance équivalente est égale à la somme des conductances en parallèle.</i>",
+"pg":42
+},
+{
+"t":"p",
+"html":"Quand le groupement en dérivation est constitué de <u><b>n résistances de valeur identique</b></u> R, la résistance équivalente est : R<sub>t</sub> = R / n. Dans ce cas, les intensités parcourues et les puissances dissipées dans chacune des résistances sont identiques (I<sub>R</sub> = I<sub>t</sub> / n et P<sub>R</sub> = P<sub>t</sub> / n).",
+"pg":42
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemples :</b></u></span>",
+"pg":43,
+"align":"left",
+"anchors":[
+"T-1.7d"
+]
+},
+{
+"t":"fig",
+"id":"c043_2",
+"pg":43,
+"min":9.0,
+"indent":22
+},
+{
+"t":"fig",
+"id":"c043_3",
+"pg":43,
+"min":9.0,
+"indent":263
+},
+{
+"t":"ex",
+"html":"<b>1)</b> Calcul de la résistance équivalente du groupement :",
+"pg":43,
+"align":"left"
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+229.4,
+214.1
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"R<sub>t</sub> = R1 + R2 = 80 + 20 = <span style=\"color:#800000\">100 Ω</span>",
+"sans":true
+}
+],
+"pad":44.8
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"R<sub>t</sub> =Produit/Somme=(80x20)/(80+20)=1600/100=<span style=\"color:#800000\">16Ω</span>",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou, en écriture naturelle : R<sub>t</sub> = 1÷(1÷80 + 1÷20) =<span style=\"color:#800000\">16 Ω</span>",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>2)</b> Calcul de la tension aux bornes de la résistance R1 :",
+"sans":true
+}
+]
+},
+{
+"r":3,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"U<sub>R1</sub>= U<sub>t</sub> x (R1 / R<sub>t</sub>) = 10 x (80/100) = <span style=\"color:#800000\">8 V</span>",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":3,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"U<sub>R1</sub> = U<sub>t</sub> = <span style=\"color:#800000\">10 V</span>",
+"sans":true
+}
+],
+"pad":75.8
+},
+{
+"r":4,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>3)</b> Calcul de la tension aux bornes de la résistance R2 :",
+"sans":true
+}
+]
+},
+{
+"r":5,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"U<sub>R2</sub> = U<sub>t</sub> x (R2 / R<sub>t</sub>) = 10 x (20/100) = <span style=\"color:#800000\">2 V</span>",
+"sans":true
+}
+],
+"pad":27.1
+},
+{
+"r":5,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"U<sub>R2</sub> = U<sub>t</sub> = <span style=\"color:#800000\">10 V</span>",
+"sans":true
+}
+],
+"pad":75.8
+},
+{
+"r":6,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"ou par différence : U<sub>R1</sub> + U<sub>R2</sub> = U<sub>t</sub>",
+"sans":true
+}
+],
+"pad":42.0
+},
+{
+"r":7,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"d’où : U<sub>R2</sub> = U<sub>t</sub> – U<sub>R1</sub> = 10 – 8 = <span style=\"color:#800000\">2 V</span>",
+"sans":true
+}
+],
+"pad":37.9
+},
+{
+"r":8,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>4)</b> Calcul de l’intensité parcourue dans le groupement :",
+"sans":true
+}
+]
+},
+{
+"r":9,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"I<sub>t</sub> = U<sub>t</sub> / R<sub>t</sub> = 10 / 100 = 0,1 A = <span style=\"color:#800000\">100 mA</span>",
+"sans":true
+}
+],
+"pad":31.6
+},
+{
+"r":9,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"I<sub>t</sub> = U<sub>t</sub> / R<sub>t</sub> = 10 / 16 = 0,625 A = <span style=\"color:#800000\">625 mA</span>",
+"sans":true
+}
+],
+"pad":27.4
+},
+{
+"r":10,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>5)</b> Calcul de l’intensité parcourue dans R1 :",
+"sans":true
+}
+]
+},
+{
+"r":11,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"I<sub>R1</sub> = I<sub>t</sub> = <span style=\"color:#800000\">100 mA</span>",
+"sans":true
+}
+],
+"pad":75.2
+},
+{
+"r":11,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"I<sub>R1</sub> = U<sub>t</sub> / R1 = 10 / 80 = <span style=\"color:#800000\">0,125 A = 125 mA</span>",
+"sans":true
+}
+],
+"pad":22.2
+},
+{
+"r":12,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou, si U<sub>t</sub> est inconnue : I<sub>R1</sub> = I<sub>t</sub> x (R<sub>t</sub> / R1)",
+"sans":true
+}
+],
+"pad":26.0
+},
+{
+"r":13,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"= 0,625 x (16 / 80) = 0,125 A=<span style=\"color:#800000\">125 mA</span>",
+"sans":true
+}
+],
+"pad":30.8
+},
+{
+"r":14,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>6)</b> Calcul de l’intensité parcourue dans R2 :",
+"sans":true
+}
+]
+},
+{
+"r":15,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"I<sub>R2</sub> = I<sub>t</sub> = <span style=\"color:#800000\">100 mA</span>",
+"sans":true
+}
+],
+"pad":75.2
+},
+{
+"r":15,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"I<sub>R2</sub> = U<sub>t</sub> / R2 = 10 / 20 = <span style=\"color:#800000\">0,5 A = 500 mA</span>",
+"sans":true
+}
+],
+"pad":27.2
+},
+{
+"r":16,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou, si U<sub>t</sub> est inconnue : I<sub>R2</sub> = I<sub>t</sub> x (R<sub>t</sub> / R2) =",
+"sans":true
+}
+],
+"pad":22.1
+},
+{
+"r":17,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"0,625 x (16 / 20) = 0,5 A = <span style=\"color:#800000\">500 mA</span>",
+"sans":true
+}
+],
+"pad":37.3
+},
+{
+"r":18,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou par différence : I<sub>R2</sub> = I<sub>t</sub> – I<sub>R1</sub> = 625 – 125 = <span style=\"color:#800000\">500 mA</span>",
+"sans":true
+}
+]
+},
+{
+"r":19,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>7)</b> Calcul de la puissance dissipée par le groupement :",
+"sans":true
+}
+]
+},
+{
+"r":20,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"P<sub>t</sub> = U<sub>t</sub> x I<sub>t</sub> = 10 x 0,1 = <span style=\"color:#800000\">1 W</span>",
+"sans":true
+}
+],
+"pad":53.9
+},
+{
+"r":20,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"P<sub>t</sub> = U<sub>t</sub> x I<sub>t</sub> = 10 x 0,625 = <span style=\"color:#800000\">6,25 W</span>",
+"sans":true
+}
+],
+"pad":40.8
+},
+{
+"r":21,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>t</sub> = R<sub>t</sub> x I<sub>t</sub>² = 100 x 0,1² = 100 x 0,01 = <span style=\"color:#800000\">1 W</span>",
+"sans":true
+}
+],
+"pad":15.8
+},
+{
+"r":21,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>t</sub> = R<sub>t</sub> x I<sub>t</sub>² = 16 x 0,625² = 16 x 0,390625=<span style=\"color:#800000\">6,25 W</span>",
+"sans":true
+}
+]
+},
+{
+"r":22,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>t</sub>=U<sub>t</sub>² / R<sub>t</sub> = 10² / 100 = 100 / 100 = <span style=\"color:#800000\">1 W</span>",
+"sans":true
+}
+],
+"pad":22.1
+},
+{
+"r":22,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>t</sub> = U<sub>t</sub>² / R<sub>t</sub> = 100 / 16 = <span style=\"color:#800000\">6,25 W</span>",
+"sans":true
+}
+],
+"pad":36.6
+},
+{
+"r":23,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>8)</b> Calcul de la puissance dissipée par la résistance R1 :",
+"sans":true
+}
+]
+},
+{
+"r":24,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"P<sub>R1</sub> = P<sub>t</sub> x (R1 / R<sub>t</sub>) = 1 x (80 / 100) = <span style=\"color:#800000\">0,8 W</span>",
+"sans":true
+}
+],
+"pad":22.3
+},
+{
+"r":24,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"P<sub>R1</sub> = P<sub>t</sub> x (R<sub>t</sub> / R1) = 6,25 x (16 / 80) = <span style=\"color:#800000\">1,25 W</span>",
+"sans":true
+}
+],
+"pad":14.3
+},
+{
+"r":25,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R1</sub> = U<sub>R1</sub> x I<sub>R1</sub> = 8 x 0,1 = <span style=\"color:#800000\">0,8 W</span>",
+"sans":true
+}
+],
+"pad":37.3
+},
+{
+"r":25,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R1</sub> = U<sub>R1</sub> x I<sub>R1</sub> = 10 x 0,125 = <span style=\"color:#800000\">1,25 W</span>",
+"sans":true
+}
+],
+"pad":25.6
+},
+{
+"r":26,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"<b>9)</b> Calcul de la puissance dissipée par la résistance R2 :",
+"sans":true
+}
+]
+},
+{
+"r":27,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"P<sub>R2</sub> = P<sub>t</sub> x (R2 / R<sub>t</sub>) = 1 x (20 / 100) = <span style=\"color:#800000\">0,2 W</span>",
+"sans":true
+}
+],
+"pad":22.7
+},
+{
+"r":27,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"P<sub>R2</sub> = P<sub>t</sub> x (R<sub>t</sub> / R2) = 6,25 x (16 / 20) = <span style=\"color:#800000\">5 W</span>",
+"sans":true
+}
+],
+"pad":20.5
+},
+{
+"r":28,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R2</sub> = U<sub>R2</sub> x I<sub>R2</sub> = 2 x 0,1 = <span style=\"color:#800000\">0,2 W</span>",
+"sans":true
+}
+],
+"pad":37.3
+},
+{
+"r":28,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R2</sub> = U<sub>R2</sub> x I<sub>R2</sub> = 10 x 0,5 = <span style=\"color:#800000\">5 W</span>",
+"sans":true
+}
+],
+"pad":36.8
+},
+{
+"r":29,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R2</sub> = U<sub>R2</sub>² / R2 = 2² / 20 = 4 / 20= <span style=\"color:#800000\">0,2 W</span>",
+"sans":true
+}
+],
+"pad":21.5
+},
+{
+"r":29,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou P<sub>R2</sub> = U<sub>R2</sub>² / R2 = 10² x 20 = 100 / 20 = <span style=\"color:#800000\">5 W</span>",
+"sans":true
+}
+],
+"pad":13.8
+},
+{
+"r":30,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"ou par différence : P<sub>R2</sub> = P<sub>t</sub>-P<sub>R1</sub> = 1-0,8=<span style=\"color:#800000\">0,2 W</span>",
+"sans":true
+}
+],
+"pad":16.2
+},
+{
+"r":30,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"ou par différence : P<sub>R2</sub> = P<sub>t</sub>-P<sub>R1</sub> = 6,25 – 1,25 = <span style=\"color:#800000\">5 W</span>",
+"sans":true
+}
+]
+}
+],
+"pg":43
+},
+{
+"t":"p",
+"html":"La connaissance de toutes les fonctions d’une calculatrice est indispensable pour effectuer les opérations le plus simplement possible et sans risque d’erreurs. Notez sur votre feuille de brouillon les résultats intermédiaires. Au besoin, redessinez le schéma pour le rendre plus compréhensible.",
+"pg":43
+},
+{
+"t":"p",
+"html":"Quand les lois d’Ohm et de Joule sont maîtrisées, peu de calculs sont nécessaires. Par exemple : calcul de U<sub>R1</sub> dans le groupement série : R1 est 4 fois plus importante que R2 ; la répartition de la tension totale (10 V) sera donc 4/5 sur R1 et 1/5 sur R2, donc U<sub>R1</sub> = 10 x 4 / 5 = 8 volts (le calcul de R<sub>t</sub> n’est plus indispensable).",
+"pg":43
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Pour calculer la <u><b>résistance équivalente d'un réseau</b></u> complexe (enchevêtrement de résistances montées en série et en parallèle), la résistance équivalente de l'ensemble le plus élémentaire sera d’abord calculée. Puis la résistance équivalente de cet ensemble et d’une autre résistance du réseau sera calculée en associant les résistances dans des ensembles de plus en plus complexes.",
+"pg":43,
+"anchors":[
+"T-1.7e"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple 1 :</b></u></span> Quelle est la résistance équivalente de cet ensemble ?",
+"pg":43,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c043_1",
+"pg":43
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Sur une calculette</u></span>, il faudrait entrer les données suivantes :<br>Calcul de R<sub>AB</sub> : R<sub>AB</sub> = 1 ÷ ( 1 ÷ 100 <i>(R</i><sub><i>A</i></sub><i>)</i> + 1 ÷ 150 <i>(R</i><sub><i>B</i></sub><i>)</i>) = 60.10<sup>0</sup><br>Calcul de R<sub>ABC</sub> : 6.10<sup>1</sup> <i>(R</i><sub><i>AB</i></sub><i>)</i> + 40 <i>(R</i><sub><i>C</i></sub><i>)</i> = 100.10<sup>0</sup> soit <span style=\"color:#800000\">100</span><br><span style=\"color:#800000\"><u><b>Exemple 2 :</b></u></span> Quelle est la résistance équivalente de cet ensemble ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> les 5 résistances de gauche sont montées en dérivation et les 2 résistances de droite sont montées en série.<br>Premier groupement : R<sub>G1</sub> = R / n = 10 / 5 = 2 Second groupement : R<sub>G2</sub> = R x n = 10 x 2 = 20 Ensemble : R<sub>T</sub> = R<sub>G1</sub> + R<sub>G2</sub> = 2 + 20 = <span style=\"color:#800000\">22</span>",
+"pg":43
+},
+{
+"t":"fig",
+"id":"c043_4",
+"pg":43
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800080\"><u><b>1.8) Autres exemples d’application avec des résistances</b></u></span>",
+"pg":44,
+"align":"left",
+"anchors":[
+"T-1.8"
+]
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemple n°1 :</b></u></span> dans le circuit ci-contre, quelle est la valeur de R2 ?<br><span style=\"color:#800000\"><u>Réponses : 1</u></span><span style=\"color:#800000\"><sup>ère</sup></span> <span style=\"color:#800000\"><u>solution</u></span> (méthode empirique) : le schéma représente un pont de Wheatstone que nous avons déjà évoqué au § 1.6b. Le pont est dit « équilibré » lorsque les tensions dans les deux branches sont identiques. Dans ce cas, si les deux branches sont reliées (comme ici), aucun courant ne circule et la valeur des résistances de chacune des branches (80 Ω et R2 d’un côté et 20 Ω et 4 Ω de l’autre côté) sont proportionnelles entre elles. Ainsi, on a la relation suivante : 80 / R2 = 20 / 4. Pour déterminer R2, il faut calculer le « produit en croix » (voir §0.1c), c’est à dire que l’on prend le produit de la deuxième diagonale divisé par la valeur opposée. Dans notre exemple, ce sera :",
+"pg":44,
+"anchors":[
+"T-1.8a"
+]
+},
+{
+"t":"fig",
+"id":"c044_1",
+"pg":44,
+"indent":346
+},
+{
+"t":"ex",
+"html":"R2 = 80 x 4 (produit de la deuxième diagonale) / 20 (valeur opposée) = <span style=\"color:#800000\">16</span>.<br><span style=\"color:#800000\"><u>2</u></span><span style=\"color:#800000\"><sup>ème</sup></span> <span style=\"color:#800000\"><u>solution</u></span> (en utilisant seulement la loi d’Ohm). En posant R1 = résistance de 80 Ω, R3 = résistance de 20 Ω, R4 = résistance de 4 Ω et U<sub>T</sub> = tension d'alimentation du circuit (non précisée), le raisonnement est le suivant : Détermination de U<sub>R4</sub> : U<sub>R4</sub> = U<sub>T</sub> x [R4 / (R3 + R4)] = U<sub>T</sub> x (4 / 24) = U<sub>T</sub> / 6<br>Si I = 0, alors U<sub>R4</sub> = U<sub>R2</sub> = U<sub>T</sub> / 6. D’autre part, I<sub>R1</sub> = I<sub>R2</sub> = U<sub>T</sub> / (80 + R2)<br>R2 = U<sub>R2</sub> / I<sub>R2</sub> = (U<sub>T</sub> / 6) / [U<sub>T</sub> / (80 + R2)] = (U<sub>T</sub> / 6) x [(80 + R2) / U<sub>T</sub>] = (80 + R2) / 6<br>Il faut maintenant résoudre l’équation : R2 = (80 + R2) / 6 donc 6 x R2 = 80 + R2 donc 6 x R2 – R2 = 80 donc : 5 x R2 = 80 donc R2 = 80 / 5 et donc R2 = <span style=\"color:#800000\">16 Ω</span>",
+"pg":44
+},
+{
+"t":"ex",
+"html":"Remarquez qu’il ne nous a pas été utile de connaître la tension d’alimentation du circuit, U<sub>T</sub>. Toutefois, ce circuit doit être obligatoirement alimenté par une tension (positive ou négative voire alternative) sinon la valeur de R2 sera quelconque puisque, quelle que soit sa valeur, il n’y aura nulle part de courant dans le circuit.",
+"pg":44
+},
+{
+"t":"ex",
+"html":"La seconde solution est beaucoup plus longue et dépasse largement les connaissances demandées pour l’examen. La première solution, plus empirique, est plus facile à comprendre et à appliquer.",
+"pg":44
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemple n°2</b></u></span><p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\"><u>Réponse :</u></span> selon la loi de Kirchhoff, l’intensité parcourue dans la résistance du haut est égale à celle parcourue dans le groupement du bas. Ensuite, dans le groupement du bas, l’intensité est répartie au prorata inverse des résistances. Le problème se résout par les étapes suivantes : </p><p style=\"margin:0 0 0 4em\">1) Calcul de l’intensité parcourant l’ensemble du bas (RT) (on appellera R1 la résistance de 2 kΩ) : </p><p style=\"margin:0 0 0 4em\">I<sub>RT</sub> = I<sub>R1</sub> = U<sub>R1</sub> / R1 = 24 / 2000 = 0,012 A </p><p style=\"margin:0 0 0 4em\">2) Calcul de la résistance équivalente de l’ensemble du bas (RT) : </p><p style=\"margin:0 0 0 4em\">RT = (3 x 5) / (3 + 5) = 15 / 8 = 1,875 kΩ = 1875 Ω </p><p style=\"margin:0 0 0 4em\">3) calcul de l’intensité parcourant la résistance de 5 kΩ (IR) : </p><p style=\"margin:0 0 0 4em\">IR = I<sub>RT</sub> x RT / R = 0,012 x 1875 / 5000 = 0,0045 A = <span style=\"color:#800000\">4,5 mA</span></p>",
+"pg":44,
+"anchors":[
+"T-1.8b"
+]
+},
+{
+"t":"fig",
+"id":"c044_2",
+"pg":44
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemple n°3</b></u></span> <span style=\"color:#800000\">:</span> Quelle est la valeur du courant dans R1 (en mA) et quelle est la valeur de R1 (en kΩ) ?",
+"pg":44,
+"align":"left",
+"anchors":[
+"T-1.8c"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u>Réponses :</u></span> les étapes du raisonnement sont les suivantes :<p style=\"margin:0 0 0 1.3em\">1) calcul de l’intensité parcourant la résistance de 100 Ω (R2) : </p><p style=\"margin:0 0 0 4em\">I<sub>R2</sub> = U<sub>R2</sub> / R2 = 12 / 100 = 0,12 A = 120 mA </p><p style=\"margin:0 0 0 1.3em\">2) On sait que l’intensité totale parcourant le circuit est de 300 mA et que cette intensité sera répartie entre R1 et R2 puisque I<sub>R</sub> = I<sub>R1</sub> + I<sub>R2</sub>, donc : </p><p style=\"margin:0 0 0 4em\"><span style=\"color:#800000\">I</span><span style=\"color:#800000\"><sub>R1</sub></span> <span style=\"color:#800000\">=</span> I<sub>R</sub> – I<sub>R2</sub> = 300 mA – 120 mA = <span style=\"color:#800000\">180 mA</span></p><p style=\"margin:0 0 0 1.3em\">3) <span style=\"color:#800000\">R1 =</span> U / I = U<sub>R2</sub> / I<sub>R1</sub> = 12 / 180 mA = 12 / 0,18 = 66,7 Ω = <span style=\"color:#800000\">0,0667 kΩ</span></p>",
+"pg":44,
+"indent":89
+},
+{
+"t":"ex",
+"html":"Dans cet exemple, la valeur de R pourra être quelconque : elle n’intervient pas dans nos calculs.",
+"pg":44,
+"indent":118
+},
+{
+"t":"fig",
+"id":"c044_3",
+"pg":44
+},
+{
+"t":"ex",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <span style=\"color:#800000\"><u><b>Exemple n°4</b></u></span> <span style=\"color:#800000\">:</span> Quelle est la résistance équivalente (R<sub>t</sub>) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span><br>enchevêtrement complexe : on va du plus simple au plus complexe :<p style=\"margin:0 0 0 1.4em\">ensemble du haut 150-250 = (150x250)/(150+250)= 93,75 </p><p style=\"margin:0 0 0 2em\">associé à la résistance de 75 Ω : 93,75 + 75 = 168,75 </p><p style=\"margin:0 0 0 1.4em\">ensemble du bas 30-80 en série : 30 + 80 = 110 ensemble 168,75-110 : (168,75x110)/(168,75+110)=66,59 </p><p style=\"margin:0 0 0 2em\">associé à la résistance de 100 Ω : 66,59 + 100 = <span style=\"color:#800000\">167</span></p><span style=\"color:#800000\"><u>Sur une calculette :</u></span><br>ensemble 150-250 : 1 ÷ (1 ÷ 150 + 1 ÷ 250) = 93,75 associé à la résistance de 75 Ω : 93,75 + 75 = 168,75 ensemble du bas 30-80 : 30 + 80 = 110 ; deux ensembles en parallèle : 1 ÷ (1 ÷ 168,75 + 1 ÷ 110) = 66,59 associé à la résistance de 100 Ω en série : 100 + 66,59 = 166,59 = <span style=\"color:#800000\">167</span> (arrondi)",
+"pg":44,
+"anchors":[
+"T-1.8d"
+]
+},
+{
+"t":"fig",
+"id":"c044_4",
+"pg":44,
+"indent":258
+}
+]
+}

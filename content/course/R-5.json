@@ -1,0 +1,642 @@
+{
+"id":"R-5",
+"title":"Section B et 5) Connaissances techniques de base",
+"short":"R-5 Connaissances techniques",
+"blocks":[
+{
+"t":"chapter",
+"html":"Section B et 5) Connaissances techniques de base",
+"pg":29
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-5.1) Puissances, rapports de puissance et décibels (dB) - voir aussi Technique § 4.1</b></u></span>",
+"pg":29,
+"align":"left",
+"anchors":[
+"R-5.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Le <u><b>décibel</b></u> (symbole dB) est une unité permettant d'exprimer un rapport entre deux grandeurs de même nature. Pour l’épreuve de réglementation, seuls sont à connaître les <u><b>9 rapports en puissance</b></u> suivants :",
+"pg":29,
+"anchors":[
+"R-5.1a"
+]
+},
+{
+"t":"fig",
+"id":"c029_1",
+"pg":29,
+"min":10.0
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> un amplificateur a un gain de 6 dB. Sa puissance d’entrée est de 15 W Quelle est sa puissance de sortie ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 6 dB correspond à un rapport de 4. Pour une puissance d'entrée de 15 W, la puissance de sortie sera de : Puissance d’entrée x Rapport = 15 x 4 = <span style=\"color:#800000\">60 W</span>.",
+"pg":29
+},
+{
+"t":"p",
+"html":"Un amplificateur ayant un gain de 6 dB multiplie par 4 la puissance présente à son entrée. Un gain de 0 dB signifie que le signal de sortie a la même puissance que le signal d’entrée (aucune amplification). Les décibels, lorsqu’ils sont négatifs, indiquent des pertes : une perte de 6 dB est notée -6 dB et la puissance est divisée par 4 à la sortie d'un tel circuit atténuateur. Les gains successifs s’additionnent et les pertes successives se soustraient (voir le 1<sup>er</sup> exemple du § R-5.3a).",
+"pg":29
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> dans les schémas ci-contre, calculer le gain ou la puissance<br><span style=\"color:#800000\"><u>Réponses</u></span> <span style=\"color:#800000\">:</span> <b>1)</b> rapport = 8 / 4 = 2, soit <span style=\"color:#800000\">3 dB</span><br><b>2)</b> -6 dB correspond à un rapport de 1/4 ; P = 20 / 4 = <span style=\"color:#800000\">5 W</span><br>Le triangle représente un circuit dont le gain est donné en dB.",
+"pg":29
+},
+{
+"t":"fig",
+"id":"c029_2",
+"pg":29,
+"indent":289
+},
+{
+"t":"p",
+"html":"<i>Si le gain exprime un rapport de tensions, le gain est doublé par rapport aux mêmes valeurs exprimées en watts.</i> <i>Ainsi, un rapport de tension de 2 donnera un gain de 6 dB (le double d’un rapport de puissance de 2).</i>",
+"pg":29
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple :</b></i></u></span> <i>soit 10 V en entrée et 12 dB de gain, Tension de sortie ? rapport = x 4 (12dB / 2 = 6 dB) ; U</i><sub><i>s</i></sub> <i>= 10 x 4 =</i> <span style=\"color:#800000\"><i>40 V</i></span>",
+"pg":29,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les décibels expriment des niveaux relatifs : le gain d'une antenne se définit par rapport à une antenne de référence (le doublet par exemple). Dans ce cas, la puissance rayonnée dans la direction la plus favorable est supérieure à la même puissance appliquée à l'antenne de référence. De même, la puissance d’un émetteur sera définie en dBW (décibel par rapport à 1 watt), les puissances plus faibles, comme celles reçues sur une antenne, seront exprimées en dBm (milliwatt) ou dBµ (microwatt) et les atténuations des rayonnements non essentiels seront données par rapport à la puissance d’émission en dBc. Pour transformer les décibels en différents multiples de puissance, on utilisera : dBW = dBm +30 = dBµ +60. Ainsi –43 dBW = –13 dBm = +17 dBµ",
+"pg":29,
+"anchors":[
+"R-5.1b"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> un émetteur délivre une puissance de 4 W. La puissance des émissions non désirées générées par l’émetteur est atténuée de -26 dBc. Quelle est la puissance de l’émetteur (en dBW) ? Quelle est la puissance des émissions non désirées (en W) ?<br><span style=\"color:#800000\"><u>Réponses :</u></span> 4 W = <span style=\"color:#800000\">6 dBW</span> ; puissance des émissions non désirées = 6 dBW – 26 dBc = -<span style=\"color:#800000\">20 dBW</span> = <span style=\"color:#800000\">1/100 W</span> <i>(ou,</i> <i>en transformant les watts en milliwatts : -20 dBW = +10 dBm = 10 mW)</i>",
+"pg":29
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> En modulation d’amplitude (AM) comme en BLU, la puissance d’émission varie au cours du temps. Dans ce cas, la mesure de la puissance se fera sur les pointes d’amplitude ce qui amène à définir la <u><b>puissance crête</b></u> appelée aussi <u><b>puissance de pointe de l’enveloppe</b></u> (ou PEP, Peak Envelope Power en anglais)",
+"pg":29,
+"anchors":[
+"R-5.1c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Le <u><b>rendement</b></u> détermine la qualité du transfert de puissance. Le rendement, exprimé en % et toujours inférieur à 100%, est le rapport obtenu en divisant la puissance utile (puissance émise) par la puissance consommée totale.",
+"pg":29,
+"anchors":[
+"R-5.1d"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>Rendement (%) = (Puissance utile x 100) / Puissance consommée</b></span>",
+"pg":29,
+"align":"left",
+"indent":90
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> un émetteur consomme 50 watts. Sa puissance de sortie est 30 watts. Quel est son rendement ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> Rendement (%) = (Puissance utile x 100) / Puissance consommée = (30 x 100) / 50 = <span style=\"color:#800000\">60%</span> <i>La</i> <i>puissance consommée mais non émise est dissipée (perdue en chaleur) et est égale à 20 W (= 50 – 30).</i>",
+"pg":29
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-5.2) Types et caractéristiques des antennes - voir aussi Technique § 9.1 et 9.4 à 9.10</b></u></span>",
+"pg":29,
+"align":"left",
+"anchors":[
+"R-5.2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> Dans le vide (ou dans l’air), les ondes radio se déplacent à la vitesse de la lumière (300.000 km/s). <u><b>La</b></u> <u><b>longueur d’onde</b></u> (mesurée en mètres et notée λ, lettre grecque minuscule lambda) est la distance parcourue dans le vide par l’onde au cours d’une durée égale à la période du signal. <u><b>La fréquence</b></u> (notée f et mesurée en hertz, Hz) est le nombre de période du signal par seconde. La fréquence sera souvent donnée dans un multiple du hertz : kilohertz (= 1 000 Hz), mégahertz (= 1 000 kHz), gigahertz (= 1 000 MHz = 1 000 000 kHz). Pour transformer les longeurs d’onde en fréquences (et inversement), on utilisera les formules suivantes en faisant attention aux multiples utilisés (mètre et MHz) :",
+"pg":29,
+"anchors":[
+"R-5.2a"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>f(MHz) = 300 / λ(m)</b></span> et <span style=\"color:#000080\"><b>λ(m) = 300 / f(MHz)</b></span>",
+"pg":29,
+"align":"left",
+"indent":115
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+304.8,
+132.5
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> - Quelle est la longueur d’onde de la fréquence 150 MHz ?",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u>Réponses :</u></span> 300 / 150 = <span style=\"color:#800000\">2 mètres</span>",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"- A quelle fréquence correspond la longueur d’onde 100 mètres ?",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"300 / 100 = <span style=\"color:#800000\">3 MHz</span>",
+"sans":true
+}
+],
+"pad":49.2
+}
+],
+"pg":29
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Quelques notions sur les <u><b>gammes d’onde</b></u> doivent être connues : initiales de la gamme, adjectif qualificatif et étendue des 8 gammes d’ondes suivantes tant en longueur d’onde qu’en fréquence. On rappelle que les stations du service amateur doivent déclarer auprès de l’ANFR leur puissance PAR maximum par gamme d’ondes : il y a donc lieu de connaître l’étendue des gammes d’ondes pour établir cette déclaration.",
+"pg":29,
+"anchors":[
+"R-5.2b"
+]
+},
+{
+"t":"p",
+"html":"Les plages de longueurs d’onde commencent aux longueurs correspondant au qualificatif. Par exemple, les ondes hectométriques (MF) commencent à 1 hectomètre (=100 mètres) et finissent à 10 hm, soit 1000 m ou 1 km.",
+"pg":30
+},
+{
+"t":"fig",
+"id":"c030_1",
+"pg":30,
+"min":10.0
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+354.4,
+59.5
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> - Quelles sont les longueurs d’onde couvertes par la gamme VHF ?",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\">1 à 10 mètres</span>",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"- Quelles sont les fréquences couvertes par les ondes SHF ?",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":1,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\">3 à 30 GHz</span>",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"- Dans quelle gamme d’onde doit être classée la fréquence 432 MHz ?",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\">UHF</span>",
+"sans":true
+}
+]
+},
+{
+"r":3,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"- Comment sont qualifiées les ondes de la gamme HF ?",
+"sans":true
+}
+],
+"pad":28.3
+},
+{
+"r":3,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"<span style=\"color:#800000\">décamétriques</span>",
+"sans":true
+}
+]
+}
+],
+"pg":30
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <u><b>L’antenne doublet</b></u> <u><b>demi-onde</b></u> (ou dipôle) est l’antenne de base. Elle est constituée d’un fil d’une longueur égale à une demi-longueur d’onde alimenté en son milieu. Ainsi, chaque brin mesure un quart d’onde (= λ / 4). L’antenne idéale est isolée dans l’espace ou dans l’air, loin de toutes masses et du sol. <u><b>L'impédance</b></u> (notée Z et donnée en Ω, ohms ; Ω : lettre grecque oméga majuscule) <u><b>au point d’alimentation</b></u> varie en fonction de l'angle que forment les brins : s'ils sont alignés, l'impédance est de 73 Ω ; s'ils forment un angle de 120°, Z = 52 Ω ; s'ils forment un angle droit (90°), Z = 36 Ω.",
+"pg":30,
+"anchors":[
+"R-5.2c"
+]
+},
+{
+"t":"fig",
+"id":"c030_2",
+"pg":30
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> un dipôle mesure 50 mètres de long. Sur quelle fréquence (en MHz) résonne-t-il ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> le dipôle est un doublet demi-onde qui résonne sur une longueur d’onde de 50 x 2 = 100 m, donc f = 300 / 100 = <span style=\"color:#800000\">3 MHz</span> <i>(voir formule de transformation ci-avant ; le calcul est simple et s’effectue sans calculette).</i>",
+"pg":30
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Dans une <u><b>antenne doublet demi-onde replié</b></u> (aussi appelée trombone), les extrémités libres du dipôle sont reliées par un fil parallèle et proche du doublet si bien que la longueur totale du fil est égale à une longueur d’onde. Cette antenne a une impédance d’environ 300 Ω au point d’alimentation lorsqu’il est placé au milieu de l’antenne.",
+"pg":30,
+"anchors":[
+"R-5.2d"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><b>L’antenne quart d'onde</b></u> verticale (GP, Ground Plane en anglais) est constituée d’une moitié de dipôle et nécessite un <u><b>plan de sol</b></u> (radiants fixés à la base de l’antenne) ou une <u><b>masse</b></u> (la terre ou la carrosserie d’un véhicule) afin de reconstituer électriquement le deuxième brin de l'antenne. L’impédance de cette antenne est de 36 Ω si le plan de sol ou la masse est perpendiculaire au brin rayonnant (schéma ci-contre). Si les radiants (ou la masse) forment un angle de 120° avec le brin rayonnant, l’impédance de cette antenne est de 52 Ω.",
+"pg":30,
+"anchors":[
+"R-5.2e"
+]
+},
+{
+"t":"p",
+"html":"<i>Un brin plus court que le quart d'onde peut être utilisé. Il faut rallonger</i> <i>artificiellement l'antenne grâce à une bobine (positionnée à la base ou au</i> <i>milieu du brin) ou une capacité terminale (au sommet de l’antenne).</i> <i>L’antenne racourcie présente une impédance plus faible à la résonance.</i>",
+"pg":30
+},
+{
+"t":"fig",
+"id":"c030_4",
+"pg":30,
+"indent":308
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Quelle est la longueur (en centimètres) d’une antenne quart d’onde fonctionnant sur 150 MHz ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> longueur d’onde = 300 / 150 = 2 mètres. L’antenne quart d’onde fonctionnant sur cette fréquence aura pour longueur : 2 m / 4 = 0,50 m = <span style=\"color:#800000\">50 cm</span>. <i>(calcul simple ne nécessitant pas l’utilisation d’une calculette)</i>",
+"pg":30
+},
+{
+"t":"p",
+"html":"<i>Dans la pratique, la longueur théorique calculée d’un quart d’onde est diminuée d’environ 5% (variable selon</i> <i>le matériau utilisé). Dans l’exemple ci-dessus, l’antenne quart d’onde mesurera : 50 cm x 95% = 47,5 cm. Ce</i> <i>coefficient de raccourcissement est aussi valable pour le dipôle mais pas pour le trombone qu’il faudra au</i> <i>contraire rallonger. De plus, l’impédance de l’antenne, donnée ici en espace libre, varie en fonction du sol</i> <i>(proximité et qualité) et de son environnement immédiat (élément métallique, bâtiment, arbre, ...).</i>",
+"pg":30
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <u><b>Antenne Yagi ou Beam</b></u> : le <u><b>diagramme de rayonnement</b></u> de l’antenne doublet ressemble à un tore traversé par le dipôle. Le rayonnement est maximum perpendiculairement aux brins. Il est nul dans le prolongement des brins. Si les deux demi-brins ne sont pas alignés ou trop près du sol, le diagramme de rayonnement se déforme. De même, la présence d’<u><b>éléments</b></u> <u><b>parasites</b></u> près du brin rayonnant déforme le lobe principal et concentre l’énergie dans une direction. Les <u><b>éléments directeurs</b></u> sont plus courts que le dipôle, les <u><b>éléments réflecteurs</b></u> sont plus longs. Lorsque le nombre d'éléments augmente sur ce type d'antenne, son gain (son effet directif) augmente et l’impédance du brin rayonnant diminue. Le gain obtenu par l’antenne dépend à la fois du nombre d’éléments et de la distance entre ces éléments",
+"pg":30,
+"indent":137,
+"anchors":[
+"R-5.2f"
+]
+},
+{
+"t":"fig",
+"id":"c030_3",
+"pg":30
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <u><b>Le gain d'une antenne</b></u> se mesure dans la direction maximum de rayonnement. Le gain se calcule en dB par rapport à l'antenne doublet (dB<sub>d</sub>) ou par rapport à <u><b>l'antenne isotropique</b></u> (dB<sub>iso</sub>). Celle-ci est une antenne idéale : un point qui rayonne uniformément dans toutes les directions. Le doublet a un gain de 2,14 dB par rapport à l'antenne isotropique. Les lobes de rayonnement se représentent dans le plan vertical (on fait une « coupe » du diagramme de rayonnement selon l’axe du rayonnement maximum) ou horizontal (le diagramme de rayonnement est représenté comme si on était au-dessus de l’antenne). Les diagrammes de rayonnement se représentent aussi par des volumes. Les surfaces de chacun des diagrammes de rayonnement représentés ci-dessous doivent être proportionnels à la puissance émise qui est répartie différemment selon le type d’antennes. Dans les diagrammes ci-après, le plan de sol, les éléments parasites et le sol sont représentés en gris. Les caractéristiques des antennes (impédance, gain) sont identiques à l’émission et à la réception.",
+"pg":31,
+"anchors":[
+"R-5.2g"
+]
+},
+{
+"t":"fig",
+"id":"c031_1",
+"pg":31
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> <u><b>La puissance apparente rayonnée (PAR)</b></u> est la puissance d'alimentation de l'antenne multipliée par le rapport arithmétique correspondant au gain de l’antenne par rapport au doublet (il faut transformer les dBd en rapport). Cette puissance correspond à la puissance qu'il faudrait appliquer à un dipôle pour avoir la même puissance rayonnée dans la direction la plus favorable de l'antenne (pour application avec des calculs, voir le 1<sup>er</sup> exemple du<br>§ R-5.3a). <u><b>La puissance isotrope rayonnée équivalente (PIRE)</b></u> prend pour référence l'antenne isotropique.",
+"pg":31,
+"anchors":[
+"R-5.2h"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>i<span style=\"color:#800080\">.</span></b> <u><i><b>L'angle d'ouverture</b></i></u> <i>d'une antenne est l’écart d'angle entre les directions pour lesquelles la puissance</i> <i>rayonnée est la moitié (–3 dB) de la puissance rayonnée dans la direction la plus favorable.</i> <u><i><b>Le gain avant /</b></i></u> <u><i><b>arrière</b></i></u> <i>est le rapport, transformé en dB, obtenu en divisant la puissance rayonnée dans la direction la plus</i> <i>favorable par la puissance rayonnée dans la direction opposée à 180°.</i>",
+"pg":31,
+"anchors":[
+"R-5.2i"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>j<span style=\"color:#800080\">.</span></b> <u><i><b>Polarisations</b></i></u> <i>: selon la position du brin rayonnant, l’onde rayonnée est polarisée verticalement ou</i> <i>horizontalement. Il est aussi possible d’obtenir des polarisations circulaires (tournantes dans un sens).</i>",
+"pg":31,
+"anchors":[
+"R-5.2j"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>k<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i><b>répartition des tensions et intensités</b></i></u> <i>le long d’un brin rayonnant et le</i> <u><i><b>couplage d’antennes</b></i></u> <i>ne sont pas au</i> <i>programme de l’épreuve de réglementation bien que quelques questions aient été relevées. De même, des</i> <i>questions portant sur les</i> <u><i><b>multi-doublets</b></i></u> <i>et les</i> <u><i><b>antennes à trappes</b></i></u> <i>qui sont des antennes multibandes ont été</i> <i>recensées et seront étudiées dans la partie technique (voir §9.4 et suivants)</i>",
+"pg":31,
+"anchors":[
+"R-5.2k"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>l<span style=\"color:#800080\">.</span></b> <u><i><b>Réflecteurs paraboliques</b></i></u> <i>: certaines antennes, utilisées dans les très hautes fréquences (SHF et au-delà)</i> <i>emploient des réflecteurs paraboliques (ou paraboles) qui réfléchissent les ondes et concentrent les</i> <i>rayonnements sur un foyer, où est placée l'antenne (généralement un doublet). La distance entre le foyer et la</i> <i>parabole est appelée la focale (F). D étant le diamètre de la parabole, le rapport D/F détermine l'angle</i> <i>d'illumination de l'antenne située dans le foyer et la forme du réflecteur (plus ou moins concave).</i>",
+"pg":31,
+"anchors":[
+"R-5.2l"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-5.3) Lignes de transmission - voir aussi Technique § 10.1 à 10.4</b></u></span>",
+"pg":31,
+"align":"left",
+"anchors":[
+"R-5.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La <u><b>ligne de transmission</b></u>, qui peut être asymétrique (coaxial) ou symétrique (twin-lead ou « échelle à grenouille »), est un dispositif utilisé pour <u><b>transférer l'énergie</b></u> de l'émetteur vers l'antenne ou de l'antenne vers le récepteur. Le transfert d’énergie (ou de puissance) est maximal lorsque la valeur absolue de la résistance de charge (en Ω, ohms) d’un circuit est strictement égale à la valeur absolue de la résistance interne du générateur",
+"pg":31,
+"anchors":[
+"R-5.3a"
+]
+},
+{
+"t":"p",
+"html":"L’une des propriétés de la ligne de transmission est sa perte exprimée en décibels par mètre de longueur (dB/m). Cette perte est appelée <u><b>affaiblissement linéique</b></u> car elle est proportionnelle à la longueur du câble. L’affaiblissement est donné par le constructeur du câble pour une fréquence et augmente avec cette dernière.",
+"pg":31
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Soit un câble de 20 mètres ayant une perte de 0,1 dB/m, quel est l’affaiblissement de ce câble ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> perte dans le câble = longueur du câble x affaiblissement linéique = 20 m x 0,1 dB/m = <span style=\"color:#800000\">2 dB</span><p style=\"margin:0 0 0 1.4em\">Si ce morceau de câble alimente une antenne dont le gain est de 8 dBd (voir gain des antennes au §R-5.2g), le gain de l’ensemble sera de 6 dB (gain de l’antenne de 8 dB – perte dans le câble de 2 dB : 8 – 2 = 6) </p><p style=\"margin:0 0 0 1.4em\">Si cet ensemble (câble + antenne) est alimenté par une puissance de 50 W, la puissance apparente rayonnée de l’antenne sera de 200 W (6 dB correspondent à un rapport de 4, voir §R-5.1a : 50 x 4 = 200). Cette puissance ainsi déterminée est la PAR à déclarer dans le cadre du décret du 17/12/07 modifié. </p><p style=\"margin:0 0 0 1.4em\">Enfin, si le gain de l’antenne est exprimé en dB<sub>iso</sub> (et non pas en dB<sub>d</sub> comme dans l’exemple ci-dessus), le terme de puissance isotrope rayonnée équivalente (PIRE) est alors employé. </p><i>La question ne portera pas sur la puissance à la sortie du câble puisque -2 dB n’est pas un des 9 rapports en</i> <i>puissance à connaître mais pourra porter sur la PAR car le rapport correspondant à 6 dB doit être connu.</i>",
+"pg":31
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Quelle est la PIRE de cet ensemble ?<p style=\"margin:0 0 0 1.3em\"><span style=\"color:#800000\"><u>Réponse :</u></span> gain = -2dB + 12dB = +10 dB, soit un rapport de 10 donc PIRE = 50 Wx10=<span style=\"color:#800000\">500 W</span></p>",
+"pg":32
+},
+{
+"t":"fig",
+"id":"c032_1",
+"pg":32,
+"indent":215
+},
+{
+"t":"p",
+"html":"<u><b>L'impédance caractéristique</b></u> d’une ligne est fonction de ses dimensions et du matériau utilisé pour le diélectrique (isolant). L’impédance est notée Z, est donnée en Ω et n'a aucun rapport avec l’affaiblissement linéique. Si un signal provenant d’un générateur alternatif est appliqué à l’entrée d’une ligne de transmission, le même signal (même amplitude et même phase) se retrouvera sur sa sortie (pertes déduites) à condition que cette sortie soit bouclée sur une charge résistive ayant la même valeur que l’impédance caractéristique du câble.",
+"pg":32
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><b>TOS et désadaptation</b></u> : lorsque la ligne de transmission et la charge (l'antenne, par exemple) n’ont pas la même impédance, le transfert d’énergie n’est pas optimal : il apparaît des ondes stationnaires sur la ligne et une partie de l’énergie émise retourne à l’émetteur. Cette désadaptation se mesure par le <u><b>coefficient de réflexion</b></u>, noté ρ (rhô), qui est le rapport du courant (tension ou intensité) réfléchi divisé par le courant émis (ou courant incident), ces deux valeurs étant exprimées dans la même unité (volt ou ampère). <i>Si la mesure est exprimée en</i> <i>watts, le calcul fera intervenir une racine carrée (cette formule nécessite l’emploi d’une calculette).</i> Le <u><b>TOS</b></u> (Taux d’Ondes Stationnaire) est égal à 100 fois ρ <i>:</i>",
+"pg":32,
+"anchors":[
+"R-5.3b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>coefficent de réflexion (ρ) = U</b></span><span style=\"color:#000080\"><sub><b>réfléchie</b></sub></span> <span style=\"color:#000080\"><b>(V) / U</b></span><span style=\"color:#000080\"><sub><b>émise</b></sub></span> <span style=\"color:#000080\"><b>(V)</b></span> = I<sub>r</sub> (A) / I<sub>e</sub> (A) = <span style=\"color:#000080\"><i><b>√[P</b></i></span><span style=\"color:#000080\"><sub><i><b>r</b></i></sub></span> <span style=\"color:#000080\"><i><b>(W) / P</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span> <span style=\"color:#000080\"><i><b>(W)]</b></i></span> et <span style=\"color:#000080\"><b>TOS (%) = 100 x ρ</b></span>",
+"pg":32,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> à l’entrée d’un câble, on mesure une tension incidente de 20 V et une tension réfléchie de 5 V. Quel est le TOS présent dans le câble ? <i>Même question avec 20 W de puissance émise et 5 W de puissance réfléchie</i><br><span style=\"color:#800000\"><u>Réponses :</u></span> ρ = U<sub>réfléchie</sub>(V) / U<sub>émise (ou incidente)</sub>(V) = 5/20 = 0,25 ; TOS (%) = 100 x ρ = 100 x 0,25 = <span style=\"color:#800000\">25 %</span><p style=\"margin:0 0 0 4em\"><i>ρ =</i> <i>√[P</i><sub><i>r</i></sub> <i>(W) / P</i><sub><i>e</i></sub> <i>(W)] = √[5 / 20] = √[0,25] = 0,5 ; TOS (%) = 100 x ρ = 100 x 0,5 =</i> <span style=\"color:#800000\"><i>50 %</i></span></p>",
+"pg":32
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Cette désadaptation se mesure aussi par le <u>Rapport d'Ondes Stationnaires (</u><u><b>ROS</b></u><u>)</u>. Ce nombre est le rapport des impédances caractéristiques de la ligne (câble) et de la charge (antenne). Si ces deux impédances sont des résistances pures, le ROS est égal au rapport obtenu en divisant ces résistances (en Ω) calculé de telle manière que le rapport soit supérieur à 1, c’est-à-dire en mettant la valeur la plus forte au numérateur (en haut) :",
+"pg":32,
+"anchors":[
+"R-5.3c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>ROS = Z plus forte (Ω) / Z plus faible (Ω)</b></span>",
+"pg":32,
+"align":"left",
+"indent":139
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> soit une antenne de 100 Ω alimentée par un câble de 50 Ω d’impédance, quel ROS mesure-t-on ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> ROS = Z plus forte / Z plus faible = 100 / 50 = <span style=\"color:#800000\">2 / 1</span>",
+"pg":32
+},
+{
+"t":"p",
+"html":"<i>Dans le programme de l’examen, seul le ROS est cité. Cependant, notez des questions sont posées sur des</i> <i>calculs de TOS et de ROS et que la transformation ROS&gt;ρ (ou inversement) est complexe et ne peut être réalisée</i> <i>sans calculette. On verra au §10-3b6 que</i> <span style=\"color:#000080\"><i><b>ROS = (1+ρ)/(1-ρ)</b></i></span> <i>et que</i> <span style=\"color:#000080\"><i><b>ρ = (ROS-1)/(ROS+1)</b></i></span><i>. Les appareils de</i> <i>mesure indiquent rarement le TOS et il y a parfois confusion entre le TOS et le taux de puissance réfléchie qui se</i> <i>définit par la formule suivante :</i> <span style=\"color:#000080\"><i><b>(P</b></i></span><span style=\"color:#000080\"><sub><i><b>r</b></i></sub></span> <span style=\"color:#000080\"><i><b>/ P</b></i></span><span style=\"color:#000080\"><sub><i><b>e</b></i></sub></span><span style=\"color:#000080\"><i><b>) x 100</b></i></span>",
+"pg":32
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Pour adapter les impédances, une boîte de couplage (ou boîte d’accord) sera insérée entre l’émetteur et la</i> <i>ligne de transmission. Entre la ligne et l’antenne, un balun réalisera l’adaptation symétrique/asymétrique de la</i> <i>connexion et adaptera les impédances si son rapport est différent de 1/1. Pour adapter les impédances, une</i> <i>« ligne quart d’onde » réalisée à partir d’un morceau de ligne de transmission peut aussi être utilisée avec la</i> <i>formule :</i> <span style=\"color:#000080\"><i><b>Z</b></i></span><span style=\"color:#000080\"><sub><i><b>ligne</b></i></sub></span> <span style=\"color:#000080\"><i><b>= √ (Z</b></i></span><span style=\"color:#000080\"><sub><i><b>entrée</b></i></sub></span> <span style=\"color:#000080\"><i><b>x Z</b></i></span><span style=\"color:#000080\"><sub><i><b>sortie</b></i></sub></span><span style=\"color:#000080\"><i><b>)</b></i></span> <i>(voir §10-4a2, calcul difficile à effectuer sans calculette)</i>",
+"pg":32,
+"anchors":[
+"R-5.3d"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple :</b></i></u></span> <i>quelle est l’impédance de la ligne quart d’onde utilisée (Z</i><sub><i>ligne</i></sub><i>)?</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>Z</i><sub><i>ligne</i></sub> <i>= √ (Z</i><sub><i>entrée</i></sub> <i>x Z</i><sub><i>sortie</i></sub><i>) = √ (25 x 100) = √ (2500) =</i> <span style=\"color:#800000\"><i>50 Ω</i></span>",
+"pg":32
+},
+{
+"t":"fig",
+"id":"c032_2",
+"pg":32,
+"indent":318
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-5.4) Brouillage et protections des équipements électroniques - voir aussi Technique § 11.6</b></u></span>",
+"pg":32,
+"align":"left",
+"anchors":[
+"R-5.4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La directive européenne 2014/30/UE donne une définition de la Compatibilité ÉlectroMagnétique <u><b>(CEM)</b></u> : « aptitude d’équipements à fonctionner dans leur environnement électromagnétique de façon satisfaisante sans produire eux-mêmes de perturbations électromagnétiques intolérables pour d’autres équipements dans cet environnement. (…) Une perturbation électromagnétique peut être un bruit électromagnétique, un signal non désiré ou une modification du milieu de propagation lui-même. »",
+"pg":32,
+"anchors":[
+"R-5.4a"
+]
+},
+{
+"t":"p",
+"html":"En radio, la CEM est donc la faculté d'un émetteur de <u><b>ne pas perturber son environnement</b></u>, en particulier un récepteur, ou la faculté d'un récepteur de <u><b>ne pas être perturbé par un émetteur</b></u> ou son environnement. Un matériel électrique ou électromécanique ou électronique (et a fortiori radioélectrique) a un certain <u><b>niveau</b></u> <u><b>d'immunité</b></u>. Lorsque les perturbations dépassent ce niveau, son <u><b>seuil de susceptibilité</b></u> est atteint. Il faut alors prendre des mesures de <u><b>durcissement</b></u> pour atteindre un meilleur niveau d'immunité. On parle d'<u><b>émission</b></u> lorsqu'il s'agit du générateur de perturbations électromagnétiques et de <u><b>susceptibilité</b></u> lorsqu'il s'agit de matériel perturbé. Les installations radioamateurs sont souvent confrontées à ces problèmes vis à vis de leur voisinage. Une perturbation (émission ou susceptibilité) est <u><b>conduite</b></u> lorsqu'elle est véhiculée par l'intermédiaire des conducteurs (fils, câbles, pistes de circuits imprimés, ...). Une perturbation est <u><b>rayonnée</b></u> lorsqu'elle se propage dans l'espace environnant par un champ électromagnétique.",
+"pg":32
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le filtrage de l'alimentation secteur doit être particulièrement soigné afin de ne pas perturber les autres appareils susceptibles d'être brouillés. Mais le secteur n'est pas la seule cause de brouillage. Les <u><b>blindages</b></u>, en particulier ceux des étages de puissances, devront être efficaces. Le métal va jouer un rôle de réflecteur pour le champ électromagnétique de haute fréquence qui restera confiné dans les boîtiers métalliques. Des filtres passe-bas seront utilisés pour bloquer les <u><b>harmoniques indésirables</b></u> d’un émetteur et si, par exemple, des problèmes apparaissent lors de l’utilisation des VHF, un filtre passe-haut sera inséré dans la ligne coaxiale des téléviseurs pour prévenir les risques de perturbations. Un filtre passe-bande relié à la masse et dont la fréquence de résonance sera centrée sur la bande d’émission peut aussi être inséré dans la ligne de réception. A puissance égale, la FM provoque des perturbations moindres.",
+"pg":33,
+"anchors":[
+"R-5.4b"
+]
+},
+{
+"t":"p",
+"html":"Dans les montages réalisés par les radioamateurs, les <u><b>découplages</b></u> seront particulièrement soignés car ils préviennent la \"remontée\" de la H.F. (Haute Fréquence) par la ligne d'alimentation. Le passage des lignes de transmission aux aériens est souvent une source de brouillage quand ces lignes longent d'autres câbles (secteur, téléphone, TV, ...). Le défaut de masse de l'émetteur est quelquefois à l'origine des problèmes de brouillages.",
+"pg":33
+},
+{
+"t":"p",
+"html":"<u><b>Le brouillage peut provenir</b></u> soit de l'alimentation secteur, soit du circuit d'entrée dans le cas de récepteurs radioélectriques (T.V., Chaîne HI FI, ...), soit des circuits internes de l'appareil (étage de détection par exemple) par couplage ou rayonnement direct. A ce dernier stade, la susceptibilité sera d'autant plus difficile à être durcie.",
+"pg":33
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Un produit d'<u><b>intermodulation</b></u> est créé par un mélange de fréquences au niveau d'un étage (ou d'un composant) non linéaire aussi bien à la sortie d'un émetteur qu’à l'entrée d'un récepteur. Les mélanges correspondent à la somme et la différence des fréquences fondamentales et de leurs harmoniques. Soient A et B, deux fréquences présentes à l’entrée d’un étage défaillant ; en sortie, les fréquences [A + B] et [A – B] seront présentes mais aussi les harmoniques ([2 x A] et [2 x B]) et des mélanges complexes comme [(2 x B) – A] et [(2 x A) – B], appelés « produits du troisième ordre », d'autant plus difficile à éliminer que A et B seront des fréquences voisines.",
+"pg":33,
+"anchors":[
+"R-5.4c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Lorsqu’un signal de fréquence voisine à celle du signal que l’on veut recevoir est un signal puissant de forte amplitude, celui-ci va provoquer une surcharge de l’étage d’entrée du récepteur qui va alors manquer de linéarité (le signal à la sortie n’est plus proportionnel au signal d’entrée). Ce signal puissant, non désiré, va alors interférer avec le signal que l’on veut recevoir et moduler ce dernier. En conséquence, sera entendue non seulement la modulation du signal désiré mais également la nouvelle modulation : c’est l’effet de <u><b>transmodulation.</b></u>",
+"pg":33,
+"anchors":[
+"R-5.4d"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>R-5.5) Protection électrique - pas de référence à la partie Technique</b></u></span>",
+"pg":33,
+"align":"left",
+"anchors":[
+"R-5.5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La <u><b>protection des personnes</b></u> doit toujours être présente à l'esprit. La Haute Fréquence, en particulier dans la gamme des SHF et EHF, peut être dangereuse (ne jamais passer devant le champ d’une parabole lors d’émission). De même, les tensions présentes dans l'antenne pendant l'émission peuvent être importantes.",
+"pg":33,
+"anchors":[
+"R-5.5a"
+]
+},
+{
+"t":"p",
+"html":"La construction et l'entretien des aériens et de leurs supports (mâts et pylônes) respecteront toutes les règles de <u><b>sécurité</b></u> (baudrier ou harnais et longe(s) équipée(s) d’un mousqueton pour le grimpeur, port d’un casque pour les personnes se trouvant au pied des aériens, rubalise lorsque l’intervention empiète sur la voie publique, …).",
+"pg":33
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Le courant électrique continu (ou 50 Hz) est d’autant plus dangereux que la tension est élevée. Les normes de sécurité considèrent qu’en milieu sec, <u><b>une tension inférieure à 50 volts n’est pas dangereuse</b></u> (24 V en milieu humide ou à l’extérieur et 12 V en immersion). Pour les tensions supérieures, il faut prévoir des compartiments fermés et munis de systèmes de coupure de tension à l’ouverture afin d'éviter tous risques d'électrisation, en particulier sur les alimentations en <u><b>haute tension</b></u> nécessaires au fonctionnement des amplificateurs à tubes.",
+"pg":33,
+"anchors":[
+"R-5.5b"
+]
+},
+{
+"t":"p",
+"html":"La couleur de la gaine des fils permet de repérer la nature du courant 50 Hz : jaune-vert pour la terre (protection) ; bleu pour le neutre ; rouge, marron ou noir pour la phase (fil le plus dangereux). Les risques liés au courant électrique sont les <u><b>brûlures et l’électrisation</b></u> avec plusieurs niveaux : la contraction locale des muscles, la contraction des muscles respiratoires avec risque d’asphyxie, la fibrillation du cœur qui peut entraîner le décès par arrêt circulatoire (électrocution, <i>rappel de vocabulaire : vous ne pouvez pas dire « j’ai été électrocuté » car</i> <i>vous n’êtes pas décédé mais vous pouvez dire « j’ai été électrisé »)</i>. Ces risques apparaissent lorsqu’une personne est en contact direct avec le fil de phase et le fil de neutre, de terre ou le sol, ou que cette personne, tout en étant en contact avec le sol, touche la carrosserie métallique d’un appareil présentant un défaut d’isolation de son circuit électrique (contact indirect).",
+"pg":33
+},
+{
+"t":"p",
+"html":"Les <u><b>moyens de protection</b></u> sont la mise à la terre de toutes parties métalliques risquant d’être mise accidentellement à un potentiel dangereux. Il est interdit d’utiliser comme prise de terre les canalisations d’eau, de gaz ou de chauffage central. Au niveau de l’installation électrique, il est préférable d’utiliser des disjoncteurs différentiels (à la place de simples fusibles, même s’ils sont rapides).",
+"pg":33
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <u><b>La foudre</b></u> est une décharge électrique qui se produit lorsque de l’électricité statique s’accumule entre des nuages ou entre les nuages et le sol. Par temps orageux, une antenne peut accumuler des charges statiques et être le siège de courants induits lors de la production d’un éclair. La protection contre la foudre est aussi un élément à prendre en compte lors de l'installation d'antennes et, plus particulièrement, de pylônes. La foudre cherchant toujours à passer par le chemin le plus court et le plus droit, le câble coaxial sera disposé de manière à faire des coudes francs, ce qui réduira le risque de foudroiement. Lorsque le bâtiment sur lequel est installée l’antenne est pourvu d’un paratonnerre, un parafoudre relié au plus court à l’antenne pourra être monté. En cas d'orage, il est prudent de cesser d'émettre et de débrancher les câbles de l'installation pour éviter que l'antenne ne se transforme en paratonnerre, ce pour quoi elle n'est pas prévue, ni le pylône qui la soutient, ni le câble qui l’alimente.",
+"pg":33,
+"anchors":[
+"R-5.5c"
+]
+}
+]
+}

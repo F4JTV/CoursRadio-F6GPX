@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Cours Radioamateur
+GenericName=Amateur radio course
+GenericName[fr]=Cours de radioamateur
+Comment=Course for the French amateur radio operator certificate
+Comment[fr]=Préparation au certificat d'opérateur du service amateur
+Exec=coursradio
+Icon=coursradio
+Terminal=false
+Categories=Education;Science;HamRadio;
+Keywords=radio;amateur;ham;radioamateur;HAREC;course;
+StartupWMClass=coursradio

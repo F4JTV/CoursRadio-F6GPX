@@ -1,0 +1,556 @@
+{
+"id":"T-9",
+"title":"9) PROPAGATION et ANTENNES",
+"short":"9 Propagation et antennes",
+"blocks":[
+{
+"t":"section",
+"text":"Section C : Radioélectricité",
+"pg":78
+},
+{
+"t":"chapter",
+"html":"9) PROPAGATION et ANTENNES",
+"pg":78
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>9.1) Relation longueur d'onde/fréquence</b></u></span>",
+"pg":78,
+"align":"left",
+"anchors":[
+"T-9.1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> La longueur d’onde, d’une manière générale, se définit par les deux relations suivantes :",
+"pg":78,
+"align":"left",
+"anchors":[
+"T-9.1a"
+]
+},
+{
+"t":"p",
+"html":"longueur d’onde = <span style=\"color:#000080\"><b>λ(m) = v (m/s) / f (Hz)</b></span> et <span style=\"color:#000080\"><b>λ(m) = v (m/s) . t(s)</b></span>",
+"pg":78,
+"align":"left",
+"indent":82
+},
+{
+"t":"p",
+"html":"La longueur d'onde, notée λ (lettre grecque lambda minuscule), est la distance (en mètres) entre deux points identiques d'une onde (période) dans son milieu de propagation ; v est la vélocité de l’onde (en m/s), c’est-à-dire la vitesse de propagation de l’onde ; f est la fréquence (en Hz) et t est le temps que dure la période (en s). La longueur d’onde est directement fonction de la vélocité de l’onde dans son milieu de propagation.",
+"pg":78
+},
+{
+"t":"p",
+"html":"Les ondes radioélectriques se propagent dans le vide et dans l'air à la vitesse de la lumière (299 792 458 m/s, toujours arrondi à 300 000 km/s), on a la relation : λ(m) = 300 000 000 / f(Hz) ou λ(m) . f(Hz) = 300 000 000 m/s. Les formules ci-dessous sont le plus souvent utilisées avec le multiple MHz pour la fréquence et le mètre pour la longueur d’onde.",
+"pg":78
+},
+{
+"t":"fig",
+"id":"c078_2",
+"pg":78,
+"indent":114
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Quelle est la longueur d'onde d'une fréquence de 14,1 MHz ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> L(m) = 300 / 14,1 = <span style=\"color:#800000\">21,27 m</span>",
+"pg":78
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Quelle est la fréquence dont la longueur d'onde est de 3 cm ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 3 cm = 0,03 m ; f(MHz) = 300 / 0,03 = 10 000 MHz = <span style=\"color:#800000\">10 GHz</span>",
+"pg":78
+},
+{
+"t":"fig",
+"id":"c078_3",
+"pg":78,
+"indent":350
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><i>Lorsque les stations sont en mouvement</i></u> <i>l’une par rapport à l’autre (trafic via satellite), la vitesse de</i> <i>propagation est modifiée : si les stations se rapprochent très rapidement, la vélocité relative diminue, ce qui</i> <i>augmente artificiellement la fréquence de réception (</i><u><i>effet Doppler</i></u><i>). Et inversement lorsque les stations</i> <i>s’éloignent. Le même phénomène existe en acoustique : le bruit d’un véhicule est plus aigu s’il se rapproche.</i>",
+"pg":78,
+"anchors":[
+"T-9.1b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>9.2) Propagation</b></u></span> : Les ondes radioélectriques (ou ondes hertziennes, du nom de Heinrich Hertz qui les mit en évidence à la fin du XIX<sup>ème</sup> siècle) sont des champs électromagnétiques qui se propagent dans l'air ou le vide de la même manière que l'onde formée par un caillou jeté au milieu d'une mare : des ronds concentriques se déplacent à partir du centre à la vitesse de propagation de l’onde. La distance entre deux crêtes reste fixe et représente la longueur d’onde. Lorsque l'onde atteint un bord de la mare, elle se réfléchit et repart selon l'angle avec lequel elle a heurté le bord. Si on voit nettement l'onde se déplacer, l'eau (les électrons pour les ondes radio), en revanche, ne se déplace pas. Pour s'en convaincre, il suffit d'observer une feuille flottant sur l'eau qui va être ballottée au passage de l'onde créée par le caillou jeté mais qui ne sera pas emportée par l'onde.",
+"pg":78,
+"anchors":[
+"T-9.2",
+"T-9.2a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les ondes radioélectriques peuvent se propager de différentes façons :<br>- en <u><b>ondes de sol,</b></u> les ondes suivent le relief terrestre. Ce mode de propagation ne fonctionne que sur les fréquences basses (au-delà de 2 MHz, les ondes de sol sont fortement atténuées) ;",
+"pg":78,
+"anchors":[
+"T-9.2b"
+]
+},
+{
+"t":"fig",
+"id":"c078_1",
+"pg":78
+},
+{
+"t":"p",
+"html":"- en <u><b>ondes réfléchies,</b></u> une partie des ondes rebondissent sur les hautes couches de l'atmosphère, fortement ionisées (ionosphère, couches E et F) par le rayonnement solaire, redescendent sur la terre, d'où elles peuvent être renvoyées vers l'espace. Un bond ne peut dépasser 4.000 km du fait de la courbure de la terre et de l'altitude de réflexion. Sur son parcours, l’onde doit traverser la couche D de l’ionosphère qui atténue fortement les bandes basses (40 m et +). Ce mode de propagation est essentiellement lié aux ondes courtes (gamme HF).<br>- -en <u><b>ondes directes</b></u>, les antennes sont en vue l'une et l'autre. Ce mode de propagation fonctionne sur toutes les fréquences mais reste le mode de propagation privilégié des fréquences élevées (au-delà de 100 MHz).",
+"pg":78
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Dans le tableau ci-dessous, l’ensemble du spectre radioélectrique est représenté : les gammes d’ondes sont</i> <i>données (radiofréquences puis fréquences optiques et enfin rayonnements ionisants), ainsi que les longueurs</i> <i>d’onde (abréviation de l’adjectif qualificatif pour les radiofréquences) et les fréquences associées à ces gammes.</i> <i>Les modes de propagation des différentes gammes d’ondes sont indiqués dans la dernière ligne du tableau.</i>",
+"pg":79,
+"anchors":[
+"T-9.2c"
+]
+},
+{
+"t":"fig",
+"id":"c079_2",
+"pg":79
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>9.3) La propagation en ondes réfléchies</b></u></span> <b>(ou ondes d’espace) :</b> l’<u>ionosphère</u> est la zone la plus élevée de l'atmosphère terrestre. Elle se situe entre 50 et 650 km d'altitude. L'ionisation se produit lorsque l'énergie UV du soleil frappe des atomes ou des molécules gazeuses et génère le plasma constitué d’ions positifs et d’électrons libres. La recombinaison ion-électron est un processus plus lent que l'ionisation, si bien que l'ionisation augmente rapidement à l'aube, mais diminue moins rapidement au crépuscule. La densité du plasma augmente avec le rayonnement UV par paliers successifs en fonction de l’altitude, ce qui permet de diviser l’ionosphère en 3 régions (ou couches) : D (50 à 90 km), E (90 à 130 km) et F (130 à 650 km). A l’approche de la magnétosphère, la densité du plasma diminue. A chaque augmentation de densité du plasma et selon l’angle avec lequel l’onde traverse les couches, l’onde est réfractée (l’onde prend une direction plus perpendiculaire à la couche traversée) et peut, selon la densité du plasma et la fréquence, être réfléchie (l’onde retourne vers la terre).",
+"pg":79,
+"anchors":[
+"T-9.3",
+"T-9.3a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i>région D</i></u> <i>doit être traversée par les ondes pour atteindre les couches E et F et disparaît dès la tombée de la</i> <i>nuit. La région D est constituée de molécules d’oxygène et d’azote (O</i><sub><i>2</i></sub> <i>et N</i><sub><i>2</i></sub><i>). La densité du plasma (100</i> <i>électrons par cm</i><sup><i>3</i></sup><i>) est faible et provient de la photo-ionisation due au rayonnement X. Cette couche ne réfléchit</i> <i>pas les ondes mais elle atténue les signaux qui la traversent. Pour minimiser cette atténuation, en particulier sur</i> <i>les bandes basses (40 m et +), on utilise des antennes ayant un angle de radiation faible (on vise l'horizon).</i>",
+"pg":79,
+"anchors":[
+"T-9.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>L’ionisation de la</i> <u><i>région E</i></u> <i>est faible en milieu de journée et très faible la nuit. Toutefois, dans des conditions</i> <i>particulières liées à la présence d’ions métalliques, cette couche (appelée alors E sporadique) peut être plus</i> <i>fortement ionisée (jusqu'à 100.000 électrons libres par cm</i><sup><i>3</i></sup><i>). Dans ce cas, une seule réflexion est possible sauf</i> <i>lorsque cette ionisation est suffisamment répartie, ce qui est rare et impossible à prévoir.</i>",
+"pg":79,
+"anchors":[
+"T-9.3c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>La région la plus haute de la ionosphère, la</i> <u><i>couche F</i></u><i>, possède la densité d'électrons la plus élevée (jusqu’à 1</i> <i>million d’électrons par cm</i><sup><i>3</i></sup> <i>dans la journée) et est constituée d’oxygène atomique (O) photo-ionisé par les</i> <i>rayonnements UV du soleil. La partie basse de</i> <i>la région F (entre 130 à 200 km d’altitude) est</i> <i>appelée zone F1 tandis que le reste est appelé</i> <i>F2. L’altitude de cette dernière couche est</i> <i>variable (de 300 km en hiver jusqu’à 650 km</i> <i>en été). Des réflexions multiples sur cette</i> <i>couche permettent de \"faire le tour de la terre\"</i> <i>en faisant plusieurs \"bonds\". Pendant la nuit,</i> <i>les couches F1 et F2 fusionnent en une seule</i> <i>couche F vers 250 km d’altitude. A l’approche</i> <i>de la magnétosphère, la densité en électrons</i> <i>libres diminue. La densité en électrons libres</i> <i>par cm</i><sup><i>3</i></sup><i>, est variable selon l'altitude des</i> <i>couches ionosphériques et selon la période de</i> <i>la journée (jour ou nuit). La saison (durée du jour), l’activité solaire et l’activité magnétique terrestre modifient</i> <i>significativement ces densités et, par conséquence, la capacité de réflexion de la couche F.</i>",
+"pg":79,
+"anchors":[
+"T-9.3d"
+]
+},
+{
+"t":"fig",
+"id":"c079_1",
+"pg":79
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><i>Un circuit</i></u> <i>est le parcours de l'onde d'un point à un autre. Les conditions de propagation varient tout au long</i> <i>de ce parcours. Le lieu de réflexion de l'onde sur la Terre est primordial : l'atténuation est minimale sur la mer</i> <i>(0,3 dB) mais devient critique sur terre (7 dB sur un champ, plus de 10 dB en zone urbaine). Les conditions</i> <i>météorologiques du lieu de réflexion sur la Terre ont une incidence non négligeable sur la propagation.</i>",
+"pg":79,
+"anchors":[
+"T-9.3e"
+]
+},
+{
+"t":"p",
+"html":"<i>Plus la fréquence croît et plus l’angle de radiation à partir de l’antenne est élevé, plus l'onde a de chances de</i> <i>traverser les couches sans être réfléchie, elle n’est que réfractée et se perd alors dans l'espace.</i> <u><i>La fréquence</i></u> <u><i>maximum utilisable (FMU)</i></u> <i>est la fréquence pour laquelle une onde sera propagée d'un point à l'autre de la</i> <i>terre par réflexion sur les couches E ou F avec l'angle de départ le plus proche de l'horizon.</i>",
+"pg":79
+},
+{
+"t":"p",
+"html":"<i>Les signaux se dirigeant vers les couches F doivent traverser la couche D, dont l'absorption augmente quand la</i> <i>fréquence diminue. Mais la couche E est aussi capable de réfléchir les ondes radio. Si la FMU de la couche E</i> <i>est trop haute, les signaux vers ou venant de la couche F seront stoppés. La limite plancher de la fréquence</i> <i>utilisable est appelée</i> <u><i>Fréquence Minimum Utilisable (LUF)</i></u> <i>pour la couche D et</i> <u><i>Fréquence de coupure de la</i></u> <u><i>couche E (ECOF)</i></u><i>. On doit donc utiliser pour un circuit une fréquence comprise entre d’une part la FMU et</i> <i>d’autre part la plus élevée des deux fréquences suivantes : ECOF (limites de la réfraction ionosphérique) ou</i> <i>LUF (atténuation maximale tolérable). Mais il se peut, à certaines heures de la journée, que ECOF ou LUF soit</i> <i>supérieure à FMU. La liaison, dans ce cas, a peu de chances d'être réalisable.</i>",
+"pg":80
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <i>Les calculs de</i> <u><i>prévision de propagation</i></u> <i>(détermination de FMU, LUF et ECOF) tiennent compte de l’activité</i> <i>solaire et sont donnés pour une date et une heure (éclairement de la Terre par le Soleil). Ces calculs sont basés</i> <i>en règle générale sur une puissance de 100 W dans un dipôle orienté dans la direction du correspondant</i> <i>potentiel. La fréquence optimum de travail (FOT) correspond à 80% de la FMU.</i>",
+"pg":80,
+"anchors":[
+"T-9.3f"
+]
+},
+{
+"t":"p",
+"html":"<i>En règle générale, sur les bandes décamétriques, un contact avec un parcours de jour est plus facilement</i> <i>réalisable sur une bande qu’un contact avec un parcours de nuit sur cette même bande. Ceci implique, pour les</i> <i>européens, que les contacts lointains vers l’Est (Asie) se font de préférence le matin et les contacts vers l’Ouest</i> <i>(Amériques) se font plus facilement en fin de journée, le soleil éclairant la fin du parcours de l’onde. De plus, les</i> <i>bandes basses restent plus longtemps « ouvertes » que les bandes hautes une fois que le soleil ne les ionise plus.</i>",
+"pg":80
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <i>L’</i><u><i>activité solaire</i></u> <i>est mesurée par deux indices fortement corrélés, Fs et R. Fs (ou φ, lettre grecque minuscule</i> <i>phi) est le flux solaire et est mesuré par le bruit solaire sur 2,8 GHz en W/Hz/m². Fs a une valeur comprise entre</i> <i>60 et 300. L’indice R (ou nombre de Wolf) exprime le nombre relatif de taches solaires observées (les taches les</i> <i>plus grosses ont une valeur plus forte, IR5 est la moyenne des indices R des cinq derniers mois). L’indice R a</i> <i>une valeur comprise entre 0 et 200. Plus les indices Fs et R sont élevés, plus forte est l’activité solaire. Les</i> <i>cycles de l’activité solaire durent en moyenne 11 ans et sont numérotés depuis 1755. Le cycle en cours (n°25) a</i> <i>débuté au printemps 2020 et ses premières années sont meilleures que le cycle précédent qui a eu l’activité la</i> <i>plus faible depuis 100 ans (R maximum en 2014 = 114 et R = 0 pendant plus de 100 jours fin 2019).</i> <i>Les</i> <u><i>éruptions solaires</i></u> <i>(générant les tâches) sont imprévisibles et provoquent instantanément une augmentation des</i> <i>rayons X et UV avec un effet significatif sur l’ionosphère.</i>",
+"pg":80,
+"anchors":[
+"T-9.3g"
+]
+},
+{
+"t":"p",
+"html":"<i>L</i><u><i>’activité magnétique terrestre</i></u> <i>influe sur la propagation car la magnétosphère est voisine de l’ionosphère. Cette</i> <i>activité est mesurée par les indices K et A. L’indice K (de 0 à 9) est fonction de l’intensité du champ magnétique</i> <i>(mesuré en nT, nanoteslas) pour une latitude donnée. L’indice A reflète l’activité géomagnétique issue des gaz</i> <i>ionisés chauds et magnétisés amenés par le vent solaire (particules éjectées du soleil lors des éruptions). Ces</i> <i>particules arrivent sur Terre en 2 ou 3 jours et le champ magnétique de la Terre les empêche de pénétrer sauf</i> <i>aux pôles créant des orages géomagnétiques (et des aurores boréales), ce qui nuit à la propagation des ondes</i> <i>car elles sont atténuées, notamment par la couche D.</i>",
+"pg":80
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> <u><i>Les ondes de sol</i></u><i>, appelées aussi ondes de surface, se propagent en restant très près de la surface de la Terre.</i> <i>Elles y subissent très vite une forte absorption et ce, d'autant plus que leur fréquence est élevée. Bien entendu, le</i> <i>profil du relief entre l'antenne d'émission et celle de réception est déterminant. Dans les bandes LF et VLF (300</i> <i>kHz et en dessous), les ondes se propagent à l’intérieur d’un guide d’ondes dont les parois sont la surface</i> <i>terrestre et la couche D de l’ionosphère. Les espérances de distances de propagation en fonction de la fréquence</i> <i>sont les suivantes : 300 kHz : 2.000 km ; 4 MHz : 100 km ; 10 MHz : 50 km. Mais la conductivité du sol a aussi</i> <i>une grande importance. Ainsi, pour un trajet maritime pour lequel la conductivité de la mer est très élevée, il est</i> <i>possible, à 2 MHz, d'obtenir une portée supérieure à 500 kilomètres. On voit le peu d'efficacité de l'onde de sol</i> <i>sur les fréquences décamétriques et au-delà.</i>",
+"pg":80,
+"anchors":[
+"T-9.3h"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>i<span style=\"color:#800080\">.</span></b> <u><i>En ondes directes</i></u><i>, les antennes sont en vue l’une de l’autre. Toutefois, pour les fréquences les plus basses</i> <i>(jusqu’aux UHF), lorsque les ondes rencontrent un obstacle, il se produit un phénomène de diffraction qui</i> <i>permet à l’onde de suivre le relief terrestre, comme le font les ondes de sol, mais à un moindre degré : l’obstacle</i> <i>que forme une montagne par exemple apportera une atténuation importante si la fréquence est élevée.</i>",
+"pg":80,
+"anchors":[
+"T-9.3i"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>j<span style=\"color:#800080\">.</span></b> <i>D'</i><u><i>autres modes de propagation</i></u> <i>existent mais seuls les radioamateurs les utilisent car ils sont peu fiables ou</i> <i>nécessitent des puissances élevées. Ce sont, entre autres, les diffusions troposphériques, les « Duct » (sorte de</i> <i>guide d'ondes), les réflexions sur les traînées ionisées de météorites, sur la Lune (Moon Bounce), sur les nuages</i> <i>de pluie (rain scatting) ou lors des aurores boréales. Ces modes sont utilisés essentiellement en VHF et UHF.</i>",
+"pg":80,
+"anchors":[
+"T-9.3j"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>9.4)</b></u></span> Une <span style=\"color:#800080;font-size:1.20em\"><u><b>antenne</b></u></span> est un dispositif assurant la liaison entre le milieu de propagation (l’espace libre) où les ondes sont des champs électromagnétiques et une structure dans laquelle les ondes circulent sous forme de courant électrique (en général, la ligne de transmission). Un tel dispositif s’appelle aussi « transducteur ». Une antenne est un dispositif passif, donc réciproque : ses caractéristiques en émission et en réception sont identiques.",
+"pg":80,
+"anchors":[
+"T-9.4",
+"T-9.4a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Lorsqu’un courant continu (noté I) circule dans un conducteur, une excitation magnétique (champ magnétique noté H) apparaît. Ce champ est perpendiculaire au conducteur et est tangent aux lignes de force du champ qui entourent le fil (règle des trois doigts ou du tire- bouchon). Ce champ magnétostatique et son sens seront mesurés grâce à un aimant ou une boussole (expérience d’Oersted). Lorsque le courant devient alternatif, les lignes du champ magnétique changent de sens au rythme du courant. Le conducteur rayonne un champ magnétique alternatif mais aussi un champ électrique alternatif parallèle au conducteur et de même sens que le courant qui l’a produit. Ce champ électromagnétique, même s’il est faible, peut être détecté très loin, contrairement au champ magnétique du courant continu.",
+"pg":80,
+"anchors":[
+"T-9.4b"
+]
+},
+{
+"t":"fig",
+"id":"c080_1",
+"pg":80
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> L’antenne de base est l'antenne <span style=\"font-size:1.20em\"><u><b>doublet demi-onde</b></u></span> <span style=\"font-size:1.20em\"><u><b>alimentée au centre</b></u></span> (appelée aussi <u><b>dipôle</b></u>). Elle est constituée de <u><b>deux quarts d’onde</b></u> généralement alignés. A chaque extrémité du doublet demi-onde, l'intensité est nulle tandis que la tension est maximum. En revanche, au centre du doublet, l'intensité est maximum et la tension est au plus faible. A cet endroit, l'impédance (rapport U/I) est donc faible. De plus, la tension est déphasée de 90° par rapport à l'intensité.",
+"pg":81,
+"anchors":[
+"T-9.4c"
+]
+},
+{
+"t":"fig",
+"id":"c081_2",
+"pg":81,
+"indent":248
+},
+{
+"t":"fig",
+"id":"c081_3",
+"pg":81,
+"indent":28
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> quelle est la longueur d'un doublet accordé sur 3,6 MHz ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> L(m) = 150 / 3,6 = <span style=\"color:#800000\">41,66 m</span>",
+"pg":81
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>La longueur totale d'un doublet dépend du matériau utilisé et du rapport diamètre/longueur du brin</i> <i>rayonnant. Les capacités de l’antenne par rapport au sol ont aussi une influence sur la longueur totale du</i> <i>doublet. En pratique, les brins auront une longueur 5% plus courte que la dimension théorique.</i>",
+"pg":81,
+"anchors":[
+"T-9.4d"
+]
+},
+{
+"t":"p",
+"html":"L'impédance au centre du doublet varie en fonction de l'angle que forment les brins : s'ils sont alignés (angle de 180°), l'impédance est de 73 Ω ; s'ils forment un angle de 120°, l'impédance est de 52 Ω. D'autres facteurs influent sur l'impédance, comme l'environnement immédiat de l'antenne (bâtiment, arbres,...) ou le sol (proximité et qualité : un bon sol (gras et humide) aura une résistivité de l’ordre de 50 Ωm mais la résistivité pourra atteindre 500 Ωm pour les terrains arables maigres et les remblais, voire 3000 Ωm pour les sols pierreux et secs)",
+"pg":81
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>9.5) L'antenne quart d'onde verticale</b></u></span><u></u> : L'antenne verticale (appelée aussi Ground Plane, GP) nécessite une terre ou une <u><b>masse</b></u> (piquet planté dans un sol conducteur ou carrosserie d’un véhicule) afin de reconstituer électriquement le deuxième brin de l'antenne. Le <u><b>plan de sol</b></u> remplace la masse et est constitué de <u><b>radiants</b></u> disposés à la base de l’antenne. La longueur des radiants est souvent de λ/4, leur nombre est d’au moins 3 pour reconstituer efficacement la terre. Si le plan de sol ou la masse est perpendiculaire au quart d’onde, formant ainsi un angle de 90°, l’impédance de l’antenne est de 36 Ω (voir ci- dessus l’impédance du doublet). Si les radiants forment un angle de 120° par rapport au fouet (le quart d’onde), l’impédance au point d’alimentation devient 52 Ω. La longueur théorique du brin quart d'onde est :",
+"pg":81,
+"anchors":[
+"T-9.5",
+"T-9.5a"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#000080\"><b>L(m)</b></span> <span style=\"color:#000080\">= λ(m) / 4 = 300 / [4.f(MHz)]</span> <span style=\"color:#000080\"><b>= 75 / f(MHz)</b></span>",
+"pg":81,
+"align":"left",
+"indent":59
+},
+{
+"t":"fig",
+"id":"c081_4",
+"pg":81,
+"indent":330
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> quelle est la longueur d'un quart d'onde accordé sur 21,2 MHz ? <span style=\"color:#800000\"><u>Réponse</u></span> <span style=\"color:#800000\">:</span> L(m) = 75 / 21,2 = <span style=\"color:#800000\">3,538 m</span>",
+"pg":81,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>En pratique, comme pour le doublet, le brin aura une longueur 5% plus courte que la dimension théorique.</i> <i>Un brin beaucoup plus court que le quart d'onde peut être utilisé, il faut dans ce cas rallonger artificiellement</i> <i>l'antenne grâce à un bobinage positionné habituellement à la base du brin rayonnant ou au milieu de celui-ci.</i> <i>Un conducteur fixé au sommet (capacité terminale) peut aussi être utilisé. Le quart d'onde ainsi raccourci</i> <i>aura une impédance plus faible à sa résonance (voir diagramme de Smith au §9.10e).</i>",
+"pg":81,
+"anchors":[
+"T-9.5b"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>9.6) Antenne Yagi ou Beam</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> l'antenne doublet demi-onde est l'antenne de base. Son diagramme de rayonnement ressemble à un tore rond traversé par le brin de l'antenne. Le rayonnement est maximum perpendiculairement aux brins. Il est nul dans le prolongement des brins. Si les deux brins ne sont pas alignés ou si le sol est trop près de l'antenne, le diagramme de rayonnement se déforme. En ajoutant des éléments parasites près du dipôle, plusieurs lobes apparaissent dans le diagramme. Selon la position de ces éléments, un lobe principal est créé, ce qui concentre l'énergie dans une direction. Les <u><b>éléments directeurs</b></u> sont plus courts que le dipôle, les <u><b>éléments réflecteurs</b></u> sont plus longs.<br>Lorsque le nombre d'éléments augmente sur ce type d'antenne, l’impédance du dipôle diminue et le gain de l’antenne (son effet directif) augmente. Le gain obtenu par ce système dépend à la fois du nombre d’éléments et de l’écartement entre les éléments.",
+"pg":81,
+"anchors":[
+"T-9.6"
+]
+},
+{
+"t":"fig",
+"id":"c081_1",
+"pg":81,
+"indent":281
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>9.7) Le gain d'une antenne</b></u></span> se mesure dans la direction maximum de rayonnement. Le gain se calcule en dB par rapport à l'antenne doublet (dB<sub>d</sub>) ou encore par rapport à <u><b>l'antenne isotropique</b></u> (dB<sub>iso</sub>). Celle-ci est une antenne idéale : un point qui rayonne et dont le diagramme de rayonnement est une sphère. Isotropique qualifie un corps (pas obligatoirement une antenne) ayant des propriétés physiques uniformes dans toutes les directions.",
+"pg":81,
+"anchors":[
+"T-9.7",
+"T-9.7a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les lobes de rayonnement se dessinent dans le plan vertical (on fait une « coupe » selon l’axe du rayonnement maximum) ou horizontal (comme si on était au-dessus de l’antenne). Les diagrammes de rayonnement se représentent aussi par des volumes. Les volumes de chacun des diagrammes de rayonnement représentés ci- dessous doivent être égaux car le volume représente la puissance émise qui est répartie différemment selon le type d’antennes. Dans les diagrammes, le plan de sol, les éléments parasites et le sol sont représentés en gris.",
+"pg":82,
+"anchors":[
+"T-9.7b"
+]
+},
+{
+"t":"fig",
+"id":"c082_2",
+"pg":82
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Les diagrammes sont issus de mesures du rayonnement de l’antenne. Cette mesure ne doit pas être effectuée</i> <i>dans la zone de champ proche (</i><u><i>zone de Rayleigh</i></u><i>, à moins d’une demi longueur d’onde). Tout obstacle (y</i> <i>compris le sol) à proximité de l’antenne (à moins de 3 longueurs d’onde de distance) amènera des déformations</i> <i>dans les diagrammes : en espace libre, le diagramme d’un doublet ressemble à un tore rond dont le centre est</i> <i>très fin alors qu’à λ/2 du sol, le diagramme prendra la forme d’une banane....</i>",
+"pg":82,
+"anchors":[
+"T-9.7c"
+]
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>9.8) Puissance apparente rayonnée</b></u></span> (P.A.R. ou ERP en anglais). La directivité d’une antenne se mesure en décibels ou par son coefficient de directivité (décibels transformés en rapport de puissance par rapport à l’antenne de référence). La PAR est la puissance d'alimentation de l'antenne multipliée son coefficient de directivité par rapport au doublet (dB<sub>d</sub> transformés en rapport). Cette puissance correspond à la puissance qu'il faudrait appliquer à un doublet demi-onde pour avoir la même puissance rayonnée dans la direction la plus favorable de l'antenne. La <u><b>puissance isotrope rayonnée équivalente</b></u> (PIRE ou EIRP en anglais) prend pour référence l'antenne isotropique. L’antenne doublet a un gain de 2,14 dB par rapport à l’antenne isotrope, <i>soit un</i> <i>coefficient complémentaire de 1,64 (= 1 + 2/π). On a donc :</i> <span style=\"color:#000080\"><i><b>PIRE = PAR + 2,14 dB</b></i></span> <i>= PAR x 1,64</i>.",
+"pg":82,
+"anchors":[
+"T-9.8"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> quelle est la P.A.R. d'un émetteur de 100 W utilisant une antenne de 13 dB<sub>d</sub> ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 13 dB = Rapport arithmétique de 20 (voir § 4.1b) ; 100 W x 20 = <span style=\"color:#800000\">2000 W P.A.R</span>., en supposant des pertes nulles dans le système d'alimentation de l'antenne (coaxial, prises, ...)",
+"pg":82
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>9.9) L'angle d'ouverture</b></u></span> d'une antenne est l’écart d'angle entre les directions pour lesquelles la puissance rayonnée est la moitié<br>(–3 dB) de la puissance rayonnée dans la direction la plus favorable. <u><b>Le gain avant /</b></u> <u><b>arrière</b></u> est le rapport, transformé en dB, obtenu en divisant la puissance rayonnée dans la direction la plus favorable par la puissance rayonnée dans la direction opposée à 180°. Concrètement, pour mesurer l’angle d’ouverture d’une antenne, on se cale en réception sur une station dont on mesure le signal au S-mètre. Puis on fait tourner l’antenne jusqu’à ce que le signal diminue de moitié (½ point S-mètre). On note l’angle d’azimut. Puis on fait tourner l’antenne en sens contraire jusqu’à obtenir la même puissance de signal. L’angle d’ouverture est l’écart entre les deux angles d’azimut.",
+"pg":82,
+"anchors":[
+"T-9.9"
+]
+},
+{
+"t":"fig",
+"id":"c082_1",
+"pg":82,
+"indent":143
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080\"><u><b>9.10) Compléments sur les antennes :</b></u></span>",
+"pg":82,
+"align":"left",
+"anchors":[
+"T-9.10"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <i>La</i> <u><i><b>densité de puissance</b></i></u> <i>d’une émission à distance (Pd) suit la formule suivante :</i> <span style=\"color:#000080\"><i><b>Pd (W/m²) = PIRE/4πd²</b></i></span> <i>où</i> <i>d est la distance en mètres entre l’antenne et le point de mesure dans la direction du rayonnement maximum de</i> <i>l’antenne et en espace libre (4πd² est la surface d’une sphère de rayon d). Une fois que l’onde est formée (c’est-</i><i>à-dire à plus de dix longueurs d’onde de l’antenne), la valeur du champ électrique généré par l’antenne (E) ne</i> <i>dépend que de la densité de puissance. Nous verrons au §10.4a4 que l’impédance du vide est égale à 120π</i> <i>(377 Ω). Puisque U=√(P.R), E = √(120π . Pd) = √(120π . PIRE/4πd²), donc :</i> <span style=\"color:#000080\"><i><b>E(V/m)=√[30 . PIRE (W)] / d (m)</b></i></span><i>.</i> <i>ou, en puissance PAR : E (V/m) = √[30 . 1,64 x PAR] / d = √[49,2 x PAR] / d ≈ 7 x √[PAR (W)] / d (m).</i>",
+"pg":82,
+"anchors":[
+"T-9.10a"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i>Exemple :</i></u></span> <i>soit une puissance de 120 W PIRE émise par une antenne, quel est le champ électrique à 100 mètres ?</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>E (V/m) = [30 x PIRE (W)] / d (m) = √ [30 x 120] / 100 = 60/100 =</i> <span style=\"color:#800000\"><i>0,6 V/m</i></span> <i>(dans la direction du</i> <i>rayonnement maximum de l’antenne et sans obstacle). Pour une distance de 10 km entre l’antenne d’émission et</i> <i>le point de mesure, la valeur du champ électrique sera 100 fois moindre, soit 6 mV/m.</i>",
+"pg":82
+},
+{
+"t":"p",
+"html":"<i>La</i> <u><i><b>formule de Friis</b></i></u> <i>détermine la puissance reçue (Pr) qui est fonction de la densité de puissance reçue et de la</i> <u><i><b>surface effective</b></i></u> <i>(S) de l’antenne (G en rapport</i><sub><i>iso</i></sub> <i>et λ en mètres) :</i> <span style=\"color:#002060\"><i><b>S(m²) = G x (λ² / 4π)</b></i></span> <i>et</i> <span style=\"color:#002060\"><i><b>Pr = Pd . S</b></i></span>",
+"pg":82
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i>Exemple :</i></u></span> <i>soit 120 W PIRE sur 144 MHz, quelle est la puissance reçue à 10 km aux bornes d’une antenne de 6 dB</i><sub><i>i</i></sub> <i>?</i><br><span style=\"color:#800000\"><u><i>Réponse :</i></u></span> <i>Pd (W/m²) = PIRE/4πd² = 120 / [4π x (10</i><sup><i>4</i></sup><i>)²] = 9,55 x 10</i><sup><i>-8</i></sup> <i>= 95 nW ; S = G x (λ² / 4π) = 4 x (2,08² / 4π)</i> <i>= 1,38 (6 dB</i><sub><i>i</i></sub> <i>correspond à un rapport</i><sub><i>iso</i></sub> <i>de 4 et λ = 2,08) ; Pr = Pd . S = 95 nW x 1,38 =</i> <span style=\"color:#800000\"><i>132 nW</i></span> <i>(sans obstacle</i> <i>sur le parcours). Aux bornes d’une antenne de 50 Ω, la tension sera : √[132 nW x 50 Ω) = 2,57 mV</i>",
+"pg":83
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <u><b>Position des ventres de tension et d'intensité</b></u> : un ventre est l'endroit de l'antenne où la mesure (tension ou intensité) est maximum ; un nœud est l'endroit de l'antenne où la mesure est la plus faible, voire nulle. A chaque extrémité d'une antenne ouverte (dipôle par exemple), il y a un nœud d'intensité (I = 0) car il ne peut y avoir de courant dans un fil qui se termine par un isolant (air ou vide). Plus exactement, à l'extrémité du brin, le courant fait demi-tour ; ainsi, il y a autant d'intensité dans un sens que dans l'autre, on a donc l'illusion qu'il n'y a pas de courant. Par contre la tension est maximum en ce point (ventre de tension) car en faisant demi-tour, la valeur de la tension ne change pas, les tensions s'additionnent donc. La vitesse de propagation des ondes fait changer les valeurs tous les quarts d'onde. Ainsi en mesurant un quart d'onde électrique (en prenant en compte le coefficient de raccourcissement évoqué au §9.4d) à partir de l'extrémité du brin, il y a un ventre d'intensité et un nœud de tension. Les tensions et intensités reprennent les valeurs constatées à l'extrémité du brin toutes les demi-ondes.",
+"pg":83,
+"anchors":[
+"T-9.10b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <u><b>Ventre d'intensité et lobes de rayonnement</b></u> : à chaque nœud d'intensité correspond un lobe de rayonnement car un lobe est issu du champ électromagnétique composé d’un champ électrique, lui-même issu d’un courant électrique. Un maximum de courant correspond à un maximum de champ électromagnétique rayonné. Selon la forme de l'antenne, les lobes de rayonnement se superposent ou s'annulent, donnant de la directivité à l'antenne.",
+"pg":83,
+"anchors":[
+"T-9.10c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <u><b>Polarisations</b></u> : les ondes radio sont des champs électromagnétiques composés d’un champ électrique (noté E) et d’un champ magnétique (noté H) qui lui est perpendiculaire. Ces deux champs sont eux-mêmes perpendiculaires à l’axe de direction du champ électromagnétique (vecteur de Poynting). Le champ électrique est issu du courant présent dans le brin rayonnant de l’antenne. La direction de ce champ dépend donc de la position du brin rayonnant de l’antenne. Si le brin est vertical, comme dans le cas du quart d’onde, l’onde aura une <u><b>polarisation verticale</b></u>. Si le brin rayonnant est horizontal, comme dans le cas du doublet demi-onde, la <u><b>polarisation</b></u> de l’onde est <u><b>horizontale</b></u>. A la réception, le brin de l’antenne reçoit la composante électrique du champ électromagnétique de l’onde. Certaines configurations d'antennes (antenne hélice, couplage d’antennes croisées) permettent des <u><b>polarisations circulaires</b></u> (rotation Droite ou Gauche). En polarisation circulaire, lorsqu’on émet en rotation Droite (rotation sens horaire, la plus utilisée), on reçoit en rotation Droite. En VHF et au-delà, la polarisation des antennes joue un rôle important dans la faisabilité d'une liaison. La réception en une autre polarisation que l’onde à recevoir peut conduire à des atténuations jusqu’à 20 dB. En décamétrique, la polarisation n’est pas critique car les ondes réfléchies, en rebondissant, voient leur polarisation changer et devenir circulaire ou oblique. Pour que les ondes de sol soient correctement propagées (bandes LF et en-dessous), la polarisation doit être verticale.",
+"pg":83,
+"anchors":[
+"T-9.10d"
+]
+},
+{
+"t":"fig",
+"id":"c083_2",
+"pg":83
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> <u><i><b>Impédance d’un « long fil »</b></i></u> <i>: les valeurs de l’impédance du doublet demi-onde et du quart d’onde ont été</i> <i>vues plus haut. Dans tous les cas, l’impédance de l’élément rayonnant dépend de sa forme et de son</i> <i>environnement. L’impédance d’un fouet vertical (avec radiants à 90°</i> <i>ou plan de masse) peut être estimée grâce au diagramme de Smith</i> <i>représenté ci-contre. Un brin rayonnant d’une longueur d’une demi-</i> <i>onde aura une impédance de l’ordre de 750 Ω purs (et 600 Ω pour</i> <i>une onde entière). Pour une longueur de λ/4, l’impédance est de</i> <i>l’ordre de 36 Ω purs et un peu plus élevée pour</i> <sup><i>3</i></sup><i>/</i><sub><i>4</i></sub><i>λ. Pour une</i> <i>longueur inférieure à λ/4, la capacitance du fouet augmente mais sa</i> <i>résistance diminue moins vite (si bien que l’impédance totale</i> <i>augmente). Lorsque la fréquence d’émission est inférieure à la</i> <i>fréquence de résonance de l’antenne, celle-ci sera trop courte et son</i> <i>impédance sera équivalente à une résistance en série avec un</i> <i>condensateur. En dehors des longueurs multiples du quart d’onde, le</i> <i>brin rayonnant pourra avoir une forte réactance inductive ou</i> <i>capacitive et la place des différentes longueurs du fouet sur le</i> <i>diagramme n’est pas linéaire : 3/8λ est beaucoup</i> <i>plus proche de λ/4 que de λ/2 (l’échelle des longueurs est plus dilatée vers la droite du diagramme).</i>",
+"pg":83,
+"anchors":[
+"T-9.10e"
+]
+},
+{
+"t":"fig",
+"id":"c083_1",
+"pg":83,
+"indent":290
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <u><b>Rendement d’une antenne</b></u><u></u> : comme toute charge, une antenne a un rendement. Celui-ci est le rapport de la puissance émise par l’antenne par rapport à la puissance appliquée à celle-ci. En appliquant la loi d’Ohm, le rendement, exprimé en %, est aussi le rapport obtenu en divisant l’impédance de rayonnement (ce qui est émis par l’antenne) par l’impédance totale de l’antenne (ce qui est vu par la ligne de transmission).",
+"pg":83,
+"anchors":[
+"T-9.10f"
+]
+},
+{
+"t":"p",
+"html":"<i>Si un quart d’onde dont le plan de sol est perpendiculaire au brin rayonnant a une impédance de 50 Ω purs</i> <i>(sans réactance), on supposera que l’impédance de rayonnement est de 36 Ω sans réactance (impédance du</i> <i>quart d’onde à la résonance), car mesurer cette impédance est complexe, et que, par différence, les pertes sont</i> <i>de 14 Ω purs, d’où un rendement de 36/50 = 72% puisque la puissance rayonnée et la puissance perdue dans</i> <i>les pertes sont proportionnelles aux impédances (supposées pures, sans réactances). En supprimant ces pertes</i> <i>(en supposant qu’on les ait identifiées et qu’on puisse y remédier), le ROS sera de 1,4/1 sans perte de puissance</i> <i>(voir régime établi au §10.3b5). Conclusion : une mauvaise adaptation vaut mieux qu’un mauvais rendement.</i>",
+"pg":84
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <u><b>Multi-doublet et doublet avec trappes</b></u> : une antenne doublet ne peut fonctionner que sur une fréquence (ou une bande) ; en reliant plusieurs dipôles par leur centre, un multi-doublet est obtenu. Celui-ci fonctionne sur autant de fréquences qu’il y a de doublets accordés. Pour éviter de multiplier le nombre de doublets, ce qui nécessite une mise au point délicate, des <u><b>trappes</b></u> (circuits bouchons) sont utilisées. Elles sont calculées pour bloquer les ondes les plus courtes et modifient la longueur théorique des brins. Ces deux techniques peuvent être combinées comme ci-contre.",
+"pg":84,
+"anchors":[
+"T-9.10g"
+]
+},
+{
+"t":"fig",
+"id":"c084_1",
+"pg":84,
+"indent":208
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> <u><b>Couplages d'antennes</b></u> : lorsque deux antennes sont couplées, leurs lobes de rayonnement se superposent et leurs coefficients de directivité s’additionnent sous réserve que les antennes aient la même impédance. Encore faut-il respecter certaines distances entre les antennes et alimenter celles-ci correctement (en impédance et en phase), ce qui n’est pas évident à réaliser, notamment d’un point de vue mécanique (les antennes devront être parfaitement parralèles entre elles). Ainsi deux antennes identiques couplées idéalement auront un <u><b>gain</b></u> supplémentaire de 3 dB par rapport à une seule antenne (la PAR est doublée). Quatre antennes auront un gain de 6 dB au maximum. Plus simplement, si des antennes identiques sont couplées idéalement, la PAR de l’ensemble est égal à la PAR d’une seule antenne multiplié par le nombre d’antennes couplées. Les antennes étant montées en parallèle, la ligne de transmission « verra » une <u><b>impédance</b></u> égale à l’impédance d’une antenne divisée par le nombre d’antennes couplées. Un système d’adaptation d’impédance (balun, ligne quart d’onde) sera donc nécessaire.",
+"pg":84,
+"anchors":[
+"T-9.10h"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> quelle est la P.A.R. d'un émetteur de 100 W utilisant 4 antennes couplées de 13 dB<sub>d</sub> ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> 4 antennes couplées = gain supplémentaire de 6 dB (le rapport de 4 correspond à 6 dB) ; gain de l’ensemble = gain d’une antenne + gain du couplage = 13 + 6 = 19 dB = Rapport arithmétique de 80 (voir §4.1b) ; 100 W x 80 = <span style=\"color:#800000\">8.000 W PAR</span>, soit 4 fois plus qu’en utilisant une seule antenne comme dans l’exemple du §9.8.",
+"pg":84
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>i<span style=\"color:#800080\">.</span></b> <u><b>Antennes ouvertes et antennes fermées</b></u> : une antenne est <u><b>ouverte</b></u> lorsque son brin rayonnant est libre aux deux extrémités. (Exemple : quart d'onde, long-fil, sloper, dipôle, Yagi, Levy, hélice, log-périodiques). Une antenne est <u><b>fermée</b></u> lorsque le brin rayonnant forme une boucle. (Exemples : trombone, loop, quad). Dans ces cas, la longueur de l’antenne est proche d’un multiple de la longueur d’onde. L’impédance d’un trombone est proche de 300 Ω et celle d’une quad (carré dont le côté mesure un quart d’onde) est proche de 200 Ω. Une delta-loop (en forme de triangle) alimentée à un angle aura une impédance d’environ 150 Ω. Dans les antennes fermées, les nœuds et les ventres d’intensité et de tension ne sont plus déphasés de 90° comme dans les antennes ouvertes mais restent en phase sur toute la longueur du fil. En pratique, la longueur de ces antennes doit être allongée de 5% environ pour être en résonance.",
+"pg":84,
+"anchors":[
+"T-9.10i"
+]
+},
+{
+"t":"fig",
+"id":"c084_2",
+"pg":84
+},
+{
+"t":"p",
+"html":"Les antennes, que l’on pense fermées mais dont la circonférence est beaucoup plus courte qu’une longueur d’onde, sont des <u><b>antennes magnétiques</b></u> (exemple : boucle inductive, cadre) : l’antenne émet (et reçoit) non pas la composante électrique de l’onde mais sa composante magnétique. L’antenne est constituée d’une bobine couplée à l’alimentation et d’un condensateur. Le rendement de ces antennes magnétiques est souvent faible.",
+"pg":84
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>j<span style=\"color:#800080\">.</span></b> Certaines antennes, utilisées en SHF, emploient des <u><b>réflecteurs</b></u> <u><b>paraboliques</b></u> (ou paraboles) qui réfléchissent les ondes et les concentrent sur un <u><b>foyer</b></u>, où est placée l'antenne (souvent un doublet appelé source même s’il ne sert qu’en réception). La distance entre le foyer et la parabole est appelée la focale (F). D étant le diamètre du réflecteur, le rapport D/F détermine l'angle d'illumination de l'antenne située dans le foyer<br><i>[=2 . arcsin(D/2F)]</i> et la forme de la parabole (plus ou moins concave : si<br>D/F &gt; 1, la parabole aura la forme d’un bol ; sinon elle sera plate, comme celles pour la réception de télévision). <i>Le rapport λ/D détermine la résolution angulaire R (ou angle d’ouverture</i> <i>de l’antenne, voir §9.9, en degrés) :</i> <span style=\"color:#000080\"><i><b>R (°) ≈ 70</b></i></span> <span style=\"color:#000080\">λ</span><span style=\"color:#000080\"><i><b>/D</b></i></span> <i>(à ne pas confondre avec l’angle d’illumination de la</i> <i>source). Le gain est donné par la formule :</i> <span style=\"color:#000080\"><i><b>G (dB) = 10 log (k . [</b></i></span><span style=\"color:#000080\">π</span> <span style=\"color:#000080\"><i><b>. D /</b></i></span> <span style=\"color:#000080\">λ</span><span style=\"color:#000080\"><i><b>]²)</b></i></span> <i>où k est le coefficient d’illumination</i> <i>de la source ou par la formule simplifiée :</i> <span style=\"color:#000080\"><i><b>G (rapport) = 10 . k . (D/</b></i></span><span style=\"color:#000080\">λ</span><span style=\"color:#000080\"><i><b>)²</b></i></span> <i>. Avec un foyer décalé qui ne masque pas</i> <i>la parabole, on peut obtenir k = 0,6 en dirigeant le rayonnement de la source vers toute la surface du réflecteur.</i>",
+"pg":84,
+"anchors":[
+"T-9.10j"
+]
+},
+{
+"t":"fig",
+"id":"c084_4",
+"pg":84,
+"indent":310
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>k<span style=\"color:#800080\">.</span></b> <i>Une</i> <u><i><b>antenne patch</b></i></u> <i>est une structure résonnante en surface constituée d’un</i> <i>rectangle conducteur monté sur un plan de masse séparé d’un diélectrique</i> <i>(substrat), ε étant la permittivité relative du diélectrique (voir §2.3c4). Pour les</i> <i>longueurs, il faudra tenir compte de la vélocité (1/√ε, voir §10.2b). Le diagramme de</i> <i>rayonnement est presque hémisphérique au dessus de la surface du patch.</i>",
+"pg":84,
+"indent":99,
+"anchors":[
+"T-9.10k"
+]
+},
+{
+"t":"fig",
+"id":"c084_3",
+"pg":84
+}
+]
+}

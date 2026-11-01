@@ -1,0 +1,282 @@
+{
+"id":"T-8",
+"title":"8) AMPLIFICATEURS OPÉRATIONNELS et CIRCUITS LOGIQUES",
+"short":"8 Amplis op. et logique",
+"blocks":[
+{
+"t":"chapter",
+"html":"8) AMPLIFICATEURS OPÉRATIONNELS et CIRCUITS LOGIQUES",
+"pg":75
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>8.1)</b></u></span> <span style=\"font-size:1.20em\">Les</span> <span style=\"color:#800080;font-size:1.20em\"><u><b>Amplificateurs Opérationnels</b></u></span>, ou \"Ampli Op\", sont des amplificateurs linéaires et se représentent sous forme de triangle dont la pointe est la sortie. Ce sont des circuits intégrés où, parfois, deux ou plusieurs amplificateurs opérationnels cohabitent dans le même composant. Un amplificateur opérationnel possède deux entrées : une normale (+) et une inverseuse (–) et une sortie différentielle (δ, lettre grecque delta minuscule signifiant « variation » en mathématique).",
+"pg":75,
+"anchors":[
+"T-8.1",
+"T-8.1a"
+]
+},
+{
+"t":"fig",
+"id":"c075_1",
+"pg":75
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les amplificateurs opérationnels ont une <u><b>impédance</b></u> <u><b>d'entrée infinie</b></u> : aucun courant ne circule dans les entrées. L’impédance de sortie, théoriquement nulle, est très faible. Le <u><b>gain en tension</b></u> (noté G) <u><b>est infini</b></u> : la moindre différence de potentiel entre les deux entrées fait basculer la tension de sortie vers la valeur + ou – de l’alimentation (ou les tensions d’offset). Si la tension présente sur l’entrée – est inférieure à celle présente sur l’entrée +, la sortie sera au reliée à Alim + (ou Offset +). Dans le cas contraire, la sortie sera reliée à Alim –.",
+"pg":75,
+"anchors":[
+"T-8.1b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>8.2)</b></u></span> <span style=\"font-size:1.20em\">Le</span> <span style=\"color:#800080;font-size:1.20em\"><u><b>montage fondamental</b></u></span> est représenté ci-dessous. Le signal est appliqué à l’entrée inverseuse. Le montage fait appel à une contre-réaction grâce à la résistance R2. La tension au point N est stabilisée par rapport à la tension au point P. L’alimentation du circuit n’est pas représentée, comme c’est souvent le cas dans les schémas.",
+"pg":75,
+"anchors":[
+"T-8.2",
+"T-8.2a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Lorsque la tension du signal d’entrée U<sub>E</sub> est positive, la tension U<sub>N</sub> est aussi positive et est supérieure à U<sub>P</sub> (= 0 V). U<sub>N</sub> étant appliqué à l’entrée négative de l’amplificateur opérationnel, la sortie sera reliée au – de l’alimentation. Cette tension négative en S va, par la contre-réaction de R2, diminué la tension en U<sub>N</sub> et lorsque U<sub>N</sub> atteindra une valeur inférieure à U<sub>P</sub>, la sortie basculera vers le + de l’alimentation du circuit, ce qui, par la contre-réaction de<br>R2, fera augmenter U<sub>N</sub>. Le système se stabilisera autour de la tension U<sub>P</sub> avec U<sub>P</sub> = U<sub>N</sub> = 0 V (masse ou tension de référence). Ce montage ne fonctionne que si l’amplificateur opérationnel est alimenté en + et en – (par exemple en +5 V et en –5 V). En alimentant l’amplificateur opérationnel « classiquement » entre une tension de 12 volts et la masse, la tension de référence (au point P) ne sera plus 0 V mais une tension intermédiaire (5 V par exemple) générée par un pont de résistances.",
+"pg":75,
+"anchors":[
+"T-8.2b"
+]
+},
+{
+"t":"fig",
+"id":"c075_2",
+"pg":75
+},
+{
+"t":"p",
+"html":"Dans la résistance d’entrée R1, située entre E et N, on a I<sub>R1</sub> = U<sub>E</sub> / R1 puisque U<sub>N</sub> = 0. L'impédance d'entrée de l’amplificateur opérationnel est infinie (I<sub>e-</sub> = 0), donc I<sub>R1</sub> = I<sub>R2</sub>. La sortie S du montage sera à la tension U<sub>R2</sub> = U<sub>E</sub> x (– R2 / R1) = U<sub>S</sub>. Le gain en tension est donc négatif et est égal à : <span style=\"color:#000080\"><b>G = – (R2 / R1)</b></span>. Il n'y a pas de gain en intensité (I<sub>E</sub> = I<sub>R1</sub> = I<sub>R2</sub> = I<sub>S</sub>). On pourra aussi utiliser les triangles ci-dessous comme pour la loi d’Ohm. Cependant, il faut faire attention au signe négatif de la résistance R2 (contre-réaction) dans les triangles avec R. Le gain est ici un coefficient multiplicateur avec inversion de phase et ne doit pas être exprimé en dB.",
+"pg":75
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Quel est le gain de ce montage ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> gain = – R2 / R1<p style=\"margin:0 0 0 4em\"> = – 25k / 5000 </p><p style=\"margin:0 0 0 4em\"> = – 25000 / 5000 </p><p style=\"margin:0 0 0 4em\"> = <span style=\"color:#800000\">– 5</span></p>",
+"pg":75
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Un amplificateur opérationnel est monté en inverseur. Le gain du montage est de –3 avec une résistance à l'entrée (R1) de 10 000 ohms. Quelle est la valeur de la résistance de contre- réaction (R2) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> R2 = – (G x R1) = – [( –3) x 10 000] = 3 x 10 000 = <span style=\"color:#800000\">30 kΩ</span>",
+"pg":75
+},
+{
+"t":"ex",
+"html":"<b>3)</b> Quelle est la tension de sortie ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> gain = – R2 / R1 = – 500 / 100 = – 5 Tension de sortie = tension d’entrée x gain<p style=\"margin:0 0 0 4em\">= – 0,5 V x (– 5) = + 2,5 V </p><p style=\"margin:0 0 0 3.2em\">ou U<sub>S</sub> = – U<sub>E</sub> x (R2 / R1) </p><p style=\"margin:0 0 0 4em\">= – [(– 0,5 V) x (500 / 100)] = <span style=\"color:#800000\">+ 2,5 V</span></p>",
+"pg":75
+},
+{
+"t":"fig",
+"id":"c075_3",
+"pg":75,
+"indent":242
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><i><b>8.3) Autres montages</b></i></u></span> <span style=\"color:#800080\"><u><i><b>:</b></i></u></span> <i>quelques exemples ci-dessous mais seul le montage du §8.2b est au programme de</i> <i>l’examen. Toutefois, quelques questions ont été recensées sur le montage non inverseur dont le gain est :</i> <span style=\"color:#000080\"><i><b>G = (R2 / R1) + 1</b></i></span> <i>(ou encore G = (R2 + R1) / R1 qui donne le même résultat).</i>",
+"pg":76,
+"anchors":[
+"T-8.3"
+]
+},
+{
+"t":"fig",
+"id":"c076_3",
+"pg":76
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>8.4) Circuits logiques</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> les portes ET, OU, NON ET, et OU EXCLUSIF sont des circuits logiques. Ces circuits sont omniprésents dans les transceivers modernes car ils contrôlent les logiques de commandes et d’affichage. La logique de ces circuits et de leurs combinaisons fait appel à <u><b>l’algèbre de Boole</b></u>. A l’examen, une seule question sur ces circuits a été recensée à ce jour bien que les « circuits numériques simples » soient au programme.",
+"pg":76,
+"anchors":[
+"T-8.4",
+"T-8.4a"
+]
+},
+{
+"t":"fig",
+"id":"c076_4",
+"pg":76
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> Les circuits logiques sont des opérateurs binaires : ils ne connaissent que deux positions : 0 ou 1. Les <u><b>niveaux</b></u> <u><b>logiques</b></u> sont à 1 pour une tension proche de 5 V et à 0 pour 0 V (logique TTL).",
+"pg":76,
+"anchors":[
+"T-8.4a1"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> La sortie d'une <u><b>porte ET</b></u> (bord gauche droit et bord droit arrondi ou simplement notée &amp;) est à 1 quand les deux entrées A et B sont à 1. La logique de cette porte correspond à la multiplication en algèbre booléenne.",
+"pg":76,
+"anchors":[
+"T-8.4a2"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a3<span style=\"color:#800080\">.</span></b> La sortie d'une <u><b>porte OU</b></u> (bord gauche arrondi et bout pointu ou simplement notée ≥1) est à 1 si une entrée est au niveau 1. La logique de cette porte correspond à l’addition en algèbre booléenne.",
+"pg":76,
+"anchors":[
+"T-8.4a3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a4<span style=\"color:#800080\">.</span></b> Une <u><b>porte NON</b></u> (différenciée par un rond) a sa logique inversée. Toute position à 1 est transformée en position à 0 et inversement. De même, la logique de la porte d’entrée est inversée si un rond se trouve devant celle-ci. La logique de cette porte correspond au complément en algèbre booléenne (trait au-dessus de la valeur).",
+"pg":76,
+"anchors":[
+"T-8.4a4"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a5<span style=\"color:#800080\">.</span></b> La sortie d'une <u><b>porte OU EXCLUSIF</b></u> (bord gauche double arrondi et bout pointu ou simplement noté =1) est à 1 si une et une seule entrée est à 1. En algèbre booléenne, l’opération est représentée par le signe ⊕.",
+"pg":76,
+"anchors":[
+"T-8.4a5"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les circuits logiques peuvent avoir plus de 2 entrées. La logique reste la même mais il faut relier les entrées non utilisées au 0 ou au 1 selon la logique que l’on veut obtenir en sortie. Comme pour les amplificateurs opérationnels, plusieurs circuits logiques ayant une alimentation commune cohabitent dans le même boîtier.",
+"pg":76,
+"anchors":[
+"T-8.4b"
+]
+},
+{
+"t":"p",
+"html":"<i>Les tables de vérités, (ou tables de Carnot) peuvent aussi se présenter sous forme de tableau</i> <i>cartésien (tableau à double entrée). Dans ce cas, les valeurs des entrées se trouvent en haut</i> <i>et à gauche du tableau. La valeur de la cellule au croisement de deux entrées est la valeur</i> <i>de la sortie. La table de vérité ci-contre est celle d’une porte Non Ou (NOR en anglais).</i>",
+"pg":76
+},
+{
+"t":"fig",
+"id":"c076_1",
+"pg":76,
+"indent":382
+},
+{
+"t":"fig",
+"id":"c076_2",
+"pg":76
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>La logique TTL fonctionne avec des tensions 0 V et</i> <i>5 V. Mais lorsque la tension n’atteint pas ces valeurs</i> <i>extrêmes ou lorsque la tension passe de 0 à 5 V (ou</i> <i>l'inverse), le circuit logique auto-oscille. L'endroit,</i> <i>mal défini, entre le 0 et le 1 est dû à l'</i><u><i>hystérésis</i></u><i>. Le</i> <i>trigger de Schmitt est conçu spécialement pour éviter</i> <i>ce problème : la tension de transition de l'état 0 à 1</i> <i>est supérieure à la tension de transition de 1 à 0. Ce</i> <i>montage peut être intégré à tous les circuits logiques.</i><br>Du fait de leur instabilité, les triggers de Schmitt peuvent être montés en oscillateurs (générateurs de signaux carrés) grâce à un condensateur (C) contrôlé par une résistance (R) en contre-réaction.",
+"pg":76,
+"anchors":[
+"T-8.4c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>Le montage ci-dessous (appelé bascule R/S : R = Reset = Remise à Zéro ; S = Set = Positionner à 1) recopie</i> <i>et mémorise la dernière valeur de E1 ou de E2 sur la sortie S1 ou S2 dont les valeurs sont complémentaires. Ce</i> <i>circuit est remplacé dans les mémoires de stockage actuelles par un condensateur (servant de mémoire) couplé à</i> <i>un transistor MOS-FET qui est passant lorsque la tension présente sur le condensateur est positive.</i>",
+"pg":77,
+"anchors":[
+"T-8.4d"
+]
+},
+{
+"t":"fig",
+"id":"c077_2",
+"pg":77
+},
+{
+"t":"p",
+"html":"<i>Bascule R/S NAND : E1 est à 0 (interrupteur fermé) ; si A est à 0, alors S1 est à 1 et E2 est à 1 (grâce à R), B</i> <i>aussi (=S1); S2 est à 0, A est donc bien à 0 et S1 reste à 1 (même si E1 n'est plus à 0). Si A est à 1, E1 étant à 0,</i> <i>S1 est toujours à 1, donc la valeur en A n’influence pas le système. Si E2 passe à 0, S2 passe à 1 et S1 à 0.</i>",
+"pg":77
+},
+{
+"t":"p",
+"html":"<i>Bascule R/S NOR : même fonctionnement qu’une bascule R/S NAND mais les valeurs 0 et 1 sont inversées.</i>",
+"pg":77,
+"align":"left"
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>8.5) Système binaire et traitement numérique du signal :</b></u></span> <i>le système binaire repose sur les</i> <u><i>bits</i></u> <i>(BInary</i> <i>digiT, chiffre binaire en anglais) qui ne peuvent prendre que deux valeurs : 0 ou 1 (</i><u><i>base 2</i></u><i>). En revanche, en</i> <i>système</i> <u><i>décimal (base 10)</i></u><i>, 10 symboles (0 à 9) sont disponibles. Pour coder un nombre supérieur à 9, on utilise</i> <i>les dizaines puis les centaines. En binaire, c’est identique : après 0, on a 1, puis on a 10, puis 11, puis 100, etc.</i>",
+"pg":77,
+"anchors":[
+"T-8.5",
+"T-8.5a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Pour simplifier le binaire, un codage sur 8 bits (</i><u><i>octet</i></u><i>) est utilisé. 1 ko (kilo-octet) comporte 1024 (=2</i><sup><i>10</i></sup><i>) octets</i> <i>et 1 Mo (mégaoctet) comporte 1024 ko. Chaque octet est composé de 2 demi-octets codés en</i> <u><i>hexadécimal (base</i></u> <u><i>16)</i></u><i>. Les valeurs 10 à 15, inconnues dans le système décimal, sont codées A à F selon la table ci-dessous.</i>",
+"pg":77,
+"anchors":[
+"T-8.5b"
+]
+},
+{
+"t":"fig",
+"id":"c077_1",
+"pg":77,
+"min":8.0
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Pour codifier une émission transmettant des données, la lettre D sera donnée en 3</i><sup><i>ème</i></sup> <i>caractère (voir §R-1.2a).</i> <i>Le système de correction (</i><u><i>CRC</i></u><i>, contrôle de redondance cyclique) vérifiera que tous les bits ont été reçus</i> <i>correctement. Dans une liaison bilatérale, la station recevant les données pourra demander la retransmission</i> <i>des données défectueuses (</i><u><i>ARQ</i></u><i>). Lorsque plusieurs stations reçoivent les données sans émettre, des bits de</i> <i>contrôle seront ajoutés permettant la correction automatique des erreurs (</i><u><i>FEC</i></u><i>) par les stations réceptrices.</i>",
+"pg":77,
+"anchors":[
+"T-8.5c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Un <u>convertisseur analogique numérique</u> (CAN ou ADC en anglais) prélève un <u>échantillon</u> de la tension d’un signal à intervale fixe (durée d’échantillonnage). La <u>quantification</u> est la résolution de l’échantillon (nombre de valeurs possibles du signal). La <u>fréquence de Nyquist</u> est la fréquence maximum de conversion et est égale à la moitié de la fréquence d’échantillonnage (F<sub>ech</sub>). Un <u>alias</u> est un signal converti issu de fréquences supérieures à la fréquence de Nyquist (insérer un filtre passe-bas avant le CAN pour l’éliminer) Un <u>convertisseur</u> <u>numérique analogique</u> (CNA) convertit un nombre en tension.",
+"pg":77,
+"anchors":[
+"T-8.5d"
+]
+},
+{
+"t":"fig",
+"id":"c077_3",
+"pg":77,
+"indent":268
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Au § 2.1c, nous avons vu que n’importe quelle fonction périodique est la somme de fonctions sinusoïdales dont les fréquences sont multiples de la période. La <u>Transformée Normale de Fourier</u> (Discrete Fourier Transform, DFT) convertit un nombre fixe d’échantillons (<i>12</i> <i>dans le schéma ci-dessus</i>) en coefficient multiplicateur des fréquences harmoniques du signal de base (<u>convolution</u>). La <u>Transformée Rapide de Fourier</u> (Fast Fourier Transform FFT), utilisée dans les cartes-son, accélère le traitement en réduisant les calculs mais on perd en finesse et le nombre d’échantillons à traiter doit être une puissance de 2 <i>(256, 1024, 8192, …).</i> Une autre solution pour accéler le traitement consiste en l’emploi de deux séries d’échantillons déphasées de 90° (convertisseur I/Q, voir aussi §11.2g)",
+"pg":77,
+"anchors":[
+"T-8.5e"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Moins gourmands en temps de calcul, les <u>filtres numériques</u> sont réalisés à partir d’un micro-contrôleur entouré d’un CAN en entrée et d’un CNA en sortie. On trouve des FIR (Réponse Impulsionnelle Finie) et IIR (Réponse Impulsionnelle Infinie). Un <u>filtre FIR</u> imite la réponse en fonction du temps d’un filtre (<i>RC, LC, …</i>) à partir de la réponse du filtre à une impulsion isolée en entrée (avec des piles de mémoires servant de retardateur). La réponse du filtre FIR est finie car l’influence du signal d’entrée s’arrête lorsque tous les retardateurs ont été activés.",
+"pg":77,
+"anchors":[
+"T-8.5f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> Un <u>filtre à ondes de surface</u> <i>(SAW, Surface Acoustic Waves)</i> est un filtre mécanique imitant un filtre pour une fréquence définie <i>(quelques dizaines de MHz)</i>. Le signal d’entrée est converti en ondes mécaniques par un cristal piézoélectrique <i>(voir §7.5b sur les caractéristiques du quartz)</i>. Les ondes sont affaiblies et retardées lors de leur propagation dans le cristal avec les mêmes coefficients et retards qu’un filtre FIR puis sont recombinées en sortie pour générer le signal filtré. Un circulateur HF <i>(voir §3.7c)</i> est un type de filtre passe-bande à ondes de surface.",
+"pg":77,
+"anchors":[
+"T-8.5g"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>h<span style=\"color:#800080\">.</span></b> Un filtre FIR a des limites : un filtre actif avec contre-réaction (comme l’intégrateur présenté au §8.3) ne peut être imité. On a alors recours au <u>filtre IIR</u> dont la rétroaction vient corriger sur chaque retardateur le résultat du FIR à partir duquel il est construit (via un algorithme nécessairement plus complexe). La réponse du filtre IIR est infinie car, en théorie, la rétroaction perdure indéfiniment avec le risque d’auto-osciller.",
+"pg":77,
+"anchors":[
+"T-8.5h"
+]
+}
+]
+}

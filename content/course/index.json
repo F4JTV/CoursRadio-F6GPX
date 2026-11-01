@@ -1,0 +1,2837 @@
+{
+ "parts": [
+  {
+   "id": "intro",
+   "title": "Introduction",
+   "chapters": [
+    {
+     "id": "intro",
+     "title": "INTRODUCTION",
+     "short": "Introduction",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "I-1",
+       "title": "Intro - 1) Il n’existe plus qu’un seul certificat d’opérateur"
+      },
+      {
+       "anchor": "I-2",
+       "title": "Intro - 2) Les deux parties de l'examen sont indépendantes"
+      },
+      {
+       "anchor": "I-3",
+       "title": "Intro - 3) L’examen"
+      },
+      {
+       "anchor": "I-4",
+       "title": "Intro - 4) Stratégie pour passer le certificat d’opérateur"
+      },
+      {
+       "anchor": "I-5",
+       "title": "Intro - 5) Modalités pratiques de l’examen"
+      },
+      {
+       "anchor": "I-6",
+       "title": "Intro - 6) Présentation du cours"
+      },
+      {
+       "anchor": "I-7",
+       "title": "Intro - 7) Conseils aux formateurs et aux candidats se préparant seuls"
+      },
+      {
+       "anchor": "I-8",
+       "title": "Intro – 8) Plan du cours"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R",
+   "title": "Première partie – Épreuve de Réglementation",
+   "chapters": [
+    {
+     "id": "R-1",
+     "title": "1) CLASSES D'ÉMISSION et CONDITIONS TECHNIQUES",
+     "short": "R-1 Classes d’émission",
+     "group": "Section A : Réglementation",
+     "sections": [
+      {
+       "anchor": "R-1.1",
+       "title": "R-1.1) Environnement réglementaire"
+      },
+      {
+       "anchor": "R-1.2",
+       "title": "R-1.2) Les classes d'émission"
+      },
+      {
+       "anchor": "R-1.3",
+       "title": "R-1.3) Conditions techniques"
+      }
+     ]
+    },
+    {
+     "id": "R-2",
+     "title": "2) FRÉQUENCES et PUISSANCES AUTORISÉES",
+     "short": "R-2 Fréquences et puissances",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "R-2.1",
+       "title": "R-2.1) Fréquences attribuées"
+      },
+      {
+       "anchor": "R-2.2",
+       "title": "R-2.2) Puissances et classes d’émission autorisées"
+      }
+     ]
+    },
+    {
+     "id": "R-3",
+     "title": "3) ALPHABET INTERNATIONAL et CODE Q",
+     "short": "R-3 Alphabet et code Q",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "R-3.1",
+       "title": "R-3.1) Table d'épellation international"
+      },
+      {
+       "anchor": "R-3.2",
+       "title": "R-3.2) Abréviations en code Q"
+      },
+      {
+       "anchor": "R-3.3",
+       "title": "R-3.3) Déroulement d'un contact"
+      },
+      {
+       "anchor": "R-3.4",
+       "title": "R-3.4) Teneur des messages"
+      }
+     ]
+    },
+    {
+     "id": "R-4",
+     "title": "4) CONDITIONS D'EXPLOITATION et INDICATIFS D’APPEL",
+     "short": "R-4 Exploitation et indicatifs",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "R-4.1",
+       "title": "R-4.1) journal de bord"
+      },
+      {
+       "anchor": "R-4.2",
+       "title": "R-4.2) L’exploitation d’une station"
+      },
+      {
+       "anchor": "R-4.3",
+       "title": "R-4.3) Les installations de radio-club"
+      },
+      {
+       "anchor": "R-4.4",
+       "title": "R-4.4) Sanctions"
+      },
+      {
+       "anchor": "R-4.5",
+       "title": "R-4.5) Les modalités de l’examen"
+      },
+      {
+       "anchor": "R-4.6",
+       "title": "R-4.6) Formation des indicatifs d’appel"
+      },
+      {
+       "anchor": "R-4.7",
+       "title": "R-4.7) Utilisation de l’autorisation d’émettre dans les pays de la CEPT"
+      }
+     ]
+    },
+    {
+     "id": "R-5",
+     "title": "Section B et 5) Connaissances techniques de base",
+     "short": "R-5 Connaissances techniques",
+     "group": "Section B : Connaissances techniques de base",
+     "sections": [
+      {
+       "anchor": "R-5.1",
+       "title": "R-5.1) Puissances, rapports de puissance et décibels (dB) - voir aussi Technique § 4.1"
+      },
+      {
+       "anchor": "R-5.2",
+       "title": "R-5.2) Types et caractéristiques des antennes - voir aussi Technique § 9.1 et 9.4 à 9.10"
+      },
+      {
+       "anchor": "R-5.3",
+       "title": "R-5.3) Lignes de transmission - voir aussi Technique § 10.1 à 10.4"
+      },
+      {
+       "anchor": "R-5.4",
+       "title": "R-5.4) Brouillage et protections des équipements électroniques - voir aussi Technique § 11.6"
+      },
+      {
+       "anchor": "R-5.5",
+       "title": "R-5.5) Protection électrique - pas de référence à la partie Technique"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T",
+   "title": "Deuxième partie – Épreuve de Technique",
+   "chapters": [
+    {
+     "id": "T-0",
+     "title": "0) RAPPELS de MATHÉMATIQUES et d’ALGÈBRE",
+     "short": "0 Rappels de mathématiques",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-0.1",
+       "title": "0.1) Transformation d'équation"
+      },
+      {
+       "anchor": "T-0.2",
+       "title": "0.2) Puissances de 10, multiples et sous-multiples"
+      },
+      {
+       "anchor": "T-0.3",
+       "title": "0.3) Utilisation d’une calculette"
+      }
+     ]
+    },
+    {
+     "id": "T-1",
+     "title": "1) LOIS d’OHM et de JOULE",
+     "short": "1 Lois d’Ohm et de Joule",
+     "group": "Section A : Bases d’électricité et composants passifs",
+     "sections": [
+      {
+       "anchor": "T-1.1",
+       "title": "1.1) Les bases de l'électricité"
+      },
+      {
+       "anchor": "T-1.2",
+       "title": "1.2) Lois d'Ohm (U = R . I) et de Joule (P = U . I)"
+      },
+      {
+       "anchor": "T-1.3",
+       "title": "1.3) Autres unités"
+      },
+      {
+       "anchor": "T-1.4",
+       "title": "1.4) La résistivité"
+      },
+      {
+       "anchor": "T-1.5",
+       "title": "1.5) Le Code des couleurs"
+      },
+      {
+       "anchor": "T-1.6",
+       "title": "1.6) Loi des nœuds et des mailles"
+      },
+      {
+       "anchor": "T-1.7",
+       "title": "1.7) Groupements Série et Parallèle (ou Dérivation)"
+      },
+      {
+       "anchor": "T-1.8",
+       "title": "1.8) Autres exemples d’application avec des résistances"
+      }
+     ]
+    },
+    {
+     "id": "T-2",
+     "title": "2) COURANTS ALTERNATIFS, BOBINES et CONDENSATEURS",
+     "short": "2 Courants alternatifs",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-2.1",
+       "title": "2.1) Courants Alternatifs"
+      },
+      {
+       "anchor": "T-2.2",
+       "title": "2.2) Valeur maximum, efficace, moyenne, crête à crête."
+      },
+      {
+       "anchor": "T-2.3",
+       "title": "2.3) Bobines et Condensateurs"
+      },
+      {
+       "anchor": "T-2.4",
+       "title": "2.4) Charge, décharge et constante de temps pour les condensateurs"
+      },
+      {
+       "anchor": "T-2.5",
+       "title": "2.5) Calcul de l'impédance de bobines et de condensateurs non parfaits"
+      }
+     ]
+    },
+    {
+     "id": "T-3",
+     "title": "3) TRANSFORMATEURS, PILES et GALVANOMÈTRES",
+     "short": "3 Transformateurs, piles",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-3.1",
+       "title": "3.1) Un transformateur"
+      },
+      {
+       "anchor": "T-3.2",
+       "title": "3.2) Transformateur non parfait"
+      },
+      {
+       "anchor": "T-3.3",
+       "title": "3.3) Les piles et les accumulateurs"
+      },
+      {
+       "anchor": "T-3.4",
+       "title": "3.4) Les galvanomètres"
+      },
+      {
+       "anchor": "T-3.5",
+       "title": "3.5) Qualité des voltmètres (Ω/V)"
+      },
+      {
+       "anchor": "T-3.6",
+       "title": "3.6) Ohmmètre et wattmètre"
+      },
+      {
+       "anchor": "T-3.7",
+       "title": "3.7) Microphone, haut-parleur et relais électromécanique"
+      }
+     ]
+    },
+    {
+     "id": "T-4",
+     "title": "4) DÉCIBEL, CIRCUITS R-C et L-C, LOI de THOMSON",
+     "short": "4 Décibel, circuits RC et LC",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-4.1",
+       "title": "4.1) Le décibel"
+      },
+      {
+       "anchor": "T-4.2",
+       "title": "4.2) Un circuit RC"
+      },
+      {
+       "anchor": "T-4.3",
+       "title": "4.3) Les circuits LC"
+      },
+      {
+       "anchor": "T-4.4",
+       "title": "4.4) Les circuits RLC"
+      },
+      {
+       "anchor": "T-4.5",
+       "title": "4.5) Le filtre en pi"
+      },
+      {
+       "anchor": "T-4.6",
+       "title": "4.6) Autres calculs à partir des formules de ce chapitre"
+      }
+     ]
+    },
+    {
+     "id": "T-5",
+     "title": "5) Les DIODES et leurs MONTAGES",
+     "short": "5 Les diodes",
+     "group": "Section B : Les composants actifs et leurs montages",
+     "sections": [
+      {
+       "anchor": "T-5.1",
+       "title": "5.1) Les diodes"
+      },
+      {
+       "anchor": "T-5.2",
+       "title": "5.2) Courbes et caractéristiques de fonctionnement d’une diode"
+      },
+      {
+       "anchor": "T-5.3",
+       "title": "5.3) Montage des diodes"
+      },
+      {
+       "anchor": "T-5.4",
+       "title": "5.4) Alimentation"
+      }
+     ]
+    },
+    {
+     "id": "T-6",
+     "title": "6) Les TRANSISTORS et leurs MONTAGES",
+     "short": "6 Les transistors",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-6.1",
+       "title": "6.1) Transistors"
+      },
+      {
+       "anchor": "T-6.2",
+       "title": "6.2) Gain d'un transistor"
+      },
+      {
+       "anchor": "T-6.3",
+       "title": "6.3) Montages des transistors"
+      },
+      {
+       "anchor": "T-6.4",
+       "title": "6.4) Les transistors FET"
+      },
+      {
+       "anchor": "T-6.5",
+       "title": "6.5) Diodes thermoïoniques"
+      },
+      {
+       "anchor": "T-6.6",
+       "title": "6.6) Les autres tubes thermoïoniques"
+      }
+     ]
+    },
+    {
+     "id": "T-7",
+     "title": "7) AMPLIFICATEURS, OSCILLATEURS, MÉLANGEURS",
+     "short": "7 Amplificateurs, oscillateurs",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-7.1",
+       "title": "7.1) Les classes d'amplification"
+      },
+      {
+       "anchor": "T-7.2",
+       "title": "7.2) La résistance de charge"
+      },
+      {
+       "anchor": "T-7.3",
+       "title": "7.3) Liaisons entre les étages"
+      },
+      {
+       "anchor": "T-7.4",
+       "title": "7.4) Amplificateurs radiofréquences (R.F.)"
+      },
+      {
+       "anchor": "T-7.5",
+       "title": "7.5) Un oscillateur"
+      },
+      {
+       "anchor": "T-7.6",
+       "title": "7.6) Multiplicateurs de fréquence"
+      },
+      {
+       "anchor": "T-7.7",
+       "title": "7.7) Un mélangeur"
+      }
+     ]
+    },
+    {
+     "id": "T-8",
+     "title": "8) AMPLIFICATEURS OPÉRATIONNELS et CIRCUITS LOGIQUES",
+     "short": "8 Amplis op. et logique",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-8.1",
+       "title": "8.1) Caractéristiques des amplificateurs opérationnels"
+      },
+      {
+       "anchor": "T-8.2",
+       "title": "8.2) Montage fondamental des amplificateurs opérationnels"
+      },
+      {
+       "anchor": "T-8.3",
+       "title": "8.3) Autres montages"
+      },
+      {
+       "anchor": "T-8.4",
+       "title": "8.4) Circuits logiques"
+      },
+      {
+       "anchor": "T-8.5",
+       "title": "8.5) Système binaire et traitement numérique du signal"
+      }
+     ]
+    },
+    {
+     "id": "T-9",
+     "title": "9) PROPAGATION et ANTENNES",
+     "short": "9 Propagation et antennes",
+     "group": "Section C : Radioélectricité",
+     "sections": [
+      {
+       "anchor": "T-9.1",
+       "title": "9.1) Relation longueur d'onde/fréquence"
+      },
+      {
+       "anchor": "T-9.2",
+       "title": "9.2) Propagation"
+      },
+      {
+       "anchor": "T-9.3",
+       "title": "9.3) La propagation en ondes réfléchies"
+      },
+      {
+       "anchor": "T-9.4",
+       "title": "9.4) Antenne doublet demi-onde alimenté au centre (dipôle)"
+      },
+      {
+       "anchor": "T-9.5",
+       "title": "9.5) L'antenne quart d'onde verticale"
+      },
+      {
+       "anchor": "T-9.6",
+       "title": "9.6) Antenne Yagi ou Beam"
+      },
+      {
+       "anchor": "T-9.7",
+       "title": "9.7) Le gain d'une antenne"
+      },
+      {
+       "anchor": "T-9.8",
+       "title": "9.8) Puissance apparente rayonnée"
+      },
+      {
+       "anchor": "T-9.9",
+       "title": "9.9) L'angle d'ouverture"
+      },
+      {
+       "anchor": "T-9.10",
+       "title": "9.10) Compléments sur les antennes"
+      }
+     ]
+    },
+    {
+     "id": "T-10",
+     "title": "10) LIGNES DE TRANSMISSIONS et ADAPTATIONS",
+     "short": "10 Lignes de transmission",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-10.1",
+       "title": "10.1) La ligne de transmission"
+      },
+      {
+       "anchor": "T-10.2",
+       "title": "10.2) L'impédance caractéristique"
+      },
+      {
+       "anchor": "T-10.3",
+       "title": "10.3) Adaptation, désadaptation et ondes stationnaires"
+      },
+      {
+       "anchor": "T-10.4",
+       "title": "10.4) Lignes d'adaptation et symétriseurs"
+      }
+     ]
+    },
+    {
+     "id": "T-11",
+     "title": "11) Les SYNOPTIQUES",
+     "short": "11 Les synoptiques",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-11.1",
+       "title": "11.1) Récepteur sans conversion de fréquence"
+      },
+      {
+       "anchor": "T-11.2",
+       "title": "11.2) Récepteur avec fréquence intermédiaire (FI)"
+      },
+      {
+       "anchor": "T-11.3",
+       "title": "11.3) Fréquence image"
+      },
+      {
+       "anchor": "T-11.4",
+       "title": "11.4) La sensibilité d'un récepteur"
+      },
+      {
+       "anchor": "T-11.5",
+       "title": "11.5) Émetteur"
+      },
+      {
+       "anchor": "T-11.6",
+       "title": "11.6) La Compatibilité Électromagnétique"
+      },
+      {
+       "anchor": "T-11.7",
+       "title": "11.7) Intermodulation, transmodulation et bruit"
+      }
+     ]
+    },
+    {
+     "id": "T-12",
+     "title": "12) Les DIFFÉRENTS TYPES de MODULATIONS",
+     "short": "12 Les modulations",
+     "group": "",
+     "sections": [
+      {
+       "anchor": "T-12.1",
+       "title": "12.1) Schématisation des différents types de modulation"
+      },
+      {
+       "anchor": "T-12.2",
+       "title": "12.2) Les modulateurs et les démodulateurs"
+      },
+      {
+       "anchor": "T-12.3",
+       "title": "12.3) La Modulation d'Amplitude"
+      },
+      {
+       "anchor": "T-12.4",
+       "title": "12.4) La Modulation de Fréquence"
+      },
+      {
+       "anchor": "T-12.5",
+       "title": "12.5) La manipulation pour coupure de porteuse, CW"
+      },
+      {
+       "anchor": "T-12.6",
+       "title": "12.6) La Bande Latérale Unique (BLU)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A",
+   "title": "Troisième partie – Annexes",
+   "chapters": [
+    {
+     "id": "annexes",
+     "title": "Annexes",
+     "short": "Annexes",
+     "group": "",
+     "sections": []
+    }
+   ]
+  }
+ ],
+ "anchors": {
+  "I-1": [
+   "intro",
+   5
+  ],
+  "I-2": [
+   "intro",
+   7
+  ],
+  "I-3": [
+   "intro",
+   14
+  ],
+  "I-4": [
+   "intro",
+   16
+  ],
+  "I-4a": [
+   "intro",
+   17
+  ],
+  "I-4b": [
+   "intro",
+   18
+  ],
+  "I-5": [
+   "intro",
+   19
+  ],
+  "I-5a": [
+   "intro",
+   20
+  ],
+  "I-5b": [
+   "intro",
+   21
+  ],
+  "I-5c": [
+   "intro",
+   22
+  ],
+  "I-5d": [
+   "intro",
+   25
+  ],
+  "I-5e": [
+   "intro",
+   26
+  ],
+  "I-6": [
+   "intro",
+   27
+  ],
+  "I-6a": [
+   "intro",
+   28
+  ],
+  "I-6a1": [
+   "intro",
+   30
+  ],
+  "I-6a2": [
+   "intro",
+   34
+  ],
+  "I-6b": [
+   "intro",
+   42
+  ],
+  "I-6c": [
+   "intro",
+   43
+  ],
+  "I-7": [
+   "intro",
+   44
+  ],
+  "I-7a": [
+   "intro",
+   45
+  ],
+  "I-7b": [
+   "intro",
+   52
+  ],
+  "I-7c": [
+   "intro",
+   54
+  ],
+  "I-8": [
+   "intro",
+   55
+  ],
+  "I-8a": [
+   "intro",
+   56
+  ],
+  "I-8a1": [
+   "intro",
+   57
+  ],
+  "I-8a2": [
+   "intro",
+   66
+  ],
+  "I-8a3": [
+   "intro",
+   83
+  ],
+  "I": [
+   "intro",
+   0
+  ],
+  "R-1.1": [
+   "R-1",
+   3
+  ],
+  "R-1.1a": [
+   "R-1",
+   4
+  ],
+  "R-1.1b": [
+   "R-1",
+   9
+  ],
+  "R-1.1c": [
+   "R-1",
+   12
+  ],
+  "R-1.1d": [
+   "R-1",
+   20
+  ],
+  "R-1.1d1": [
+   "R-1",
+   21
+  ],
+  "R-1.1d2": [
+   "R-1",
+   24
+  ],
+  "R-1.1d3": [
+   "R-1",
+   28
+  ],
+  "R-1.1d4": [
+   "R-1",
+   31
+  ],
+  "R-1.1d5": [
+   "R-1",
+   34
+  ],
+  "R-1.1d6": [
+   "R-1",
+   37
+  ],
+  "R-1.1d7": [
+   "R-1",
+   40
+  ],
+  "R-1.1d8": [
+   "R-1",
+   43
+  ],
+  "R-1.1d9": [
+   "R-1",
+   44
+  ],
+  "R-1.1d10": [
+   "R-1",
+   45
+  ],
+  "R-1.2": [
+   "R-1",
+   46
+  ],
+  "R-1.2a": [
+   "R-1",
+   46
+  ],
+  "R-1.2b": [
+   "R-1",
+   50
+  ],
+  "R-1.3": [
+   "R-1",
+   55
+  ],
+  "R-1.3a": [
+   "R-1",
+   56
+  ],
+  "R-1.3b": [
+   "R-1",
+   57
+  ],
+  "R-1.3c": [
+   "R-1",
+   58
+  ],
+  "R-1.3d": [
+   "R-1",
+   60
+  ],
+  "R-1.3e": [
+   "R-1",
+   61
+  ],
+  "R-1": [
+   "R-1",
+   0
+  ],
+  "R-2.1": [
+   "R-2",
+   1
+  ],
+  "R-2.1a": [
+   "R-2",
+   2
+  ],
+  "R-2.1b": [
+   "R-2",
+   12
+  ],
+  "R-2.1c": [
+   "R-2",
+   14
+  ],
+  "R-2.1d": [
+   "R-2",
+   15
+  ],
+  "R-2.2": [
+   "R-2",
+   18
+  ],
+  "R-2.2a": [
+   "R-2",
+   18
+  ],
+  "R-2.2b": [
+   "R-2",
+   23
+  ],
+  "R-2.2c": [
+   "R-2",
+   25
+  ],
+  "R-2.2d": [
+   "R-2",
+   26
+  ],
+  "R-2.2e": [
+   "R-2",
+   30
+  ],
+  "R-2": [
+   "R-2",
+   0
+  ],
+  "R-3.1": [
+   "R-3",
+   1
+  ],
+  "R-3.2": [
+   "R-3",
+   6
+  ],
+  "R-3.2a": [
+   "R-3",
+   7
+  ],
+  "R-3.2b": [
+   "R-3",
+   14
+  ],
+  "R-3.2c": [
+   "R-3",
+   16
+  ],
+  "R-3.2d": [
+   "R-3",
+   19
+  ],
+  "R-3.3": [
+   "R-3",
+   21
+  ],
+  "R-3.3a": [
+   "R-3",
+   22
+  ],
+  "R-3.3b": [
+   "R-3",
+   25
+  ],
+  "R-3.3c": [
+   "R-3",
+   26
+  ],
+  "R-3.4": [
+   "R-3",
+   27
+  ],
+  "R-3.4a": [
+   "R-3",
+   28
+  ],
+  "R-3.4b": [
+   "R-3",
+   30
+  ],
+  "R-3": [
+   "R-3",
+   0
+  ],
+  "R-4.1": [
+   "R-4",
+   1
+  ],
+  "R-4.2": [
+   "R-4",
+   2
+  ],
+  "R-4.2a": [
+   "R-4",
+   2
+  ],
+  "R-4.2b": [
+   "R-4",
+   8
+  ],
+  "R-4.2c": [
+   "R-4",
+   10
+  ],
+  "R-4.2d": [
+   "R-4",
+   11
+  ],
+  "R-4.2e": [
+   "R-4",
+   12
+  ],
+  "R-4.2f": [
+   "R-4",
+   14
+  ],
+  "R-4.2g": [
+   "R-4",
+   15
+  ],
+  "R-4.3": [
+   "R-4",
+   17
+  ],
+  "R-4.3a": [
+   "R-4",
+   17
+  ],
+  "R-4.3b": [
+   "R-4",
+   19
+  ],
+  "R-4.3c": [
+   "R-4",
+   20
+  ],
+  "R-4.4": [
+   "R-4",
+   21
+  ],
+  "R-4.4a": [
+   "R-4",
+   21
+  ],
+  "R-4.4b": [
+   "R-4",
+   22
+  ],
+  "R-4.5": [
+   "R-4",
+   25
+  ],
+  "R-4.6": [
+   "R-4",
+   30
+  ],
+  "R-4.6a": [
+   "R-4",
+   31
+  ],
+  "R-4.6b": [
+   "R-4",
+   42
+  ],
+  "R-4.6c": [
+   "R-4",
+   43
+  ],
+  "R-4.6d": [
+   "R-4",
+   46
+  ],
+  "R-4.6e": [
+   "R-4",
+   47
+  ],
+  "R-4.7": [
+   "R-4",
+   48
+  ],
+  "R-4.7a": [
+   "R-4",
+   48
+  ],
+  "R-4.7b": [
+   "R-4",
+   52
+  ],
+  "R-4.7c": [
+   "R-4",
+   57
+  ],
+  "R-4.7d": [
+   "R-4",
+   60
+  ],
+  "R-4.7e": [
+   "R-4",
+   63
+  ],
+  "R-4": [
+   "R-4",
+   0
+  ],
+  "R-5.1": [
+   "R-5",
+   1
+  ],
+  "R-5.1a": [
+   "R-5",
+   2
+  ],
+  "R-5.1b": [
+   "R-5",
+   10
+  ],
+  "R-5.1c": [
+   "R-5",
+   12
+  ],
+  "R-5.1d": [
+   "R-5",
+   13
+  ],
+  "R-5.2": [
+   "R-5",
+   16
+  ],
+  "R-5.2a": [
+   "R-5",
+   17
+  ],
+  "R-5.2b": [
+   "R-5",
+   20
+  ],
+  "R-5.2c": [
+   "R-5",
+   24
+  ],
+  "R-5.2d": [
+   "R-5",
+   27
+  ],
+  "R-5.2e": [
+   "R-5",
+   28
+  ],
+  "R-5.2f": [
+   "R-5",
+   33
+  ],
+  "R-5.2g": [
+   "R-5",
+   35
+  ],
+  "R-5.2h": [
+   "R-5",
+   37
+  ],
+  "R-5.2i": [
+   "R-5",
+   38
+  ],
+  "R-5.2j": [
+   "R-5",
+   39
+  ],
+  "R-5.2k": [
+   "R-5",
+   40
+  ],
+  "R-5.2l": [
+   "R-5",
+   41
+  ],
+  "R-5.3": [
+   "R-5",
+   42
+  ],
+  "R-5.3a": [
+   "R-5",
+   43
+  ],
+  "R-5.3b": [
+   "R-5",
+   49
+  ],
+  "R-5.3c": [
+   "R-5",
+   52
+  ],
+  "R-5.3d": [
+   "R-5",
+   56
+  ],
+  "R-5.4": [
+   "R-5",
+   59
+  ],
+  "R-5.4a": [
+   "R-5",
+   60
+  ],
+  "R-5.4b": [
+   "R-5",
+   62
+  ],
+  "R-5.4c": [
+   "R-5",
+   65
+  ],
+  "R-5.4d": [
+   "R-5",
+   66
+  ],
+  "R-5.5": [
+   "R-5",
+   67
+  ],
+  "R-5.5a": [
+   "R-5",
+   68
+  ],
+  "R-5.5b": [
+   "R-5",
+   70
+  ],
+  "R-5.5c": [
+   "R-5",
+   73
+  ],
+  "R-5": [
+   "R-5",
+   0
+  ],
+  "T-0.1": [
+   "T-0",
+   3
+  ],
+  "T-0.1a": [
+   "T-0",
+   3
+  ],
+  "T-0.1b": [
+   "T-0",
+   7
+  ],
+  "T-0.1c": [
+   "T-0",
+   12
+  ],
+  "T-0.1d": [
+   "T-0",
+   14
+  ],
+  "T-0.2": [
+   "T-0",
+   18
+  ],
+  "T-0.2a": [
+   "T-0",
+   18
+  ],
+  "T-0.2b": [
+   "T-0",
+   21
+  ],
+  "T-0.2c": [
+   "T-0",
+   24
+  ],
+  "T-0.2d": [
+   "T-0",
+   25
+  ],
+  "T-0.3": [
+   "T-0",
+   28
+  ],
+  "T-0.3a": [
+   "T-0",
+   29
+  ],
+  "T-0.3b": [
+   "T-0",
+   31
+  ],
+  "T-0.3c": [
+   "T-0",
+   32
+  ],
+  "T-0.3d": [
+   "T-0",
+   37
+  ],
+  "T-0": [
+   "T-0",
+   0
+  ],
+  "T-1.1": [
+   "T-1",
+   2
+  ],
+  "T-1.1a": [
+   "T-1",
+   2
+  ],
+  "T-1.1b": [
+   "T-1",
+   3
+  ],
+  "T-1.1c": [
+   "T-1",
+   4
+  ],
+  "T-1.1d": [
+   "T-1",
+   5
+  ],
+  "T-1.1e": [
+   "T-1",
+   6
+  ],
+  "T-1.1f": [
+   "T-1",
+   8
+  ],
+  "T-1.2": [
+   "T-1",
+   9
+  ],
+  "T-1.2a": [
+   "T-1",
+   9
+  ],
+  "T-1.2b": [
+   "T-1",
+   11
+  ],
+  "T-1.3": [
+   "T-1",
+   17
+  ],
+  "T-1.3a": [
+   "T-1",
+   18
+  ],
+  "T-1.3b": [
+   "T-1",
+   20
+  ],
+  "T-1.4": [
+   "T-1",
+   24
+  ],
+  "T-1.4a": [
+   "T-1",
+   24
+  ],
+  "T-1.4b": [
+   "T-1",
+   28
+  ],
+  "T-1.4c": [
+   "T-1",
+   30
+  ],
+  "T-1.4d": [
+   "T-1",
+   31
+  ],
+  "T-1.4e": [
+   "T-1",
+   32
+  ],
+  "T-1.5": [
+   "T-1",
+   33
+  ],
+  "T-1.5a": [
+   "T-1",
+   34
+  ],
+  "T-1.5b": [
+   "T-1",
+   41
+  ],
+  "T-1.5c": [
+   "T-1",
+   42
+  ],
+  "T-1.5d": [
+   "T-1",
+   47
+  ],
+  "T-1.6": [
+   "T-1",
+   49
+  ],
+  "T-1.6a": [
+   "T-1",
+   49
+  ],
+  "T-1.6b": [
+   "T-1",
+   50
+  ],
+  "T-1.6c": [
+   "T-1",
+   52
+  ],
+  "T-1.7": [
+   "T-1",
+   53
+  ],
+  "T-1.7a": [
+   "T-1",
+   53
+  ],
+  "T-1.7b": [
+   "T-1",
+   60
+  ],
+  "T-1.7c": [
+   "T-1",
+   62
+  ],
+  "T-1.7d": [
+   "T-1",
+   65
+  ],
+  "T-1.7e": [
+   "T-1",
+   72
+  ],
+  "T-1.8": [
+   "T-1",
+   77
+  ],
+  "T-1.8a": [
+   "T-1",
+   78
+  ],
+  "T-1.8b": [
+   "T-1",
+   83
+  ],
+  "T-1.8c": [
+   "T-1",
+   85
+  ],
+  "T-1.8d": [
+   "T-1",
+   89
+  ],
+  "T-1": [
+   "T-1",
+   0
+  ],
+  "T-2.1": [
+   "T-2",
+   1
+  ],
+  "T-2.1a": [
+   "T-2",
+   2
+  ],
+  "T-2.1b": [
+   "T-2",
+   6
+  ],
+  "T-2.1c": [
+   "T-2",
+   11
+  ],
+  "T-2.2": [
+   "T-2",
+   12
+  ],
+  "T-2.2a": [
+   "T-2",
+   13
+  ],
+  "T-2.2b": [
+   "T-2",
+   14
+  ],
+  "T-2.2c": [
+   "T-2",
+   16
+  ],
+  "T-2.2d": [
+   "T-2",
+   17
+  ],
+  "T-2.2e": [
+   "T-2",
+   19
+  ],
+  "T-2.2f": [
+   "T-2",
+   24
+  ],
+  "T-2.3": [
+   "T-2",
+   28
+  ],
+  "T-2.3a": [
+   "T-2",
+   29
+  ],
+  "T-2.3b": [
+   "T-2",
+   31
+  ],
+  "T-2.3c1": [
+   "T-2",
+   32
+  ],
+  "T-2.3c2": [
+   "T-2",
+   33
+  ],
+  "T-2.3c3": [
+   "T-2",
+   34
+  ],
+  "T-2.3c4": [
+   "T-2",
+   35
+  ],
+  "T-2.3c5": [
+   "T-2",
+   36
+  ],
+  "T-2.3c6": [
+   "T-2",
+   37
+  ],
+  "T-2.3c7": [
+   "T-2",
+   38
+  ],
+  "T-2.3c8": [
+   "T-2",
+   39
+  ],
+  "T-2.3d1": [
+   "T-2",
+   40
+  ],
+  "T-2.3d2": [
+   "T-2",
+   42
+  ],
+  "T-2.3d3": [
+   "T-2",
+   43
+  ],
+  "T-2.3d4": [
+   "T-2",
+   44
+  ],
+  "T-2.3d5": [
+   "T-2",
+   45
+  ],
+  "T-2.3e": [
+   "T-2",
+   47
+  ],
+  "T-2.3f": [
+   "T-2",
+   48
+  ],
+  "T-2.3f1": [
+   "T-2",
+   49
+  ],
+  "T-2.3f2": [
+   "T-2",
+   50
+  ],
+  "T-2.3g": [
+   "T-2",
+   51
+  ],
+  "T-2.3g1": [
+   "T-2",
+   52
+  ],
+  "T-2.3g2": [
+   "T-2",
+   53
+  ],
+  "T-2.3h": [
+   "T-2",
+   55
+  ],
+  "T-2.3h2": [
+   "T-2",
+   56
+  ],
+  "T-2.3i": [
+   "T-2",
+   57
+  ],
+  "T-2.4": [
+   "T-2",
+   67
+  ],
+  "T-2.4b": [
+   "T-2",
+   72
+  ],
+  "T-2.5": [
+   "T-2",
+   73
+  ],
+  "T-2.5a": [
+   "T-2",
+   74
+  ],
+  "T-2.5b": [
+   "T-2",
+   78
+  ],
+  "T-2.5c": [
+   "T-2",
+   80
+  ],
+  "T-2.5d": [
+   "T-2",
+   87
+  ],
+  "T-2.5e": [
+   "T-2",
+   89
+  ],
+  "T-2.5f": [
+   "T-2",
+   91
+  ],
+  "T-2": [
+   "T-2",
+   0
+  ],
+  "T-3.1": [
+   "T-3",
+   1
+  ],
+  "T-3.1a": [
+   "T-3",
+   1
+  ],
+  "T-3.1b": [
+   "T-3",
+   2
+  ],
+  "T-3.1c": [
+   "T-3",
+   4
+  ],
+  "T-3.2": [
+   "T-3",
+   8
+  ],
+  "T-3.2a": [
+   "T-3",
+   8
+  ],
+  "T-3.2b": [
+   "T-3",
+   10
+  ],
+  "T-3.2c": [
+   "T-3",
+   11
+  ],
+  "T-3.3": [
+   "T-3",
+   12
+  ],
+  "T-3.3a": [
+   "T-3",
+   12
+  ],
+  "T-3.3b": [
+   "T-3",
+   13
+  ],
+  "T-3.3c": [
+   "T-3",
+   14
+  ],
+  "T-3.3d": [
+   "T-3",
+   15
+  ],
+  "T-3.3e": [
+   "T-3",
+   20
+  ],
+  "T-3.3f": [
+   "T-3",
+   22
+  ],
+  "T-3.4": [
+   "T-3",
+   23
+  ],
+  "T-3.4a": [
+   "T-3",
+   23
+  ],
+  "T-3.4b": [
+   "T-3",
+   25
+  ],
+  "T-3.5": [
+   "T-3",
+   29
+  ],
+  "T-3.5a": [
+   "T-3",
+   29
+  ],
+  "T-3.5b": [
+   "T-3",
+   34
+  ],
+  "T-3.6": [
+   "T-3",
+   36
+  ],
+  "T-3.7": [
+   "T-3",
+   38
+  ],
+  "T-3.7a": [
+   "T-3",
+   38
+  ],
+  "T-3.7a1": [
+   "T-3",
+   39
+  ],
+  "T-3.7a2": [
+   "T-3",
+   41
+  ],
+  "T-3.7b": [
+   "T-3",
+   43
+  ],
+  "T-3.7c": [
+   "T-3",
+   45
+  ],
+  "T-3": [
+   "T-3",
+   0
+  ],
+  "T-4.1": [
+   "T-4",
+   1
+  ],
+  "T-4.1a": [
+   "T-4",
+   1
+  ],
+  "T-4.1b": [
+   "T-4",
+   2
+  ],
+  "T-4.1c": [
+   "T-4",
+   10
+  ],
+  "T-4.1d": [
+   "T-4",
+   11
+  ],
+  "T-4.1e": [
+   "T-4",
+   12
+  ],
+  "T-4.1f": [
+   "T-4",
+   19
+  ],
+  "T-4.2": [
+   "T-4",
+   22
+  ],
+  "T-4.2a": [
+   "T-4",
+   22
+  ],
+  "T-4.2b": [
+   "T-4",
+   25
+  ],
+  "T-4.2c": [
+   "T-4",
+   26
+  ],
+  "T-4.2d": [
+   "T-4",
+   28
+  ],
+  "T-4.2e": [
+   "T-4",
+   32
+  ],
+  "T-4.3": [
+   "T-4",
+   34
+  ],
+  "T-4.3a": [
+   "T-4",
+   34
+  ],
+  "T-4.3b": [
+   "T-4",
+   36
+  ],
+  "T-4.3c": [
+   "T-4",
+   42
+  ],
+  "T-4.3d": [
+   "T-4",
+   43
+  ],
+  "T-4.3e": [
+   "T-4",
+   44
+  ],
+  "T-4.3f": [
+   "T-4",
+   45
+  ],
+  "T-4.3g": [
+   "T-4",
+   48
+  ],
+  "T-4.4": [
+   "T-4",
+   52
+  ],
+  "T-4.4a": [
+   "T-4",
+   52
+  ],
+  "T-4.4a1": [
+   "T-4",
+   56
+  ],
+  "T-4.4a2": [
+   "T-4",
+   57
+  ],
+  "T-4.4a3": [
+   "T-4",
+   58
+  ],
+  "T-4.4a4": [
+   "T-4",
+   61
+  ],
+  "T-4.4b": [
+   "T-4",
+   65
+  ],
+  "T-4.4b1": [
+   "T-4",
+   66
+  ],
+  "T-4.4b2": [
+   "T-4",
+   67
+  ],
+  "T-4.4b3": [
+   "T-4",
+   69
+  ],
+  "T-4.4b4": [
+   "T-4",
+   71
+  ],
+  "T-4.4b5": [
+   "T-4",
+   73
+  ],
+  "T-4.4c": [
+   "T-4",
+   75
+  ],
+  "T-4.4d": [
+   "T-4",
+   79
+  ],
+  "T-4.4e": [
+   "T-4",
+   82
+  ],
+  "T-4.4f": [
+   "T-4",
+   86
+  ],
+  "T-4.5": [
+   "T-4",
+   88
+  ],
+  "T-4.6": [
+   "T-4",
+   90
+  ],
+  "T-4.6a": [
+   "T-4",
+   91
+  ],
+  "T-4.6b": [
+   "T-4",
+   93
+  ],
+  "T-4": [
+   "T-4",
+   0
+  ],
+  "T-5.1": [
+   "T-5",
+   2
+  ],
+  "T-5.2": [
+   "T-5",
+   4
+  ],
+  "T-5.2a": [
+   "T-5",
+   4
+  ],
+  "T-5.2b": [
+   "T-5",
+   6
+  ],
+  "T-5.3": [
+   "T-5",
+   11
+  ],
+  "T-5.3a": [
+   "T-5",
+   11
+  ],
+  "T-5.3b": [
+   "T-5",
+   13
+  ],
+  "T-5.3c": [
+   "T-5",
+   18
+  ],
+  "T-5.3d": [
+   "T-5",
+   19
+  ],
+  "T-5.3e": [
+   "T-5",
+   21
+  ],
+  "T-5.3f": [
+   "T-5",
+   23
+  ],
+  "T-5.3g": [
+   "T-5",
+   27
+  ],
+  "T-5.4": [
+   "T-5",
+   28
+  ],
+  "T-5.4a": [
+   "T-5",
+   28
+  ],
+  "T-5.4b": [
+   "T-5",
+   30
+  ],
+  "T-5.4c": [
+   "T-5",
+   31
+  ],
+  "T-5": [
+   "T-5",
+   0
+  ],
+  "T-6.1": [
+   "T-6",
+   1
+  ],
+  "T-6.1a": [
+   "T-6",
+   1
+  ],
+  "T-6.1b": [
+   "T-6",
+   3
+  ],
+  "T-6.2": [
+   "T-6",
+   5
+  ],
+  "T-6.3": [
+   "T-6",
+   8
+  ],
+  "T-6.3a": [
+   "T-6",
+   8
+  ],
+  "T-6.3a1": [
+   "T-6",
+   11
+  ],
+  "T-6.3a2": [
+   "T-6",
+   12
+  ],
+  "T-6.3a3": [
+   "T-6",
+   13
+  ],
+  "T-6.3b": [
+   "T-6",
+   14
+  ],
+  "T-6.4": [
+   "T-6",
+   15
+  ],
+  "T-6.4a": [
+   "T-6",
+   15
+  ],
+  "T-6.4b": [
+   "T-6",
+   18
+  ],
+  "T-6.4c": [
+   "T-6",
+   20
+  ],
+  "T-6.4d": [
+   "T-6",
+   23
+  ],
+  "T-6.5": [
+   "T-6",
+   24
+  ],
+  "T-6.6": [
+   "T-6",
+   26
+  ],
+  "T-6.6a": [
+   "T-6",
+   26
+  ],
+  "T-6.6b": [
+   "T-6",
+   28
+  ],
+  "T-6.6c": [
+   "T-6",
+   30
+  ],
+  "T-6.6d": [
+   "T-6",
+   31
+  ],
+  "T-6": [
+   "T-6",
+   0
+  ],
+  "T-7.1": [
+   "T-7",
+   1
+  ],
+  "T-7.1a": [
+   "T-7",
+   1
+  ],
+  "T-7.1a1": [
+   "T-7",
+   3
+  ],
+  "T-7.1a2": [
+   "T-7",
+   4
+  ],
+  "T-7.1a3": [
+   "T-7",
+   5
+  ],
+  "T-7.1b": [
+   "T-7",
+   7
+  ],
+  "T-7.2": [
+   "T-7",
+   8
+  ],
+  "T-7.2a": [
+   "T-7",
+   8
+  ],
+  "T-7.2b": [
+   "T-7",
+   10
+  ],
+  "T-7.2c": [
+   "T-7",
+   12
+  ],
+  "T-7.3": [
+   "T-7",
+   13
+  ],
+  "T-7.3a": [
+   "T-7",
+   13
+  ],
+  "T-7.3b": [
+   "T-7",
+   14
+  ],
+  "T-7.4": [
+   "T-7",
+   15
+  ],
+  "T-7.4a": [
+   "T-7",
+   15
+  ],
+  "T-7.4b": [
+   "T-7",
+   20
+  ],
+  "T-7.4b1": [
+   "T-7",
+   22
+  ],
+  "T-7.4b2": [
+   "T-7",
+   23
+  ],
+  "T-7.4b3": [
+   "T-7",
+   25
+  ],
+  "T-7.4b4": [
+   "T-7",
+   27
+  ],
+  "T-7.5": [
+   "T-7",
+   29
+  ],
+  "T-7.5a": [
+   "T-7",
+   29
+  ],
+  "T-7.5b": [
+   "T-7",
+   30
+  ],
+  "T-7.5c": [
+   "T-7",
+   33
+  ],
+  "T-7.5d": [
+   "T-7",
+   36
+  ],
+  "T-7.5e": [
+   "T-7",
+   38
+  ],
+  "T-7.6": [
+   "T-7",
+   43
+  ],
+  "T-7.7": [
+   "T-7",
+   47
+  ],
+  "T-7.7a": [
+   "T-7",
+   47
+  ],
+  "T-7.7b": [
+   "T-7",
+   49
+  ],
+  "T-7.7c": [
+   "T-7",
+   53
+  ],
+  "T-7": [
+   "T-7",
+   0
+  ],
+  "T-8.1": [
+   "T-8",
+   1
+  ],
+  "T-8.1a": [
+   "T-8",
+   1
+  ],
+  "T-8.1b": [
+   "T-8",
+   3
+  ],
+  "T-8.2": [
+   "T-8",
+   4
+  ],
+  "T-8.2a": [
+   "T-8",
+   4
+  ],
+  "T-8.2b": [
+   "T-8",
+   5
+  ],
+  "T-8.3": [
+   "T-8",
+   12
+  ],
+  "T-8.4": [
+   "T-8",
+   14
+  ],
+  "T-8.4a": [
+   "T-8",
+   14
+  ],
+  "T-8.4a1": [
+   "T-8",
+   16
+  ],
+  "T-8.4a2": [
+   "T-8",
+   17
+  ],
+  "T-8.4a3": [
+   "T-8",
+   18
+  ],
+  "T-8.4a4": [
+   "T-8",
+   19
+  ],
+  "T-8.4a5": [
+   "T-8",
+   20
+  ],
+  "T-8.4b": [
+   "T-8",
+   21
+  ],
+  "T-8.4c": [
+   "T-8",
+   25
+  ],
+  "T-8.4d": [
+   "T-8",
+   26
+  ],
+  "T-8.5": [
+   "T-8",
+   30
+  ],
+  "T-8.5a": [
+   "T-8",
+   30
+  ],
+  "T-8.5b": [
+   "T-8",
+   31
+  ],
+  "T-8.5c": [
+   "T-8",
+   33
+  ],
+  "T-8.5d": [
+   "T-8",
+   34
+  ],
+  "T-8.5e": [
+   "T-8",
+   36
+  ],
+  "T-8.5f": [
+   "T-8",
+   37
+  ],
+  "T-8.5g": [
+   "T-8",
+   38
+  ],
+  "T-8.5h": [
+   "T-8",
+   39
+  ],
+  "T-8": [
+   "T-8",
+   0
+  ],
+  "T-9.1": [
+   "T-9",
+   2
+  ],
+  "T-9.1a": [
+   "T-9",
+   3
+  ],
+  "T-9.1b": [
+   "T-9",
+   11
+  ],
+  "T-9.2": [
+   "T-9",
+   12
+  ],
+  "T-9.2a": [
+   "T-9",
+   12
+  ],
+  "T-9.2b": [
+   "T-9",
+   13
+  ],
+  "T-9.2c": [
+   "T-9",
+   16
+  ],
+  "T-9.3": [
+   "T-9",
+   18
+  ],
+  "T-9.3a": [
+   "T-9",
+   18
+  ],
+  "T-9.3b": [
+   "T-9",
+   19
+  ],
+  "T-9.3c": [
+   "T-9",
+   20
+  ],
+  "T-9.3d": [
+   "T-9",
+   21
+  ],
+  "T-9.3e": [
+   "T-9",
+   23
+  ],
+  "T-9.3f": [
+   "T-9",
+   26
+  ],
+  "T-9.3g": [
+   "T-9",
+   28
+  ],
+  "T-9.3h": [
+   "T-9",
+   30
+  ],
+  "T-9.3i": [
+   "T-9",
+   31
+  ],
+  "T-9.3j": [
+   "T-9",
+   32
+  ],
+  "T-9.4": [
+   "T-9",
+   33
+  ],
+  "T-9.4a": [
+   "T-9",
+   33
+  ],
+  "T-9.4b": [
+   "T-9",
+   34
+  ],
+  "T-9.4c": [
+   "T-9",
+   36
+  ],
+  "T-9.4d": [
+   "T-9",
+   40
+  ],
+  "T-9.5": [
+   "T-9",
+   42
+  ],
+  "T-9.5a": [
+   "T-9",
+   42
+  ],
+  "T-9.5b": [
+   "T-9",
+   46
+  ],
+  "T-9.6": [
+   "T-9",
+   47
+  ],
+  "T-9.7": [
+   "T-9",
+   49
+  ],
+  "T-9.7a": [
+   "T-9",
+   49
+  ],
+  "T-9.7b": [
+   "T-9",
+   50
+  ],
+  "T-9.7c": [
+   "T-9",
+   52
+  ],
+  "T-9.8": [
+   "T-9",
+   53
+  ],
+  "T-9.9": [
+   "T-9",
+   55
+  ],
+  "T-9.10": [
+   "T-9",
+   57
+  ],
+  "T-9.10a": [
+   "T-9",
+   58
+  ],
+  "T-9.10b": [
+   "T-9",
+   62
+  ],
+  "T-9.10c": [
+   "T-9",
+   63
+  ],
+  "T-9.10d": [
+   "T-9",
+   64
+  ],
+  "T-9.10e": [
+   "T-9",
+   66
+  ],
+  "T-9.10f": [
+   "T-9",
+   68
+  ],
+  "T-9.10g": [
+   "T-9",
+   70
+  ],
+  "T-9.10h": [
+   "T-9",
+   72
+  ],
+  "T-9.10i": [
+   "T-9",
+   74
+  ],
+  "T-9.10j": [
+   "T-9",
+   77
+  ],
+  "T-9.10k": [
+   "T-9",
+   79
+  ],
+  "T-9": [
+   "T-9",
+   0
+  ],
+  "T-10.1": [
+   "T-10",
+   1
+  ],
+  "T-10.1a": [
+   "T-10",
+   1
+  ],
+  "T-10.1b": [
+   "T-10",
+   3
+  ],
+  "T-10.2": [
+   "T-10",
+   5
+  ],
+  "T-10.2a": [
+   "T-10",
+   5
+  ],
+  "T-10.2b": [
+   "T-10",
+   7
+  ],
+  "T-10.2c": [
+   "T-10",
+   10
+  ],
+  "T-10.3": [
+   "T-10",
+   11
+  ],
+  "T-10.3a": [
+   "T-10",
+   11
+  ],
+  "T-10.3b": [
+   "T-10",
+   15
+  ],
+  "T-10.3b1": [
+   "T-10",
+   16
+  ],
+  "T-10.3b2": [
+   "T-10",
+   17
+  ],
+  "T-10.3b3": [
+   "T-10",
+   19
+  ],
+  "T-10.3b4": [
+   "T-10",
+   23
+  ],
+  "T-10.3b5": [
+   "T-10",
+   24
+  ],
+  "T-10.3b6": [
+   "T-10",
+   25
+  ],
+  "T-10.4": [
+   "T-10",
+   29
+  ],
+  "T-10.4a": [
+   "T-10",
+   29
+  ],
+  "T-10.4a1": [
+   "T-10",
+   31
+  ],
+  "T-10.4a2": [
+   "T-10",
+   32
+  ],
+  "T-10.4a3": [
+   "T-10",
+   37
+  ],
+  "T-10.4a4": [
+   "T-10",
+   38
+  ],
+  "T-10.4a5": [
+   "T-10",
+   39
+  ],
+  "T-10.4b": [
+   "T-10",
+   44
+  ],
+  "T-10.4c": [
+   "T-10",
+   46
+  ],
+  "T-10.4d": [
+   "T-10",
+   47
+  ],
+  "T-10": [
+   "T-10",
+   0
+  ],
+  "T-11.1": [
+   "T-11",
+   3
+  ],
+  "T-11.1a": [
+   "T-11",
+   4
+  ],
+  "T-11.1b": [
+   "T-11",
+   5
+  ],
+  "T-11.1c": [
+   "T-11",
+   7
+  ],
+  "T-11.1d": [
+   "T-11",
+   8
+  ],
+  "T-11.2": [
+   "T-11",
+   9
+  ],
+  "T-11.2a": [
+   "T-11",
+   9
+  ],
+  "T-11.2b": [
+   "T-11",
+   11
+  ],
+  "T-11.2c": [
+   "T-11",
+   14
+  ],
+  "T-11.2d": [
+   "T-11",
+   15
+  ],
+  "T-11.2e": [
+   "T-11",
+   17
+  ],
+  "T-11.2f": [
+   "T-11",
+   18
+  ],
+  "T-11.2g": [
+   "T-11",
+   19
+  ],
+  "T-11.3": [
+   "T-11",
+   20
+  ],
+  "T-11.3a": [
+   "T-11",
+   20
+  ],
+  "T-11.3b": [
+   "T-11",
+   22
+  ],
+  "T-11.4": [
+   "T-11",
+   23
+  ],
+  "T-11.5": [
+   "T-11",
+   26
+  ],
+  "T-11.6": [
+   "T-11",
+   28
+  ],
+  "T-11.7": [
+   "T-11",
+   29
+  ],
+  "T-11.7a": [
+   "T-11",
+   29
+  ],
+  "T-11.7b": [
+   "T-11",
+   30
+  ],
+  "T-11.7c": [
+   "T-11",
+   31
+  ],
+  "T-11.7d": [
+   "T-11",
+   32
+  ],
+  "T-11.7e": [
+   "T-11",
+   36
+  ],
+  "T-11": [
+   "T-11",
+   0
+  ],
+  "T-12.1": [
+   "T-12",
+   1
+  ],
+  "T-12.1a": [
+   "T-12",
+   2
+  ],
+  "T-12.1b": [
+   "T-12",
+   4
+  ],
+  "T-12.1c": [
+   "T-12",
+   5
+  ],
+  "T-12.1d": [
+   "T-12",
+   6
+  ],
+  "T-12.1e": [
+   "T-12",
+   8
+  ],
+  "T-12.1f": [
+   "T-12",
+   9
+  ],
+  "T-12.1g": [
+   "T-12",
+   11
+  ],
+  "T-12.2": [
+   "T-12",
+   13
+  ],
+  "T-12.3": [
+   "T-12",
+   15
+  ],
+  "T-12.3a": [
+   "T-12",
+   16
+  ],
+  "T-12.3b": [
+   "T-12",
+   17
+  ],
+  "T-12.3c": [
+   "T-12",
+   19
+  ],
+  "T-12.3d": [
+   "T-12",
+   21
+  ],
+  "T-12.3e": [
+   "T-12",
+   23
+  ],
+  "T-12.4": [
+   "T-12",
+   28
+  ],
+  "T-12.4a": [
+   "T-12",
+   29
+  ],
+  "T-12.4b": [
+   "T-12",
+   31
+  ],
+  "T-12.4b1": [
+   "T-12",
+   32
+  ],
+  "T-12.4b2": [
+   "T-12",
+   34
+  ],
+  "T-12.4b3": [
+   "T-12",
+   35
+  ],
+  "T-12.4b4": [
+   "T-12",
+   37
+  ],
+  "T-12.4c": [
+   "T-12",
+   39
+  ],
+  "T-12.4d": [
+   "T-12",
+   40
+  ],
+  "T-12.4e": [
+   "T-12",
+   42
+  ],
+  "T-12.4f": [
+   "T-12",
+   45
+  ],
+  "T-12.5": [
+   "T-12",
+   46
+  ],
+  "T-12.5a": [
+   "T-12",
+   46
+  ],
+  "T-12.5b": [
+   "T-12",
+   47
+  ],
+  "T-12.5c": [
+   "T-12",
+   49
+  ],
+  "T-12.6": [
+   "T-12",
+   50
+  ],
+  "T-12.6a": [
+   "T-12",
+   51
+  ],
+  "T-12.6b": [
+   "T-12",
+   53
+  ],
+  "T-12.6c": [
+   "T-12",
+   55
+  ],
+  "T-12.6d": [
+   "T-12",
+   56
+  ],
+  "T-12.6e": [
+   "T-12",
+   60
+  ],
+  "T-12.6f": [
+   "T-12",
+   61
+  ],
+  "T-12.6g": [
+   "T-12",
+   62
+  ],
+  "T-12.6h": [
+   "T-12",
+   63
+  ],
+  "T-12.6i": [
+   "T-12",
+   66
+  ],
+  "T-12": [
+   "T-12",
+   0
+  ],
+  "annexes": [
+   "annexes",
+   0
+  ]
+ }
+}

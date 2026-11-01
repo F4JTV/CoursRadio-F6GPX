@@ -1,0 +1,221 @@
+{
+"id":"T-5",
+"title":"5) Les DIODES et leurs MONTAGES",
+"short":"5 Les diodes",
+"blocks":[
+{
+"t":"section",
+"text":"Section B : Les composants actifs",
+"pg":64
+},
+{
+"t":"chapter",
+"html":"5) Les DIODES et leurs MONTAGES",
+"pg":64
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>5.1) Les diodes</b></u></span> sont des composants qui ne <u><b>laissent passer le courant que</b></u> <u><b>dans un sens</b></u> qui est indiqué par une flèche sur le schéma. Les diodes sont formées de deux cristaux semi-conducteurs en Silicium (Si) ou en Germanium (Ge) accolés et dopés N ou P. Le courant électrique circule dans le sens P → N. Lorsque la diode est passante, l'anode est reliée au + et la cathode au –. En sens inverse, la résistance de la diode est très importante (plusieurs centaines de kΩ). La cathode de la diode est repérée au K (inversé dans notre schéma ci-contre) du dessin et par une bague de couleur sur le composant. Le boîtier métallique des diodes de puissance est relié à la cathode ; un pas de vis permet de fixer la diode sur un radiateur pour dissiper plus de puissance.",
+"pg":64,
+"anchors":[
+"T-5.1"
+]
+},
+{
+"t":"fig",
+"id":"c064_3",
+"pg":64,
+"indent":315
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>5.2) Courbes et caractéristiques de fonctionnement d’une diode</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> les diodes ont une <u><b>chute de</b></u> <u><b>tension</b></u> <u><b>dans le sens direct de</b></u> 0,6 ou <u><b>0,7 V</b></u> pour les diodes au Silicium et 0,3 V pour celles au Germanium. En sens direct, dès que la tension augmente au dessus du seuil (0,7 ou 0,3 V selon le cas), l'intensité dans la diode augmente très vite. En sens inverse, les diodes ont une résistance interne très élevée : plus la tension est élevée, plus leur barrière de potentiel, isolante (voir plus loin en italique), s'élargit et plus faible est la valeur de la capacité : c'est l'<u><b>effet Varicap</b></u>. Les diodes peuvent supporter des tensions inverses importantes jusqu'à leur tension de claquage ou d’avalanche (<u><b>tension Zener</b></u>). A ce moment, la résistance de la diode devient nulle. Cet état peut être réversible (diode Zener) ou irréversible (destruction ou claquage d’une diode de redressement).",
+"pg":64,
+"anchors":[
+"T-5.2",
+"T-5.2a"
+]
+},
+{
+"t":"fig",
+"id":"c064_1",
+"pg":64
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le germanium et le silicium sont les cristaux semi-conducteurs les plus courants. Lorsqu'ils sont purs, ils ont</i> <i>une forte résistivité car ils ne possèdent pas d'électrons libres (pour le Silicium, ρ = 640 Ωm). En revanche,</i> <i>lorsque certains types d'impuretés comme l’antimoine (symbole chimique : Sb), l’arsenic (As), le bore (B) ou le</i> <i>gallium (Ga) sont introduits en quantités infimes (10</i><sup><i>-8</i></sup><i>), le cristal devient conducteur. Les impuretés ajoutent des</i> <i>électrons libres ou, au contraire, des trous (manque d’électron) et dopent le cristal. Celui-ci sera de type N si</i> <i>des électrons libres sont ajoutés (N comme négatif, comme la tension des électrons libres) ou de type P si des</i> <i>trous sont ajoutés (P comme positif, comme la tension créée par le manque d’électrons).</i>",
+"pg":64,
+"anchors":[
+"T-5.2b"
+]
+},
+{
+"t":"fig",
+"id":"c064_2",
+"pg":64,
+"indent":7
+},
+{
+"t":"p",
+"html":"<i>Dans les cristaux dopés N, les électrons se déplacent en chassant les électrons déjà en place dans les atomes</i> <i>d'impureté et qui sont instables car ils ne sont pas liés à d'autres atomes. Dans les cristaux dopés P, ce sont</i> <i>toujours les électrons qui se déplacent mais, dans ce cas, ils bouchent les trous créés par les impuretés. Les</i> <i>trous sont des particules fictives qui se déplacent en sens inverse des électrons. La jonction est la frontière entre</i> <i>la zone du cristal dopée P et l’autre zone dopée N.</i>",
+"pg":64
+},
+{
+"t":"p",
+"html":"<i>En l'absence de tension aux bornes de</i> <i>la diode, les électrons de la zone N se</i> <i>recombinent avec les trous de la zone P</i> <i>aux alentours de la jonction, créant la</i> <i>barrière de potentiel très résistante</i><br><i>(plusieurs MΩ) car aucun courant ne</i> <i>peut circuler. Lorsque la diode est</i> <i>alimentée en sens inverse (zone N reliée au + et zone P reliée au –), les électrons désertent la zone N, attirés par</i> <i>la tension positive et les trous de la zone P sont bouchés par les électrons apportés par la tension négative ; la</i> <i>diode devient très résistante et la barrière de potentiel s’élargit. En revanche, quand la diode est alimentée en</i> <i>sens direct, les électrons de la zone N sont attirés par le potentiel positif branché sur la zone P et se recombinent</i> <i>avec les trous présents de l’autre côté de la jonction. La tension de seuil est nécessaire pour que les électrons</i> <i>puissent « sauter » la barrière de potentiel. Chaque recombinaison trou/électron s’accompagne de l’émission</i> <i>d’un photon ou de chaleur (et donc de bruit dont le niveau variera en fonction du semi-conducteur employé).</i>",
+"pg":65
+},
+{
+"t":"fig",
+"id":"c065_2",
+"pg":65,
+"indent":170
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>5.3) Montage des diodes</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span>",
+"pg":65,
+"align":"left",
+"anchors":[
+"T-5.3",
+"T-5.3a"
+]
+},
+{
+"t":"fig",
+"id":"c065_1",
+"pg":65
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Lorsque les diodes sont utilisées pour redresser du courant alternatif, elles sont associées à un condensateur électrochimique de forte valeur : le condensateur permet de lisser la tension à la sortie du redresseur.",
+"pg":65,
+"anchors":[
+"T-5.3b"
+]
+},
+{
+"t":"p",
+"html":"Le <u><b>redressement mono-alternance</b></u> ne nécessite qu’une seule diode : seule une alternance traverse la diode.",
+"pg":65,
+"align":"left"
+},
+{
+"t":"p",
+"html":"Pour redresser les deux alternances du courant alternatif, on emploie soit un transformateur à point milieu et deux diodes soit un transformateur classique et un pont de diodes : un transformateur à point milieu coûte plus cher et tient plus de place qu’un transformateur classique mais la chute de tension dans un pont de diodes est double car le courant traverse deux diodes.",
+"pg":65
+},
+{
+"t":"p",
+"html":"Dans le montage avec <u><b>transformateur à point milieu</b></u>, lors de la première alternance, la diode du haut du schéma est passante et le courant circule à partir de la masse dans la partie haute de l’enroulement du transformateur. Le courant ne peut aller que vers le condensateur car la diode du bas du schéma est à ce moment bloquée (sens non passant). Lors de la seconde alternance, le courant circule à partir de la masse dans la partie basse de l’enroulement du transformateur puis dans la diode du bas du schéma ; le courant est ensuite amené au condensateur car c’est au tour de la diode du haut d’être bloqué.",
+"pg":65
+},
+{
+"t":"p",
+"html":"Dans le <u><b>pont de diodes</b></u> (ou pont de Graëtz), les diodes sont toutes dans le même sens et leurs flèches sont dirigées vers le condensateur de filtrage. Lors d’une alternance, seules les deux diodes d’une diagonale du pont sont passantes et lors de l’autre alternance, seules les deux diodes de l’autre diagonale sont passantes.",
+"pg":65
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> La <u><b>diode Varicap</b></u>, reconnaissable à son double trait sur la cathode représentant le condensateur, est montée en sens inverse (non passant) et permet de remplacer un condensateur variable. Sa capacité est commandée par la tension inverse présente à ses bornes. Plus cette tension est élevée, plus la barrière de potentiel qui est isolante s’élargit, plus sa capacité est faible (effet de l’augmentation de l’épaisseur du diélectrique dans un condensateur). La diode Varicap sera montée avec des condensateurs qui isoleront sa tension de commande. Les diodes Zener sont parfois utilisées dans cette fonction car elles sont plus courantes (et moins chères) que les Varicap et leur capacité est plus forte que celle des simples diodes de redressement.",
+"pg":65,
+"anchors":[
+"T-5.3c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> La <u><b>diode Zener</b></u>, reconnaissable à sa forme en Z (deux représentations possibles, voir ci-contre), est montée en sens inverse (non passant) et utilisée en stabilisateur de tension : lorsque la tension aux bornes de la charge est supérieure à la tension d’avalanche de la diode, elle devient brusquement passante : la tension diminue aux bornes de la charge puis la diode redevient isolante lorsque la tension est inférieure à sa tension d’avalanche. On peut comparer son fonctionnement à celui d’une soupape de cocotte-minute libérant de la vapeur lorsque la pression est trop importante.",
+"pg":66,
+"anchors":[
+"T-5.3d"
+]
+},
+{
+"t":"fig",
+"id":"c065_3",
+"pg":65,
+"indent":410
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> Les <u><b>LED</b></u>, reconnaissables à leur éclair ou leurs flèches, émettent un photon à chaque recombinaison électron/trou dans la zone P de la diode <i>(transition radiative). La couleur</i> <i>émise et la tension de seuil dépendent du semi-conducteur utilisé : infra-rouge = 1,5 V -</i> <i>arséniure de gallium-aluminium (AlGaAs) ; rouge = 2 V - AlGaAs ; vert = 3 V - nitrure</i> <i>de gallium (GaN) ; bleu = 3,3 V - carbure de silicium (SiC). Une résistance limite l’intensité à environ 20 mA.</i>",
+"pg":66,
+"anchors":[
+"T-5.3e"
+]
+},
+{
+"t":"fig",
+"id":"c066_4",
+"pg":66
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> Enfin, les diodes peuvent être utilisées comme des <u><b>commutateurs</b></u> pour courant alternatif et remplacent les relais électromécaniques. Dans le schéma ci-contre, lorsque l’interrupteur est ouvert, aucun courant ne passe dans la diode si le courant alternatif n’atteint pas la tension de seuil de la diode. Quand l’interrupteur est fermé, un courant parcourt la diode et la composante alternative passe au travers des deux condensateurs.",
+"pg":66,
+"anchors":[
+"T-5.3f"
+]
+},
+{
+"t":"fig",
+"id":"c066_3",
+"pg":66,
+"indent":359
+},
+{
+"t":"p",
+"html":"Les <u><b>diodes PIN</b></u> sont adaptées pour fonctionner dans les commutateurs HF à la place des diodes jonction classiques <i>: ces diodes ont une courbe de réponse lente, obtenue en intercalant une couche semi-conducteur non</i> <i>dopée, donc isolante, entre les deux couches P et N, ce qui donne une jonction PIN (Positif, Isolant, Négatif). En</i> <i>cas de coupure de l’alimentation, la diode PIN reste passante plus longtemps qu’une diode jonction PN</i> <i>classique. De même, lorsque la diode PIN n’est pas alimentée, elle reste bloquée même lorsque la tension HF à</i> <i>l’entrée dépasse la tension de seuil (0,7V), contrairement à ce que fait une diode jonction PN au silicium.</i>",
+"pg":66
+},
+{
+"t":"p",
+"html":"<i>Les</i> <u><i>diodes Schottky</i></u> <i>sont utilisées en HF dans les mélangeurs en anneau (voir §12.6d) et dans les ponts de</i> <i>redressement d’alimentation (voir ci-dessous). Ces diodes, obtenues par la liaison entre un semi-conducteur et</i> <i>un métal (à la manière d’une détection à galène), permettent une commutation très rapide et génèrent une faible</i> <i>tension de seuil (0,25 V) mais elles ont une tension inverse limitée et un courant inverse plus élevé que les diodes</i> <i>jonction PN classiques.</i>",
+"pg":66
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>g<span style=\"color:#800080\">.</span></b> <i>Les</i> <u><i>diodes Gunn</i></u><i>, placées en parallèle sur un résonateur (cavité) et une charge, étaient utilisées dans les</i> <i>oscillateurs hyperfréquence et dans les étages multiplicateurs hyperfréquence (à partir de 10 GHz). Leurs</i> <i>principaux défauts étaient l'instabilité en fréquence des cavités ainsi que leur bruit de phase élevé.</i>",
+"pg":66,
+"anchors":[
+"T-5.3g"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>5.4)</b></u></span> Dans une <span style=\"color:#800080;font-size:1.20em\"><u><b>alimentation</b></u></span>, les diodes au silicium font chuter la tension d’un peu plus de 0,7 volt à chaque passage, soit un peu plus de 1,4 volt en tout pour un redressement par pont de diodes, comme présenté ci-dessous. Le condensateur de filtrage maintient la valeur de la tension de sortie à sa valeur de crête.",
+"pg":66,
+"anchors":[
+"T-5.4",
+"T-5.4a"
+]
+},
+{
+"t":"fig",
+"id":"c066_1",
+"pg":66
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Le courant dans les diodes n’existe que lors du « remplissage » du condensateur de filtrage puis, ensuite, que</i> <i>lors de sa « remise à niveau », c’est-à-dire un temps très court compris entre le moment où la sinusoïde atteint</i> <i>la tension du condensateur qui s’est déchargé et le maximum de la sinusoïde. Le courant instantané passant</i> <i>dans les diodes est donc nettement supérieur au courant moyen délivré par l’alimentation, ce qui nuit au</i> <i>rendement de l’équipement (voir §R-5.1d pour la définition du rendement). Dans les questions d’examen ANFR,</i> <i>la chute de tension dans la diode n’est pas prise en compte dans le calcul de la tension de sortie du circuit.</i>",
+"pg":66,
+"anchors":[
+"T-5.4b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Après le condensateur de filtrage (de type chimique), on trouve un étage de</i> <u><i>stabilisation</i></u> <i>ou de</i> <u><i>régulation</i></u> <i>avant la charge. La charge est l’ensemble des équipements branchés sur l’alimentation. La charge est vue par</i> <i>l’alimentation comme une résistance variable car les équipements branchés consomment une intensité variable</i> <i>pour une tension d’alimentation fixe. Un stabilisateur est monté en parallèle sur la charge (stabilisation par</i> <u><i>diode Zener</i></u><i>, par exemple). Un régulateur est monté en série avec la charge après le condensateur et a besoin</i> <i>d’une tension de référence stabilisée. Dans les alimentations, les deux montages sont souvent combinés : un</i> <i>stabilisateur constitué d’une diode Zener donne la tension de référence au régulateur qui est bâti autour d’un</i> <i>(ou de plusieurs) transistor « ballast » monté en collecteur commun (voir §6.3a2)</i>",
+"pg":66,
+"anchors":[
+"T-5.4c"
+]
+},
+{
+"t":"fig",
+"id":"c066_2",
+"pg":66
+}
+]
+}

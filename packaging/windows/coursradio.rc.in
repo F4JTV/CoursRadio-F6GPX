@@ -1,0 +1,34 @@
+// Windows resources: application icon and version information.
+// Generated into the build directory by CMake (configure_file).
+#include <winver.h>
+
+IDI_ICON1 ICON "@COURSRADIO_ICO@"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION @COURSRADIO_VERSION_COMMAS@
+ PRODUCTVERSION @COURSRADIO_VERSION_COMMAS@
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "CoursRadio Community"
+            VALUE "FileDescription", "Cours Radioamateur - French amateur radio course"
+            VALUE "FileVersion", "@PROJECT_VERSION@"
+            VALUE "InternalName", "CoursRadio"
+            VALUE "LegalCopyright", "Course content CC BY-NC-SA 4.0 (F6GPX, Radio-Club de la Haute Ile)"
+            VALUE "OriginalFilename", "CoursRadio.exe"
+            VALUE "ProductName", "Cours Radioamateur"
+            VALUE "ProductVersion", "@PROJECT_VERSION@"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

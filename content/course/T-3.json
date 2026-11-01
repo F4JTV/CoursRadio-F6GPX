@@ -1,0 +1,326 @@
+{
+"id":"T-3",
+"title":"3) TRANSFORMATEURS, PILES et GALVANOMÈTRES",
+"short":"3 Transformateurs, piles",
+"blocks":[
+{
+"t":"chapter",
+"html":"3) TRANSFORMATEURS, PILES et GALVANOMÈTRES",
+"pg":53
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.1) Un transformateur</b></u></span> est un cas particulier de bobines couplées (au moins deux enroulements bobinés autour d'un même circuit magnétique). Il ne transforme que des courants alternatifs (et si possible sinusoïdaux). Selon la fréquence du courant, le circuit magnétique est composé soit d’un empilement de tôles minces (représenté par un double trait comme ci-dessous) pour des fréquences basses (BF ou secteur 50 Hz), soit de ferrite (représentée en pointillé comme au § 2.3a) pour des fréquences HF, soit d’air (pas de circuit magnétique représenté) pour les fréquences les plus élevées. La puissance appliquée sur le <u><b>primaire</b></u> est récupérée sur le ou les <u><b>secondaires</b></u>.",
+"pg":53,
+"anchors":[
+"T-3.1",
+"T-3.1a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Un transformateur possède plusieurs caractéristiques :<br>- le <u><b>nombre de spires</b></u> de ses enroulements (n<sub>p</sub> pour le primaire et n<sub>s</sub> pour le secondaire) donne le rapport de transformation N = n<sup>s</sup> / n<sup>p</sup> (si N&gt;1, le transformateur est élévateur, sinon il est abaisseur) ;<br>- la <u><b>puissance</b></u> utile délivrée au(x) secondaire(s) du transformateur est exprimée en volt-ampère (VA) et non pas en watt car il s’agit d’une puissance disponible et non pas consommée comme le ferait une simple résistance ;<br>- le <u><b>rendement</b></u> η (lettre grecque êta minuscule) est le rapport en % obtenu en divisant la puissance à la sortie du ou des secondaires (P<sub>s</sub>) par la puissance d'entrée (P<sub>p</sub>). Un transformateur parfait (ou idéal) a un rendement de 100% : toute la puissance présente sur le primaire est transférée sur le ou les secondaires.",
+"pg":53,
+"anchors":[
+"T-3.1b"
+]
+},
+{
+"t":"fig",
+"id":"c053_1",
+"pg":53
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Les formules sont regroupées ci-contre où la première ligne est proportionnelle à la seconde. Une fois déterminés les deux couples de valeurs (le couple où se trouve l’inconnue et un autre couple de données), l’inconnue se calcule par le produit en croix (voir §0-1c). Si l’impédance est l’inconnue, la formule est à élever au carré.",
+"pg":53,
+"anchors":[
+"T-3.1c"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples</b></u></span> <span style=\"color:#800000\"><b>:</b></span> <b>1)</b> Un transformateur, alimenté en 282 Vmax à son primaire, a un rapport de transformation de 1/10. Quelle sera la tension efficace mesurée au secondaire ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> U<sub>p</sub> = 282 Vmax x 0,707 = 200 Veff ; U<sub>S</sub> = U<sub>P</sub> x N = 200 x 1/10 = <span style=\"color:#800000\">20 Veff</span>. <i>En</i> <i>utilisant le tableau dans cet exemple, on retient le couple contenant l’inconnue, U</i><sub><i>S</i></sub><i>, et</i> <i>le couple contenant N (valeurs entourées en bleu ci-contre). Le calcul par le produit</i> <i>en croix est : U</i><sub><i>s</i></sub> <i>= produit de la 2</i><sup><i>ème</i></sup> <i>diagonale (N x U</i><sub><i>P</i></sub> <i>dans notre exemple) divisé par</i> <i>la valeur opposée (1 dans notre exemple) = (N.U</i><sub><i>p</i></sub><i>) / 1 = 200 x 1/10 =</i> <span style=\"color:#800000\"><i>20 Veff</i></span><i>.</i>",
+"pg":53
+},
+{
+"t":"fig",
+"id":"c053_3",
+"pg":53,
+"indent":355
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Sur le secondaire d'un transformateur est branchée une résistance de 200 ohms. Le transformateur possède 80 spires au primaire et 40 spires au secondaire. Quelle impédance mesure-t-on au primaire ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> N = n<sub>s</sub> / n<sub>p</sub> = 40 / 80 = 1/2 = 0,5 ; Z<sub>p</sub> = Z<sub>s</sub> / N² = 200 / 0,5² = <span style=\"color:#800000\">800 Ω</span>.<br><i>Pour utiliser le tableau, seules les valeurs entourées d’un pointillé rouge seront retenues : produit en croix =</i> <i>produit de la 2</i><sup><i>ème</i></sup> <i>diagonale (√Z</i><sub><i>s</i></sub> <i>x n</i><sub><i>p</i></sub> <i>dans notre exemple) divisé par la valeur opposée (n</i><sub><i>s</i></sub> <i>dans notre exemple) :</i> <i>√Z</i><sub><i>p</i></sub> <i>= √Z</i><sub><i>s</i></sub> <i>x n</i><sub><i>p</i></sub> <i>/ n</i><sub><i>s</i></sub> <i>; en élevant au carré : Z</i><sub><i>p</i></sub> <i>= Z</i><sub><i>s</i></sub> <i>x n</i><sub><i>p</i></sub><i>² / n</i><sub><i>s</i></sub><i>² = 200 x 80² / 40² = 200 x 6400 / 1600 =</i> <span style=\"color:#800000\"><i>800</i></span>.",
+"pg":53
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.2) Transformateur non parfait :</b></u></span> excepté le <u><b>calcul du rendement</b></u>, l’étude du transformateur non parfait n’est pas au programme de l’examen. Le rendement (qui ne peut pas être supérieur à 100%) est fonction du coefficient de couplage (k, voir § 2.3g1) des enroulements. <i>Un rendement de 80% est courant pour les</i> <i>transformateurs d'alimentation et sera optimum pour la puissance au secondaire conseillée par le constructeur.</i> <i>Lorsque le transformateur est sous-dimensionné ou sous-utilisé, le rendement est moindre. Pour améliorer le</i> <i>rendement, on préfèrera un nombre de volts par spire faible, ce qui limitera le flux magnétique nécessaire au</i> <i>fonctionnement du transformateur. En utilisation normale, le rendement influe plus sur l’intensité que sur la</i> <i>tension. Plus on se rapproche de la puissance maximum admise par le transformateur, plus la tension du</i> <i>secondaire baisse (jusqu’à 5%). Le rendement augmente le rapport de transformation des impédances (N² / η).</i>",
+"pg":53,
+"anchors":[
+"T-3.2",
+"T-3.2a"
+]
+},
+{
+"t":"fig",
+"id":"c053_2",
+"pg":53,
+"indent":13
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Un</i> <u><i>autotransformateur</i></u> <i>a son primaire et son secondaire bobinés sur le même enroulement : le courant du</i> <i>primaire et du secondaire circule dans la partie commune du bobinage. L’autotransformateur n’assure pas</i> <i>l’isolation galvanique (protection par limitation du courant dans le secondaire) comme le fait un</i> <u><i>transformateur</i></u> <u><i>d’isolement</i></u> <i>qui a un nombre de spires égal au primaire et au secondaire (N = 1).</i>",
+"pg":53,
+"anchors":[
+"T-3.2b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Le courant alternatif dans l'enroulement primaire engendre dans le circuit magnétique un flux alternatif. Ce</i> <i>flux variable engendre un courant alternatif dans le secondaire mais aussi dans la tôle du circuit magnétique.</i> <i>Ainsi, une partie du courant n’est pas récupérée sur le secondaire (incidence sur le rendement). Ces courants</i> <i>induits sont dits</i> <u><i>courants de Foucault</i></u> <i>et provoque l'échauffement de la tôle, donc des pertes. Pour limiter ces</i> <i>pertes, le circuit magnétique sera feuilleté et chaque élément (en forme de E ou de I) sera isolé par vernissage.</i> <i>Les pertes par courants de Foucault sont proportionnelles au carré de la fréquence, ce qui justifie la diminution</i> <i>de l'épaisseur des tôles quand la fréquence augmente. Pour les fréquences élevées (au-delà de la B.F.), le</i> <i>feuilletage ne suffit plus, des poudres ferromagnétiques (ferrite) sont alors employées.</i>",
+"pg":54,
+"anchors":[
+"T-3.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.3) Les piles et les accumulateurs</b></u></span> sont des réserves de <u><b>courant continu</b></u> : ils accumulent l'électricité grâce une réaction chimique. Seuls les accumulateurs sont rechargeables. <u><b>Une pile est une source ; un accumulateur</b></u> <u><b>est une source ou une charge</b></u> selon qu’on le fait débiter ou qu’on le recharge. Une pile (ou un accumulateur) possède des caractéristiques propres : sa force électromotrice, sa résistance interne et sa capacité.",
+"pg":54,
+"anchors":[
+"T-3.3",
+"T-3.3a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> La <u><b>force électromotrice</b></u> ou fém (notée E), en volts, est la tension aux bornes de la pile lorsqu’elle ne débite pas (sans charge). La fém dépend de la constitution chimique de la pile : deux électrodes, constituées de deux matériaux différents et baignant dans un électrolyte, forment un couple électrolytique. L’<u><b>électrode</b></u> positive, représentée par le trait le plus long sur les schémas, est reliée au + ; l’électrode négative, formant la carcasse des piles et représentée par le trait gras et court, est reliée au – (<i>Attention : dans la représentation schématique des</i> <i>condensateurs électrochimiques, la carcasse est représentée par le grand trait en forme de U et est reliée au –,</i> <i>voir §2.3a). Les électrodes baignent dans un électrolyte acide ou alcalin. L’électrolyte, parfois gélifié, est le plus</i> <i>souvent liquide et, dans ce cas, peut imprégner un buvard. Le couple électrolytique détermine la fém : le couple</i> <i>zinc-charbon est une pile de 1,5 V ; le couple cadmium-nickel est un accumulateur générant 1,2 V ; un</i> <i>accumulateur au plomb est constitué d’une électrode négative en plomb pur (Pb) et d’une électrode positive en</i> <i>dioxyde de plomb (PbO</i><sub><i>2</i></sub><i>) baignant dans de l’acide sulfurique (H</i><sub><i>2</i></sub><i>SO</i><sub><i>4</i></sub><i>). Lorsque l’élément est chargé à fond, il</i> <i>génère 2,2 V. Puis, lors de la décharge, cette tension descend à 2 V. Lorsque l’acide est transformé en eau,</i> <i>l’élément est déchargé (la tension est de 1,8 V) et les électrodes sont transformées en sulfate de plomb (PbSO</i><sub><i>4</i></sub><i>).</i>",
+"pg":54,
+"anchors":[
+"T-3.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> La tension nécessaire au rechargement des accumulateurs s’appelle la <u><b>force contre-électromotrice</b></u><u></u> (fcém). La fcém est toujours plus grande que la fém car les accumulateurs ont besoin d’une tension, variable selon le couple électrolytique, pour inverser la réaction chimique.",
+"pg":54,
+"anchors":[
+"T-3.3c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> La <u><b>résistance interne</b></u> (notée Ri), en ohm, de la pile est due à la résistance de la réaction chimique. Cette résistance, qui est représentée schématiquement en série avec l’élément de la pile, est quasiment nulle pour les accumulateurs mais non négligeable pour les piles (et en particulier les piles usagées). Lorsque la borne positive de la pile ou de l’accumulateur est reliée directement à la borne négative, le <u><b>courant de court-circuit</b></u> est égal à : <span style=\"color:#000080\"><b>Icc (A) = E (V) / Ri (Ω)</b></span>. La valeur de ce courant est très grande dans le cas d’un accumulateur car celui-ci a une résistance interne très faible, ce qui peut détruire l’accumulateur à cause de sa surchauffe.",
+"pg":54,
+"anchors":[
+"T-3.3d"
+]
+},
+{
+"t":"fig",
+"id":"c054_1",
+"pg":54,
+"indent":316
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Aux bornes d'une pile dont la Fém est de 9 volts, on branche une résistance de 200 ohms où un courant de 40 mA est constaté. Quelle est la résistance interne de la pile ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> en utilisant simplement la loi d’Ohm et la loi des nœuds et des mailles : U<sub>R</sub> = R.I<sub>R</sub> = 200 Ω x 0,04 A = 8 V ; U<sub>Ri</sub> = E – U<sub>R</sub> = 9 V – 8 V = 1 V ; Ri = U<sub>Ri</sub> / I = 1 V / 0,04 A = <span style=\"color:#c00000\">25 Ω</span><p style=\"margin:0 0 0 1.4em\"><i>Autre méthode : en utilisant les formules : Ri = (E / I) – R = (9 V / 0,04 A) – 200 Ω = 225 – 200 =</i> <span style=\"color:#c00000\"><i>25 Ω</i></span></p>",
+"pg":54
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Calculer la puissance dissipée dans la résistance<br><span style=\"color:#800000\"><u>Réponse :</u></span><br>calcul de I<sub>R</sub> : I = U / R = E / (R + ri) = 4,5 / (35 + 10) = 0,1 A calcul de P<sub>R</sub> : P = R . I² = 35 x 0,1² = 35 x 0,01 = 0,35 W = <span style=\"color:#800000\">350 mW</span>",
+"pg":54
+},
+{
+"t":"fig",
+"id":"c054_2",
+"pg":54,
+"indent":299
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>e<span style=\"color:#800080\">.</span></b> La <u><b>quantité d'électricité emmagasinée</b></u> dans une pile (appelée aussi <u><b>capacité</b></u>) est exprimée en coulomb (C) avec la relation <span style=\"color:#000080\"><b>Q(C)=I(A).t(s)</b></span> ou en ampère-heure (Ah) avec la relation : <span style=\"color:#000080\"><b>1 Ah = 3600 C</b></span> ou <span style=\"color:#000080\"><b>1 C = 1 Ah / 3600</b></span>",
+"pg":54,
+"anchors":[
+"T-3.3e"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple :</b></u></span> Un accumulateur dont la force électromotrice est de 12 volts et dont la résistance interne est négligeable se décharge en 3 heures lorsqu'il est branché sur une résistance de 10 ohms. Quelle est la capacité de l'accumulateur (en coulombs et en ampère-heure) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> I<sub>R</sub> = U<sub>R</sub> / R = E / R = 12 V / 10 Ω = 1,2 A ; Q (C) = I (A) . t (s) = 1,2 x 3 x 3600 = <span style=\"color:#800000\">12 960 C</span> soit <span style=\"color:#800000\">3,6 Ah</span>",
+"pg":54
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>f<span style=\"color:#800080\">.</span></b> <u><b>Association des piles en série et en parallèle</b></u> : il vaut mieux associer des piles ou des accumulateurs de même nature et de même valeur : on change un jeu de piles complet, les accumulateurs d’un groupement sont rechargés ensemble. Lorsqu’ils sont montés en série, les piles et les accumulateurs voient leurs Fém et leurs résistances internes s’additionner. Montés en parallèle, les piles et accumulateurs voient leurs résistances internes globales diminuer comme dans un groupement de résistances en parallèle alors que la Fém est constante. Toutefois, le montage d’éléments en parallèle est complexe : il faut s’en tenir au cas d’éléments de caractéristiques identiques (Fém, capacités et résistances internes).",
+"pg":54,
+"anchors":[
+"T-3.3f"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><b></b></span> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.4) Les galvanomètres</b></u></span> à cadres mobiles sont des appareils de mesure d'intensité. Un galvanomètre est composé d’un aimant fixe et d’un cadre mobile pouvant effectuer une rotation de 90°, surmonté d’une aiguille et contenant une bobine. En position initiale (notée 0 sur le cadran du schéma), le champ de l’aimant est perpendiculaire à l’axe de la bobine car un ressort, souvent en forme de spirale, ramène la bobine vers cette position initiale. Le champ magnétique généré par le courant traversant la bobine force celle-ci à se tourner dans l’axe de l’aimant. L’aiguille fixée sur le cadre indique la déviation lue sur un cadran gradué. Le galvanomètre a une <u><b>résistance interne</b></u> propre (Ri) et une <u><b>intensité de</b></u> <u><b>déviation maximum</b></u> (I<sub>g</sub>) à ne pas dépasser. Un galvanomètre ne peut lire que de faibles intensités (intensité de déviation maximale, de l'ordre du milliampère, voire moins) ou de faibles tensions (Ri x I<sub>g</sub>, soit quelques µV).",
+"pg":55,
+"anchors":[
+"T-3.4",
+"T-3.4a"
+]
+},
+{
+"t":"fig",
+"id":"c055_4",
+"pg":55,
+"indent":336
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Des montages spécifiques permettent de lire des tensions supérieures en utilisant une résistance montée en série avec le galvanomètre ou des intensités plus élevées en utilisant un shunt (résistance en dérivation). Le galvanomètre est alors monté en voltmètre ou en ampèremètre. Le galvanomètre ne peut indiquer que des valeurs moyennes (voir §2.2c). Pour indiquer des valeurs efficaces ou maximum, une diode sera montée en série (redressement, voir §5.3a) et une échelle de lecture adaptée sera utilisée.",
+"pg":55,
+"anchors":[
+"T-3.4b"
+]
+},
+{
+"t":"fig",
+"id":"c055_1",
+"pg":55
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> nous disposons d’un galvanomètre dont les caractéristiques sont les suivantes : intensité de déviation maximum = 20 µA et résistance interne = 10 Ω. Comment réaliser un voltmètre dont le calibre est de 10 volts et un ampèremètre dont le calibre est 1 ampère ?<br><span style=\"color:#800000\"><u>Réponses :</u></span><br>Dans un voltmètre, la résistance est en série ; U<sub>g</sub> = I<sub>g</sub> . Ri = 0,00002 x 10 = 0,0002 V ; U<sub>R</sub> = U<sub>T</sub> – U<sub>g</sub> =<p style=\"margin:0 0 0 1.4em\">10 – 0,0002 = 9,9998 V ; R = U<sub>R</sub> / I<sub>g</sub> = 9,9998 / 0,00002 = 499990 Ω ≈ <span style=\"color:#800000\">500 kΩ</span></p><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><u>Autre méthode</u></span> <span style=\"color:#800000\">:</span> R = (U<sub>T</sub> / I<sub>g</sub>) – Ri = (10 / 0,00002) – 10 = 500000 – 10 = <span style=\"color:#800000\">499990 Ω</span></p>Dans un ampèremètre, la résistance est en parallèle ; I<sub>R</sub> = I<sub>T</sub> – I<sub>g</sub> = 1A – 0,00002 A = 0,99998 A ; R = U / I<p style=\"margin:0 0 0 1.4em\">= U<sub>g</sub> / I<sub>R</sub> = 0,0002 V / 0,99998 A = 0,0002 Ω </p><p style=\"margin:0 0 0 1.4em\"><span style=\"color:#800000\"><u>Autre méthode</u></span> <span style=\"color:#800000\">:</span> R = U<sub>g</sub> / I<sub>R</sub> = (Ri . I<sub>g</sub>) / (I<sub>T</sub> – I<sub>g</sub>)=(10 x 0,00002) / (1 – 0,00002) = 0,0002 / 9,99998 =0,0002 Ω </p>",
+"pg":55
+},
+{
+"t":"p",
+"html":"On voit, à travers ces exemples, l’utilité de comprendre le fonctionnement des groupements de résistances. Les formules citées plus haut et leurs variantes sont directement issues des lois d’Ohm et de Kirchhoff.",
+"pg":55
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.5) Qualité des voltmètres (Ω/V)</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> le fait de brancher en dérivation un voltmètre sur un circuit ne doit pas perturber le fonctionnement de ce dernier. Le rapport obtenu en divisant la résistance totale du voltmètre par le calibre en volts donne le facteur de qualité du voltmètre (Q). Ce rapport est directement fonction de la sensibilité du galvanomètre. Un voltmètre possède toujours le même rapport Ω/V quel que soit le calibre utilisé.",
+"pg":55,
+"anchors":[
+"T-3.5",
+"T-3.5a"
+]
+},
+{
+"t":"fig",
+"id":"c055_2",
+"pg":55,
+"indent":329
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> Quelle est la qualité du voltmètre de l’exemple du §3.4 (ci-dessus) ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> Q = (R + Ri) / U<sub>T</sub> = (499990 + 10) / 10 = 50000 = 50 kΩ/V ou Q = 1/I<sub>g</sub> = 1/0,00002 = 50000 = <span style=\"color:#800000\">50 kΩ/V</span>",
+"pg":55
+},
+{
+"t":"ex",
+"html":"<b>2)</b> Quelle est la valeur de la résistance R à mettre en série avec ce voltmètre calibré sur 10 volts pour obtenir un voltmètre calibré sur 100 volts ?<br><span style=\"color:#800000\"><u>Réponse :</u></span> la résistance R doit créer une différence de potentiel égale à la tension de calibre diminuée de la tension du voltmètre (100 V – 10 V = 90 V). La résistance du voltmètre est de 5 kΩ/V. La résistance R aura donc pour valeur 90 V x 5 kΩ/V = <span style=\"color:#800000\">450 kΩ</span><br><span style=\"color:#800000\"><u>Autre méthode :</u></span> Q = 1/I<sub>g</sub> donc I<sub>g</sub> = 1 / Q = 1 / 5000 = 0,0002 A ; R = U / I = 90 V / 0,0002 A = 450000 Ω = <span style=\"color:#800000\">450 kΩ</span>",
+"pg":55
+},
+{
+"t":"fig",
+"id":"c055_3",
+"pg":55,
+"indent":231
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <i>Un bon voltmètre aura un Q au moins égal à 20.000 Ω/V, soit une intensité de déviation maximum I</i><sub><i>g</i></sub> <i>de 50 µA</i> <i>(= 1 / 20.000). Pour les ampèremètres, le paramètre important est la résistance interne du galvanomètre. Plus</i> <i>celle-ci sera faible, meilleur sera l'appareil. Un bon appareil de mesure multimètre aura donc une tension de</i> <i>déviation maximum la plus faible possible (faible résistance interne et faible intensité de déviation maximum)</i>",
+"pg":55,
+"anchors":[
+"T-3.5b"
+]
+},
+{
+"t":"p",
+"html":"<i>Cette notion de qualité des voltmètres n’est plus d’actualité car les instruments numériques ont remplacé les</i> <i>appareils à aiguille. Par construction, les voltmètres numériques ont une résistance interne constante et très</i> <i>élevée quelque soit le calibre utilisé (souvent de l’ordre de 100 MΩ).</i>",
+"pg":55
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><i><b>3.6) Ohmmètre et wattmètre</b></i></u></span> <span style=\"color:#800080\"><u><i><b>:</b></i></u></span> <i>un ohmmètre est composé d'un</i> <i>ampèremètre avec lequel on détermine le courant traversant la</i> <i>résistance à mesurer (Rx). Cet instrument nécessite donc une pile. Rc</i> <i>est la résistance de calibre. La résistance R est variable pour tarer</i> <i>l’ohmmètre à 0 Ω. Un wattmètre est composé d'un voltmètre qui</i> <i>indique la puissance sous une impédance donnée (on a Z</i><sub><i>e</i></sub> <i>= Z</i><sub><i>s</i></sub> <i>=</i> <i>Z</i><sub><i>calibre</i></sub><i>. et d’autre part R + Ri &gt;&gt; Z</i><sub><i>calibre</i></sub><i>). Pour ces deux instruments de</i> <i>mesure, le cadran est gradué pour une lecture directe de la résistance</i> <i>ou de la puissance. Alors que l’échelle de lecture d’un voltmètre ou</i> <i>d’un ampèremètre est relativement linéaire, le milieu de la course du</i> <i>galvanomètre d’un wattmètre représentera un quart de la puissance de</i> <i>calibre (car P = U² / R). Pour un ohmmètre, sachant que I = U / R, la</i> <i>graduation est inversée : 0 Ω est du côté où I est maximum car, pour</i> <i>une valeur de résistance nulle, le courant est maximum. De l’autre</i> <i>côté du cadran, les valeurs allant jusqu’à l’infini seront très serrées.</i>",
+"pg":56,
+"anchors":[
+"T-3.6"
+]
+},
+{
+"t":"fig",
+"id":"c056_1",
+"pg":56,
+"indent":295
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>3.7)</b></u></span> Les <u>basses fréquences</u> (BF) occupent un spectre allant de 0 Hz à 20.000 Hz. Les <u>fréquences acoustiques</u> (audibles pour l’oreille humaine) vont de 100 Hz à 15.000 Hz. Toutefois, un spectre allant de 300 Hz à 3000 Hz est largement suffisant pour la compréhension d’un message en téléphonie. Le haut parleur et le microphone sont des <u>transducteurs</u> (convertisseurs) électrique – mécanique (plus précisément acoustique) et inversement.",
+"pg":56,
+"anchors":[
+"T-3.7",
+"T-3.7a"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a1<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>Le microphone</b></u></span> est constitué d'une membrane recueillant les vibrations de l'air et les transforme en varia-tion de grandeurs électriques. <i>Les principaux types de microphones, par ordre décroissant d’impédance, sont :</i><br>- <i>le microphone électret (impédance élevée, jusqu’à quelques MΩ) est doté d'un Electret</i> <i>assimilable à un condensateur polarisé dont l’épaisseur du diélectrique varie (voir § 2.3c)</i><br>- <i>le microphone céramique emploie un élément en polymère (céramique piézoélectrique,</i> <i>voir § 7.5b) qui, lors de sa compression, engendre du courant à tension variable.</i><br>- <i>le microphone à charbon (ou microphone résistif) dont la membrane compresse plus ou</i> <i>moins des grains de charbon placés dans une capsule, ce qui fait varier leur résistance ;</i><br>- <i>le microphone dynamique (le plus répandu car très robuste, impédance d’environ 1 kΩ) dont la membrane</i> <i>entraîne une bobine mobile située dans le champ magnétique d’un aimant afin de produire une tension ;</i><br>- <i>le microphone à ruban (basse impédance, très sensible surtout aux fréquences basses) dont la membrane est</i> <i>une fine bande de métal à l’intérieur du champ magnétique d’un aimant et qui produit un courant variable.</i>",
+"pg":56,
+"anchors":[
+"T-3.7a1"
+]
+},
+{
+"t":"fig",
+"id":"c056_2",
+"pg":56,
+"indent":390
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a2<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><b>Le haut-parleur</b></u></span> (HP) reproduit les vibrations d'air au rythme du courant délivré par l’étage AF. Les types de HP, par ordre décroissant d’utilisation dans nos stations, sont :<br>- le HP électrodynamique (de loin, le plus répandu) : sa membrane rigide et légère est mise en mouvement par le courant de la bobine plongée dans un champ magnétique intense.<br>- <i>le HP électrostatique : son principe consiste à moduler des champs électrostatiques entre</i> <i>deux électrodes entre lesquelles est placée une fine membrane. Les électrodes sont perforées</i> <i>pour que les vibrations de la membrane sortent du HP (système utilisé dans les casques) ;</i><br>- <i>le HP piézoélectrique utilisant les propriétés de certains polymères (voir § 7.5b) et utilisé dans les oreillettes ;</i><br>- <i>le HP à ruban fonctionnant de la même manière que le microphone à ruban (utilisé dans les tweeters en hi-fi).</i><br>- <i>le HP ionique (ou à plasma) utilisant une bulle d’air ionisée et chauffée par un courant HF (peu courant) ;</i> <i>Les microphones et les haut-parleurs possèdent leurs caractéristiques propres d’impédance, de directivité, de</i> <i>rendu des sons (et de sensibilité pour les microphones).</i>",
+"pg":56,
+"anchors":[
+"T-3.7a2"
+]
+},
+{
+"t":"fig",
+"id":"c056_3",
+"pg":56,
+"indent":389
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><u><i><b>Un relais électromécanique</b></i></u></span> <i>est un</i> <u><i>commutateur à commande électrique</i></u><i>.</i><br><i>Un relais électromécanique est composé d’un</i> <u><i>électro-aimant</i></u> <i>(barreau de fer doux</i> <i>entouré d’une bobine) et d’un</i> <u><i>mécanisme</i></u> <i>qui actionne une (ou plusieurs)</i> <u><i>lame</i></u> <i>qui se colle à des</i> <u><i>contacts</i></u><i>, assurant ainsi la commutation. En l’absence de</i> <i>tension aux bornes de la bobine de l’électro-aimant, le ressort du mécanisme</i> <i>pousse la lame vers le contact</i> <u><i>« Repos »</i></u> <i>: le contact est établi entre le commun et</i> <i>la borne repos (R) du relais. Lorsque la tension aux bornes de la bobine est</i> <i>suffisante, l’électro-aimant attire le mécanisme et celui-ci fait basculer la lame vers le contact</i> <u><i>« Travail »</i></u> <i>: le</i> <i>relais est dit « collé » lorsque le contact est établi entre le commun et la borne travail (T). Lors de l'interruption</i> <i>de l’alimentation de la bobine, la tension inverse générée (loi de Lenz, voir § 2.4b) peut provoquer des</i> <u><i>instabilités dans le circuit d’alimentation</i></u><i>. Pour éviter ce problème, une</i> <u><i>diode</i></u> <i>montée à l’envers (sens non</i> <i>passant, voir § 5.1) en parallèle sur la bobine court-circuite la tension issue du relâchement.</i>",
+"pg":56,
+"anchors":[
+"T-3.7b"
+]
+},
+{
+"t":"fig",
+"id":"c056_4",
+"pg":56,
+"indent":341
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> <i>Un</i> <u><i>circulateur HF</i></u> <i>est constitué de ferrites et d’aimants qui dirigent les courants entre les trois</i> <i>bornes du dispositif. A l'intérieur du circulateur, construit pour une largeur de bande de 3% en</i> <i>UHF et au-delà, l'énergie HF ne circule que dans un sens : de 1 vers 2, de 2 vers 3 ou de 3 vers 1.</i> <i>Dans l’autre sens, le signal est fortement atténué. Lorsqu'on applique un signal sur un des ports,</i> <i>il se propage dans les deux sens opposés avec une vitesse différente due aux champs magnétiques</i> <i>des aimants, ce qui fait qu'il s'additionne sur un autre port et s'annule sur le dernier.</i>",
+"pg":56,
+"anchors":[
+"T-3.7c"
+]
+},
+{
+"t":"fig",
+"id":"c056_5",
+"pg":56,
+"indent":404
+}
+]
+}

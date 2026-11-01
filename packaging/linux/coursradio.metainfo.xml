@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.coursradio.CoursRadio</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>CC-BY-NC-SA-4.0</project_license>
+  <name>Cours Radioamateur</name>
+  <summary>Course for the French amateur radio operator certificate</summary>
+  <description>
+    <p>
+      Offline reader for the course "Préparation au certificat d'opérateur du service amateur"
+      written by F6GPX for the Radio-Club de la Haute Île (F6KGL / F5KFF): regulation and
+      technique chapters, with every schematic redrawn as a native vector figure,
+      light and dark themes and adjustable text size.
+    </p>
+  </description>
+  <launchable type="desktop-id">coursradio.desktop</launchable>
+  <developer id="org.coursradio">
+    <name>CoursRadio Community</name>
+  </developer>
+  <categories>
+    <category>Education</category>
+    <category>HamRadio</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2026-10-29"/>
+  </releases>
+</component>

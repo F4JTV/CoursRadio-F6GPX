@@ -1,0 +1,354 @@
+{
+"id":"T-0",
+"title":"0) RAPPELS de MATHÉMATIQUES et d’ALGÈBRE",
+"short":"0 Rappels de mathématiques",
+"blocks":[
+{
+"t":"part",
+"text":"EPREUVE de TECHNIQUE",
+"pg":34
+},
+{
+"t":"chapter",
+"html":"0) RAPPELS de MATHÉMATIQUES et d’ALGÈBRE",
+"pg":34
+},
+{
+"t":"p",
+"html":"Ce chapitre préliminaire rappelle les principes mathématiques et algébriques nécessaires à la compréhension et au traitement des formules énoncées dans ce cours.",
+"pg":34
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><b></b></span> <span style=\"color:#800080;font-size:1.20em\"><u><b>0.1) Transformation d'équation</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> une équation est une expression mathématique qui indique que <u><b>les deux</b></u> <u><b>termes de chaque côté du signe = sont de même valeur</b></u>. Chacun des deux termes est composé de données (notées A, B, C ou D dans les exemples ci-dessous) et d'une inconnue (notée X). La transformation d'équation permet de <u><b>calculer l’inconnue à partir des données</b></u>. La transformation des équations s'effectue différemment selon l'opération et est récapitulée dans le tableau ci-dessous :",
+"pg":34,
+"anchors":[
+"T-0.1",
+"T-0.1a"
+]
+},
+{
+"t":"fig",
+"id":"c034_2",
+"pg":34
+},
+{
+"t":"p",
+"html":"Le résultat de l’addition des termes est une somme ; le résultat d’une soustraction est une différence ; le résultat d’une multiplication est un produit ; le résultat d’une division (ou fraction) est un quotient. Dans une fraction, le terme du haut (ou placé avant le /) est appelé numérateur et celui du bas (après le /) est appelé dénominateur.",
+"pg":34
+},
+{
+"t":"p",
+"html":"Dans une fraction, les deux termes sont l’un au dessus de l’autre séparés d’un trait ou sur la même ligne séparés par le signe / (barre de fraction). Dans une multiplication, le signe de multiplication (x) placé entre les deux termes peut être remplacé par un point (exemple : A . B = A x B) ou par rien (exemple : AB = A x B). Le signe ² (carré) placé après un nombre signifie que ce nombre est multiplié par lui-même (exemple : A² = A x A). Le signe √ (racine carrée) placé devant un nombre signifie que le résultat de l’opération multiplié par lui-même donne le nombre (exemple : √A x √A = A).",
+"pg":34
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les opérations combinées (mélange d’additions et de multiplications par exemple) doivent être traitées dans un ordre précis : puissance (ou racine), puis multiplication (ou division), et enfin addition (ou soustraction). La place des parenthèses remet en cause cet ordre : il faut calculer ce qu'il y a à l’intérieur des parenthèses avant de continuer : la parenthèse est prioritaire. Exemple : dans l'équation A = B x C + D², on calcule D², puis B x C et on additionne le tout. Dans l'équation A = B x (C + D)², on calcule C + D que l'on met au carré et ce résultat est multiplié par B. Mais attention : √AB = √(A x B), par contre (√A) x B s'écrira B√A pour éviter toute confusion. Pour des raisons de lisibilité, les crochets [ et ] sont utilisés : ils ont la même valeur que les parenthèses.",
+"pg":34,
+"anchors":[
+"T-0.1b"
+]
+},
+{
+"t":"p",
+"html":"Les expressions algébriques se simplifient en supprimant les valeurs de signes opposés dans une addition ou les valeurs communes au numérateur et au dénominateur des fractions : A + B + C – B = A + C puisque B – B = 0 et (A x B) / (B x C) = A / C puisque B / B = 1.",
+"pg":34
+},
+{
+"t":"p",
+"html":"Soustraire un nombre négatif revient à l’additionner : A – (–B) = A + B",
+"pg":34,
+"align":"left"
+},
+{
+"t":"p",
+"html":"Une division par une fraction se transforme en une multiplication par l’inverse de cette fraction :",
+"pg":34,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c034_3",
+"pg":34
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Lorsqu’on a des rapports proportionnels (par exemple : A / B = C / D), le théorème de Thalès nous rappelle que l’on a aussi l’équation suivante : A / C = B / D. Dans ce cas, l’inconnue (D par exemple) est déterminée par le produit en croix qui est égal au produit des valeurs de la deuxième diagonale (B multiplié par C dans notre exemple) divisé par la valeur opposée (A dans notre exemple), d’où : D = B x C / A. Ou, si C est l’inconnue : C = A x D / B. L’utilisation de parenthèses est ici inutile<i>.</i>",
+"pg":34,
+"anchors":[
+"T-0.1c"
+]
+},
+{
+"t":"fig",
+"id":"c034_1",
+"pg":34,
+"indent":415
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> <i>La distributivité de la multiplication et de la division par rapport à l’addition et à la soustraction implique</i> <i>que : (A x B) + (C x B) = (A + C) x B mais aussi que : (A / B) – (C / B) = (A – C) / B</i>",
+"pg":34,
+"anchors":[
+"T-0.1d"
+]
+},
+{
+"t":"p",
+"html":"<i>En radioélectricité, les opérations avec additions et soustractions sont peu utilisées, excepté dans le calcul des</i> <i>circuits équivalents. Par contre, la combinaison multiplication – division – puissance – racine est fréquente.</i>",
+"pg":34
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><i><b>Exemple d’application de transformation d’équations :</b></i></u></span> <i>loi de Thomson :</i>",
+"pg":34,
+"align":"left"
+},
+{
+"t":"fig",
+"id":"c034_4",
+"pg":34
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> <span style=\"color:#800080;font-size:1.20em\"><b></b></span> <span style=\"color:#800080;font-size:1.20em\"><u><b>0.2) Puissances de 10, multiples et sous-multiples</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> compte tenu des unités utilisées, il arrive souvent que nous devions utiliser des 0 avant la virgule (farad par exemple) ou après la virgule (hertz par exemple). Pour faciliter la lecture des nombres, les multiples et sous-multiples sont utilisés. Ils sont basés sur des <u><b>puissances de</b></u> <u><b>10 qui vont de 3 en 3</b></u> (3, 6, 9 et -3, -6, ... pour les sous-multiples). Le tableau ci-dessous indique les multiples et sous-multiples utilisés le plus couramment dans les applications radioamateur et à l’examen.",
+"pg":35,
+"anchors":[
+"T-0.2",
+"T-0.2a"
+]
+},
+{
+"t":"fig",
+"id":"c035_1",
+"pg":35
+},
+{
+"t":"p",
+"html":"<i>D’autres multiples et sous-multiples existent mais ne sont pas utilisés dans ce cours. Les plus connus sont : hecto</i> <i>(symbole h, 10</i><sup><i>2</i></sup><i>), déca (da, 10</i><sup><i>1</i></sup><i>), déci (d, 10</i><sup><i>-1</i></sup><i>), centi (c, 10</i><sup><i>-2</i></sup><i>). Il existe aussi le myria (ma, 10</i><sup><i>4</i></sup><i>), utilisé dans les</i> <i>longueurs. Les symboles des multiples, à partir du méga, sont en majuscule alors que ceux des sous-multiples</i> <i>sont en minuscule. De plus, le système international définit les multiples et les sous-multiples de 10</i><sup><i>30</i></sup> <i>à 10</i><sup><i>-30</i></sup><i>. Au-</i><i>delà du Giga se trouvent : Téra (T, 10</i><sup><i>12</i></sup><i>), Péta (P, 10</i><sup><i>15</i></sup><i>), Exa (E, 10</i><sup><i>18</i></sup><i>), Zetta (Z, 10</i><sup><i>21</i></sup><i>), Yotta (Y, 10</i><sup><i>24</i></sup><i>), Ronna (R,</i> <i>10</i><sup><i>27</i></sup><i>), Quetta (W, 10</i><sup><i>30</i></sup><i>) et en deçà du pico : femto (f, 10</i><sup><i>-15</i></sup><i>), atto (a, 10</i><sup><i>-18</i></sup><i>), zepto (z, 10</i><sup><i>-21</i></sup><i>), yocto (y, 10</i><sup><i>-24</i></sup><i>), ronto</i> <i>(r, 10</i><sup><i>-27</i></sup><i>), quecto (q, 10</i><sup><i>-30</i></sup><i>). Ces multiples sont des extrêmes : la tension générée par un électron est d’environ</i> <i>160 zV (zeptovolt), la bande de fréquence des ultraviolets est centrée aux alentours de 1,2 PHz (pétahertz).</i>",
+"pg":35
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> <b></b> <u><b>Pour passer d'un multiple à l'autre, déplacer la virgule de trois chiffres à chaque multiple</b></u>. En utilisant la table de conversion ci-dessus, positionner les chiffres dans chaque case en plaçant la virgule sous le grand trait du multiple utilisé. Lorsque le nombre est défini par une puissance de 10 (voir exemple n°4), la virgule décimale est placée sous le trait de la puissance de 10. Les cases vides à droite et à gauche du nombre seront remplies avec des 0. Pour passer au multiple ou sous-multiple supérieur, la virgule sera déplacée de trois crans vers la gauche (sous le premier grand trait de gauche). Pour passer au multiple ou au sous-multiple inférieur, la virgule sera déplacée de trois crans vers la droite (sous le premier grand trait de droite). Une fois la conversion faite et la virgule positionnée, retirer les 0 inutiles à gauche de la partie entière et à droite de la partie décimale.",
+"pg":35,
+"anchors":[
+"T-0.2b"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemples :</b></u></span> <b>1)</b> conversion k → M : 25 kΩ = , . 25 MΩ = <span style=\"color:#800000\">0,025 MΩ</span>. La case vide entre la virgule et la valeur 2 (représentée ici par un point) et la case vide à droite de la virgule sont comblées par des 0.<p style=\"margin:0 0 0 2.6em\"><b>2)</b> conversion µ → m : 1500 µA = 1,500 mA = <span style=\"color:#800000\">1,5 mA</span>. Les 0 inutiles à droite de la partie décimale (partie du nombre après la virgule) sont supprimés. </p><p style=\"margin:0 0 0 2.6em\"><b>3)</b> conversion UNITE → m : 0,45 V = 0,450 V = 0450 mV = <span style=\"color:#800000\">450 mV</span>. Le 0 inutile à gauche de la partie entière (partie du nombre avant la virgule) est supprimé. </p>",
+"pg":35
+},
+{
+"t":"p",
+"html":"Il est rarement utilisé, dans les applications courantes, plus de 4 multiples pour une même grandeur. Rappelez-vous des multiples des grandeurs qui vous sont plus familières : kilomètre, mètre, millimètre, micron (=\"micromètre\") ou encore tonne (=\"mégagramme\"), kilogramme, gramme, milligramme. Les candidats mal à l’aise avec l’algèbre et les multiples prépareront sur leur feuille de brouillon avant de commencer l’épreuve une table de conversion avec au dessus de chaque grand trait le symbole des multiples et des sous-multiples.",
+"pg":35
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Dans les opérations <u><b>d’addition et de soustraction</b></u>, il faut impérativement utiliser les valeurs avec les mêmes multiples ou sous-multiples. Lors des opérations de <u><b>multiplications</b></u>, les puissances de 10 s'additionnent ; elles se soustraient pour les <u><b>divisions</b></u> : 10<sup>9</sup> x 10<sup>6</sup> / 10<sup>3</sup> = 10<sup>(9+6-3)</sup> = 10<sup>12</sup>. La puissance change de signe lorsqu'elle passe en dessous ou au dessus du trait de fraction : 1 / 10<sup>3</sup> = 10<sup>-3</sup> et 1 / 10<sup>-6</sup> = 10<sup>6</sup>. On rappelle que 10<sup>0</sup> = 1.",
+"pg":35,
+"anchors":[
+"T-0.2c"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Le signe « ^ », qui signifie « puissance », permet de remplacer la police de caractère « puissance » (petits caractères surélevés) quand elle n’est pas disponible. Ainsi 10<sup>-6</sup> s’écrira 10^-6 et 10<sup>12</sup> s’écrira 10^12.<br>Les puissances de 10 sont multipliées par 2 lors de <u><b>l'élévation au carré</b></u> : (10<sup>-3</sup>)<sup>2</sup> = 10<sup>(-3x2)</sup> = 10<sup>-6</sup>. Avec la <u><b>racine</b></u> <u><b>carrée</b></u>, seules les puissances de 10 sont utilisables car elles sont divisées par 2 : √(10<sup>6</sup>) = 10<sup>(6/2)</sup> = 10<sup>3</sup>",
+"pg":35,
+"anchors":[
+"T-0.2d"
+]
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple n°4 :</b></u></span> Calculer P pour U = 20 mV et R = 5 kΩ avec la formule P = U² / R.<br><span style=\"color:#800000\"><u>Réponse :</u></span> P = U² / R =(20 x 10<sup>-3</sup>)<sup>2</sup> / (5 x 10<sup>3</sup>)= 400 x 10<sup>-(3x2)</sup> / 5 x 10<sup>3</sup> = 400/5 x 10<sup>(-6-(+3))</sup> = 4/5 x 10<sup>(-9+2)</sup> = 0,8 x 10<sup>-7</sup> = <span style=\"color:#800000\">80 nW</span> (voir conversion ci-dessus : la virgule a été placée sous le trait de 10<sup>-7</sup>, au 7<sup>ème</sup> trait à droite de l’unité)",
+"pg":35
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple n°5 :</b></u></span> Calculer R (en Ohms) pour U = 20 mV et P = 80 nW avec la formule R = U² / P.<br><span style=\"color:#800000\"><u>Réponse :</u></span> R = U² / P = (20 x 10<sup>-3</sup>)<sup>2</sup> / (80 x 10<sup>-9</sup>) = (400 / 80) x 10 <sup>(-(3x2)- -9)</sup> = 5 x 10<sup>3</sup> = <span style=\"color:#800000\">5000 Ω</span>",
+"pg":35
+},
+{
+"t":"p",
+"html":"<span style=\"color:#800080;font-size:1.20em\"><u><b>0.3) Utilisation d’une calculette</b></u></span> <span style=\"color:#800080\"><u><b>:</b></u></span> la calculette utilisée sera du type « Collège ». Si les touches des 4 opérations classiques (+, −, x, ÷), des 10 chiffres et de la virgule se repèrent facilement, les autres fonctions nécessitent quelquefois d’utiliser une <u><b>fonction « seconde »</b></u>. Ces fonctions sont souvent indiquées au dessus ou en dessous de la touche (et non sur la touche) et l’appui préalable sur la touche « fonction seconde » permet d’y accéder.",
+"pg":35,
+"anchors":[
+"T-0.3"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>a<span style=\"color:#800080\">.</span></b> On cherchera pour chaque calculette les <u><b>12 fonctions</b></u> ou opérateurs utilisés dans les formules de ce cours :<p style=\"margin:0 0 0 1.1em\">- Exposant de 10 (touche marquée <b>.10</b><sup><b>x</b></sup> ou <b>Exp</b> ou <b>E</b>) </p><p style=\"margin:0 0 0 1.1em\">- Inversion de signe (touche marquée <b>+/-</b>, servant souvent à entrer des puissances de 10 négatives). De nombreuses calculettes « Collège » acceptent le – de la soustraction pour signer négativement les puissances de 10 et n’ont donc pas cette fonction. Vérifiez le fonctionnement de la calculette. </p><p style=\"margin:0 0 0 1.1em\">- Racine carrée (symbole √). Dans certains modèles de calculettes, une parenthèse s’ouvre automatiquement. Il faudra penser à la refermer au bon endroit pour éviter une erreur de syntaxe ou de formule. </p><p style=\"margin:0 0 0 1.1em\">- Mise au carré (touche marquée <b>x²</b>) que nous noterons [x²]. En l’absence de cette touche, la fonction Puissance (marquée [^]) sera suivie du chiffre de la puissance, comme dans l’exemple ci-dessous. </p><p style=\"margin:0 0 0 1.1em\">- Logarithme décimal (touche marquée <b>LOG</b>) que nous noterons [LOG] </p><p style=\"margin:0 0 0 1.1em\">- Puissance de 10 ou Antilog (touche marquée <b>10</b><sup><b>x</b></sup>, à ne pas confondre avec l’exposant de 10), notée [10<sup>x</sup>]. Si la calculette n’a pas cette fonction, la fonction Puissance (marquée [^]) sera utilisée en tapant 10^ x </p><p style=\"margin:0 0 0 1.1em\">- Inverse (touche marquée <b>1/x</b>, x<sup>-1</sup> ou Inv) que nous noterons [1/x]. Si la calculette n’a pas cette fonction, la fonction Division ([÷]) sera utilisée en tapant [1][÷]( x ) où x est le diviseur. Dans ce cas, n’oubliez pas les parenthèses autour du dénominateur. </p><p style=\"margin:0 0 0 1.1em\">- Touche donnant la valeur <b>π</b> (3,14159…) que nous noterons [π] </p><p style=\"margin:0 0 0 1.1em\">- Vérifiez la procédure d’effacement complet des mémoires (<i>certains modèles ont une touche « reset » située</i> <i>au dos des calculettes : enfoncez la pointe de votre stylo pour la réinitialisation des mémoires</i>) </p><p style=\"margin:0 0 0 1.1em\">- Vérifiez le fonctionnement des parenthèses. Dans le doute sur l’utilisation des parenthèses dans une formule, vous pouvez en ajouter : la plupart des calculettes accepte au moins 6 niveaux d’imbrication de parenthèses. La seule contrainte sera de bien « refermer » les parenthèses : il faut, dans une formule, autant de « ( » que de « ) » sinon votre calculette vous affichera un message d’erreur. </p><p style=\"margin:0 0 0 1.1em\">- Vérifiez enfin le fonctionnement des touches d’effacement (touche souvent marquée <b>C</b> ou AC pour l’effacement total et <b>CE</b> pour l’effacement partiel) et les touches de déplacement (quand elles existent) très utiles pour modifier une valeur dans une formule sans avoir à la ressaisir en entier. </p>",
+"pg":36,
+"anchors":[
+"T-0.3a"
+]
+},
+{
+"t":"p",
+"html":"L’affichage des résultats est paramétrable (il faut le sélectionner à nouveau après un « reset ») :<p style=\"margin:0 0 0 1.1em\">- L’affichage en <u><b>virgule flottante</b></u> (fonction souvent marquée <b>FLO</b>) est l’affichage standard par défaut. </p><p style=\"margin:0 0 0 1.1em\">- En affichage <u><b>Scientifique</b></u> (fonction souvent marquée <b>SCI</b>), les nombres sont affichés avec une partie entière toujours comprise entre 1 et 9, une partie décimale (à droite de la virgule comportant un nombre de chiffres paramétrable) et une puissance de 10 sous la forme d’un nombre entier positif ou négatif. </p><p style=\"margin:0 0 0 1.1em\">- Le mode d’affichage <u><b>Ingénieur</b></u> (fonction souvent marquée <b>ENG</b>) est comparable à l’affichage Scientifique mais, dans ce cas, la puissance de 10 est toujours multiple de 3 et la partie entière est comprise entre 1 et 999. Malheureusement, la plupart des calculettes « Collège » ne dispose pas de cet affichage qui permet de visualiser le résultat avec les multiples ou sous-multiples présentés au paragraphe précédent. </p>",
+"pg":36
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>b<span style=\"color:#800080\">.</span></b> Les données seront saisies en utilisant ou pas les multiples mais l’affichage indiquera toujours un résultat avec puissances de 10 lorsque l’affichage en mode Ingénieur ou Scientifique est sélectionné.<br>Soit une valeur de 2,5 k à entrer, on saisira 2500 ou 2,5.10<sup>3</sup> en appuyant sur les touches [2][,][5][Exp][3]. En affichage à virgule flottante, ce nombre s’écrira 2500. En mode Scientifique ou Ingénieur, il s’affichera sous la forme 2,5.10<sup>3</sup> ou le plus souvent 2,5<sup>+03</sup> (la puissance de 10 est indiquée : le signe (+ ou –) suivi de deux chiffres). 250000 s’affichera 2,5<sup>+05</sup> en mode Scientifique et 250<sup>+03</sup> en mode Ingénieur (soit 250 k car 10<sup>3</sup> correspond au multiple kilo, symbole k). Notez que 10<sup>0</sup> correspond à l’unité : 2,5 sera écrit 2,5<sup>+00</sup> en affichage Scientifique et Ingénieur. De même, 25 sera écrit 2,5<sup>+01</sup> en affichage Scientifique et 25<sup>+00</sup> en affichage Ingénieur. Enfin 0,25 s’affichera 2,5<sup>-01</sup> en mode Scientifique et 250<sup>-03</sup> en mode Ingénieur (correspondant à 250 milli). Pour entrer cette valeur avec le sous-multiple milli, on saisira 250.10<sup>-3</sup> en appuyant sur les touches [2][5][0][Exp][+/-][3].",
+"pg":36,
+"anchors":[
+"T-0.3b"
+]
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>c<span style=\"color:#800080\">.</span></b> Dans le cours, les réponses avec calculs sont repérées par <u><b>la mention</b></u> <span style=\"font-family:'Liberation Sans'\"><u><b>«</b></u></span> <span style=\"color:#800000;font-family:'Liberation Sans'\"><u><b>Sur une calculette</b></u></span> <span style=\"font-family:'Liberation Sans'\"><u><b>»</b></u></span> et sont données :<p style=\"margin:0 0 0 1.1em\">- en <span style=\"color:#800000;font-family:'Liberation Sans'\"><u><b>écriture naturelle</b></u></span> (ou écriture intuitive ; toutes les calculettes « Collège » récentes acceptent ce format). La formule est saisie avec les <u><b>parenthèses</b></u> notées [(] ou [)] puis on appuie sur [=] pour afficher le résultat. </p><p style=\"margin:0 0 0 1.1em\">- avec la <span style=\"color:#800000;font-family:'Liberation Sans'\"><u><b>formule simplifiée</b></u></span>, ce qui nécessite l’utilisation des multiples ou sous-multiples indiqués. </p>",
+"pg":36,
+"anchors":[
+"T-0.3c"
+]
+},
+{
+"t":"p",
+"html":"Une fois la formule saisie, appuyez sur [=] (ou [EXE]) pour afficher le résultat.",
+"pg":36,
+"align":"left"
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple n°4 :</b></u></span> Calculer P pour U = 20 mV et R = 5 kΩ. (formule à utiliser : P = U² / R, soit : U [x²] ÷ R ou U [^] [2] ÷ R)<br><span style=\"color:#800000\"><u>Sur une calculette, en écriture naturelle :</u></span> (20.10<sup>-3</sup>)<sup>2</sup>÷(5.10<sup>3</sup>) soit la séquence des touches suivantes : [(] [2] [0] [Exp] [+/-] [3] [)] [^] [2] [÷] [(] [5] [Exp] [3] [)] [=]",
+"pg":36
+},
+{
+"t":"table",
+"plain":true,
+"widths":[
+177.2,
+227.9
+],
+"cells":[
+{
+"r":0,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"Résultat affiché avec virgule flottante :",
+"sans":true
+}
+]
+},
+{
+"r":0,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"0,00000008",
+"sans":true
+}
+]
+},
+{
+"r":1,
+"c":0,
+"cs":2,
+"items":[
+{
+"h":"Résultat affiché en notation Scientifique : 8<sup>-08</sup>, soit 8 x 10<sup>-8</sup> (utiliser la table de conversion du §0.2a)",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":0,
+"cs":1,
+"items":[
+{
+"h":"Résultat affiché en notation Ingénieur :",
+"sans":true
+}
+]
+},
+{
+"r":2,
+"c":1,
+"cs":1,
+"items":[
+{
+"h":"80<sup>-09</sup>, soit 80 x 10<sup>-9</sup> = <span style=\"color:#800000\">80 nW</span>",
+"sans":true
+}
+]
+}
+],
+"pg":36,
+"indent":7
+},
+{
+"t":"ex",
+"html":"<span style=\"color:#800000\"><u><b>Exemple n°5 :</b></u></span> Calculer R (en Ohms) pour U = 20 mV et P = 80 nW (formule à utiliser : R = U² / P)<br><span style=\"color:#800000\"><u>Sur une calculette, en écriture naturelle :</u></span> (20.10<sup>-3</sup>)<sup>2</sup>÷(80.10<sup>-9</sup>) = 5.10<sup>3</sup> = 5 kΩ = <span style=\"color:#800000\">5000 Ω</span>",
+"pg":36
+},
+{
+"t":"p",
+"html":"<b style=\"background-color:#800080;color:#ffffff;font-family:'Liberation Sans';\"><span style=\"color:#800080\">.</span>d<span style=\"color:#800080\">.</span></b> Le paramétrage et les fonctions de la calculette <b>Casio FX-92 Collège (modèle Classwiz)</b> :",
+"pg":36,
+"align":"left",
+"anchors":[
+"T-0.3d"
+]
+},
+{
+"t":"p",
+"html":"- Au démarrage (<i>ou par la suite à l’aide de la touche «</i> <i><b>ACCUEIL</b></i> <i>»</i>), sélectionner le mode « <b>Calcul</b> »",
+"pg":36,
+"align":"left",
+"indent":14
+},
+{
+"t":"p",
+"html":"- Pour <b>réinitialiser le paramétrage d’origine</b> (et/ou vider la mémoire) : appuyez sur « CONFIG » puis « Réinitialiser », « OK », « Tout » (<i>ou «</i> <i><b>Mém. variables</b></i> <i>»</i>), « OK », « Oui ».<p style=\"margin:0 0 0 0.6em\"><u>Méthode alternative :</u> enfoncez la pointe d’un stylo dans le trou au milieu du dos de la calculette </p>",
+"pg":36,
+"indent":14
+},
+{
+"t":"p",
+"html":"- Pour <b>définir l’affichage en mode « Scientifique »</b> : appuyer sur « CONFIG » puis « Paramètre Calcul », « OK », « Arrondi », « OK », « Sci », « OK », sélectuionner « Sci4 » <i>(= 4 chiffres significatifs</i>), « OK »",
+"pg":37,
+"indent":14
+},
+{
+"t":"p",
+"html":"- Pour <b>définir l’affichage à l’écran</b> , : appuyer sur « CONFIG » puis « Paramètre Calcul », « OK », « Saisie/Résultat», « OK », « Sligne/Rdéc » (4<sup>ème</sup> option), « OK ». <i>« AC » pour sortir du menu</i>.",
+"pg":37,
+"indent":14
+},
+{
+"t":"ex",
+"html":"Avec ce paramétrage, en saisissant la formule « <b>√(2)</b> <span style=\"font-family:'Liberation Serif'\"><b>÷</b></span> <b>2 »</b> puis « <b>EXE</b> », l’écran affichera <b>7,071 x 10</b><sup><b>-1</b></sup> (<i>et</i> <i>non pas √(2)</i> <span style=\"font-family:'Liberation Serif'\"><b>÷</b></span> <i>2</i>). Au besoin, la touche « <b>FORMAT</b> » permet de définir un autre mode d’affichage du résultat (<i>choisir «</i> <i><b>Notation Scient.</b></i> <i>» ou le format souhaité</i>)<span style=\"font-family:'Liberation Serif'\">.</span>",
+"pg":37,
+"indent":21
+},
+{
+"t":"fig",
+"id":"c037_1",
+"pg":37
+},
+{
+"t":"p",
+"html":"Lien pour l’émulation d’une calculette Casio FX-92 Collège Classwiz en ligne :<br><span style=\"color:#0000ff\"><u>https://classwiz-emulator.casio.com/WebApp/cw/index.html?model=EY006</u></span>",
+"pg":37,
+"align":"center",
+"indent":49
+},
+{
+"t":"p",
+"html":"<b>Attention,</b> il existe de nombreuses versions de la FX-92. Les modèles changent légèrement tous les ans pour que les parents ne puissent pas réutiliser pour les cadets la calculette des aînés ! Ainsi, les fonctions peuvent être déplacées et les touches peuvent changer de nom.<br>D’autre part, la FX-92 n’accepte pas la notation Ingénieur mais permet la saisie en écriture naturelle.",
+"pg":37
+}
+]
+}
